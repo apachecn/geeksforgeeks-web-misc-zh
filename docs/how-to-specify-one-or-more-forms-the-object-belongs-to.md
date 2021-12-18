@@ -15,7 +15,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -72,7 +72,7 @@
 
 ## gfg.html 格式
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head>
@@ -113,7 +113,7 @@
 
 ## new.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

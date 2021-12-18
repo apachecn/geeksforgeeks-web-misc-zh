@@ -11,7 +11,7 @@ Django 附带了[文件系统存储](https://docs.djangoproject.com/en/2.2/ref/f
 
     **模板**
 
-    ```
+    ```html
     <form method = 'POST' class="col s12" enctype="multipart/form-data">
 
             {% csrf_token %}
@@ -31,11 +31,11 @@ Django 附带了[文件系统存储](https://docs.djangoproject.com/en/2.2/ref/f
     **查看**
     首先，使用导入文件系统存储类在文件顶部
 
-    ```
+    ```html
     from django.core.files.storage import FileSystemStorage
     ```
 
-    ```
+    ```html
     if request.method == "POST":
         # if the post request has a file under the input name 'document', then save the file.
         request_file = request.FILES['document'] if 'document' in request.FILES else None
@@ -62,7 +62,7 @@ Django 附带了[文件系统存储](https://docs.djangoproject.com/en/2.2/ref/f
     **设置**
     确保在 settings.py.
 
-    ```
+    ```html
     MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # media directory in the root directory
     MEDIA_URL = '/media/'
     ```
@@ -72,14 +72,14 @@ Django 附带了[文件系统存储](https://docs.djangoproject.com/en/2.2/ref/f
     **URLs**
     In urls.py, import
 
-    ```
+    ```html
     from django.conf.urls.static import static
     from django.conf import settings
     ```
 
     并在文件末尾添加以下内容
 
-    ```
+    ```html
     # only in development
     if settings.DEBUG:
         urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)

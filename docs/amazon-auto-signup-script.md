@@ -15,7 +15,7 @@
 
 ## java 描述语言
 
-```
+```html
 /*-- Code section 1 --*/
 
 javascript: var fileref = document.createElement('script');

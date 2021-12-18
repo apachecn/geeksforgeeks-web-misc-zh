@@ -10,7 +10,7 @@ amp-o2-player 用于在 AMP HTML 网页中嵌入一个 AOL O2 播放器。
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-o2-player"
     src="https://cdn.ampproject.org/v0/amp-o2-player-0.1.js">
 </script>
@@ -27,7 +27,7 @@ amp-o2-player 用于在 AMP HTML 网页中嵌入一个 AOL O2 播放器。
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html ⚡>
 

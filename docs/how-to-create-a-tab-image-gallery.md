@@ -11,7 +11,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -71,7 +71,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```htmlhtml
 <style>
     h1 {
         color: green;
@@ -125,7 +125,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <script>
     function gfg(imgs) {
         var expandImg = document.getElementById("expand");
@@ -141,7 +141,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

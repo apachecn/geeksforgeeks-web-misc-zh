@@ -14,7 +14,7 @@
 
 *   我们已经创建了如下的 HTML5 表单:
 
-    ```
+    ```html
     <div>
         <form method="POST" enctype="multipart/form-data"
                 action="" id="capt">
@@ -33,7 +33,7 @@
 
     *   使用 jQuery，我们创建了适当的方法来异步上传和发送文件。
 
-    ```
+    ```html
     var fileList = [];
 
     $('#file').on('change', function (event) {
@@ -69,7 +69,7 @@
 
     *   为了演示输出，我们创建了一个最小的 PHP 文件，如下所示:
 
-    ```
+    ```html
     <?php
 
     $video = $_FILES['file']['name'];

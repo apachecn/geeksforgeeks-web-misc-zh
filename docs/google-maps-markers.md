@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```html
 var marker = new google.maps.Marker({
    position: new google.maps.LatLng(19.373341, 78.662109),
    map: map,
@@ -26,7 +26,7 @@ var marker = new google.maps.Marker({
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -75,7 +75,7 @@ new google.maps.Map(document.getElementById("DivID"), CustomOp);
 
 **示例 2:** 自定义标记。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

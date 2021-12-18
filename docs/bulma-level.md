@@ -13,7 +13,7 @@ Level 是一个多用途的水平级别，几乎可以包含任何其他元素�
 
 **示例 1:** 简单级别元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Level</title>
@@ -87,7 +87,7 @@ Level 是一个多用途的水平级别，几乎可以包含任何其他元素�
 
 **示例 2:** 移动级元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Level</title>
@@ -145,7 +145,7 @@ Level 是一个多用途的水平级别，几乎可以包含任何其他元素�
 
 **示例 3:** 居中的级别元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Level</title>

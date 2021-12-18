@@ -13,7 +13,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!-- Table contains border from
         inside only -->
 <!DOCTYPE html>
@@ -126,7 +126,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!-- Using border-style in CSS -->
 <!DOCTYPE html>
 <html>
@@ -189,7 +189,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

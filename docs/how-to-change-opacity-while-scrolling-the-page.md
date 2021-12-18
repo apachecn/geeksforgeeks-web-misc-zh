@@ -5,7 +5,7 @@
 jQuery 用于控制和改变网页滚动过程中的不透明度。创建一个网页来改变滚动页面时的不透明度。jQuery 滚动功能用于滚动网页和设置文本内容的不透明度。
 **例:**
 
-```html
+```htmlhtml
 <!-- HTML code to change the opacity of web
     page when scrolling it -->
 <!DOCTYPE html>

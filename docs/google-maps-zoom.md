@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var CustomOp = {
     zoom:zoom value
 };
@@ -14,7 +14,7 @@ var CustomOp = {
 
 **示例 1:** 本示例将缩放级别设置为 10。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -68,7 +68,7 @@ var CustomOp = {
 
 **示例 2:** 本示例将缩放级别设置为 15。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

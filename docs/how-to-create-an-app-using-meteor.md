@@ -10,13 +10,13 @@
 
 *   **Linux 和 OS:**cURL 命令用于通过指定服务器的位置来与服务器进行交互，这里我们正在从 meteor 提供的资源接收安装 meteor 的代码，而 sh 命令正在安装它。
 
-```
+```html
 *curl https://install.meteor.com/ | sh*
 ```
 
 *   **Windows:** 在 Windows 中，我们将需要节点包管理器来安装 meteor。
 
-```
+```html
 *npm install -g meteor* 
 ```
 
@@ -24,7 +24,7 @@
 
 **第二步:**用流星创建一个项目就是这么简单，只需要在你的终端中写下*流星创建*命令以及一些配置即可。
 
-```
+```html
 meteor create app-name --option
 ```
 
@@ -42,7 +42,7 @@ meteor create app-name --option
 
 **步骤 3:** 运行应用程序。写下面的命令来运行你的流星应用程序，运行后流星保持文件的所有变化同步。
 
-```
+```html
 meteor run 
 ```
 
@@ -62,7 +62,7 @@ meteor run
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 
 export const App = () => (
@@ -82,7 +82,7 @@ export const App = () => (
 
 ## java 描述语言
 
-```
+```html
 import { Mongo } from 'meteor/mongo';
 
 export const LinksCollection = new Mongo.Collection('gfglinks');
@@ -94,7 +94,7 @@ export const LinksCollection = new Mongo.Collection('gfglinks');
 
 ## java 描述语言
 
-```
+```html
 import { Meteor } from 'meteor/meteor';
 import { LinksCollection } from '/imports/api/links';
 
@@ -131,7 +131,7 @@ Meteor.startup(() => {
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 import { useTracker } from 'meteor/react-meteor-data';
 import { LinksCollection } from '../api/links';

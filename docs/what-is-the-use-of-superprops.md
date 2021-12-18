@@ -10,7 +10,7 @@
 
 **语法:**使用 super(props)没有什么复杂的，我们只需要在子类组件的构造函数方法中调用 super(props)就可以了，就像这样:
 
-```
+```html
 class Checkbox extends React.Component {
   constructor(props) {
     super(props); 
@@ -24,13 +24,13 @@ class Checkbox extends React.Component {
 
 *   **步骤 1:** 创建反应应用程序
 
-    ```
+    ```html
     npx create-react-app super_props
     ```
 
 *   **步骤 2:** 完成项目文件夹创建(super_props)后，使用下面的命令进入其中。
 
-    ```
+    ```html
     cd super_props
     ```
 
@@ -46,7 +46,7 @@ class Checkbox extends React.Component {
 
 ## Person.js
 
-```
+```html
 import React from "react";
 
 class Person extends React.Component {

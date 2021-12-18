@@ -57,7 +57,7 @@
 
 *   每个 HTML 文档都以一个 HTML 文档标签开始。虽然这不是强制性的，但用下面提到的标签开始文档是一个很好的习惯:
 
-    ```
+    ```html
     <!DOCTYPE html>
     ```
 
@@ -68,7 +68,7 @@
 
 代码的整个模式如下所示:
 
-```
+```html
 <html>
 <head>
     <!-- Information about the page -->
@@ -94,7 +94,7 @@ CSS 有三种类型:
 
 **外部样式表:**包含 CSS 指令的独立文件，文件扩展名为**(。css)** 。使用外部样式表的主要优点是可以一次改变整个网站的样式，而不需要重写或修改每一页的样式标签。从而节省了大量的时间和精力。但是，必须使用之间的标记将外部样式表链接到 HTML 文件中，才能使其工作。
 
-```
+```html
 <head>
     <link rel="stylesheet" type="text/css" href="gfg.css">
 </head>
@@ -102,7 +102,7 @@ CSS 有三种类型:
 
 **内部样式:**在列出任何内容之前，放置在每个网页文档的顶部。内部样式 CSS 代码写在 HTML 文件本身的头部标签之间。内部样式非常容易找到，它们被赋予第二高的优先级，仅次于外部样式表。
 
-```
+```html
 <head>
    <style>
       body {
@@ -121,19 +121,19 @@ CSS 有三种类型:
 
 输出:
 
-```
+```html
 你好，GeeksforGeeks
 ```
 
 **内嵌样式:**放在你需要的地方，在你想要装饰的文本或图形旁边。内嵌样式可以插入到 HTML 代码的中间。这给了指定每个网页元素的真正自由，然而，会使网站的维护工作变得困难。
 
-```
+```html
 <h1 style="color:blue; font-style: italic;"> Hello, GeeksforGeeks </h1>
 ```
 
 输出:
 
-```
+```html
 你好，GeeksforGeeks
 ```
 
@@ -142,7 +142,7 @@ CSS 有三种类型:
 
 假设名为 **gfg.css** 的外部样式表对于< h1 >元素具有以下样式:
 
-```
+```html
 h1 {
     color: orange;
 }
@@ -154,7 +154,7 @@ h1 {
 
 示例:
 
-```
+```html
 <head>
    <link rel="stylesheet" type="text/css" href="gfg.css">
    <style>
@@ -170,7 +170,7 @@ h1 {
 
 输出:
 
-```
+```html
 你好，GeeksforGeeks
 ```
 
@@ -180,7 +180,7 @@ h1 {
 
 示例:
 
-```
+```html
 <head>
    <style>
       h1 {
@@ -196,7 +196,7 @@ h1 {
 
 输出:
 
-```
+```html
 你好，GeeksforGeeks
 ```
 

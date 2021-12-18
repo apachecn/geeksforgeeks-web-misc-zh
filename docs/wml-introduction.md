@@ -43,7 +43,7 @@
 
 **声明一个 WML 文档和卡片:**要创建一个 WML 文档，在记事本中键入它，就像对于 HTML 一样。第一行应该是这样的:
 
-```html
+```htmlhtml
 <?xml version="1.0"?>
     <!DOCTYPE wml PUBLIC 
 "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
@@ -59,7 +59,7 @@
 
 **示例:**下面的代码显示了一个小 WAP 站点的 WML 编码示例，该站点有两张卡和一个指向外部网站的链接。
 
-```html
+```htmlhtml
 <?xml version="1.0"?>
     <!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.2//EN"
 "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">

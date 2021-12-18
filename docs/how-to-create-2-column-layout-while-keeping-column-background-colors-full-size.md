@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

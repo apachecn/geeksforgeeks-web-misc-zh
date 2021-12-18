@@ -22,7 +22,7 @@ k6 使用虚拟用户(VUs)的概念，它运行脚本。Duration 是一个字符
 
 ## Javascript
 
-```
+```html
 import{ sleep } from 'k6';
 import http from 'k6/http';
 
@@ -39,14 +39,14 @@ export default function() {
 
 **您可以使用以下命令在本地运行测试。只需确保先安装** [**k6**](https://k6.io/docs/getting-started/installation) **即可。**
 
-```
+```html
 $ k6 run performance-test.js
 
 ```
 
 **这将产生以下输出:**
 
-```
+```html
           /\      |‾‾|  /‾‾/  /‾/
      /\  /  \     |  |_/  /  / /
     /  \/    \    |      |  /  ‾‾\
@@ -100,7 +100,7 @@ default ✓ [======================================] 50 VUs  1m0s
 
 **汇总导出:**您也可以通过使用–out/-o 选项将 k6 输出详细的统计数据以 CSV 格式输出，如下所示:
 
-```
+```html
 $ k6 run --out csv=my_test_result.csv script.js
 
 ```

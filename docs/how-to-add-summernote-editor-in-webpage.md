@@ -42,7 +42,7 @@
 
 *   现在在标签中，初始化 summernote 编辑器。
 
-```html
+```htmlhtml
 <script>
 $(document).ready(function() {
     $("#myeditor").summernote({
@@ -59,7 +59,7 @@ $(document).ready(function() {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-autocomplete" src=
 "https://cdn.ampproject.org/v0/amp-autocomplete-0.1.js">
 </script>
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-form" src=
 "https://cdn.ampproject.org/v0/amp-form-0.1.js">
 </script>
@@ -37,7 +37,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <form class="sample-form" method="post" 
     action-xhr=
 "https://amp.dev/documentation/examples/api/echo"
@@ -59,7 +59,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <form class="sample-form" method="post" 
     action-xhr=
 "https://amp.dev/documentation/examples/api/echo"
@@ -78,7 +78,7 @@ src="/static/samples/json/amp-autocomplete-cities.json">
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 
@@ -247,7 +247,7 @@ src="/static/samples/json/amp-autocomplete-cities.json">
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

@@ -18,7 +18,7 @@ XHTML 文档包含三个部分，讨论如下:
 **过渡 DTD:** 没有内置级联样式表支持的旧版浏览器支持。有几个属性包含了严格的 DTD 中不允许的主体标记。
 **语法:**
 
-```
+```html
 <!DOCTYPE html
 PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "DTD/xhtml1-transitional.dtd">
@@ -27,7 +27,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 
 **示例:**
 
-```
+```html
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html
 PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
@@ -69,7 +69,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 **严格 DTD:** 当 XHTML 页面只包含标记语言时，使用严格 DTD。严格的 DTD 与级联样式表一起使用，因为该属性不允许在正文标记中使用 CSS 属性。
 **语法:**
 
-```
+```html
 <!DOCTYPE html
 PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "DTD/xhtml1-strict.dtd">
@@ -78,7 +78,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 **示例:**
 
-```
+```html
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html
 PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -120,7 +120,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 **框架集 DTD:** 当 XHTML 页面包含框架时，使用框架集 DTD。
 **语法:**
 
-```
+```html
 <!DOCTYPE html
 PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
 "DTD/xhtml1-frameset.dtd">
@@ -129,7 +129,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
 
 **示例:**
 
-```
+```html
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">

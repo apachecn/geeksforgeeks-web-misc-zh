@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 visibility: visible| hidden | collapse | initial | inherit;
 ```
 
@@ -24,7 +24,7 @@ visibility: visible| hidden | collapse | initial | inherit;
 
 ****语法:****
 
-```
+```html
 display: none | inline | block | inline-block;
 ```
 
@@ -41,7 +41,7 @@ display: none | inline | block | inline-block;
 
 ## **超文本标记语言**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -97,13 +97,13 @@ display: none | inline | block | inline-block;
 
 **[**显示**](https://www.geeksforgeeks.org/html-dom-style-display-property/) **=【无】；****
 
-```
+```html
 document.getElementById("Id").style.display = "none";
 ```
 
 **[**能见度**](https://www.geeksforgeeks.org/html-dom-style-visibility-property/) **=【隐藏】；****
 
-```
+```html
 document.getElementById("Id").style.visibility = "hidden";
 ```
 
@@ -111,7 +111,7 @@ document.getElementById("Id").style.visibility = "hidden";
 
 ## **超文本标记语言**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

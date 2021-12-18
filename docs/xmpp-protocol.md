@@ -26,7 +26,7 @@ XMPP 基于客户端-服务器架构，即客户端不直接通信，而是借�
 
 每个 XMPP 客户端都由 JID 标识。
 
-```
+```html
 #JID
  {
    user,
@@ -38,7 +38,7 @@ XMPP 基于客户端-服务器架构，即客户端不直接通信，而是借�
 
 例如，我是一个 whatsApp 用户，通过我的手机号码来识别我，所以
 
-```
+```html
    user = "8767898790"
    server = "whatsapp.com"
    resource = "mobile"

@@ -11,7 +11,7 @@
 
 *   **程序:**
 
-    ```
+    ```html
     %head 
         %title Appending class based on condition evaluation
 
@@ -31,7 +31,7 @@
 
 *   **程序:**
 
-    ```
+    ```html
     %head 
         %title Appending class based on condition evaluation
 
@@ -57,7 +57,7 @@
 
 *   **程序:**
 
-    ```
+    ```html
     %head 
         %title Appending class based on condition evaluation
 

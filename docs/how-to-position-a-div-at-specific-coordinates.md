@@ -11,7 +11,7 @@
 
 **示例 1:** 在本例中，DIV 位于文档的末尾。
 
-```
+```html
 <!DOCTYPE HTML>
 <html>
 
@@ -87,7 +87,7 @@
 
 **示例 2:** 在本例中，DIV 位于文档的左上角。
 
-```
+```html
 <!DOCTYPE HTML>
 <html>
 

@@ -21,21 +21,21 @@
     *   苹果用 PostgreSQL！
     *   **创造** ***学生*** **表**
 
-```
+```html
  CREATE TABLE students (id INT, name VARCHAR (100)); 
 
 ```
 
 *   **将记录插入** ***学生*** **表**
 
-```
+```html
  INSERT INTO students VALUES (1, 'Geeks'); 
 
 ```
 
 *   **读书记录来自** ***学生*** **表**
 
-```
+```html
  SELECT * FROM students; 
 
 ```
@@ -47,7 +47,7 @@
 *   **更新** ***学生*** **表**
     中的记录
 
-```
+```html
  UPDATE students SET name="GeeksforGeeks" WHERE id = 1; 
 
 ```
@@ -57,7 +57,7 @@
 *   **从** ***学生*** **表**
     中删除记录
 
-```
+```html
  DELETE FROM students WHERE id = 1; 
 
 ```

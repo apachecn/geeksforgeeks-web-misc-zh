@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 transform-style: preserve-3d
 ```
 
@@ -18,7 +18,7 @@ transform-style: preserve-3d
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -72,7 +72,7 @@ transform-style: preserve-3d
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>

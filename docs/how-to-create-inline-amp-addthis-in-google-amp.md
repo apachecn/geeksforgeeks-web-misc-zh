@@ -8,7 +8,7 @@
 
 **设置:**您必须在标题中导入 amp-addthis 组件才能使用该标签。
 
-```html
+```htmlhtml
 <script async custom-element="amp-addthis" src=
 "https://cdn.ampproject.org/v0/amp-addthis-0.1.js">
 </script>
@@ -28,7 +28,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html amp>
 

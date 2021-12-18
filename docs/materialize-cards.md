@@ -6,7 +6,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -51,7 +51,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -298,7 +298,7 @@
 
 #### 语法:
 
-```
+```html
   <div class="card small">
     <!-- Card Content -->
   </div>
@@ -308,7 +308,7 @@
 
 #### 语法:
 
-```
+```html
   <div class="card medium">
     <!-- Card Content -->
   </div>
@@ -318,7 +318,7 @@
 
 #### 语法:
 
-```
+```html
   <div class="card large">
     <!-- Card Content -->
   </div>
@@ -333,7 +333,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -433,7 +433,7 @@
 
 #### 语法:
 
-```
+```html
 <div class="card purple darken-3">
 <!-- Card Content -->
 </div>
@@ -443,7 +443,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

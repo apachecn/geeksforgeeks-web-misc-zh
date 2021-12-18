@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-anim" src=
 "https://cdn.ampproject.org/v0/amp-anim-0.1.js">
 </script>
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <amp-img placeholder
    src="#">
 </amp-img>
@@ -32,7 +32,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

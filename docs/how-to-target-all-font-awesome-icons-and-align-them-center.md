@@ -11,7 +11,7 @@ Font Awesome 是一个很棒的工具包，开发者可以用它来获取基于 
 *   **Example 1:** Adding a custom class in all **<i> tag**. This method can be used for all Font Awesome Icons on a page.
     **Program:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>
@@ -48,7 +48,7 @@ Font Awesome 是一个很棒的工具包，开发者可以用它来获取基于 
 *   **Example 2:** Adding a custom class in a **div** tag. This method can only be used for a section of website dedicated to Font Awesome Icons.
     **Program:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>
@@ -89,7 +89,7 @@ Font Awesome 是一个很棒的工具包，开发者可以用它来获取基于 
 
 *   **Example 3:** Adding a **[HTML <center> tag](https://www.geeksforgeeks.org/html-center-tag/)** for a particular section. This method can only be used for a section of a website dedicated to Font Awesome Icons.
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>

@@ -12,7 +12,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import React from 'react'
     import ReactDOM from 'react-dom'
     import App from './App'

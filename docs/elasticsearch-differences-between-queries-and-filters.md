@@ -6,7 +6,7 @@
 
 **弹性搜索文档看起来像:**
 
-```
+```html
 {
   "first_name": " Kumar",
   "last_name":"Gaurav",

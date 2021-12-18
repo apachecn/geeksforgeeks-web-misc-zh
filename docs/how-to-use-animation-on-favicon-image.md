@@ -8,13 +8,13 @@
 
 *   要将 gif 添加为收藏夹图标:
 
-    ```html
+    ```htmlhtml
     <link rel="icon" href="geeksforgeeks.org/favicon.gif" type="image/gif" />
     ```
 
 *   将普通图像添加为收藏夹图标:
 
-    ```html
+    ```htmlhtml
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     ```
@@ -25,7 +25,7 @@
 
 *   **示例 1:** 下面的示例代码将展示圆形动画在 favicon 图像上的实现。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 
@@ -136,7 +136,7 @@
 
     *   **示例 2:** 在此示例中，绘制一个正方形的实现将 favicon 转换为动画图像。
 
-        ```html
+        ```htmlhtml
         <!DOCTYPE html>
         <html lang="en">
 

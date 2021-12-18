@@ -22,7 +22,7 @@
 
 *   **Persistent Notifications:** It is associated with the Service Worker.
 
-    ```
+    ```html
     self.registration.showNotification('Title', { 
              actions : [ {              
              action : 'View',
@@ -33,7 +33,7 @@
 
     **要和他们互动，有不同的 API :**
 
-    ```
+    ```html
     self.addEventListener('notificationclick', evt=>{ 
       if(!evt.action)
         {
@@ -46,7 +46,7 @@
 
     **视图:**
 
-    ```
+    ```html
     self.addEventListener('notificationclick', evt=>{ 
         switch(evt.action) {
           case 'view' : Console.log('View action clicked');
@@ -60,7 +60,7 @@
 
     **通知静态成员:**
 
-    ```
+    ```html
     if(Notification.permission === 'granted')
       {
            showNotification();
@@ -77,7 +77,7 @@
 
     **如何显示通知:**
 
-    ```
+    ```html
     var n = new Notification('Title', // object
     {
         body : 'body text',
@@ -106,7 +106,7 @@
 
 *   **动作相关属性–**
 
-    ```
+    ```html
     var n = new Notification('Title', // body, images, tag, etc.
     {
         // True, when notifications remain open until
@@ -123,7 +123,7 @@
 
     *   **声音属性–**
 
-    ```
+    ```html
     // body, images, tag, data, action
     // True, vibrate or make sound
     silent : false, 
@@ -139,7 +139,7 @@
 
     *   **Miscellaneous Properties –**
 
-    ```
+    ```html
     // Direction (left to right or right to left(rtl))
     dir : 'ltr',    
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 ul,ol{
   list-style-type: "\write correct hex code";
 }
@@ -22,7 +22,7 @@ ul,ol{
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,7 +65,7 @@ ul,ol{
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>

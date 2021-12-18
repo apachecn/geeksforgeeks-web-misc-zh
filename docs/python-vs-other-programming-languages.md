@@ -19,7 +19,7 @@
 
 **Python 示例：**
 
-```
+```html
 print("GEEKSFORGEEKS")
 print('My first Python program')
 
@@ -27,7 +27,7 @@ print('My first Python program')
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```html
 GEEKSFORGEEKS
 My first Python program
 
@@ -45,14 +45,14 @@ My first Python program
 
 **Ruby 示例：**
 
-```
+```html
 puts "GEEKSFORGEEKS \n My first Ruby program"
 
 ```
 
 发帖主题：Re：Колибри0.7.8.0
 
-```
+```html
 GEEKSFORGEEKS
 My first Ruby program
 
@@ -68,7 +68,7 @@ My first Ruby program
 
 **Golang 示例：**
 
-```
+```html
 package main  
 import "fmt"
 func main() {
@@ -80,7 +80,7 @@ func main() {
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```html
 GEEKSFORGEEKS
 My first Golang program 
 
@@ -96,7 +96,7 @@ My first Golang program
 
 **PHP 示例：**
 
-```
+```html
 ?php   
 echo "Welcome to GeeksforGeeks\n"; 
 echo "My first php program";
@@ -106,7 +106,7 @@ echo "My first php program";
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```html
 GEEKSFORGEEKS
 My First PHP Program
 
@@ -122,7 +122,7 @@ My First PHP Program
 
 **Node.js 示例：**
 
-```
+```html
 var a ="GEEKSFORGEEKS" ; 
 console.log(typeof a);  
 a = "My first Node.js program"; 
@@ -132,7 +132,7 @@ console.log(typeof a);
 
 发帖主题：Re：Колибри0.7.0
 
-```
+```html
 string
 string 
 

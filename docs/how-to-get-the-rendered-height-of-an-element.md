@@ -18,7 +18,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 let height = document.getElementById("someId").style.height;
 ```
 
@@ -26,7 +26,7 @@ let height = document.getElementById("someId").style.height;
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -90,7 +90,7 @@ let height = document.getElementById("someId").style.height;
 
 **语法:**
 
-```html
+```htmlhtml
 let height = $("#div1").height();
 ```
 
@@ -100,7 +100,7 @@ let height = $("#div1").height();
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -153,7 +153,7 @@ let height = $("#div1").height();
 
 **语法:**
 
-```html
+```htmlhtml
  let height = $("#div1").innerHeight();
 ```
 
@@ -163,7 +163,7 @@ let height = $("#div1").height();
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

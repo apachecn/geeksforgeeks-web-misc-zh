@@ -8,7 +8,7 @@
 
 <form>标签，它有我们必须遵循的语法:</form>
 
-```html
+```htmlhtml
 <form action="form-url" method="form-method">
  // various the form elements
 </form>
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -51,7 +51,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -87,7 +87,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -113,7 +113,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -142,7 +142,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -172,7 +172,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <body>
@@ -197,7 +197,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -220,7 +220,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -251,7 +251,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>

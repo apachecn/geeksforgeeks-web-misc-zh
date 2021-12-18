@@ -39,7 +39,7 @@ RDF 允许处理信息。RDF 表示可以是三元组和图形的形式。RDF �
 **例:**德里是印度首都
 这句话产生的三重含义是:
 
-```
+```html
 <Delhi> <capital of> <India>.
 ```
 
@@ -47,7 +47,7 @@ RDF 允许处理信息。RDF 表示可以是三元组和图形的形式。RDF �
 三元组也可以用 URIs(统一资源标识符)的形式表示。
 **URI 三联的例子:**
 
-```
+```html
 <http://www.abc.org/subject/Delhi> 
 <http://www.abc.org/predicate/capitalOf> 
 <http://www.abc.org/object/India>.

@@ -14,7 +14,7 @@ React Router Dom 是导航组件的集合，这些组件以声明方式与您的
 
 **语法:**
 
-```
+```html
 import { Route, Link, BrowserRouter as 
         Router } from 'react-router-dom'
 <Router>
@@ -44,13 +44,13 @@ import { Route, Link, BrowserRouter as
 
 **步骤 1:** 要创建 react 项目，请打开命令提示符并编写以下命令:-
 
-```
+```html
 npx create-react-app test
 ```
 
 **步骤 2:** 现在通过键入以下命令导航到新创建的目录:
 
-```
+```html
 cd test
 ```
 
@@ -64,7 +64,7 @@ cd test
 
 ## App.js
 
-```
+```html
 import React from 'react';
 import './App.css';
 import {
@@ -100,7 +100,7 @@ export default App;
 
 ## App.js
 
-```
+```html
 import React from "react";
 import "./App.css";
 import {
@@ -136,7 +136,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 npm start
 ```
 

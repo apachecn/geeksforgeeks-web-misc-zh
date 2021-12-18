@@ -8,7 +8,7 @@
 
 1.  首先，检查节点是否安装在您的电脑或笔记本电脑上。要检查节点是否已预安装，请在 mac 中打开终端或在 windows 中打开命令提示符，并键入以下命令:
 
-    ```
+    ```html
     node -v
     ```
 
@@ -20,13 +20,13 @@
 
 3.  现在，我们安装到特定目录的最后一步是使用**–前缀**选项，这里我们将使用以下命令将我们的 npm 包安装到特定目录。
 
-    ```
+    ```html
     npm install --prefix ./(folder/sub_folder_name) <package name>
     ```
 
     正在当前目录下安装 npm 包“**动画”**，并使用以下命令:
 
-    ```
+    ```html
     npm install --prefix ./new animation
     ```
 

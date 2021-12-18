@@ -8,7 +8,7 @@
 
 ## JavaScript
 
-```html
+```htmlhtml
 const { app, BrowserWindow } = require('electron')
 global.ProgressBar = require('electron-progressbar');
 ```
@@ -17,7 +17,7 @@ global.ProgressBar = require('electron-progressbar');
 
 ## html
 
-```html
+```htmlhtml
 <h3>Progress Bar in Electron</h3>
     <button id="progress">
         Click to Launch BrowserWindow Progress Bar
@@ -32,7 +32,7 @@ global.ProgressBar = require('electron-progressbar');
 
 ## JavaScript
 
-```html
+```htmlhtml
 const { getGlobal, app, BrowserWindow } = electron.remote
 // Importing ProgressBar in the Renderer Process from global
 // Actual Import in main.js file

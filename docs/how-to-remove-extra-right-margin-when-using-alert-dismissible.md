@@ -14,7 +14,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!doctype html>
 <html lang="en">
 
@@ -87,14 +87,14 @@
 
 **使用 JavaScript 触发器:**启用通过 JavaScript 消除警报:
 
-```html
+```htmlhtml
 $('.alert').alert()
 
 ```
 
 或者在警报内的按钮上显示数据属性，如上所示:
 
-```html
+```htmlhtml
 <button type="button" class="close" 
         data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
@@ -108,7 +108,7 @@ $('.alert').alert()
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -199,7 +199,7 @@ $('.alert').alert()
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!doctype html>
 <html lang="en">
 

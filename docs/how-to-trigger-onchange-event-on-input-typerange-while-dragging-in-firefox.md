@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 <select onchange="function()">
 
 ```
@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -59,13 +59,13 @@
 
 **语法:**
 
-```
+```html
 <element oninput = "script">
 ```
 
 **说明解决方案的程序:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

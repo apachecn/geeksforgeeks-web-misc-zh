@@ -10,13 +10,13 @@
 
 *   要创建服务，您必须使用以下命令:
 
-    ```
+    ```html
     ng g s snackBar
     ```
 
     *   现在从 **@angular/core** 导入 **MatSnackBar** 并定义函数 **openSnackBar** (可以一直使用不同的名称)。
 
-    ```
+    ```html
     import { Injectable } from '@angular/core';
     import {MatSnackBar} from '@angular/material/snack-bar';
 
@@ -45,7 +45,7 @@
     *   导入 **snackBarService** 并将其注入到组件的构造函数中，在其中您要使用 Snackbar。这将创建一个服务实例，比如**服务**。
     现在，在 **snackBService** 的帮助下，在任何需要的地方调用 openSnackBar 函数。
 
-    ```
+    ```html
     import { Component, OnInit } from '@angular/core';
     import {SnackBarService} from '../snack.service';
 
@@ -73,7 +73,7 @@
     *   By repeating these steps we can use the snackBar inside any component.
     **Example:**
 
-    ```
+    ```html
     <button  (click)="trigger('This is a ', 'SnackBar')">
         SnackBarButton
     </button>

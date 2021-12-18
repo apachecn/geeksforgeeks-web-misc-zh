@@ -16,7 +16,7 @@
 
     ## java 描述语言
 
-    ```html
+    ```htmlhtml
     exports.config = {
 
         // Capabilities to be passed to the
@@ -51,7 +51,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 
@@ -81,7 +81,7 @@
 
     ## java 描述语言
 
-    ```html
+    ```htmlhtml
     describe('Protractor Demo App', function () {
         it('should have a tagname', function () {
             // Disabling waiting for angular
@@ -100,7 +100,7 @@
 
 *   最后，我们准备使用下面给出的命令运行我们的文件:
 
-    ```html
+    ```htmlhtml
     protractor conf.js
     ```
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 const geekforggeks = (argument1, argumnet2) => {
     // body
 }
@@ -22,7 +22,7 @@ const geekforggeks = (argument1, argumnet2) => {
 
 ## java 描述语言
 
-```
+```html
 <script>
     gfg();
     console.log(input1);
@@ -43,7 +43,7 @@ const geekforggeks = (argument1, argumnet2) => {
 
 ## java 描述语言
 
-```
+```html
 <script>
     gfg2();
     console.log(gfg2);

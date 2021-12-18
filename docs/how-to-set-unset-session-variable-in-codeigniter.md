@@ -4,7 +4,7 @@
 
 [CodeIgniter](https://www.geeksforgeeks.org/introduction-to-codeignitor-php/) 中的*会话*类允许用户在浏览网站时保持用户的“状态”并跟踪他们的活动。可以使用库初始化会话，并使用以下命令在环境中自动加载会话。
 
-```
+```html
 $this->load->library('session');
 ```
 
@@ -12,7 +12,7 @@ $this->load->library('session');
 
 **语法:**
 
-```
+```html
 $_SESSION['key'] = value; 
 ```
 
@@ -20,7 +20,7 @@ $_SESSION['key'] = value;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?PHP  
 
   // Starting a new session
@@ -45,7 +45,7 @@ $_SESSION['key'] = value;
 
 **输出:**
 
-```
+```html
 Session id is 9
 New session id is -8
 ```
@@ -54,7 +54,7 @@ New session id is -8
 
 **语法:**
 
-```
+```html
 set_userdata ('key' , value)
 ```
 
@@ -64,7 +64,7 @@ set_userdata ('key' , value)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
   // Setting multiple key values
@@ -80,7 +80,7 @@ set_userdata ('key' , value)
 
 **输出:**
 
-```
+```html
 Array ( [id] => 5 [name] => yash ) 
 ```
 
@@ -88,7 +88,7 @@ Array ( [id] => 5 [name] => yash )
 
 **语法:**
 
-```
+```html
 $_SESSION['ey'] = NULL
 ```
 
@@ -96,7 +96,7 @@ $_SESSION['ey'] = NULL
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php  
 
   // Starting a new session
@@ -119,7 +119,7 @@ $_SESSION['ey'] = NULL
 
 **输出:**
 
-```
+```html
 Old session : Array ( [id] => 5 [name] => yash )
 New session? :
 ```

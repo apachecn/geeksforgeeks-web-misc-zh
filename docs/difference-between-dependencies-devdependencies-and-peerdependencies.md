@@ -6,7 +6,7 @@
 
 运行以下命令，从项目的根目录初始化项目:
 
-```
+```html
 npm init -y
 ```
 
@@ -16,13 +16,13 @@ npm init -y
 
 **语法:**
 
-```
+```html
 npm install <package name>
 ```
 
 **示例:**使用以下命令安装用于格式化项目中时间的时刻模块:
 
-```
+```html
 npm install moment
 ```
 
@@ -36,13 +36,13 @@ npm install moment
 
 使用以下命令在项目中添加更多开发依赖项:
 
-```
+```html
 npm install <package name> --save-dev
 ```
 
 **示例:**安装我们希望仅在开发阶段使用而不是在项目的生产或测试阶段使用的引导模块，使用以下命令:
 
-```
+```html
 npm install bootstrap --save-dev
 ```
 

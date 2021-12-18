@@ -11,7 +11,7 @@
 
 **Servlet 创建数据并将其发送到 JSP:StudentServlet.java**
 
-```html
+```htmlhtml
 package saagnik;
 
 import java.io.*;
@@ -94,7 +94,7 @@ public class StudentServlet extends HttpServlet {
 
 **JSP 检索 servlet“studentservlet . Java”发送的数据并显示:stdlist.jsp**
 
-```html
+```htmlhtml
 <%@page import="saagnik.Student"%>
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -135,7 +135,7 @@ public class StudentServlet extends HttpServlet {
 
 **Student.java 级**
 
-```html
+```htmlhtml
 package saagnik;
 
 public class Student {

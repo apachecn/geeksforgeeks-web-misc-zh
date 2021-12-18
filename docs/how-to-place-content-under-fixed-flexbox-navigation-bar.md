@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```html
+    ```htmlhtml
     float: none | left | right | initial | inherit;
     ```
 
@@ -26,7 +26,7 @@
 
     **例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>
@@ -165,7 +165,7 @@
 
     **如何创建固定的 flexbox 导航栏？**T3】
 
-    ```html
+    ```htmlhtml
     /* Modify the header(above we modified 
         ul and li instead of header)*/  
     header {
@@ -191,7 +191,7 @@
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>
@@ -322,7 +322,7 @@
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>

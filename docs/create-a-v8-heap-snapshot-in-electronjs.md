@@ -16,7 +16,7 @@
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-snapshot",
   "version": "1.0.0",
@@ -48,7 +48,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>
   Create a Snapshot in Electron
 </h3>
@@ -61,7 +61,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 const path = require('path')
 

@@ -19,13 +19,13 @@ Ajax 是异步 Javascript 和 XML 的缩写。它用于在不刷新网页的情�
 
 **基本语法:**创建对象的语法如下
 
-```
+```html
 req = new XMLHttpRequest();
 ```
 
 有两种类型的方法 open()和 send()。这些方法的用途解释如下。
 
-```
+```html
 req.open("GET", "abc.php", true);
 req.send();
 ```
@@ -33,14 +33,14 @@ req.send();
 以上两行描述了这两种方法。req 代表请求，它基本上是一个引用变量。GET 参数通常是发送请求的两种方法之一。根据是通过开机自检还是通过获取方法发送数据，也可以使用开机自检。第二个参数是实际处理请求的文件名。第三个参数为真，它表明请求是异步处理还是同步处理。默认情况下为真，这意味着请求是异步的。open()方法在将请求发送到服务器之前准备好请求。send 方法用于向服务器发送请求。
 通过 get 或 POST 请求发送参数。语法如下
 
-```
+```html
 req.open("GET", "abc.php?x=25", true);
 req.send();
 ```
 
 在上面几行代码中，指定的查询以 URL 的形式后跟？然后是变量的名称，然后是=和相应的值。如果发送两个或多个变量，请在两个变量之间使用&符号。上面显示的方法适用于 GET 请求。通过开机自检发送数据，然后以如下所示的发送方式发送。
 
-```
+```html
 req.send("name=johndoe&marks=99");
 ```
 
@@ -48,7 +48,7 @@ req.send("name=johndoe&marks=99");
 
 使用如下所示的 setRequestHeader()方法。
 
-```
+```html
 req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 ```
 
@@ -75,7 +75,7 @@ XMLHttpRequest 还有一个名为 status 的属性。该状态具有以下值
 现在请记住，当 readyState 为 4 且状态为 200 时，响应是就绪的。
 上面描述的全部内容是用下面给出的编码实现的
 
-```
+```html
 <p id = "dis">< /p>
 req.onreadystatechange = function(){
   if(req.readyState == 4 && req.status == 200){

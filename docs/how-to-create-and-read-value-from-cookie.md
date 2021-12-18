@@ -20,7 +20,7 @@
 
 **程序:**
 
-```html
+```htmlhtml
 function createCookie(fieldname, fieldvalue, expiry) {
     var date = new Date();
     date.setTime(date.getTime()+ (expiry*24*60*60*1000));
@@ -34,7 +34,7 @@ function createCookie(fieldname, fieldvalue, expiry) {
 
 **程序:**
 
-```html
+```htmlhtml
 function readCookie(cname) {
     var name = cname + "=";
     var decoded_cookie = decodeURIComponent(document.cookie);
@@ -56,7 +56,7 @@ function readCookie(cname) {
 
 **程序:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

@@ -9,7 +9,7 @@
 
     **语法:**
 
-    ```
+    ```html
     arr.indexOf(element[, index])
 
     ```
@@ -25,7 +25,7 @@
 
     **语法:**
 
-    ```
+    ```html
     array.findIndex(fun(curValue, index, arr), thisValue)
 
     ```
@@ -41,7 +41,7 @@
 
 **例 1:** 在本例中，使用了 **indexOf()函数**。
 
-```
+```html
 <!DOCTYPE HTML>
 <html>
 
@@ -96,7 +96,7 @@
 
 **例 2:** 在本例中，使用了 **findIndex()函数**。
 
-```
+```html
 <!DOCTYPE HTML>
 <html>
 

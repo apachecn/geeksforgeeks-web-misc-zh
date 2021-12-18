@@ -15,7 +15,7 @@
 
 ## 无文件
 
-```
+```html
 .temp (@var) when (@var > 0) {
   .st-@{var} {
     font-size : (10px * @var);
@@ -27,7 +27,7 @@
 
 这个*少的*代码可以通过使用以下命令编译成一个 CSS 代码:
 
-```
+```html
 lessc file.less file.css
 ```
 
@@ -35,7 +35,7 @@ lessc file.less file.css
 
 ## file.css
 
-```
+```html
 .st-3 {
     font-size: 30px;
 }
@@ -53,7 +53,7 @@ lessc file.less file.css
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

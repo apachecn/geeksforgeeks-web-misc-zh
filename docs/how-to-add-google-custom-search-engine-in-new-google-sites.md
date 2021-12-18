@@ -6,7 +6,7 @@
 
 一个好的网站需要一个搜索栏。从头开始创建自己的搜索引擎可能是一项困难的任务，但在谷歌的帮助下，这项任务可以跳过。谷歌已经创建了一个网站来创建一个自定义的搜索栏，来创建你自己的检查下面的链接。
 
-```
+```html
 https://programmablesearchengine.google.com/about/
 
 ```
@@ -23,7 +23,7 @@ https://programmablesearchengine.google.com/about/
 
 ## 超文本标记语言
 
-```
+```html
 <html>  
 <head>
   <title>Custom Search-Bar</title>  

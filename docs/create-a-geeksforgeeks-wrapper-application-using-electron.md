@@ -20,20 +20,20 @@
 
 1.  导航到要创建项目的位置。打开命令提示符，使用以下命令初始化新项目:
 
-    ```
+    ```html
     npm init
     ```
 
 2.  按照命令提示窗口中的要求填写项目的详细信息。这将创建一个 *package.json* 文件，该文件指示将用于运行应用程序的所有库。
 3.  使用以下 npm 命令安装电子包:
 
-    ```
+    ```html
     npm install electron
     ```
 
 4.  Open the **package.json** file and change the “scripts” portion to the following:
 
-    ```
+    ```html
     "scripts": {
         "start": "electron ."
       }
@@ -48,7 +48,7 @@
 
 *   **程序:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     // Global variable that holds the app window
@@ -86,7 +86,7 @@
 
 *   **应用程序可以使用以下命令运行:**
 
-    ```
+    ```html
     npm start
     ```
 
@@ -115,7 +115,7 @@
 
 *   **Program:**
 
-    ```
+    ```html
     let menu_template = [
       {
         label: 'File',
@@ -282,7 +282,7 @@
     *   在每个标签之后，可以定义单击子菜单时将发生的操作。例如，我们将使用 **loadURL()** 方法加载网站的其他部分。每当用户点击一个子菜单，它将执行这个方法，网站的一个新部分将被加载。
     *   定义了一个变量，该变量保存将从模板构建的菜单。**菜单**命名空间有方法 **buildFromTemplate()** 和 **setApplicationMenu()** 来使用我们应用程序中创建的菜单。
 
-        ```
+        ```html
         // Build the template and use the menu
         const menu = Menu.buildFromTemplate(menu_template)
         Menu.setApplicationMenu(menu)
@@ -298,7 +298,7 @@
 
     **添加保存页面的功能:**我们现在将添加保存页面到磁盘的功能，以便以后即使没有互联网连接也可以访问。我们将首先定义存放物品的位置。我们可以获取当前的工作目录，并为保存的页面创建一个文件夹。
 
-    ```
+    ```html
     const savedFolder = __dirname + '\\saved\\'
     ```
 
@@ -312,7 +312,7 @@
     *   它会自动更新当前菜单，最新的页面可以立即使用。
     *   **代号:**
 
-        ```
+        ```html
         function appendItemToMenu(filename) {
           curr_menu = Menu.getApplicationMenu()
                 .getMenuItemById("saved").submenu
@@ -336,7 +336,7 @@
     *   它还调用上面更新菜单的 **appendItemToMenu()** 。
     *   **代号:**
 
-        ```
+        ```html
         function savePageOffline() {
           pageTitle = win.getTitle()
           console.log("Saving:", pageTitle)
@@ -359,7 +359,7 @@
     *   然后将这些传递给 **appendItemToMenu()** 功能，以便为每个保存的项目更新菜单。
     *   **代号:**
 
-        ```
+        ```html
         function getSavedArticles() {
           fs.readdirSync(savedFolder).forEach(file => {
             if (path.extname(file) == '.html') {
@@ -379,13 +379,13 @@
 
     *   可以使用以下命令在命令行界面中全局安装电子打包工具:
 
-    ```
+    ```html
     npm install electron-packager -g
     ```
 
     *   电子打包器有以下语法:
 
-    ```
+    ```html
     electron-packager 
         <sourcedir> 
            <appname> --platform=<platform> 
@@ -394,7 +394,7 @@
 
     *   The ‘platform’ and ‘architecture’ could be specified if one is developing for a certain platform. Running the packager specifying only the ‘sourcedir’ and ‘appname’ will produce a bundle that could only be run on the host platform/architecture:
 
-    ```
+    ```html
     electron-packager . geeksforgeeks-desktop
     ```
 

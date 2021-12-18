@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Promise.then(onFulfilled, onRejected)
 ```
 
@@ -14,7 +14,7 @@ Promise.then(onFulfilled, onRejected)
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

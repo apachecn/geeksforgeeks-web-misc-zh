@@ -10,13 +10,13 @@
 
 *   ******步骤 1:** 使用以下命令创建一个反应应用程序:****
 
-    ```
+    ```html
     **npx create-react-app foldername**
     ```
 
 *   ******步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:****
 
-     ****```
+     ****```html
     cd foldername
     ```**** 
 
@@ -30,7 +30,7 @@
 
 ## ****App.js****
 
-```
+```html
 **import React, { useState } from 'react'
 
 const App = () => {
@@ -54,7 +54,7 @@ export default App**
 
 ******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:****
 
-```
+```html
 **npm start**
 ```
 
@@ -66,7 +66,7 @@ export default App**
 
 ## ****App.js****
 
-```
+```html
 **import React, { useState } from 'react'
 
 const App = () => {
@@ -101,7 +101,7 @@ export default App**
 
 ******运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:****
 
-```
+```html
 **npm start**
 ```
 

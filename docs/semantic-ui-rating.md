@@ -12,7 +12,7 @@
 
 简单评级
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -51,7 +51,7 @@ data-max-rating 是您想要的最大评级。
 
 星级评定
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -92,7 +92,7 @@ data-max-rating 是您想要的最大评级。
 
 心脏评级
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -129,7 +129,7 @@ data-max-rating 是您想要的最大评级。
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -171,7 +171,7 @@ data-max-rating 是您想要的最大评级。
 
 不同尺寸等级
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>

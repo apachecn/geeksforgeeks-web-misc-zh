@@ -4,7 +4,7 @@
 
 给定一个带有 onclick()事件和 return 语句的链接，任务是在单击事件后获得效果。下面是包含锚元素、onclick()事件和 return 语句的代码。
 
-```html
+```htmlhtml
 <a href='https://www.google.com' 
     onclick='someFunc(3); 
     return false;'>
@@ -22,7 +22,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 function someFunc(n) {
    console.log(n + 1);
 }
@@ -32,7 +32,7 @@ function someFunc(n) {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -56,7 +56,7 @@ function someFunc(n) {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

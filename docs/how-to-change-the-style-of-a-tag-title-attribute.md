@@ -6,7 +6,7 @@
 
 **示例 1:** 此示例使工具提示变大，并具有不同的背景颜色。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 
@@ -63,7 +63,7 @@
 
 **示例 2:** 以下示例使用一些更好的 CSS 属性，使工具提示的样式比上一个更好。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

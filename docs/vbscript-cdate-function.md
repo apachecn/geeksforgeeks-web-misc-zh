@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 CDate(date)
 ```
 
@@ -20,7 +20,7 @@ CDate(date)
 
 ## VBScript
 
-```
+```html
 <%
   gfg=CDate("May 6, 2020")
   response.write(gfg)
@@ -29,7 +29,7 @@ CDate(date)
 
 **输出:**
 
-```
+```html
 5/6/2020
 ```
 
@@ -37,7 +37,7 @@ CDate(date)
 
 ## VBScript
 
-```
+```html
 <%
   gfg=CDate(#4/22/10#)
   response.write(gfg)
@@ -46,6 +46,6 @@ CDate(date)
 
 **输出:**
 
-```
+```html
 4/22/2010
 ```

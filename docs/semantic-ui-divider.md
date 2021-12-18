@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@
 
 **示例:**以下示例演示了垂直分割线。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -112,7 +112,7 @@
 
 示例:以下示例演示了水平分割线。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -158,7 +158,7 @@
 
 **示例:**以下示例演示了反向除法器。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

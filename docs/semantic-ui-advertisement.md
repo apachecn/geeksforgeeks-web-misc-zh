@@ -8,7 +8,7 @@
 
 这是一个简单的 addvertisement 代码的样子。
 
-```
+```html
 <HTML>
     <head>
         <title>Semantic UI</title>
@@ -40,7 +40,7 @@
 
 **示例 1:** 这个示例创建了一些不同大小的广告。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -83,7 +83,7 @@
 
 **例 2:** 摩天大楼大小的 ad。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -115,7 +115,7 @@
 
 **示例 3:** 横幅尺寸 ad
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -151,7 +151,7 @@
 
 **示例 4:** 排行榜规模广告
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -189,7 +189,7 @@
 
 **示例 5:** 网板尺寸
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -221,7 +221,7 @@
 
 **例 6:** 居中 ad
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

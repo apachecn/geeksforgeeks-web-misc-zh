@@ -17,7 +17,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 exports.config = {
   // Define the capabilities to be passed
   // to the webdriver instance
@@ -51,7 +51,7 @@ exports.config = {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -68,7 +68,7 @@ exports.config = {
 
 ## ****java 描述语言****
 
-```html
+```htmlhtml
 **describe('Protractor Demo App', function () {
   it('should have a title', function () {
 
@@ -90,7 +90,7 @@ exports.config = {
 
 ******步骤 4:** 最后，我们将使用下面给出的命令运行配置文件。这将运行配置文件，测试将如下所示运行。****
 
-```html
+```htmlhtml
 **protractor conf.js**
 ```
 

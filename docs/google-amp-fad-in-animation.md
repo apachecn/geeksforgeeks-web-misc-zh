@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-fx-collection" src=
 "https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js">
 </script>
@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

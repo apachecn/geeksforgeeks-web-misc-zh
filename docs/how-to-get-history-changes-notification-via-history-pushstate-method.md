@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 window.onpopstate = history.onpushstate = function(e) 
     {
       // Code to trigger when the history changes
@@ -17,7 +17,7 @@ window.onpopstate = history.onpushstate = function(e)
 
 **示例 1:** 这里我们通过按钮点击来调用 history.pushState 并检测它。单击修改按钮，我们会在控制台中看到历史记录已被修改，新状态已被添加。我们还看到浏览器的网址已经改变，现在指向 test.html，而不是 index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -71,7 +71,7 @@ window.onpopstate = history.onpushstate = function(e)
 
 **输出:**
 
-```html
+```htmlhtml
 History has been modified!
 {state: {gfg: "Geeks"}}
 
@@ -79,7 +79,7 @@ History has been modified!
 
 **示例 2:** 在本例中，一旦页面加载并检测到，我们将更改浏览器的历史记录。当页面加载时，我们在控制台中看到历史记录已被修改，新状态已被添加。我们还看到浏览器的网址已经改变，现在指向 test.html，而不是 index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -130,7 +130,7 @@ History has been modified!
 
 **输出:**
 
-```html
+```htmlhtml
 History has been modified!
 {state: {gfg: "Geeks"}}
 

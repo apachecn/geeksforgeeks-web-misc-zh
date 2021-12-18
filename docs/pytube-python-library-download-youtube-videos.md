@@ -5,7 +5,7 @@
 YouTube 是非常受欢迎的视频分享网站。 从 YouTube 下载视频是一项艰巨的工作。 下载下载程序并使用该下载程序获取视频，或者访问任何其他网站获取视频并将其保存在您的计算机上。 使用 Python，这项任务非常简单。 只需几行代码就可以从 YouTube 下载视频。 为此，有一个名为“pytube”的 python 库。 Pytube 是一个轻量级的、无依赖关系的 Python 库，用于从 Web 上下载视频。
 pytube 不是本地库。 您需要在使用之前安装它。 有了 pip，安装就很容易了。 在终端或命令提示符下，键入以下命令以安装 pytube。
 
-```
+```html
 pip install pytube
 
 ```
@@ -18,7 +18,7 @@ Pytube 库使得视频下载变得非常简单。 通过将链接作为参数传
 
 ## 蟒蛇 3
 
-```
+```html
 # importing the module 
 from pytube import YouTube 
 
@@ -60,7 +60,7 @@ print('Task Completed!') 
 
 ## 蟒蛇 3
 
-```
+```html
 from pytube import YouTube 
 
 #where to save 
@@ -104,7 +104,7 @@ print('Task Completed!') 
 
 ## 蟒蛇 3
 
-```
+```html
 from pytube import YouTube 
 
 # where to save 

@@ -18,7 +18,7 @@ SGML 是产生文件的最简单的媒介，这些文件可以被人阅读，并
 
 **SGML 的结构:**
 
-```html
+```htmlhtml
 <mainObject> 
     <subObject>  
     </subObject>
@@ -27,13 +27,13 @@ SGML 是产生文件的最简单的媒介，这些文件可以被人阅读，并
 
 **SGML 文件的扩展名为:**
 
-```html
+```htmlhtml
 File_Name.sgml
 ```
 
 **语法:**
 
-```html
+```htmlhtml
 <NAME TYPE="user">
    Geeks for Geeks
 </NAME>
@@ -43,7 +43,7 @@ File_Name.sgml
 
 ## 标准通用标识语言
 
-```html
+```htmlhtml
 <EMAIL>
     <SENDER>
         <PERSON>
@@ -66,7 +66,7 @@ File_Name.sgml
 
 ## 标准通用标识语言
 
-```html
+```htmlhtml
 <EMAIL>
     <RECEIVER>
         <PERSON>

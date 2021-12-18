@@ -25,14 +25,14 @@
 
 **示例:**按照 [**中给出的步骤，设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。我们将继续使用相同的代码库构建我们的应用程序。另外，使用**](https://www.geeksforgeeks.org/dynamic-styling-in-electronjs/) **[npm](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/) 安装**电子仪器开发**包。这个包的主要目的是简单地检测电子应用程序是运行**开发**还是**生产**环境。有关**电子信息开发**的更多信息，请参考链接:**https://www.npmjs.com/package/electron-is-dev**。**
 
-```html
+```htmlhtml
 npm install electron-is-dev --save
 ```
 
 此外，对**包进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。
 T3**
 
-```html
+```htmlhtml
 {
   "name": "electron-stage",
   "version": "1.0.0",
@@ -64,7 +64,7 @@ T3**
 
 ## java 描述语言
 
-```html
+```htmlhtml
 Open the DevTools.
 win.webContents.openDevTools()
 ```
@@ -73,7 +73,7 @@ win.webContents.openDevTools()
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron');
 // Importing BrowserWindow using Electron Remote
 const BrowserWindow = electron.remote.BrowserWindow;
@@ -99,7 +99,7 @@ if (isDev) {
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-stage",
   "version": "1.0.0",

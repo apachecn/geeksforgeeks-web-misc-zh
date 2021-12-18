@@ -8,7 +8,7 @@
 
 **方法 1(NPM-运行所有包):**我们可以使用“NPM-运行所有”包同时运行不同的脚本。首先，我们必须使用命令来安装包本身。
 
-```
+```html
 npm install npm-run-all — save-dev
 ```
 
@@ -21,7 +21,7 @@ npm install npm-run-all — save-dev
 在我们所做的本地安装案例中，npm-run-all 将被安装到我们项目的 node_modules
 目录中。PATH 环境变量不包括那里，所以我们必须使用
 
-```
+```html
 ./node_modules/.bin/npm-run-all 
 (or $(npm bin)/npm-run-all)  to run npm-run-all command.
 ```
@@ -44,7 +44,7 @@ npm install npm-run-all — save-dev
 
 首先，使用以下命令在项目目录中安装包:
 
-```
+```html
 npm install concurrently --save
 ```
 
@@ -58,13 +58,13 @@ npm install concurrently --save
 
 我们可以按照这个来创建我们自己的开发脚本:
 
-```
+```html
 "dev": "concurrently \"command1 arg\" \"command2 arg\""
 ```
 
 现在，我们只需使用以下命令即可运行整个命令:
 
-```
+```html
 npm run dev
 ```
 

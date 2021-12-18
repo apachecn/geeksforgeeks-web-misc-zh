@@ -10,7 +10,7 @@
 
 **常规**函数的语法:-
 
-```
+```html
 let x = function function_name(parameters){
    // body of the function
 };
@@ -18,7 +18,7 @@ let x = function function_name(parameters){
 
 **常规**功能示例:-
 
-```
+```html
 let square = function(x){
   return (x*x);
 };
@@ -30,7 +30,7 @@ console.log(square(9));
 
 **箭头**的语法功能:-
 
-```
+```html
 let x = (parameters) => {
     // body of the function
 };
@@ -38,7 +38,7 @@ let x = (parameters) => {
 
 **箭头**功能示例:-
 
-```
+```html
 var square = (x) => {
     return (x*x);
 };
@@ -53,7 +53,7 @@ console.log(square(9));
 与**常规功能**不同，箭头功能没有自己的`this`。
 例如:-
 
-```
+```html
 let user = {
     name: "GFG",
     gfg1:() => {
@@ -76,7 +76,7 @@ Arguments 对象在箭头函数中不可用，但在常规函数中可用。
 
 使用**常规** ():-
 
-```
+```html
 let user = {      
     show(){
         console.log(arguments);
@@ -90,7 +90,7 @@ user.show(1, 2, 3);
 
 使用**箭头** ():-
 
-```
+```html
 let user = {     
         show_ar : () => {
         console.log(...arguments);
@@ -108,7 +108,7 @@ user.show_ar(1, 2, 3);
 
 使用**常规**功能的示例:-
 
-```
+```html
 let x = function(){
     console.log(arguments);
 };
@@ -119,7 +119,7 @@ new x =(1,2,3);
 ![](img/4d9a0a85d4dace9183dbb616631dbdba.png)
 示例使用**箭头功能** :-
 
-```
+```html
 let x = ()=> {
     console.log(arguments);
 };

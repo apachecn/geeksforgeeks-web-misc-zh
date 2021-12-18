@@ -17,13 +17,13 @@
 
 3.  转到您的终端或 git bash 并键入:
 
-    ```
+    ```html
     npm install git+{copied_url} 
     ```
 
     **示例:**在你的终端运行下面的命令，直接从 GitHub 安装一个 npm 包。
 
-    ```
+    ```html
     npm install git+https://github.com/expressjs/express.git
     ```
 

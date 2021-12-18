@@ -26,7 +26,7 @@ XML 和 HTML 的设计目标不同:
 
 **笔记的 HTML 代码如下**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <h1>Note</h1>

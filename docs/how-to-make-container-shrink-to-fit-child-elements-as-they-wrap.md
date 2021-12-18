@@ -8,7 +8,7 @@
 
 *   **下面的元素表示一个包含四个伸缩项的伸缩容器。**
 
-    ```html
+    ```htmlhtml
     <div id="container">
         <ul>
             <li>icecream</li>
@@ -23,7 +23,7 @@
 
     通过将显示属性设置为 flex，flex 容器变得灵活:
 
-    ```html
+    ```htmlhtml
     .flex-container {
       display: flex;
     }
@@ -33,7 +33,7 @@
 
     flex-wrap 属性说明 flex 项是否应该换行。
 
-    ```html
+    ```htmlhtml
     .flex-container {
       display: flex;
       flex-wrap: wrap;
@@ -46,7 +46,7 @@
 
     text-align 属性设置文本的水平对齐方式。文本可以左对齐或右对齐、居中或对齐。
 
-    ```html
+    ```htmlhtml
     h1 {
       text-align: center;
     }
@@ -64,7 +64,7 @@
 
     高度和宽度属性用于设置元素的高度和宽度。
 
-    ```html
+    ```htmlhtml
     div {
       height: 500px;
       width: 50%;
@@ -75,7 +75,7 @@
 
     CSS 填充属性用于在边框内的元素周围生成空间。
 
-    ```html
+    ```htmlhtml
     div {
       padding-top: 100px;
       padding-right: 50px;
@@ -88,7 +88,7 @@
 
     CSS 边距属性用于在边框之外的元素周围创建空间。
 
-    ```html
+    ```htmlhtml
     p {
       margin-top: 100px;
       margin-bottom: 100px;
@@ -99,7 +99,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

@@ -30,7 +30,7 @@
 
 ## code.gs
 
-```html
+```htmlhtml
 function doGet(e) {
   return HtmlService.createHtmlOutputFromFile('webappchart');
 
@@ -54,7 +54,7 @@ function doGet(e) {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <div style='width:800px height:400px'>
     <canvas id='barchart' class='chartjs-render-monitor'></canvas>
 </div>
@@ -66,7 +66,7 @@ HTML 代码在这里完成，现在我们添加脚本代码。
 
 ## java 描述语言
 
-```html
+```htmlhtml
 $(document).ready(function(){
       getcases();
     });
@@ -76,7 +76,7 @@ $(document).ready(function(){
 
 ## java 描述语言
 
-```html
+```htmlhtml
 function getCases(){
   google.script.run.withSuccessHandler(function(ar){
     console.log(ar);

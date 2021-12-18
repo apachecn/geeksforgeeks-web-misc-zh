@@ -14,7 +14,7 @@
 
 *   **创建路线:**路线主要以类的形式创建。每条路线都有一个唯一的类，其中包含唯一的内容和用户界面。在这里，我们将创建三条路由，即 HomeRoute()，SecondRoute()和 ThirdRoute()。每条路线都将有一个包含唯一标题的应用程序栏和一个用于在路线之间导航的凸起按钮。可以按如下方式创建路线:
 
-    ```
+    ```html
     class HomeRoute extends StatelessWidget {
       @override
       Widget build(BuildContext context) {
@@ -49,7 +49,7 @@
 
 *   **定义路线:**在路线之间导航之前，在 MaterialApp 小部件中定义路线非常重要。这有助于我们尽可能轻松地访问和调用它们。因为，我们正在初始化第一条路由，所以我们没有必要提及归属路由。路线可定义如下:
 
-    ```
+    ```html
     void main() {
       runApp(MaterialApp(
         initialRoute: '/',
@@ -66,7 +66,7 @@
 
 *   **导航到一个页面:**navigator . pushnamed()方法在这个片段中开始发挥作用。此方法调用路由类中特定路由的名称。从而初始化导航过程。导航可以按如下方式进行:
 
-    ```
+    ```html
     onPressed: () {
       Navigator.pushNamed(context, '/second');
     }
@@ -74,7 +74,7 @@
 
 *   **导航返回:**但是，要访问最近访问的路线，可以使用 Navigator.pop()方法。它帮助我们回到最后一条路线。在这种情况下，堆栈规则如下。pop 方法的使用如下:
 
-    ```
+    ```html
     onPressed: () {
       Navigator.pop(context);
     }
@@ -84,7 +84,7 @@
 
 #### 示例:
 
-```
+```html
 import 'package:flutter/material.dart';
 
 void main() {

@@ -13,7 +13,7 @@
 让我们看看如何使用:
 在最后一个**正文**标签中的**脚本**标签中键入以下代码。
 
-```html
+```htmlhtml
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("nav_bar");
@@ -32,7 +32,7 @@ function myFunction() {
 **示例:**
 为了更好地理解 HTML，我们来看看下面的示例:
 
-```html
+```htmlhtml
 <html>
     <head>
         <title>GeeksforGeeks</title>

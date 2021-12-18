@@ -7,7 +7,7 @@
 
 例如，当我们登录一个网站时，它通常会显示如下消息:
 
-```html
+```htmlhtml
 WELCOME Name_Of_The_user
 ```
 
@@ -20,7 +20,7 @@ WELCOME Name_Of_The_user
 
 考虑 HTML 文件中的以下代码:
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -61,7 +61,7 @@ WELCOME Name_Of_The_user
 
 考虑 HTML 文件中的以下代码:
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -85,7 +85,7 @@ WELCOME Name_Of_The_user
 
 考虑**check.php**文件中的以下代码:
 
-```html
+```htmlhtml
 <?php
     if(!isset($_SESSION[''])) {
       echo "<script type='text/javascript'>";

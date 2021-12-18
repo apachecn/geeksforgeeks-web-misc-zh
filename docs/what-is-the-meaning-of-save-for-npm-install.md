@@ -10,31 +10,31 @@
 
 1.  **–save or-s:** When the following command is used with npm install, it will save all your installed core packages to the dependent part of the package.json file. The core dependencies are those packages, without which your application will not give the expected results. But as mentioned earlier, after NPM version 5.0.0, it is an unnecessary feature.
 
-    ```
+    ```html
     npm install --save
     ```
 
 2.  **–Save-prod or-p:** The following command was introduced in the later version of npm, and it will perform the same task as the `--save` command unless there is any other command, such as `-D` or `-O`.
 
-    ```
+    ```html
     npm install --save-prod
     ```
 
 3.  **–save-dev or-d:** Use the `--save-dev` or `-D` command to add the package you installed to the devDependency section of the package.json file. Development dependencies are packages that are only used for development purposes, and they will not affect the results of the application.
 
-    ```
+    ```html
     npm install --save-dev
     ```
 
 4.  **–save-optional or-o:** When using this command, install the packages that will be listed in the optional Dependency section of the package.json file. Optional dependencies are packages that are only used when using a specific function of the application, and these packages are not needed if the function is not used.
 
-    ```
+    ```html
     npm install --save-optional
     ```
 
 5.  **–Do not save:** When this command is used with npm install, it will not allow the installed package to be saved to the dependencies section.
 
-    ```
+    ```html
     npm install --no-save
     ```
 
@@ -42,12 +42,12 @@
 
 1.  **–Save-exact or-e:** This is an additional or optional command provided by npm, which will save the exact version of the installed software package configured at development time. It does not download dependencies from npm's default server-wide operator.
 
-    ```
+    ```html
     npm install --save-exact
     ```
 
 2.  **–save-bundle or-b:** When `--save-bundle` or `-B` is used, the following commands are also optional. This will also add the saved dependencies under the bundleDependency list.
 
-    ```
+    ```html
     npm install --save-bundle
     ```

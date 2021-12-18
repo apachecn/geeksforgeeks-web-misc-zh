@@ -62,7 +62,7 @@ WordPress 作为最可靠的基于网络和数据库驱动的内容管理系统�
 
 2.  **使用命令行:**
 
-```
+```html
 mysqldump -u [username] -p[password] [DBname] > backupFile.sql
 ```
 
@@ -70,7 +70,7 @@ mysqldump -u [username] -p[password] [DBname] > backupFile.sql
 
     **注意:**在命令行语法中，请在【用户名】前留一些空格，但在【密码】参数前不要留空格。当用户想要恢复数据库时，在命令行语法中将>替换为<，如下所示:
 
-```
+```html
 mysqldump -u [username] -p[password] [DBname] backupFile.sql
 ```
 

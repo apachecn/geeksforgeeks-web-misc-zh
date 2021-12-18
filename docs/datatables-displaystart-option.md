@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 { displayStart: value }
 ```
 
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <!-- jQuery -->
@@ -130,7 +130,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <!-- jQuery -->

@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-facebook" src=
 "https://cdn.ampproject.org/v0/amp-facebook-0.1.js">
 </script>
@@ -30,7 +30,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

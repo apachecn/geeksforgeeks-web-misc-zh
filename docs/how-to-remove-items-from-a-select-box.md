@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```html
 $("selectBox option[value='optionValue']").remove()
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,13 +80,13 @@ $("selectBox option[value='optionValue']").remove()
 
 **语法:**
 
-```
+```html
 $('selectBox').find('[value="basic"]').remove()
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

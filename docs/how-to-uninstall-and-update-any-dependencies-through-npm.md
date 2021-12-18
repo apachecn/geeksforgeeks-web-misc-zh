@@ -8,19 +8,19 @@
 
 *   我们可以使用**更新**命令来更新项目依赖关系:
 
-    ```
+    ```html
     npm update
     ```
 
 *   我们可以使用以下命令更新任何特定的项目依赖关系:
 
-    ```
+    ```html
     npm update <packagename>
     ```
 
 *   我们可以使用以下命令卸载项目依赖项:
 
-    ```
+    ```html
     npm uninstall <package_name>
     ```
 
@@ -28,19 +28,19 @@
 
 *   我们可以使用带有-g 标志的 update 命令来更新全局依赖项。
 
-    ```
+    ```html
     npm update -g
     ```
 
 *   我们可以使用以下命令更新任何特定的全局依赖关系:
 
-    ```
+    ```html
     npm update -g <package_name>
     ```
 
 *   我们可以使用以下命令卸载全局依赖项:
 
-    ```
+    ```html
     npm uninstall -g <package_name>
     ```
 
@@ -50,7 +50,7 @@
 
 **第 2 步:**为项目创建一个文件夹，并使用命令行中的以下命令用默认配置初始化一个新的 Node.js 项目。
 
-```
+```html
 npm init -y
 ```
 
@@ -60,13 +60,13 @@ npm init -y
 
 现在从这个例子开始，我们将在命令行上使用下面的命令安装两个名为 express 和粉笔的包的旧版本。
 
-```
+```html
 npm install express@4.15.4 chalk@2.3.1
 ```
 
 要查看项目的过时包，可以运行以下命令。
 
-```
+```html
 npm outdated
 ```
 

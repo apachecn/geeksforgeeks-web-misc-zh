@@ -11,14 +11,14 @@
 要创建此文件，我们需要有某些属性，如:
 **1。识别您的应用程序(识别)**–这必须包含名称和短名称**
 
-```
+```html
  "name" : "EbullientMind",
      "short_name" : "EbullientMind"
 ```
 
 ****2。展示您的应用程序(展示)**–这必须包含开始网址、主题颜色、背景颜色、方向和显示**
 
-```
+```html
  "start_url" : "[provide_path]",
      "background_color" : "[provide_color]",
      "theme-color" : "[provide_color]",
@@ -28,7 +28,7 @@
 
 ****3。图标**–这必须包含某些功能，例如:src、类型、尺寸**
 
-```
+```html
  "icons" :
       [{
      "src" : "[provide_path]",
@@ -39,7 +39,7 @@
 
 ****4。杂项**-必须包含目录、语言、描述、范围、服务人员**
 
-```
+```html
  "dir" : "ltr",
         "lang" : "en-US",
         "description" : "Describe your app",
@@ -53,7 +53,7 @@
 
 ****5。应用程序**-必须包含相关应用程序、首选相关应用程序、截图**
 
-```
+```html
  "screenshots" :
    [{
   "src" : "[provide_path]" 
@@ -72,14 +72,14 @@
 ****程序化事件显而易见:**
 **1。onappinstalled :****
 
-```
+```html
  window.addEventListener('appinstalled',evt => {
    console.log('App Installed');  })
 ```
 
 ****2 .beforeinstallprompt :****
 
-```
+```html
  window.addEventListener('beforeinstallprompt',evt => {
    evt.userchoice.then(choice => {
    var message = choice.outcome === 'dismissed' ? 'User Cancelled' : 'User Installed' ;

@@ -56,7 +56,7 @@
 **示例:**
 基于 DOM 的 XSS 攻击示例如下。
 
-```
+```html
 <HTML>
 <TITLE>Hello!</TITLE>
 <SCRIPT>
@@ -72,13 +72,13 @@ Welcome To Our Website
 **解释–**
 通常，该 HTML 页面用于欢迎用户，例如–
 
-```
+```html
 http://www.victim.site/hello.html?name=Gaurav
 ```
 
 然而，像下面这样的请求将导致如下的 XSS 条件。
 
-```
+```html
 http://www.victim.site/hello.html?name=alert(document.domain)
 ```
 

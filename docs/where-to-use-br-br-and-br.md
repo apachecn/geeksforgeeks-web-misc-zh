@@ -14,7 +14,7 @@ HTML 中的 [**< br >标签**](https://www.geeksforgeeks.org/html-brgt-tag/) 用
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -44,7 +44,7 @@ HTML 中的 [**< br >标签**](https://www.geeksforgeeks.org/html-brgt-tag/) 用
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -76,7 +76,7 @@ HTML 中的 [**< br >标签**](https://www.geeksforgeeks.org/html-brgt-tag/) 用
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -103,7 +103,7 @@ HTML 中的 [**< br >标签**](https://www.geeksforgeeks.org/html-brgt-tag/) 用
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -127,7 +127,7 @@ HTML 中的 [**< br >标签**](https://www.geeksforgeeks.org/html-brgt-tag/) 用
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

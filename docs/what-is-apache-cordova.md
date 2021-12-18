@@ -17,7 +17,7 @@ Cordova 用于制作跨平台的移动应用程序，并为易于嵌入的应用
 
 将 *sudo* 命令前置到 *npm* 命令可能是安装实用程序所需要的
 
-```
+```html
 $ sudo npm install -g cordova
 ```
 
@@ -25,7 +25,7 @@ $ sudo npm install -g cordova
 
 -g 标志告诉 npm 实用程序在全局范围内安装 Cordova
 
-```
+```html
 C:\>npm install -g cordova
 ```
 

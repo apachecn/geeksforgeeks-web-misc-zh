@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 objectReference = window.menubar
 ```
 
 **示例:**本示例使用 Window.menubar 属性检查 menuber 对象的可见性。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

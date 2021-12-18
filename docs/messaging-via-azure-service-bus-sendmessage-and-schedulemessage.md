@@ -14,13 +14,13 @@
 
     **原型:**
 
-    ```
+    ```html
     send( IMessage message )
     ```
 
     **样本代码:**
 
-    ```
+    ```html
     public static async sendMessage(content: Message): Promise<string> {
 
         const serviceConnection = AzureServiceBus.createConnection();
@@ -53,13 +53,13 @@
 
     **原型:**
 
-    ```
+    ```html
     scheduleMessage( IMessage message, Instant scheduledEnqueueTimeUtc )
     ```
 
     **样本代码:**
 
-    ```
+    ```html
     public static async sendScheduleMessage(
             content: Message): Promise<string> {
 
@@ -97,7 +97,7 @@
 
 **Bug 修复:**
 
-```
+```html
 import { DefaultDataTransformer }
             from "@azure/amqp-common";
 ...
@@ -119,7 +119,7 @@ response = sequenceId.toString();
 
 **原型:**
 
-```
+```html
 cancelScheduledMessage( long sequenceNumber )
 ```
 

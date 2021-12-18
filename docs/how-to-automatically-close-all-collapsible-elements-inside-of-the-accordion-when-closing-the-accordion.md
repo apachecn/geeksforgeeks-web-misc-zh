@@ -10,7 +10,7 @@
 
 与 **href** 属性链接。
 
-```html
+```htmlhtml
 <a data-toggle="collapse" href="#collapseExample" ...>
     <!--Write your link name -->
 </a>
@@ -21,7 +21,7 @@
 
 带有**数据目标**属性的按钮。
 
-```html
+```htmlhtml
 <button class="btn btn-primary" type="button" 
     data-toggle="collapse" 
     data-target="#collapseExample" ...>
@@ -32,7 +32,7 @@
 
 **显示卡片:**
 
-```html
+```htmlhtml
 <div class="collapse" id="collapseExample">
     <div class="card card-body">
         <h5 class="card-title"><!--Write title name--></h5>
@@ -46,7 +46,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!doctype html>
 <html lang="en">
 
@@ -152,7 +152,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!doctype html>
 <html lang="en">
 
@@ -277,7 +277,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!doctype html>
 <html lang="en">
 
@@ -442,7 +442,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!doctype html>
 <html lang="en">
 
@@ -668,7 +668,7 @@
 
 **通过 JavaScript:**
 
-```html
+```htmlhtml
 $('.collapse').collapse()
 
 ```

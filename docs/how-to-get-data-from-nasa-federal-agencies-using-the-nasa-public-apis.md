@@ -31,7 +31,7 @@
 
 下面显示了一个示例查询:
 
-```html
+```htmlhtml
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 ```
 
@@ -39,7 +39,7 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

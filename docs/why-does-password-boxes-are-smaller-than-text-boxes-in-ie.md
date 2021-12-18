@@ -6,7 +6,7 @@
 
 **用户输入的 HTML 部分:**下面的 HTML 代码展示了通用的密码输入表单，在谷歌 Chrome、火狐、微软 Edge 中运行良好，但在 **IE** 中则不运行。在 IE 的情况下，即使我们指定“*字符集=‘UTF-8’*”，输入框的宽度也是不同的。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -40,7 +40,7 @@
 
 1.  **使用 jQuery 的解决方案:**jQuery 代码包含在页面加载中。使用 jQuery 制作等宽的文本和密码输入控制框。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 
@@ -85,7 +85,7 @@
 
     或者
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 
@@ -130,7 +130,7 @@
 
 2.  **使用 CSS 的解决方案:**根据您的项目，将两个输入控件的宽度固定为某个值。这里使用的是“14em”宽度，只需将其更改为所需宽度的值。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 
@@ -163,7 +163,7 @@
 
 3.  **通过设置输入的默认字体系列:(最喜欢的解决方案)**该方法对所有输入使用相同的字体系列。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 

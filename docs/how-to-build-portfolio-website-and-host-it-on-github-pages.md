@@ -74,7 +74,7 @@
 *   ****将当前工作目录更改为您的本地项目。****
 *   ****将本地目录初始化为 Git 存储库。****
 
-```
+```html
 **$ git init** 
 ```
 
@@ -98,7 +98,7 @@
 
 *   ****在终端中，添加将在其中推送本地存储库的远程存储库的 URL。****
 
-```
+```html
 **$ git remote add origin remote repository URL
 # Sets the new remote
 $ git remote -v
@@ -107,7 +107,7 @@ $ git remote -v
 
 *   ****将本地存储库中的更改推送到 GitHub。****
 
-```
+```html
 **$ git push -u origin master
 # Pushes the changes in your local repository up to the remote repository you specified as the origin** 
 ```

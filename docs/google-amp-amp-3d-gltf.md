@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-3d-gltf" src=
     "https://cdn.ampproject.org/v0/amp-3d-gltf-0.1.js">
 </script>
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 
@@ -185,7 +185,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

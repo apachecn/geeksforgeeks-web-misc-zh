@@ -28,7 +28,7 @@ z 的值也可以是正的、负的或零。
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,7 +50,7 @@ z 的值也可以是正的、负的或零。
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 div {
     width: 140px;
     height: 140px;

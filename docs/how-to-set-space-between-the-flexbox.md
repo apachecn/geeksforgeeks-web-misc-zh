@@ -11,13 +11,13 @@
 
 *   值 space-between 用于显示行间有空格的弹性项。
 
-    ```
+    ```html
     justify-content: space-between;
     ```
 
 *   值空格用于显示线条之间、之前和之后有空格的弹性项。
 
-    ```
+    ```html
     justify-content: space-around;
     ```
 
@@ -25,7 +25,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
     <head> 

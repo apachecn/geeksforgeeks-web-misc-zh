@@ -9,7 +9,7 @@
 
 **创建表格**
 
-```
+```html
 
 CREATE TABLE 
 tbl(Rno INTEGER AUTO_INCREMENT ,
@@ -24,7 +24,7 @@ INSERT INTO tbl (Name) VALUES ('value3');
 **获取最后更新的 ID**
 这里的逻辑建议我们首先将最后更新的 ID 更新为 0，因为它清除了之前执行的任何函数，然后我们使用 SQL 中的 where 子句/查询更新我们的值，并使用@ lastupdatedID 查询选择最后更新的 ID
 
-```
+```html
 
 SET @LastUpdateID := 0;
 UPDATE tbl SET Name = 'value_new',Rno = (SELECT @LastUpdateID := Rno) 
@@ -36,7 +36,7 @@ SELECT @LastUpdateID AS LastUpdateID;
 **获取多个最后更新的标识**
 这里的逻辑建议我们使用 SQL 中的 where 子句/查询更新我们的值，并使用@lastupdatedID 查询选择最后更新的标识，为了选择多个标识，我们使用 Concat 查询，因为它这段代码从底部开始搜索，您将获得我们的答案，如示例所示。
 
-```
+```html
 SET @LastUpdateID = NULL;
 
 UPDATE tbl SET Name = 'changed' WHERE Name 'changed'

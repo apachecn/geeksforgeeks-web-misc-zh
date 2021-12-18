@@ -11,13 +11,13 @@
 
 **语法:**
 
-```
+```html
 prepended_number = String(number).padStart(2, '0')
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -78,7 +78,7 @@ prepended_number = String(number).padStart(2, '0')
 
 **语法:**
 
-```
+```html
         function prependZero(number) {
             if (number < 9)
                 return "0" + number;
@@ -90,7 +90,7 @@ prepended_number = String(number).padStart(2, '0')
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -159,7 +159,7 @@ prepended_number = String(number).padStart(2, '0')
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

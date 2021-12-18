@@ -14,7 +14,7 @@ Iframes 与网页并行执行，因此减少了页面加载时间。但是这个
 
 **语法:**
 
-```html
+```htmlhtml
 <!-- Insert your ad url in src attribue 
 and set height and width of your ad" --> 
 <iframe src="https://youradurl.com" 
@@ -37,7 +37,7 @@ and set height and width of your ad" -->
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>

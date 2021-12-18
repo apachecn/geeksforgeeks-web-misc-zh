@@ -25,7 +25,7 @@
 
     **示例:**在下面的示例中，使用了 Javascript 来实现 Google map API，使用了 HTML 来设计网页，使用了 PHP 来进行所有的错误报告和 API KEYS 的访问。因此，当前位置/地点的纬度和经度用箭头标记显示在地图对象上。
 
-    ```html
+    ```htmlhtml
     <?php
     // Replace with your own API KEY
     define("API_KEY", "YOUR API KEY") 

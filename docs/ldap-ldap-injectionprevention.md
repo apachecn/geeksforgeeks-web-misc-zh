@@ -25,7 +25,7 @@ LDAP 的一个常见用途是提供一个存储用户名和密码的中心位置
 
 **简单的目录条目，有几个属性:**
 
-```
+```html
  dn: cn=akash sharan, dc=example, dc=com
  objectClass: organizationalStudent
  cn: akash sharan
@@ -36,12 +36,12 @@ LDAP 的一个常见用途是提供一个存储用户名和密码的中心位置
 
 LDAP URI 语法:
 
-```
+```html
 ldap://host:port/DN?attributes?scope?filter?extensions
 
 ```
 
-```
+```html
 ldap://ldap.example.com/cn=akash%20sharan, dc=example, dc=com
 
 host - IP address
@@ -70,14 +70,14 @@ LDAP 注入是一种攻击，用于利用基于用户输入构建 LDAP 语句的
 **LDAP 注入示例:**
 对于用户搜索，以下代码负责采取行动
 
-```
+```html
 Insert the username
 
 ```
 
 将在后端执行的 LDAP 查询
 
-```
+```html
 String ldapSearchQuery = "(cn =" + $userName + ")";
 System.out.println(ldapSearchQuery);
 ```
@@ -94,7 +94,7 @@ System.out.println(ldapSearchQuery);
 
     我将为您提供上述搜索查询的转义搜索过滤器思想:
 
-    ```
+    ```html
     public static final String escapeLDAPSearchFilter(String filter)
     {
         // If using JDK >= 1.5 consider using StringBuilder

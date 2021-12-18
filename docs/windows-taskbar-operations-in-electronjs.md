@@ -15,7 +15,7 @@
 **示例:**按照 [**电子表格**](https://www.geeksforgeeks.org/desktop-operations-in-electronjs/) 中的桌面操作步骤设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。此外，对**包进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。根据项目结构创建**资产**文件夹。该**资源的**文件夹将包含*image.png*文件，该文件将用作窗口任务栏的覆盖图像。在本教程中，我们使用了电子标志作为*image.png*文件。
 T21**
 
-```html
+```htmlhtml
 {
   "name": "electron-taskbar",
   "version": "1.0.0",
@@ -56,7 +56,7 @@ T21**
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 const path = require('path');
 
@@ -92,7 +92,7 @@ setTimeout(() => {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 const path = require('path');
 

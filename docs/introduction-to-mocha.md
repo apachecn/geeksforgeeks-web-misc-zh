@@ -9,7 +9,7 @@ Mocha 是一个运行在 Node.js 上的 Javascript 测试框架，这些框架�
 1.  在摩卡使用的系统上安装 [Nodejs](https://www.geeksforgeeks.org/introduction-to-nodejs/) 。
 2.  运行以下命令安装模块:
 
-    ```
+    ```html
     npm install mocha
     ```
 
@@ -22,7 +22,7 @@ Mocha 是一个运行在 Node.js 上的 Javascript 测试框架，这些框架�
 5.  **之前()**
 6.  **在()**之后
 
-```
+```html
 describe("hooks", function() {
 
  before(function() {
@@ -59,7 +59,7 @@ describe("hooks", function() {
 
 现在在 package.json 文件中，将“test”字段改为“mocha”，因为测试框架是 mocha。
 
-```
+```html
 Javascript {
   "name": "Introduction to Mocha",
   "version": "1.0.0",
@@ -80,7 +80,7 @@ Javascript {
 
 **文件名:helper.js**
 
-```
+```html
 // Using moongoose as a database
 const mongoose = require('mongoose'); 
 mongoose.Promise = global.Promise;
@@ -105,7 +105,7 @@ before( (done) => {
 
 **文件名:create_test.js**
 
-```
+```html
 // Student is the database where we will 
 // add details and test if details are added
 
@@ -140,7 +140,7 @@ describe("Create Records", () => {
 
 1.  导航到测试文件所在的目录，并键入以下命令:
 
-    ```
+    ```html
     npm test
     ```
 

@@ -21,7 +21,7 @@
 
 *   **Syntax:**
 
-    ```
+    ```html
      <element xmlns:name = "URL">
     ```
 
@@ -33,7 +33,7 @@
 *   **Example:**
     Consider the following xml document named Table.xml :-
 
-    ```
+    ```html
     <?xml version="1.0" encoding="UTF-8"?>
     <?xml-stylesheet type="text/css" href="rule.css"?>
      <tables>
@@ -55,7 +55,7 @@
 *   **示例:**
     考虑相同的 XML 文档来解决名称冲突:
 
-    ```
+    ```html
     <?xml version="1.0" encoding="UTF-8"?>
     <?xml-stylesheet type="text/css" href="rule.css"?>
      <tables>
@@ -98,7 +98,7 @@
 *   **XML file:**
     Creating Students.xml as:
 
-    ```
+    ```html
     <?xml version="1.0" encoding="UTF-8"?>
     <?xml-stylesheet type="text/xsl "href="Rule.xsl" ?>
      <student>
@@ -141,7 +141,7 @@
 
     将规则. xsl 创建为:
 
-    ```
+    ```html
     <?xml version="1.0" encoding="UTF-8"?>
     <xsl:stylesheet version="1.0" 
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform">

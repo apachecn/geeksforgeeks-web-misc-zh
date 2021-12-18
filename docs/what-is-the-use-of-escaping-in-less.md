@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 @name : ~ “ .. ”
 ```
 
 **示例 1:** 本示例使用转义功能根据屏幕宽度渲染 CSS。
 
-```
+```html
 /*LESS Code file*/
 
 @mediacondition : ~"min-width:600px";
@@ -28,7 +28,7 @@
 
 ## CSS
 
-```
+```html
 /* CSS code */
 .content {
   font-size: 1em;

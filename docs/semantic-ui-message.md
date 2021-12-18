@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -39,7 +39,7 @@
 
 **示例 2:** 列表消息
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -78,7 +78,7 @@
 
 **语法:**
 
-```
+```html
 $('.message .close').on('click', function() {
     $(this).closest('.message').transition('fade');
 });
@@ -87,7 +87,7 @@ $('.message .close').on('click', function() {
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

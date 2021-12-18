@@ -45,7 +45,7 @@
 
 **如果使用的服务器附带。htaccess，将这段代码添加到文件的顶部，这将拒绝任何人访问它:**
 
-```
+```html
 <files wp-config.php>
 
 order allow,deny

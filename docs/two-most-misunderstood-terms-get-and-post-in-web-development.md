@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```html
 <?php
     echo "Hello ".$_REQUEST['name']."!!";
 ?>
@@ -23,7 +23,7 @@
 
 **GET:** 下面是 GET 形式的代码。
 
-```
+```html
 <!-- Write HTML code here -->
 <form action="target.php" method='get'>
     <label>Name:</label>
@@ -40,7 +40,7 @@
 
 **POST:** 这里是 POST 表单的代码。如果您注意到，除了方法属性的值之外，它与我们的 GET 形式相同。
 
-```
+```html
 <!-- Write HTML code here -->
 <form action="target.php" method='post'>
     <label>Name:</label>
@@ -62,13 +62,13 @@
 
 *   **创建:**将使用 SQL 命令在数据库中创建一条记录。对应于此操作的 HTTP 方法是 POST，因为您将在请求正文中“发布”要添加到数据库中的值)。
 
-    ```
+    ```html
     INSERT INTO *tablename* VALUES (*value1_for_column1*, *value2_for_column2*, . . );
     ```
 
 *   **READ:** It is used to read a record that is already present in the DB. One can specifically ask for the records he/she wants to read using the WHERE clause. The SQL command will be:
 
-    ```
+    ```html
     SELECT * from  WHERE columnX = valueX AND columnY > valueY . . . ;
     ```
 

@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Assigning values to the 
@@ -28,7 +28,7 @@ else {
 
 **Output**
 
-```
+```html
  Both operands are Equal
 ```
 
@@ -38,7 +38,7 @@ else {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Assigning the values of
@@ -58,7 +58,7 @@ else {
 
 **Output**
 
-```
+```html
 Both operands are not same
 ```
 
@@ -77,7 +77,7 @@ Both operands are not same
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Assigning values to the 
@@ -106,7 +106,7 @@ else {
 
 **Output**
 
-```
+```html
 Both operands are equal (Only Value)
 Both operands are not equal (Value and Data Types)
 ```

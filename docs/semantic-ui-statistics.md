@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -42,7 +42,7 @@
 
 **示例 2:** 统计组
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -98,7 +98,7 @@
 
 **示例 3:** 带图像和图标的统计
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -147,7 +147,7 @@
 
 **例 4:** 水平
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -182,7 +182,7 @@
 
 **示例 5:** 彩色统计
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

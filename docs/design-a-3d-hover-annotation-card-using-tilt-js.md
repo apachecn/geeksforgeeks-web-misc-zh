@@ -10,7 +10,7 @@
 
 *   **npm 命令:**
 
-    ```html
+    ```htmlhtml
     npm install vanilla-tilt
     ```
 
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

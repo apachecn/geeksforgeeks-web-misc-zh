@@ -11,7 +11,7 @@ TouchEvent.changedTouches 只读属性，它是一个触摸列表。代表直接
 
 **语法:**
 
-```html
+```htmlhtml
 var touches = touchEvent.targetTouches;
 ```
 
@@ -20,7 +20,7 @@ var touches = touchEvent.targetTouches;
 
 **例 1:**
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
     <head>    

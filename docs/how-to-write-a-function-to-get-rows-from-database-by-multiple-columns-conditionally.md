@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 db.collection.find(query,projection)
 ```
 
@@ -19,13 +19,13 @@ db.collection.find(query,projection)
 
 **返回类型:**这个函数的返回类型是一个 JSON 对象。
 
-```
+```html
 $or or $and operators are used to apply multiple condition on the collection. 
 ```
 
 **安装模块:**您可以使用以下命令安装 *mongodb* 模块:
 
-```
+```html
 node install mongodb
 ```
 
@@ -35,7 +35,7 @@ node install mongodb
 
 **在本地 IP 上运行服务器:**在下面的命令中，*数据*是文件夹名称。
 
-```
+```html
 mongod --dbpath=data --bind_ip 127.0.0.1
 ```
 
@@ -43,7 +43,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 **MongoDB 数据库:**我们的数据库名称和集合如下所示，并带有一些伪数据。
 
-```
+```html
 Database:GFG
 Collection:gfg2
 ```
@@ -54,7 +54,7 @@ Collection:gfg2
 
 ## java 描述语言
 
-```
+```html
 // Requiring module
 const MongoClient = require("mongodb");
 
@@ -84,7 +84,7 @@ MongoClient.connect(url).then((client) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```html
 node index.js
 ```
 

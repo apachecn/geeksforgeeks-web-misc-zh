@@ -8,7 +8,7 @@ Lodash 是一个工作在下划线之上的 JavaScript 库。Lodash 有助于处
 
 **语法:**
 
-```
+```html
 _.overEvery(predicates)
 ```
 
@@ -22,7 +22,7 @@ _.overEvery(predicates)
 
 ## Javascript
 
-```
+```html
 // Requiring the lodash library  
 const _ = require("lodash");            
 
@@ -35,7 +35,7 @@ console.log(myReturnedFunction('1'));
 
 **输出:**
 
-```
+```html
 true
 ```
 
@@ -43,7 +43,7 @@ true
 
 ## Javascript
 
-```
+```html
 // Requiring the lodash library  
 const _ = require("lodash");            
 
@@ -56,7 +56,7 @@ console.log(myReturnedFunction(null));
 
 **输出:**
 
-```
+```html
 false
 ```
 
@@ -64,7 +64,7 @@ false
 
 ## Javascript
 
-```
+```html
 // Requiring the lodash library  
 const _ = require("lodash");            
 
@@ -77,7 +77,7 @@ console.log(myReturnedFunction(Infinity));
 
 **输出:**
 
-```
+```html
 false
 ```
 

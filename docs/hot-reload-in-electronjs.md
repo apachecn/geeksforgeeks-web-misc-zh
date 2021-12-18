@@ -15,25 +15,25 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
     该命令还将创建**包-lock.json** 文件，并安装所需的**节点 _ 模块**依赖项。一旦电子安装成功，打开**包. json** 文件，并在**脚本**键下执行必要的更改。使用 npm 安装**电子重装**，并将其保存为开发依赖项。
 
-    ```
+    ```html
     npm install electron-reload --save-dev
     ```
 
     使用 npm 安装**电子加载器**，并将其保存为开发依赖项。
 
-    ```
+    ```html
     npm install electron-reloader --save-dev
     ```
 
@@ -41,7 +41,7 @@
 
     **package.json:**
 
-    ```
+    ```html
     {
       "name": "electron-hot",
       "version": "1.0.0",
@@ -70,7 +70,7 @@
 
     **main.js:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow() {
@@ -123,7 +123,7 @@
 *   **步骤 3:** 在 **src** 目录下创建**index.html**文件。我们还将从上述链接中复制**index.html**文件的样板代码。
     **index . html:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -152,7 +152,7 @@
 
 *   **Output:** To launch the Electron Application, run the Command:
 
-    ```
+    ```html
     npm start
     ```
 
@@ -162,7 +162,7 @@
 
 **main.js** :在该文件中添加以下代码片段。
 
-```
+```html
 const env = process.env.NODE_ENV || 'development';
 ```
 
@@ -170,19 +170,19 @@ const env = process.env.NODE_ENV || 'development';
 
 *   要从 Windows Powershell 在**窗口**中设置**节点 _ENV** ，请使用:
 
-    ```
+    ```html
     $env:NODE_ENV="production"
     ```
 
 *   要从 CMD 在**窗口**中设置**节点 _ 环境**，请使用:
 
-    ```
+    ```html
     set NODE_ENV=production
     ```
 
 *   要在 **Linux** 和 **macOS** 中设置 **NODE_ENV** ，请使用:
 
-    ```
+    ```html
     export NODE_ENV=production
     ```
 
@@ -190,7 +190,7 @@ const env = process.env.NODE_ENV || 'development';
 
 *   **T2
 
-    ```
+    ```html
     /..
     "start": "set NODE_ENV=development&&electron ."
     ../
@@ -207,7 +207,7 @@ const env = process.env.NODE_ENV || 'development';
 
     **main.js:** 在该文件中添加以下代码片段。
 
-    ```
+    ```html
     const path = require('path')
     const env = process.env.NODE_ENV || 'development';
 
@@ -235,13 +235,13 @@ const env = process.env.NODE_ENV || 'development';
 
     **注意:**需要尝试/捕获，这样它就不会在**生产**环境中抛出以下错误。
 
-    ```
+    ```html
     Cannot find module 'electron-reloader'
     ```
 
     **main.js:** 在该文件中添加以下代码片段。
 
-    ```
+    ```html
     const env = process.env.NODE_ENV || 'development';
 
     // If development environment

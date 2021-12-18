@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <iframe src="https//www.geeksforgeeks.org/"
     title="GeeksforGeeks" width="400" height="300">
 </iframe>
@@ -18,7 +18,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -59,7 +59,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
 
 <head>

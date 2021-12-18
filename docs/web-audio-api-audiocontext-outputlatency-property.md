@@ -6,19 +6,19 @@
 
 **语法:**
 
-```
+```html
 var latency = audioCtx.outputLatency;
 ```
 
 **返回值:**
 
-```
+```html
 A double value is returned in seconds
 ```
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -46,7 +46,7 @@ A double value is returned in seconds
 
 **输出:**
 
-```
+```html
 undefined
 ```
 

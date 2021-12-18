@@ -17,20 +17,20 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**Package.json**文件。 如果未安装，请使用 NPM 安装**[Electron](https://www.geeksforgeeks.org/introduction-to-electronjs/)**。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
     该命令还将创建**package-lock.json**文件，并安装所需的**node_module**依赖项。 根据项目结构创建**Assets**文件夹。
     **Package.json：**
 
-    ```
+    ```html
     {
       "name": "electron-print",
       "version": "1.0.0",
@@ -55,7 +55,7 @@
 
     {T0}Main.js:{T1}*
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -108,7 +108,7 @@
 
     **index.html：**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -140,7 +140,7 @@
 
 *   **Output:** At this point, our basic Electron Application is set up. To launch the Electron Application, run the Command:
 
-    ```
+    ```html
     npm start
     ```
 
@@ -191,7 +191,7 @@
 
 **index.html**：在该文件中添加以下代码片段。
 
-```
+```html
 <br><br>
    <button id="current">
     Print Current Content of Page
@@ -200,7 +200,7 @@
 
 **index.js**：在该文件中添加以下代码片段。
 
-```
+```html
 const electron = require('electron')
 // Importing BrowserWindow from Main
 const BrowserWindow = electron.remote.BrowserWindow;
@@ -246,14 +246,14 @@ current.addEventListener('click', (event) => {
 
     **index.html**：在该文件中添加以下代码片段。
 
-    ```
+    ```html
     <br><br>
       <button id="url">Print Google.com Homepage</button>
     ```
 
     **index.js**：在该文件中添加以下代码片段。
 
-    ```
+    ```html
     const electron = require('electron')
     // Importing BrowserWindow from Main
     const BrowserWindow = electron.remote.BrowserWindow;

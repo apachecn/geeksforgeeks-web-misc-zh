@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 @media (prefer-color-scheme : your_color_scheme)
 {
      ...
@@ -17,7 +17,7 @@
 
 在 *your_color_scheme* 处，可以使用*深色*或*浅色* 选项。*暗*表示用户已经通知系统他们更喜欢具有暗主题的界面，而*亮*表示用户已经通知系统他们更喜欢具有*亮*主题的界面，或者还没有表达出活动的偏好。
 
-```html
+```htmlhtml
 @media (prefer-color-scheme : dark) { ... } 
 
 @media (prefer-color-scheme : light) { ... }
@@ -27,7 +27,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head>
@@ -63,7 +63,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head>
@@ -123,7 +123,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <script>
   const a = window.matchMedia("(prefers-color-scheme: dark)");
   console.log(a.matches);
@@ -134,12 +134,12 @@
 
 *   如果系统主题是暗的，它将返回:
 
-```html
+```htmlhtml
 true
 ```
 
 *   如果系统主题是浅色的，它会返回:
 
-```html
+```htmlhtml
 false
 ```

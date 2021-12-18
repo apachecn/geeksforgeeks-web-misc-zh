@@ -14,37 +14,37 @@
 
 第一个命令是**拉**命令。根据您的互联网连接，此命令将在几秒钟内下载/拉出完整的操作系统。语法是这样的，**码头工人拉图像 _ 名称**。这里我拉的是 alex43/ubuntu-with-git:v1.0，这是我自己定制的图片。
 
-```
+```html
 docker pull alex43/ubuntu-with-git:v1.0
 ```
 
 第二个命令是**运行**命令，我们将使用它来运行拉取的图像。这个命令将启动我的图像，我们将获得该图像的交互式外壳/终端。语法是这样的，**-它**为一个交互终端，**-名称**为我的图片提供参考名称，然后我的**图片名称**。
 
-```
+```html
 docker run -it --name myos alex43/ubuntu-with-git:v1.0
 ```
 
 第三个命令，也是创建我们自己形象最重要的命令是 **commit** 命令。通过使用这个命令，我们可以简单地用我们想要的现有映像包创建我们自己的映像。语法类似于，**docker commit name of _ running gimage your _ own _ name:tag**。
 
-```
+```html
 docker commit myos ubuntu-basicbundle:v1.0
 ```
 
 第四个命令是**标记**命令。通过使用这个命令，我们需要用语法**用户名/图像名称:标签**来重命名我们的图像。在执行此命令之前，您需要在 docker 集线器上创建一个帐户，并且您必须给出与您在 Docker 集线器配置文件中给出的用户名相同的用户名。
 
-```
+```html
 docker tag alex43/ubuntu-with-git:v1.0 alex43/ubuntu-basicbundle:v1.0
 ```
 
 第五个命令是**登录**命令。通过使用这个命令，我们将通过我们的终端登录到 docker hub 帐户，并且需要将我们的 docker 映像上传到 docker hub 配置文件。
 
-```
+```html
 docker login --username alex43 --password your_passwd
 ```
 
 第五个命令是**推**命令。通过使用这个命令，我们可以将自己创建的 docker 映像上传到 docker hub 配置文件，并且可以通过拖动它在从本地系统到云的任何地方使用它。
 
-```
+```html
 docker push alex43/ubuntu-basicbundle:v1.0
 ```
 

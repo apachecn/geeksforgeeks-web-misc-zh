@@ -13,7 +13,7 @@ facebook 是用 PHP 编码的，PHP 于 1994 年推出。但是在 PHP 中，有
 
 现在，我们将使用 Java 展示它。这是一个简单的点击计数器程序，我们将从这里讲述 facebook 背后发生的事情。我们还将在这段代码中看到修改。
 
-```
+```html
 <% @page contentType = "text/html" pageEncoding = "UTF-8" %>
 <!DOCTYPE html>
 <head>
@@ -57,7 +57,7 @@ sess.setAttribute("countval", String.valueOf(count));
 
 **注意:**由于这是一个 servlet 的程序，因此我们需要一个应用服务器来运行它。在这里，我们将使用“Apache Tomcat”并将其与 Netbeans 连接起来。
 
-```
+```html
 Count is: 0  // The output in the chrome browser.
 
 // In apache tomcat log window.
@@ -71,7 +71,7 @@ session object is new: true
 
 现在，假设我们增加或减少计数器的值，会话对象 id 将保持不变，但它是新用户吗？不，所以它会给我假的。现在让我们看看计数器值递增时的输出。
 
-```
+```html
 Count is: 1
 
 // Same alpha numeric string as above, because the
@@ -90,7 +90,7 @@ session object is new: false
 现在当我们删除 localhost 的 cookies 并再次运行 hitcounter 程序时。服务器会忘记谁是用户，并在应用程序首次启动时重定向到该页面。
 现在看到删除 localhost 的 cookies 时的输出。删除 cookies 后，无论我们按什么键(即递增或递减)，我都会想到“计数为:0”，因为这是应用程序首次启动时的起始页。
 
-```
+```html
 
 Count is: 0
 
@@ -108,7 +108,7 @@ session object is new: true
 
 在第二个视频中，根据我们的实际目标修改代码。即使我们删除了 cookies，我们仍然可以登录，而无需再次登录。
 
-```
+```html
 <% @page contentType = "text/html" pageEncoding = "UTF-8" %>
 <!DOCTYPE html>
 <head>
@@ -152,7 +152,7 @@ String url = "hitcount.jsp;jsessionid=" + sess.getId();
 
 **输出:**
 
-```
+```html
 Count is: 0
 
 session object id is: 74E551B3F2E36B74C09885DE6F2EFC67
@@ -162,7 +162,7 @@ session object is new: true
 
 同样，如果我们增加该值，会看到输出
 
-```
+```html
 Count is: 1
 
 session object id is: 74E551B3F2E36B74C09885DE6F2EFC67
@@ -172,7 +172,7 @@ session object is new: false
 
 真正的魔法来了。现在，我们将删除 localhost 的 cookies 并增加 count 的值。查看输出
 
-```
+```html
 Count is: 2
 
 session object id is: 74E551B3F2E36B74C09885DE6F2EFC67

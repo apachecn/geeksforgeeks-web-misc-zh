@@ -10,19 +10,19 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```html
 npx create-react-app myapp
 ```
 
 **步骤 2:** 创建项目文件夹(即 **myapp)后，使用以下命令将**移动到该文件夹:
 
-```
+```html
 cd myapp
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装所需的模块:
 
-```
+```html
 npm install redux
 npm install react-redux
 ```
@@ -39,7 +39,7 @@ npm install react-redux
 
 ## java 描述语言
 
-```
+```html
 import React from "react";
 import { Provider } from 'react-redux';
 import CartContainer from "./components/CartContainer";
@@ -99,7 +99,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```html
 import reducer from './reducer';
 import { createStore } from 'redux';
 import { loadState } from './localStorage';

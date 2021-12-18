@@ -16,7 +16,7 @@
 因此，要将一个 HTML 元素水平和垂直对齐在屏幕的中心，我们必须将这两个属性的值都设置为“中心”。
 **语法:**
 
-```
+```html
 .gfg-box {
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

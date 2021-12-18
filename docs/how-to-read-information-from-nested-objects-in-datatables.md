@@ -12,13 +12,13 @@
 
 CSS:
 
-```html
+```htmlhtml
 https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
 ```
 
 **JavaScript:**
 
-```html
+```htmlhtml
 https://code.jquery.com/jquery-3.5.1.js
 https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 ```
@@ -35,7 +35,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -121,7 +121,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 **nestedJSONData.txt 文件:**以下是该文件的内容，该文件包含所有员工的嵌套对象数据。上面的 HTML 代码中使用了这个文件。
 
-```html
+```htmlhtml
 {
   "data": [
     {

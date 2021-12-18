@@ -24,7 +24,7 @@ With the prerequisites in mind, let’s get started. The very first thing you ne
 
 所以进入 **wpstart** 文件夹，创建这两个文件。在 **style.css** 中，插入以下注释。这告诉 WordPress 仪表板关于主题细节和元信息。
 
-```
+```html
 /*
   Theme Name: WP Start
   Author: FedUser
@@ -41,7 +41,7 @@ With the prerequisites in mind, let’s get started. The very first thing you ne
 
 在文本编辑器中打开**index.php**，并编写以下代码。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -67,7 +67,7 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
     记住这些要点，让我们编写主题标题。
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
     <head>
@@ -88,13 +88,13 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
     现在有一件事我想引起你的注意。你可以看到我们的网站标题有多“硬编码”。意思是，标题将保持不变“WP Start”，不管你在哪个网站应用这个主题。如果作者不得不改变它，他必须手动编辑代码来这样做。为了避免这些模板的手动调整，WordPress 提供了各种函数调用来动态处理这些情况。在这种特殊情况下，我希望标题是网站/博客的名称。为此，我将替换
 
-    ```
+    ```html
     <title>WP Start<title>
     ```
 
     **同**
 
-    ```
+    ```html
     <title> <?php echo get_bloginfo( "name" ); ?> </title>
     ```
 
@@ -102,7 +102,7 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
     所以`header.php`，加上一些附加的代码，就变成了；
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
     <head>
@@ -140,13 +140,13 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
     本代码中使用的附加 *php* 摘录有；
 
-    ```
+    ```html
     <?php echo get_bloginfo( 'template_directory' ); ?>
     ```
 
     这是为了获取模板的目录，以便添加资源，如 CSS、JS、字体等。可以定位。
 
-    ```
+    ```html
     <?php echo esc_url( home_url() ); ?>
     ```
 
@@ -154,7 +154,7 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
 *   **footer.php**: This is the file where we will add whatever we want in the site footer, like custom footer, script tags, etc. Also, the HTML tags that started in `header.php` are closed in this file.
 
-    ```
+    ```html
       <footer class="site-footer">
         <div class="container">
           <div class="row row-30">
@@ -217,7 +217,7 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
     本文件中使用的附加 *php* 摘录为；
 
-    ```
+    ```html
     <?php echo get_bloginfo( "description" ); ?>
     ```
 
@@ -227,7 +227,7 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
 *   **sidebar.php**:大部分网站都有侧栏，我们的也有。通常，边栏显示档案链接、最近的帖子、社交媒体账户、广告等。在我们的例子中，我们将使用存档链接和社交媒体链接。再说一遍，WordPress 小部件比“硬编码”垃圾好得多！但为了清楚起见，我们还是坚持后者。
 
-    ```
+    ```html
     <div class="sidebar">
       <div class="widget">
         <h3 class="widget-title">Archives</h3>
@@ -256,7 +256,7 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
 *   **content.php**:现在页眉、页脚和侧边栏都设置好了，我们将向网站的主要内容前进。目前，我们将只关注这个文件中的一些虚拟内容。
 
-    ```
+    ```html
     <div class="main-content">
       <h3>Sample Title</h3>
       <p>Sample text goes here.......</p>
@@ -271,7 +271,7 @@ To develop a standard WordPress theme, you need to divide all your work into sec
 
 Now let’s move back to the `index.php` where we will integrate all the above sections into one. As this file is an entry point for our theme, we can cleverly choose to put these sections. Here’s how I’ve done it.
 
-```
+```html
 <?php get_header(); ?>
 
 <div class="container">
@@ -290,13 +290,13 @@ Now let’s move back to the `index.php` where we will integrate all the above s
 
 这里使用的 *php* 摘录不言自明。`get_header(), get_sidebar()`和`get_footer()`是预定义的函数，用于嵌入相应的部分。对于像`content.php`这样的自定义部分，嵌入是通过以下代码完成的；
 
-```
+```html
 <?php get_template_part( 'content', get_post_format() ); ?>
 ```
 
 **style.css** :现在我们已经更新了`index.php`文件，让我们用 **CSS** 增加一些魅力。
 
-```
+```html
 /*
   Theme Name: WP Start
   Author: FedUser
@@ -328,7 +328,7 @@ This is the most exciting part of the entire WordPress theme development where y
 
 循环本身是不言自明的。
 
-```
+```html
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 <!-- contents of the loop -->
@@ -338,7 +338,7 @@ This is the most exciting part of the entire WordPress theme development where y
 
 如果有任何帖子，而没有留下，显示它们。这个循环中的任何内容都将被重复，直到页面用完所有帖子。我们可以用这个概念来显示我们的列表。我是这样做的。
 
-```
+```html
 <div class="panel panel-default blog-post">
   <div class="panel-heading">
     <h3 class="panel-title post-title">
@@ -377,7 +377,7 @@ This is the most exciting part of the entire WordPress theme development where y
 
 并且把**index.php**改成了这个。
 
-```
+```html
 <?php get_header(); ?>
 
 <div class="container">

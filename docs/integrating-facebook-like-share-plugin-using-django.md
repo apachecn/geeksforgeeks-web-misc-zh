@@ -10,25 +10,25 @@ Django 是一个基于 Python 的网络框架，允许您快速创建高效的�
 
 **安装**
 
-```
+```html
 pip install django
 ```
 
 1)创建新项目
 
-```
+```html
 django-admin startproject Test_prj
 ```
 
 2)导航到 Test_prj 目录
 
-```
+```html
 cd Test_prj
 ```
 
 3)创建新应用
 
-```
+```html
 python manage.py startapp main
 ```
 
@@ -44,7 +44,7 @@ python manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```html
 from django.shortcuts import render
 
 # Create your views here.
@@ -56,7 +56,7 @@ def home(request):
 
 ## 蟒蛇 3
 
-```
+```html
 from django.urls import path
 from .views import *
 
@@ -69,7 +69,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```html
 from django.contrib import admin
 from django.urls import path,include
 
@@ -95,7 +95,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -116,7 +116,7 @@ urlpatterns = [
 
 打开 cmd 或终端运行此应用程序
 
-```
+```html
 python manage.py runserver
 ```
 

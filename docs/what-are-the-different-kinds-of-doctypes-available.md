@@ -10,7 +10,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 ```
 
@@ -18,7 +18,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 ```
@@ -27,7 +27,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 ```
@@ -36,14 +36,14 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 ```
 
 和
 
-```html
+```htmlhtml
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ```
@@ -56,14 +56,14 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
 "http://www.w3.org/TR/html4/frameset.dtd">
 ```
 
 而且，
 
-```html
+```htmlhtml
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 ```
@@ -74,7 +74,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

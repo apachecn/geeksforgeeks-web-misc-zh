@@ -6,13 +6,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <input type="text" disabled>
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

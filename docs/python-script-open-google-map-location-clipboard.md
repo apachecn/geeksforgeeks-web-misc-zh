@@ -11,20 +11,20 @@
 1.  **从命令行输入创建 ADDRESS_STRING：可以通过 sys 模块读取**个命令行参数。 Sys.argv 数组将第一个元素作为文件名，其余元素作为命令行参数，这些参数由空格分隔为不同的元素，与 raw_input().plit()相同。 因此，如果 sys.argv 的长度大于 1，那么我们可以确定已经传递了命令行参数。
     由于 sys.argv 是一个字符串列表，因此可以将其传递给 Join()方法，该方法返回单个字符串值。 因为第一个元素是不需要的文件名，所以我们可以分割列表并从第二个元素开始连接。
 
-```
+```html
 #File name is Map.py
 import sys
 print ' '.join(sys.argv[1:])
 ```
 
-```
+```html
 If we run >>> python Map.py New Delhi
 The output of the program would be New Delhi.
 ```
 
 *   **打开 Web 浏览器：**我们将使用**Web 浏览器**模块打开浏览器。 Web 浏览器模块具有方法**open()**，该方法可以将 Web 浏览器启动到指定的 URL。 例如，下面给出的脚本将打开 Web 浏览器，进入 GeeksforGeek 的主页。
 
-    ```
+    ```html
     import webbrowser
     webbrowser.open('https://www.geeksforgeeks.org/')
     ```
@@ -43,12 +43,12 @@ The output of the program would be New Delhi.
 
     程序通过 CMD(WINDOWS)或终端(LINUX)运行，格式如下：
 
-    ```
+    ```html
     >>> python [File Name] [Address to be searched]
     For eg. >>> python Map.py GeeksforGeeks
     ```
 
-    ```
+    ```html
     # File Name -- Map.py
     import sys, webbrowser
     if len(sys.argv) > 1:       # Argument passed
@@ -60,7 +60,7 @@ The output of the program would be New Delhi.
 
     ```
 
-    ```
+    ```html
     >>> python Map.py SeeksforGeeks
     The above command will open map of GeeksforGeeks in the web browser.
 

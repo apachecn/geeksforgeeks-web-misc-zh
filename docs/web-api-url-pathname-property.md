@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var str = URL.pathname
 
 ```
@@ -19,7 +19,7 @@ var str = URL.pathname
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -54,7 +54,7 @@ var str = URL.pathname
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

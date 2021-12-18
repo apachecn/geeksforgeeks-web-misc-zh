@@ -17,20 +17,20 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
     该命令还将创建**包-lock.json** 文件，并安装所需的**节点 _ 模块**依赖项。一旦电子安装成功，打开**包. json** 文件，并在**脚本**键下执行必要的更改。
     **package.json:**
 
-    ```
+    ```html
     {
       "name": "electron-power",
       "version": "1.0.0",
@@ -55,7 +55,7 @@
 
     **main.js:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -109,7 +109,7 @@
 
     **index.html:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -141,7 +141,7 @@
 
     **输出:**此时，我们的应用程序已经设置好了，我们可以启动应用程序来检查 GUI 输出。要启动电子应用程序，请运行命令:
 
-    ```
+    ```html
     npm start
     ```
 
@@ -150,7 +150,7 @@
 *   **Step 4:** We are going to monitor the System Power State Changes throughout the Application without binding this module to any HTML DOM element.
     **index.js:** Add the following snippet in that file.
 
-    ```
+    ```html
     const electron = require('electron');
     // Importing powerMonitor from Main Process 
     // Using remote Module

@@ -4,13 +4,13 @@
 
 **offset thight:**是帮助以像素为单位测量元素可见高度的属性，包括元素*可见内容、垂直填充、边框*和*滚动条*等 CSS 属性，但不包括*上下边距*。
 
-```
+```html
 offsetHeight = Visible content + padding + border + scrollbar
 ```
 
 **ClientHeight:** 它是帮助以像素为单位测量元素内部高度的属性，包括像*填充*这样的 CSS 属性，但不包括*水平滚动条高度*、*边框*或*边距*。
 
-```
+```html
 clientHeight = Visible content + padding
 ```
 
@@ -18,7 +18,7 @@ clientHeight = Visible content + padding
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

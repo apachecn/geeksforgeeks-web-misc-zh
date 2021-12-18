@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 background-color: color | transparent; 
 ```
 
@@ -19,7 +19,7 @@ background-color: color | transparent;
 
 **语法:**
 
-```html
+```htmlhtml
 .navbar-nav > .active > a { 
     background-color: color ; 
 }
@@ -29,7 +29,7 @@ background-color: color | transparent;
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

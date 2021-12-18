@@ -8,7 +8,7 @@
 
 **示例 1:** 在这个示例中，我们将看到一些使用 Semantic-ui 的列表的基本类型。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -38,7 +38,7 @@
 
 **示例 2:** 在本例中，我们将使用图标来划分 List。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -92,7 +92,7 @@
 
 **示例 3:** 在本例中，我们将看到个人详细信息列表。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -147,7 +147,7 @@
 
 **示例 4:** 在本例中，我们将看到项目符号列表。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -185,7 +185,7 @@
 
 **示例 5:** 在本例中，我们将创建有序列表。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -223,7 +223,7 @@
 
 **示例 6:** 在本例中，我们将创建带有图标的列表。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -279,7 +279,7 @@
 
 **示例 7:** 在本例中，我们将使用图像创建列表。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -336,7 +336,7 @@
 
 **示例 8:** 在本例中，我们将创建描述列表。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -390,7 +390,7 @@
 
 **示例 9:** 在本例中，我们将创建浮动列表。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

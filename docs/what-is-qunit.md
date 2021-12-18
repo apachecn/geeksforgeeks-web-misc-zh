@@ -20,19 +20,19 @@
 
 *   ****npm****
 
-    ```
+    ```html
     **npm install --save-dev qunit**
     ```
 
 *   ****纱线****
 
-    ```
+    ```html
     **yarn add --dev qunit**
     ```
 
 *   ****凉亭****
 
-    ```
+    ```html
     **bower install --save-dev qunit**
     ```
 
@@ -42,7 +42,7 @@
 
 ## ****index.html****
 
-```
+```html
 ****<!DOCTYPE html>
 <html>
 
@@ -107,7 +107,7 @@
 
 *   ******设置 index.html:** 为了查看测试输出，我们必须使用两个预定义的 QUnit ids，这将有助于在网页的目标 div 中呈现输出。****
 
-    ```
+    ```html
     ****<div id = "qunit"></div>
     <div id = "qunit-fixture"></div>****
     ```
@@ -116,7 +116,7 @@
 
 *   ******测试用例断言:******
 
-    ```
+    ```html
     ****QUnit.test("Test", function(assert) {
      //
     });****

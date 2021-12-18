@@ -42,7 +42,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +63,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const http=require('http');
 const fs=require("fs");
 const path=require("path");

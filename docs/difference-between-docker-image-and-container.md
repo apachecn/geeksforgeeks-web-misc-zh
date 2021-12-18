@@ -14,7 +14,7 @@
 
 **示例–**
 
-```
+```html
 docker run --publish 8000:8080 --detach --name alias_name application_name:1.0 
 ```
 

@@ -28,7 +28,7 @@ API 可以用于混搭，即来自一个站点的信息可以与来自另一个�
 
 **输出:**
 
-```
+```html
 {
   "current_user_url": "https://api.github.com/user",
   "current_user_authorizations_html_url": "https://github.com/settings/connections/applications{/client_id}",
@@ -70,7 +70,7 @@ API 可以用于混搭，即来自一个站点的信息可以与来自另一个�
 1.  **[【https://api.github.com/feeds】](https://api.github.com/feeds)**
     **输出:**
 
-    ```
+    ```html
     {
       "timeline_url": "https://github.com/timeline",
       "user_url": "https://github.com/{user}",
@@ -95,7 +95,7 @@ API 可以用于混搭，即来自一个站点的信息可以与来自另一个�
 
 2.  **[【https://api.github.com/rate_limit】](https://api.github.com/rate_limit)**
 
-    ```
+    ```html
     {
       "resources": {
         "core": {

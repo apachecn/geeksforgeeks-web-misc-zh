@@ -17,19 +17,19 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**包. json** 文件。使用 npm 安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
     这将安装所需的**节点 _ 模块**依赖项。使用 npm 安装 **axios** 套装。
 
-    ```
+    ```html
     npm install axios --save
     ```
 
@@ -37,7 +37,7 @@
 
     **package.json:**
 
-    ```
+    ```html
     {
       "name": "electron-fileupload",
       "version": "1.0.0",
@@ -63,7 +63,7 @@
 
     **main.js:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -116,7 +116,7 @@
 
     **index.html:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -150,7 +150,7 @@
 
 *   **Output:** At this point, our application is set up and we can launch the application to check the GUI Output. To launch the Electron Application, run the Command:
 
-    ```
+    ```html
     npm start
     ```
 
@@ -191,7 +191,7 @@
 
     **index.js:** 在该文件中添加以下代码片段。
 
-    ```
+    ```html
     const electron = require('electron');
     const path = require('path');
 
@@ -269,7 +269,7 @@
         In **index.js** file, add the following code just after **console.log(global.filepath); }** within the **Promise**
         **index.js:**
 
-        ```
+        ```html
         const fs = require('fs');
         const axios = require('axios');
 
@@ -291,7 +291,7 @@
     *   **Approach 2:** Process the file on the system itself by reading/manipulating the contents of the file. We can use the **fs** module to read the contents of the file, and then perform further manipulations as required.
         In **index.js** file, add the following code just after **console.log(global.filepath); }** within the **Promise**
 
-        ```
+        ```html
         const fs = require('fs');
         const fs = require('fs');
 

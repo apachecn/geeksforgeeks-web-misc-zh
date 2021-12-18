@@ -12,7 +12,7 @@ var _ dump–转储关于变量的信息。
 
 **语法:**
 
-```
+```html
 *void* var_dump( $exp )
 ```
 
@@ -22,7 +22,7 @@ var _ dump–转储关于变量的信息。
 
 **例 1:**
 
-```
+```html
 <?php
 $a = array(1, 2, array("a", "b", "c"));
 var_dump($a);
@@ -31,7 +31,7 @@ var_dump($a);
 
 **Output:**
 
-```
+```html
 array(3) {
   [0]=>
   int(1)
@@ -52,7 +52,7 @@ array(3) {
 
 **例 2:**
 
-```
+```html
 <?php
 $b = 3.1;
 $c = true;
@@ -62,7 +62,7 @@ var_dump($b, $c);
 
 **Output:**
 
-```
+```html
 float(3.1)
 bool(true)
 

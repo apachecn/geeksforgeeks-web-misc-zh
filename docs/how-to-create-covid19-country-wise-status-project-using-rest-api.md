@@ -23,13 +23,13 @@ T3】https://github.com/rohitdhonicsk/covid19webapp
 
     首先，您必须在项目目录中键入下面的命令。它将创建一个 package.json 文件。
 
-    ```html
+    ```htmlhtml
     npm init
     ```
 
     现在输入以下命令安装 **jQuery** 。
 
-    ```html
+    ```htmlhtml
     npm install jquery
     ```
 
@@ -49,7 +49,7 @@ T3】https://github.com/rohitdhonicsk/covid19webapp
 2.  在 HTML 文件中创建一个表单，输入字段是国家名称。
 3.  为应该在 JavaScript 上使用的标题、表单、输入和标签分配标识。下面是演示 HTML 文件，其中类和 id 用于样式和动作调用。
 
-    ```html
+    ```htmlhtml
     <h1 class='section-heading'>COVID RESULT</h1>
     <h2 class='section-subheading'>SEARCH COUNTRY NAME</h2>
 
@@ -88,7 +88,7 @@ T3】https://github.com/rohitdhonicsk/covid19webapp
     *   你的 JS 文件
 6.  现在，在你的 JS 文件中添加以下代码:
 
-    ```html
+    ```htmlhtml
     // This Code calls function name performSearch()
     // on clicking submit button of form 
 
@@ -103,7 +103,7 @@ T3】https://github.com/rohitdhonicsk/covid19webapp
 
 7.  现在使用下面的代码创建 performSearch()函数:
 
-    ```html
+    ```htmlhtml
     function performSearch(event) {
 
       // Variable to hold request
@@ -164,7 +164,7 @@ T3】https://github.com/rohitdhonicsk/covid19webapp
 
 8.  创建 formatSearchResults 函数，为用户提供所需的搜索结果。
 
-    ```html
+    ```htmlhtml
     var pat, flag = 0;
     function formatSearchResults(jsonResults) {
 
@@ -216,7 +216,7 @@ T3】https://github.com/rohitdhonicsk/covid19webapp
 
 9.  最后一步是保护数据免受客户端脚本和重置功能的影响。
 
-    ```html
+    ```htmlhtml
     function resetResults() {
       $("#search-results-heading").text("");
       $("#results").text("");
@@ -236,7 +236,7 @@ T3】https://github.com/rohitdhonicsk/covid19webapp
 
 **完整的 Javascript 代码:**
 
-```html
+```htmlhtml
 // This Code call function name performSearch()
 // on clicking submit button of form 
 $(document).ready(function () {

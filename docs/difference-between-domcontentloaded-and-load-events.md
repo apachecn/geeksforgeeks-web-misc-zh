@@ -8,7 +8,7 @@
 
 **语法**:
 
-```html
+```htmlhtml
 document.addEventListener("DOMContentLoaded", function(e) {
   console.log("GfG page has loaded");
 });
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 **例 1:**
 
-```html
+```htmlhtml
 <!DOCTYPE>
 <html>
 
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
 **语法**:
 
-```html
+```htmlhtml
 document.addEventListener("load", function(e) {
   console.log("The page has completely loaded.");
 });
@@ -63,7 +63,7 @@ document.addEventListener("load", function(e) {
 
 **例 2:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -13,13 +13,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
 autocomplete: on/off
 ```
 
 **示例:**本示例不使用自动完成属性，因此默认情况下自动完成属性为启用。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -86,7 +86,7 @@ autocomplete: on/off
 
 **示例 2:** 本示例将自动完成属性设置为关闭。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```html
 //input[@id = 'fakebox-input']
 ```
 
@@ -15,7 +15,7 @@
 
 **XML 代码:**
 
-```
+```html
 <?xml version="1.0" encoding="UTF-8"?> 
 <bookstore>
 
@@ -36,13 +36,13 @@ XML Code 是一个树状结构，正如我们在上面的 XML 中看到的，代
 
 要选择化学书籍的作者元素，将使用以下 XPath:
 
-```
+```html
 /bookstore/book[@category='Chemistry']/author
 ```
 
 **XPath 的语法:**
 
-```
+```html
 //tagname[@attribute = ‘value’]
 ```
 
@@ -67,7 +67,7 @@ XML Code 是一个树状结构，正如我们在上面的 XML 中看到的，代
 
 *   **Example:**
 
-    ```
+    ```html
     /html[1]/body[1]/div[6]/div[1]/div[3]/div[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]
     ```
 
@@ -78,7 +78,7 @@ XML Code 是一个树状结构，正如我们在上面的 XML 中看到的，代
 
 *   **Example:**
 
-    ```
+    ```html
     //input[@id = 'fakebox-input']
     ```
 
@@ -95,7 +95,7 @@ XML Code 是一个树状结构，正如我们在上面的 XML 中看到的，代
 **contains():** 此函数用于选择其指定属性值包含函数参数中提供的指定字符串的节点。
 T3】例:
 
-```
+```html
 //input[contains(@id, 'fakebox')]
 ```
 
@@ -104,7 +104,7 @@ T3】例:
 **start-with():**此函数用于选择其指定属性值以函数参数中提供的指定字符串值开始的节点。
 T3】例:
 
-```
+```html
 //input[starts-with(@id, 'fakebox')]
 ```
 
@@ -113,7 +113,7 @@ T3】例:
 **text():** 此函数用于查找与函数中指定字符串值完全匹配的节点。
 T3】例:
 
-```
+```html
 //div
 ```
 
@@ -123,7 +123,7 @@ T3】例:
 中 and 和 OR 的使用 AND 和 OR 用于组合两个或多个条件来查找节点。
 **例:**
 
-```
+```html
 //input[@value = 'Log In' or @type = 'submit']
 ```
 

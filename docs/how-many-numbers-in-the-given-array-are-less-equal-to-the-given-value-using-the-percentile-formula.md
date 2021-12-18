@@ -24,7 +24,7 @@
 
 ## java 描述语言
 
-```
+```html
 <script>
   const percentileCalculation = (arr, val) => {
     let result = 0;
@@ -44,7 +44,7 @@
 
 **输出:**
 
-```
+```html
 75
 ```
 
@@ -56,7 +56,7 @@
 
 ## java 描述语言
 
-```
+```html
 <script>
   const percentileCalculation = (arr, val) =>
     (100 *
@@ -73,6 +73,6 @@
 
 **输出:**
 
-```
+```html
 75
 ```

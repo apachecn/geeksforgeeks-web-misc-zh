@@ -12,7 +12,7 @@ Internet Explorer( **IE** )全球桌面浏览器市场份额占比不足 3%。�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

@@ -7,13 +7,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
  <link rel="stylesheet" type="text/css" href="styles.css">
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 
@@ -40,7 +40,7 @@ between a document and the external resources?
 
 **CSS 代码:**
 
-```html
+```htmlhtml
 h1 {
     color: green;
 }

@@ -37,7 +37,7 @@
 
 **1。第一步是在代码的头标签中包含以下元标签。**
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
@@ -55,7 +55,7 @@
 
 **2。使文本大小具有响应性:**响应性文本大小是根据浏览器大小而变化的大小，即宽度增加时放大，宽度减小时缩小。可以使用视口宽度属性(即 [**【大众】**](https://www.geeksforgeeks.org/css-units/) 单元)对文本进行响应。
 
-```
+```html
 <h3 style="font-size:6vw; color:green">
     GeeksforGeeks
 <h3><br>
@@ -81,7 +81,7 @@
 
 **3。使图像响应:**可以根据浏览器宽度改变尺寸的图像是响应图像。通过应用宽度的 CSS 属性并将其设置为 100%，可以使图像具有响应性，从而可以相应地放大或缩小。
 
-```
+```html
 <img src="gfg_logo.jpg" style="width:100%;">
 ```
 
@@ -101,7 +101,7 @@
 
 我们可以为不同的屏幕尺寸设置不同的属性。例如，当在手机上查看网站时，它会显示一朵玫瑰，当在平板电脑上查看时，它会显示一朵百合的图像。或者根据浏览器宽度改变背景颜色。
 
-```
+```html
 @media(max-width: 500px) {
     body {
         background-color:pink;
@@ -130,7 +130,7 @@
 
 **语法:**
 
-```
+```html
 .flex {
     justify-content: space-between;
 }

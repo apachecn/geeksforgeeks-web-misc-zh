@@ -37,12 +37,12 @@
 
 *   在项目根目录下创建一个名为*app.py*的文件，并将以下代码写入其中。 并使用以下设备安装烧瓶-
 
-    ```
+    ```html
     $pip install flask
 
     ```
 
-    ```
+    ```html
     from flask import Flask, render_template, redirect, request, url_for
 
     # Initiate flask app
@@ -63,7 +63,7 @@
 
 *   在项目根目录中创建文件夹*Templates*，在 Templates 目录中创建文件*home.html*，并在其中写入以下代码。
 
-    ```
+    ```html
     <!-- Create a form -->
     <form action="" method="post">
         <!-- Create a input box -->
@@ -75,7 +75,7 @@
 
 *   **要运行 Web 服务器，请在控制台中键入：**
 
-    ```
+    ```html
     $python app.py
     Output:
     Running on http://127.0.0.1:5000/

@@ -32,7 +32,7 @@ Jest 是脸书的一个 Javascript 测试框架。最常用于*单元测试*。�
 
 *   To run the test, use the script
 
-    ```
+    ```html
     npm run test
     ```
 
@@ -46,7 +46,7 @@ Jest 是脸书的一个 Javascript 测试框架。最常用于*单元测试*。�
 
 **一个基本测试:**加两个阳性 num，检查结果。
 
-```
+```html
 //index.js
 testForAdd: (a, b) => { return (a + b) },
 
@@ -65,7 +65,7 @@ test('test adding two positive nums', function() {
 
 **由于*‘T0(8)’*，以下测试将失败。**
 
-```
+```html
 //example of a failing test
  test('test adding two positive nums - failing test', function() {
      expect(testFns.testForAdd(4, 5)).toBe(8);
@@ -77,7 +77,7 @@ test('test adding two positive nums', function() {
 toBe 的反义词是通过在它前面加上“not”而产生的
 例如:
 
-```
+```html
 //test successful - test for opposite of a matcher.
 //The following test will 'Pass' if the returned value is not equal to 8.
 test('test adding two positive nums - failing test', function() {
@@ -89,7 +89,7 @@ test('test adding two positive nums - failing test', function() {
 **将“toBe”用于 JS 对象:**
 让我们考虑一个 JS 对象的每个字段都要被测试的情况。Jest 为我们提供了一种使用*【to qual】*来做到这一点的方法。*“to qual”*是一个深度匹配器(检查每个可能的字段和子字段)。
 
-```
+```html
 //expect toEqual example - check every field's value
 // testFns.test_toEqual(gfgObj)
 test('check gfgObj toEqual', () => {
@@ -109,7 +109,7 @@ gfgobj toEqual
 另一种方法是使用*“to qual”*匹配两个对象。
 是这样做的:
 
-```
+```html
 test('check gfgObj toEqual', () => {
     let gfgObj = {
         name: "GFG",
@@ -142,7 +142,7 @@ gfgobj-testobj-toequal
 
 **to cloneto–用于浮点数和其他近似匹配**
 
-```
+```html
 //see here that a+b != c even though simple addition is taking place.
 > var a = 1.32
 > undefined
@@ -160,7 +160,7 @@ gfgobj-testobj-toequal
 
 在这种情况下，使用 Jest 库中的*【to closeo】*匹配器就好了。
 
-```
+```html
 test('floating point number - use toBeCloseTo instead', function() {
     // const num1 = 0.3;
     // const num2 = 0.2;
@@ -179,7 +179,7 @@ https://jestjs.io/docs/en/using-matchers#truthiness
 JS 中的 **[Falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)** 值。JS 中
 **[Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)** 值。
 
-```
+```html
 //checking for truthy values - All the tests will return truthy.
 test('check for truthy', function() {
     const gfgObj = {
@@ -210,7 +210,7 @@ truthy-test-js-one-expect-failed-so-test-failed
 
 **匹配号码:**
 
-```
+```html
 //tests for Number matches
 test('test for numbers', function() {
     const result = 3 + 9;
@@ -232,7 +232,7 @@ test('test for numbers', function() {
 **测试数组中包含的值:**
 我们还可以测试数组中是否包含特定的值。请注意，如果数组中不存在至少一个值，此测试将“失败”。例如，
 
-```
+```html
 //testing arrays
 const gfgUsers = [
     'user1',
@@ -256,7 +256,7 @@ test('test for a value in gfgUsers', function() {
 
 但是，以下测试将失败，因为 gfgUsers 中不存在*“user 4”*。
 
-```
+```html
 //testing arrays
 const gfgUsers = [
     'user1',
@@ -276,7 +276,7 @@ array containing-因用户而失败 4-缺勤
 
 **使用 Regex 进行测试:**
 
-```
+```html
 test('string match tests - toMatch - used for regex-es', function() {
     const str = 'GeeksforGeeks';
     // expect(str).toMatch(/f/);
@@ -297,7 +297,7 @@ Jest 也提供了扩展其**【匹配器】**功能的条款，这是使用**【
 **语法:** expect.extend({matcher1，matcher 2 })；
 例如，如果我们想要构建一个匹配器来检查字符串中短语的存在:
 
-```
+```html
 expect.extend({
 stringPresent(receivedString, phraseString) {
 bool phrasePresent = true;
@@ -333,7 +333,7 @@ if (phrasePresent === true) {
 
 假设我们想通过抛出的错误消息来测试一个函数。
 
-```
+```html
 function testGFGMessage() {
   throw new Error('this is testGFGMessage function error');
 }
@@ -350,7 +350,7 @@ https://jestjs.io/docs/en/api#testskipname-fn
 Jest 也有在运行测试套件时跳过特定测试的规定。
 要实现它，只需使用**‘跳过’**关键字。例如，
 
-```
+```html
 function addFn(num1, num2){
   return num1 + num2;
 }
@@ -363,7 +363,7 @@ test.skip('skip test example - skipping the addition test', () => {
 
 与此相反的是只实现测试的子集，这是通过使用**‘only’**关键字来实现的。例如，
 
-```
+```html
 function addFn(num1, num2){
   return num1 + num2;
 }

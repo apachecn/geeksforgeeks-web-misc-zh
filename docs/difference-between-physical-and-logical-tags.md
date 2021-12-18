@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <tagname>Content</tagname>
 ```
 
@@ -35,7 +35,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -111,7 +111,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <tagname>Content</tagname>   
 ```
 
@@ -145,7 +145,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 

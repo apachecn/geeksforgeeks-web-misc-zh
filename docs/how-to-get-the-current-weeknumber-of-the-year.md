@@ -4,7 +4,7 @@
 
 问题是找到给定日期的年周数(以 dd/mm/yy 格式)。
 
-```
+```html
 Input: date = "02/01/2019"
 Output: 1
 Explanation: We can check from the calendar that 2nd January 2019 lies
@@ -19,13 +19,13 @@ Output: 36
 我们将给一周的每一天分配一个数字。假设星期日被指定为 1，星期一被指定为 2，以此类推，我们为其他日子指定数字。根据我们的惯例，每周从周日开始，周六结束。
 所以，假设今天是星期一，因此，周数也是 1。20 天后，周数显然会是第 3。
 
-```
+```html
 20 days = 7+7+6 days
 ```
 
 仔细观察，我们可以看到 p 天后的周数可以用下面提到的公式来计算。
 
-```
+```html
 Week Number = least integer [ p/7 ]           
 
 ```
@@ -38,13 +38,13 @@ Week Number = least integer [ p/7 ]
 *   现在，找出给定年份中给定日期之前的天数。就叫它 y 吧。
 *   我们可以用下面的公式计算周数
 
-```
+```html
 Week Number = least integer [ (x+y)/7 ]
 ```
 
 **示例:**下面是上述方法的实现。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

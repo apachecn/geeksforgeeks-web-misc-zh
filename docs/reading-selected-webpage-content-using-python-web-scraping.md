@@ -8,12 +8,12 @@
 众所周知，网页只是一段 HTML 代码，由 Web 服务器发送到我们的浏览器，浏览器再转换成漂亮的页面。现在，我们需要一种机制来获取 HTML 源代码，即使用一个名为“美丽组”的包找到一些特定的标签。
 **安装:**
 
-```
+```html
 pip3 install requests
 
 ```
 
-```
+```html
 pip3 install beautifulsoup4
 
 ```
@@ -39,7 +39,7 @@ pip3 install beautifulsoup4
 
 3.  **Print the appropriate contents:** The content is printed with the help of code given below.
 
-    ```
+    ```html
     import requests
     from bs4 import BeautifulSoup
 
@@ -73,7 +73,7 @@ pip3 install beautifulsoup4
 
     **输出**
 
-    ```
+    ```html
     Successfully opened the web page
     The news are as follow :-
     Govt extends toll tax suspension, use of old notes for utility bills extended till Nov 14

@@ -6,7 +6,7 @@ Web API URL . search 属性用于获取 USVString，它是一个搜索字符串�
 
 **语法:**
 
-```html
+```htmlhtml
 var str = URL.search
 
 ```
@@ -17,7 +17,7 @@ var str = URL.search
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +51,7 @@ var str = URL.search
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

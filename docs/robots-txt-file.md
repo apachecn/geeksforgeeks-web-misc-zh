@@ -10,7 +10,7 @@
 **如何创建 robots.txt 文件？**
 robots . txt 文件是放在你的网络服务器上的一个简单的文本文件，它告诉像 Google bot 这样的网络爬虫是否应该访问一个文件。这个文件可以在记事本中创建。语法由下式给出:
 
-```
+```html
 User-agent: {name of user without braces}
 Disallow: {site disallowed by the owner, i.e this can't be indexed}
 Sitemap: {the sitemap location of the website}
@@ -40,7 +40,7 @@ Sitemap: {the sitemap location of the website}
 **注:**robots . txt 文件在网上人人都可以访问。每个人都可以看到允许和不允许的用户代理和文件的名称。虽然没有人可以打开这些文件，但只显示了文件的名称。
 要查看网站的 robots.txt 文件，
 
-```
+```html
 "website name" + "/robots.txt"
 eg: https://www.geeksforgeeks.org/robot.txt
 
@@ -51,7 +51,7 @@ eg: https://www.geeksforgeeks.org/robot.txt
 
 **示例:**
 
-```
+```html
 User-agent: Googlebot
 Disallow: /wp-admin/
 Disallow: /wp-includes/

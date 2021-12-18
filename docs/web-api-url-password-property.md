@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var str = URL.password
 ```
 
@@ -16,7 +16,7 @@ var str = URL.password
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -49,7 +49,7 @@ var str = URL.password
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

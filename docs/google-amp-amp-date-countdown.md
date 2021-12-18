@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-date-countdown" src=
 "https://cdn.ampproject.org/v0/amp-date-countdown-0.1.js">
 </script>
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-template="amp-mustache" src=
 "https://cdn.ampproject.org/v0/amp-mustache-0.2.js">
 </script>
@@ -57,7 +57,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

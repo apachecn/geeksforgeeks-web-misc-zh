@@ -6,12 +6,12 @@
 
 **示例:**下面的示例演示了语义 UI 选项卡的使用。
 
-```
+```html
 $('.menu .item').tab();
 
 ```
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -71,7 +71,7 @@ $('.menu .item').tab();
 
 **示例:**以下示例演示了多个选项卡组。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

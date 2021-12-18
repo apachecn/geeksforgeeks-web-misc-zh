@@ -29,7 +29,7 @@
     *   [**在 Linux 上安装 node . js**](https://www.geeksforgeeks.org/installation-of-node-js-on-linux/)
 *   **步骤 2:** 导航到空目录设置项目，运行以下命令，
 
-```
+```html
 npm init
 ```
 
@@ -42,7 +42,7 @@ npm init
 
 ## java 描述语言
 
-```
+```html
 const { app, BrowserWindow } = require('electron')
 let win;
 
@@ -96,7 +96,7 @@ app.on('activate', () => {
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -131,7 +131,7 @@ app.on('activate', () => {
 
 *   **步骤 6:** 要启动电子应用程序，运行命令，**“开始”**是我们在**包. json** 文件中定义的脚本。
 
-```
+```html
 npm start
 ```
 
@@ -147,7 +147,7 @@ npm start
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -172,7 +172,7 @@ npm start
 
 ## 超文本标记语言
 
-```
+```html
 <h3>Aynschronous Message Sending</h3>
 <div>
     Value Received From Renderer Process -

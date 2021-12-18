@@ -42,7 +42,7 @@
 
     **对齐内容示例**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html lang="en">
 
@@ -234,7 +234,7 @@
 
     **对齐项目示例**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html lang="en">
 

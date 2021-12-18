@@ -15,7 +15,7 @@
 使用以下语法在 Node.js 项目中添加一个模块。
 **语法:**
 
-```
+```html
 var module = require("module_name");
 ```
 
@@ -25,7 +25,7 @@ var module = require("module_name");
 
 ## java 描述语言
 
-```
+```html
 module.exports = (length, breadth, callback) => {
     if (length <= 0 || breadth <= 0)
         setTimeout(() => callback(new Error(
@@ -43,7 +43,7 @@ module.exports = (length, breadth, callback) => {
 
 ## java 描述语言
 
-```
+```html
 var rect = require('./rectangle');
 module.exports.Rect = function Rect(l, b) {
     rect(l, b, (err, rectangle) => {

@@ -8,7 +8,7 @@
 
 **步骤 1：**通过运行以下命令安装 PUG。 -g 用于全局安装，是可选的。
 
-```
+```html
 npm install pug-cli -g
 ```
 
@@ -22,7 +22,7 @@ npm install pug-cli -g
 
 **步骤 3**：现在我们将在 index.pug 文件中编写 PUG 模板代码，并在 index.html 文件中查看它的 HTML 输出。 要在保存文件时自动将 PUG 模板代码重新编译为 HTML，请在终端运行以下命令：
 
-```
+```html
 pug -w ./ -o ./html -P
 ```
 
@@ -34,7 +34,7 @@ pug -w ./ -o ./html -P
 
 *   PUG 使用相同的一组 HTML 标记名称，但没有开始和结束标记。 它使用缩进来嵌套 HTML 标记。 样板 PUG 框架结构及其编译后的 HTML 将如下所示：
 
-    ```
+    ```html
     <!-- pug template code -->
     doctype html
     html
@@ -61,7 +61,7 @@ pug -w ./ -o ./html -P
 
 *   为了呈现 HTML 标记内的内容，我们给出一个空格字符并写入该标记的内容。 示例：
 
-    ```
+    ```html
     <!-- pug template code -->
     doctype html
     html
@@ -84,7 +84,7 @@ pug -w ./ -o ./html -P
 
 *   对于多行内容，请在段落标签后面添加“”。 (点)，然后在下一行上，用制表符空格缩进它。 这称为**标记插值。** 示例：
 
-    ```
+    ```html
     <!-- pug template code -->
     doctype html
     html
@@ -112,7 +112,7 @@ pug -w ./ -o ./html -P
 
 *   为了节省空间，PUG 为嵌套标记提供了内联语法。 它被称为**块扩展**。 示例：
 
-    ```
+    ```html
     <!-- pug template code -->
     doctype html
     html

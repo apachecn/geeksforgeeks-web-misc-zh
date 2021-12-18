@@ -6,7 +6,7 @@
 
 *   **Solution 1:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head> </head>
@@ -57,7 +57,7 @@
 
 *   **Solution 2:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head> </head>
@@ -110,7 +110,7 @@
 
 *   **Solution 3:** Hover the mouse over the Image
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head> </head>

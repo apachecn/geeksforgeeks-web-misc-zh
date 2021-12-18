@@ -14,7 +14,7 @@ JavaScript 中有几种方法可以在画布上绘制形状。在本文中，我
 
     **示例:**
 
-    ```html
+    ```htmlhtml
      moveTo(10 , 30);
     ```
 
@@ -22,7 +22,7 @@ JavaScript 中有几种方法可以在画布上绘制形状。在本文中，我
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     moveTo(10 , 30); 
     lineTo(40 , 100);
     ```
@@ -35,7 +35,7 @@ JavaScript 中有几种方法可以在画布上绘制形状。在本文中，我
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

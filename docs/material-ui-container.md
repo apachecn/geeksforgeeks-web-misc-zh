@@ -24,7 +24,7 @@ maxWidth 值定义了我们瞄准的屏幕宽度。
 
 **语法:**
 
-```
+```html
 <Container maxwidth="lg">
    <h1>This is Container</h1>
 </Container>
@@ -34,19 +34,19 @@ maxWidth 值定义了我们瞄准的屏幕宽度。
 
 **步骤 1** :使用以下命令创建一个 React 应用。
 
-```
+```html
 npx create-react-app container-example
 ```
 
 **第二步**:进入项目目录。
 
-```
+```html
 cd container-example
 ```
 
 **安装材料-界面:**
 
-```
+```html
 npm install @material-ui/core
 // OR
 yarn add @material-ui/core
@@ -54,7 +54,7 @@ yarn add @material-ui/core
 
 **进口集装箱:**
 
-```
+```html
 import Container from '@material-ui/core/Container';
 ```
 
@@ -62,7 +62,7 @@ import Container from '@material-ui/core/Container';
 
 ## App.js
 
-```
+```html
 import Container from '@material-ui/core/Container';
 import React, { Component }  from 'react';
 

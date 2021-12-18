@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```html
 window.localStorage   // It returns a Storage Object
 ```
 
@@ -32,14 +32,14 @@ window.localStorage   // It returns a Storage Object
 
 **将数据保存到本地存储的语法:**
 
-```
+```html
 localStorage.setItem(*key*, *value*)
 Ex: localStorage.setItem("firstName", "Mark Zuker berg");
 ```
 
 **从本地存储读取数据的语法:**
 
-```
+```html
 localStorage.getItem(*key*)
 
 // Returns the string "Mark Zuker berg"
@@ -48,7 +48,7 @@ Ex: localStorage.getItem("firstName");
 
 **从本地存储中删除数据的语法:**
 
-```
+```html
 localStorage.removeItem(*key*)
 Ex: localStorage.removeItem("firstName");
 ```
@@ -74,31 +74,31 @@ Ex: localStorage.removeItem("firstName");
 
 1.使用以下命令创建您的应用程序:
 
-```
+```html
 npx create-react-app crud-application
 ```
 
 2.上面的命令为我们创建了一个带有所有必需样板文件的 React 项目。让我们通过键入以下命令进入项目的 *src* 文件夹:
 
-```
+```html
 cd crud-application/src
 ```
 
 3.您可以删除一些不必要的文件(可选步骤):
 
-```
+```html
 rm App.css App.test.js logo.svg
 ```
 
 4.允许网页路由。安装以下模块:
 
-```
+```html
 npm i react-router-dom
 ```
 
 5.检查您的*包. json* 以匹配以下依赖项:
 
-```
+```html
 "dependencies": {
     .......................
     "react": "^17.0.1",
@@ -115,7 +115,7 @@ npm i react-router-dom
 
 ## 【JavaScript】
 
-```
+```html
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } 
         from 'react-router-dom';

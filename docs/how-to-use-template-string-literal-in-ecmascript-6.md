@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```html
 `string text`
 ```
 
 该模板文字也可以包含占位符。我们可以用美元符号和大括号来表示。
 
-```
+```html
 `string text ${expression} string text`
 ```
 
@@ -24,7 +24,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script>
     const textMessage = "GFG is the\n" +
     "best place to learn DS";
@@ -34,7 +34,7 @@
 
 **输出:**
 
-```
+```html
 GFG is the
 best place to learn DS
 ```
@@ -43,7 +43,7 @@ best place to learn DS
 
 ## 超文本标记语言
 
-```
+```html
 <script>
     const textMessage = `GFG is the
     best place to learn DS`;
@@ -53,7 +53,7 @@ best place to learn DS
 
 **输出:**
 
-```
+```html
 GFG is the
 best place to learn DS
 ```
@@ -62,7 +62,7 @@ best place to learn DS
 
 ## 超文本标记语言
 
-```
+```html
 <script>
     const textMessage = `GFG is the
     best 'place' to learn DS`;
@@ -72,7 +72,7 @@ best place to learn DS
 
 **输出:**
 
-```
+```html
 GFG is the
 best 'place' to learn DS
 ```
@@ -83,7 +83,7 @@ best 'place' to learn DS
 
 ## 超文本标记语言
 
-```
+```html
 <script>
     const name = "User";
     const message = `Hi ${name}, Welcome to the GeeksForGeeks`;
@@ -93,6 +93,6 @@ best 'place' to learn DS
 
 **输出:**
 
-```
+```html
 Hi User, Welcome to the GeeksForGeeks
 ```

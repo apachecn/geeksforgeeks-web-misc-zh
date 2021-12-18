@@ -32,7 +32,7 @@
 
     在第二次也是最后一次尝试中，我们将在 key geek 中插入一个普通的对象，当我们得到这个项目时，它会返回[object，object]
 
-    ```
+    ```html
     LocalStorage.setItem("geek", {
     "key":"value"
     })
@@ -44,7 +44,7 @@
 
     如果我们想存储对象或除字符串/数字之外的其他东西，那么它必须是字符串的形式，这就是我们在上次尝试中所做的。
 
-    ```
+    ```html
     LocalStorage.setItem("geeks", JSON.stringify({
     "key":"value"
     }))
@@ -60,7 +60,7 @@
 
 *   **For storing data in web storage:**
 
-    ```
+    ```html
     LocalStorage.setItem("key", "value");  //key and value both should be string or number;
     SessionStorage.setItem("key", "value");  //key and value both should be string or number;
 
@@ -70,7 +70,7 @@
 
 *   **For getting data from web storage:**
 
-    ```
+    ```html
     LocalStorage.getItem("key");
     SessionStorage.getItem("key");
 
@@ -82,7 +82,7 @@
 
 *   **For Getting the length of web storage object:**
 
-    ```
+    ```html
     LocalStorage.length; 
     SessionStorage.length;
 
@@ -92,7 +92,7 @@
 
 *   **For deleting a particular key-value pair:**
 
-    ```
+    ```html
     LocalStorage.removeItem("key");
     SessionStorage.removeItem("key");
 
@@ -105,7 +105,7 @@
 
 *   **For clearing complete storage:**
 
-    ```
+    ```html
     LocalStorage.clear();
     SessionStorage.clear();
 
@@ -115,7 +115,7 @@
 
 *   **For getting nth key name from web storage we will pass the number n:**
 
-    ```
+    ```html
     LocalStorage.key(n);
     SessionStorage.key(n);
 

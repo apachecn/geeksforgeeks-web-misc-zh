@@ -28,7 +28,7 @@
 我们的模型将有组件的输入，现在将被硬编码，并且一个事件将通知我们的输入已经改变。
 这里是极简实现
 
-```
+```html
 function ListModel() {
     this._formInput=[ {
         "id": "id1",
@@ -104,7 +104,7 @@ ListModel.prototype= {
 
 在这里，事件类是基本的发布/订阅实现，其中每个模块都可以对事件做出反应。这是事件类
 
-```
+```html
 function Event(sender) {
     this._sender = sender;
     this._listeners = [];
@@ -125,7 +125,7 @@ Event.prototype = {
 现在来看我们的控制器。对于我们的示例用例，我们已经触发了仅在控制器初始化时添加到模型中的项目。
 **下面是班级:**
 
-```
+```html
 function ListController(model, view) {
     this._model = model;
     this._view = view;
@@ -143,7 +143,7 @@ ListController.prototype = {
 
 **这里是视图类:**
 
-```
+```html
 function ListView(model) {
     this._model = model;
     var _this = this;
@@ -157,7 +157,7 @@ function ListView(model) {
 这里我们存储模型(在我们的例子中是这个组件的输入)和每个字段的验证器。
 此外，我们将事件处理程序附加到我们的模型变更中，这将创建视图。这是完整的代码
 
-```
+```html
 ListView.prototype = {
     addResult: function() {
         var data = this._model.getFormInput();
@@ -273,7 +273,7 @@ ListView.prototype = {
 
 下面是我们如何实例化组件
 
-```
+```html
 window.onload = function() {
     var model = new ListModel([]),
         view = new ListView(model),

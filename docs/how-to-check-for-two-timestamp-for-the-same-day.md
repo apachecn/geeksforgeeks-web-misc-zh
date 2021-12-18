@@ -6,14 +6,14 @@
 
 **示例:**
 
-```
+```html
 Input: TimeStamp1 = 20-04-2020 , 16:04:55 and 
        TimeStamp2 = 20-04-2020 , 10:22:42 
 
 Output: These dates are of same date
 ```
 
-```
+```html
 Input: TimeStamp1 = 20-04-2020 , 16:04:55 and 
        TimeStamp2 = 20-04-2019 , 10:22:42
 
@@ -22,7 +22,7 @@ Output: These timestamps are not on the same date.
 
 *   **说明:**这些时间戳是同一日期，即 20-04-2020 在 JavaScript 对象中，这个日期可以转换。
 
-```
+```html
 var D1 = new Date(2020, 04, 20, 16, 04, 55)
 var D2 = new Date(2020, 04, 20, 10, 22, 42)
 ```
@@ -33,7 +33,7 @@ var D2 = new Date(2020, 04, 20, 10, 22, 42)
 
 ## java 描述语言
 
-```
+```html
 <script type = "text/javascript" >
 
     // Function to check whether timestamp are on same day
@@ -60,7 +60,7 @@ var D2 = new Date(2020, 04, 20, 10, 22, 42)
 
 **输出:**
 
-```
+```html
 *Time Stamp Wed May 20 2020 16:04:55 GMT+0530 (India Standard Time) and*
 *Wed May 20 2020 10:22:42 GMT+0530 (India Standard Time) is of same day.*
 ```
@@ -71,7 +71,7 @@ var D2 = new Date(2020, 04, 20, 10, 22, 42)
 
 ## java 描述语言
 
-```
+```html
 <script type = "text/javascript" >
 
     // Function to check whether timestamp are on same day
@@ -97,7 +97,7 @@ var D2 = new Date(2020, 04, 20, 10, 22, 42)
 
 **输出:**
 
-```
+```html
 Time Stamp Wed May 20 2020 00:00:00 GMT+0530 (India Standard Time) and
 Thu May 21 2020 00:00:00 GMT+0530 (India Standard Time) is of different day.
 ```

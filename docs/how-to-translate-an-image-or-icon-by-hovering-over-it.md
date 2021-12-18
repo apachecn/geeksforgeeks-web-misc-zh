@@ -11,7 +11,7 @@
 
 **HTML 代码:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -47,7 +47,7 @@
 
 **CSS 代码:**
 
-```html
+```htmlhtml
         <style>      
              /* section styling */
              #social-media
@@ -84,7 +84,7 @@ adjusting the width and height of any given image*/   
 **最终解决方案:**
 这是上面 2 节合并后的最终代码。它将显示当鼠标指针移动到图像/图标上或悬停在其上时图像/图标将如何平移。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

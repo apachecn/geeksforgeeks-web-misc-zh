@@ -12,13 +12,13 @@
 
 CSS:
 
-```html
+```htmlhtml
 https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
 ```
 
 **JavaScript:**
 
-```html
+```htmlhtml
 https://code.jquery.com/jquery-3.5.1.js
 https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 ```
@@ -33,7 +33,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -117,7 +117,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 **nested shubarlays . txt:**以下是“nested shubarlays . txt”文件中所有员工的数据内容。
 
-```html
+```htmlhtml
 {
   "data": [
     {
@@ -270,7 +270,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 **注意:**假设上面的文件数据模式不是按照正确的 JSON 格式，那么它抛出一个 DataTable 插件的警告如下。
 
-```html
+```htmlhtml
 warning: table id={id-of-html-table} - Invalid JSON response.
 ```
 

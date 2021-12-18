@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head>
@@ -33,7 +33,7 @@ JavaScript 代码显示了图表及其所需的参数。
 
 ## java 描述语言
 
-```html
+```htmlhtml
 // Define the chart
 var chart = new Highcharts.Chart({
   chart: {
@@ -80,7 +80,7 @@ var chart = new Highcharts.Chart({
 
 这就是高图表库提供的灵活性和控制变得有用的地方。可以通过显式定义所选轴的日期时间标签格式来修改库的默认行为。默认情况下，根据下面定义的间隔，它对日期时间标签使用以下格式:
 
-```html
+```htmlhtml
 {
     millisecond: '%H:%M:%S.%L',
     second: '%H:%M:%S',
@@ -96,7 +96,7 @@ var chart = new Highcharts.Chart({
 
 用于表示时间的标签定义如下:
 
-```html
+```htmlhtml
 %a: Short weekday, like 'Mon'.
 %A: Long weekday, like 'Monday'.
 %d: Two digit day of the month, 01 to 31.
@@ -122,7 +122,7 @@ var chart = new Highcharts.Chart({
 
 必须通过定义具有所需格式的格式化程序函数，在 labels 属性中进行此更改。该代码是为 x 轴添加的:
 
-```html
+```htmlhtml
 labels: {
   formatter: function() {
     return Highcharts.dateFormat('%H:%M %d %b %Y',this.value);
@@ -135,7 +135,7 @@ labels: {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 var chart = new Highcharts.Chart({
   chart: {
     renderTo: 'plot-container',

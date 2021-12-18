@@ -12,7 +12,7 @@
 
 **使用 CDN 安装:**
 
-```
+```html
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -21,7 +21,7 @@
 
 在 Nodejs 中安装:
 
-```
+```html
 npm install mathjax
 ```
 
@@ -31,7 +31,7 @@ npm install mathjax
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -86,7 +86,7 @@ npm install mathjax
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

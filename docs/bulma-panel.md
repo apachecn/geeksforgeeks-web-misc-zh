@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -98,7 +98,7 @@
 
 **示例 2:** 带图像的面板。
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -216,7 +216,7 @@
 
 **示例 3:** 彩色面板组件。
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

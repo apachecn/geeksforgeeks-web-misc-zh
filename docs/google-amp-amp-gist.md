@@ -10,7 +10,7 @@ GitHub 非常受欢迎开发人员在网页中添加 gist 已经变得非常受�
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-gist" src=
     "https://cdn.ampproject.org/v0/amp-gist-0.1.js">
 </script>
@@ -26,7 +26,7 @@ GitHub 非常受欢迎开发人员在网页中添加 gist 已经变得非常受�
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html ⚡>
 

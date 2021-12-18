@@ -10,7 +10,7 @@
 
 该流是潜在无限的数据集合。这是一系列超时的数据。它可以被认为是传送带上一次处理一个项目。
 
-```
+```html
 Stream = Array + Infinity
 ```
 
@@ -18,7 +18,7 @@ Stream = Array + Infinity
 
 ## java 描述语言
 
-```
+```html
 for (let i = 0; i < infinite; i++) {
   const element = stream[i];
 }
@@ -30,13 +30,13 @@ for (let i = 0; i < infinite; i++) {
 
 Observables 可能是无限集合，一次异步返回值一个。即在返回的一个值和下一个值之间可能会经过一段时间。
 
-```
+```html
 Observable = Array + Infinity + Asynchronous
 // OR
 Observable = Promise + Returns many times
 ```
 
-```
+```html
 ————— Value 1 ————— Value 2 ————— Value 3 ————— Value 4 —————|—>
 ```
 
@@ -44,7 +44,7 @@ Observable = Promise + Returns many times
 
 ## java 描述语言
 
-```
+```html
 // Two states => resolve, reject
 const promise = new Promise(resolve, reject);
 
@@ -57,7 +57,7 @@ promise
 
 ## java 描述语言
 
-```
+```html
 const observable = from([1, 2, 3, 4]);
 
 // Three states => next, complete, error
@@ -82,7 +82,7 @@ RxJs 将其操作符分为几类，但最常用的操作符是**创建操作符*
 
 ## java 描述语言
 
-```
+```html
 of(10, 20, 30).subscribe(
   next => console.log('next:', next),
   err => console.log('error:', err),
@@ -92,7 +92,7 @@ of(10, 20, 30).subscribe(
 
 **输出:**
 
-```
+```html
 'next: 10'
 'next: 20'
 'next: 30'
@@ -105,7 +105,7 @@ the end
 
 ## java 描述语言
 
-```
+```html
 from([10, 20, 30]).subscribe(
   next => console.log('next:', next),
   err => console.log('error:', err),
@@ -124,7 +124,7 @@ from(promise).subscribe(
 
 **输出:**
 
-```
+```html
 'next: 10'
 'next: 20'
 'next: 30'
@@ -142,7 +142,7 @@ the end
 
 ## java 描述语言
 
-```
+```html
 // Another RxJS creation operator that
 // starts at 0 and emits 1000 values
 range(1, 1000)
@@ -156,7 +156,7 @@ range(1, 1000)
 
 **输出:**
 
-```
+```html
 'next: 10'
 'next: 20'
 'next: 30'
@@ -175,7 +175,7 @@ RxJs 操作符几乎总是纯的/无副作用的，并且它们一次使用一�
 
 ## java 描述语言
 
-```
+```html
 range(1, 1000).pipe(mergeMap(pageNum =>
     fetchBulkDataFromServer({pageNum: pageNum})))
 .pipe(map(bulkData=>`Page Num ${bulkData.page}
@@ -189,7 +189,7 @@ range(1, 1000).pipe(mergeMap(pageNum =>
 
 **输出:**
 
-```
+```html
 'next: Page Num 1 retuned 100 items'
 'next: Page Num 2 retuned 90 items'
 'next: Page Num 3 retuned 70 items'
@@ -204,7 +204,7 @@ the end
 
 ## java 描述语言
 
-```
+```html
 const maxParallelApiCalls = 50;
 range(1, 1000).pipe(mergeMap(pageNum =>
     fetchBulkDataFromServer({pageNum: pageNum}),
@@ -220,7 +220,7 @@ maxParallelApiCalls)).pipe(map(bulkData =>
 
 **输出:**
 
-```
+```html
 'next: Page Num 7 retuned 10 items'
 'next: Page Num 12 retuned 8 items'
 'next: Page Num 38 retuned 12 items'
@@ -233,7 +233,7 @@ the end
 
 在上面的例子中，RxJs 同时开始处理 50 个可观测值，并按照它们完成的顺序发出这些可观测值返回的数据。因此，无论哪一个应用编程接口调用首先返回，它的数据都会被传送到下一个操作符。这是异步数据如何被**合并映射**并行化的时间线可视化。
 
-```
+```html
 <Start> — Value 1 —————————————————————————————————|—>
 <Start> ————————————————————— Value 2 —————————————|—>
 <Start> ——————————— Value 3 ———————————————————————|—>

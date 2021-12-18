@@ -10,7 +10,7 @@ jQuery 包含[属性选择器](https://www.geeksforgeeks.org/jquery-attribute-se
 
 **语法:**
 
-```html
+```htmlhtml
 $("[attribute~='word']");
 ```
 
@@ -18,7 +18,7 @@ $("[attribute~='word']");
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -109,7 +109,7 @@ $("[attribute~='word']");
 
 **语法:**
 
-```html
+```htmlhtml
 $("[attribute*='word']");
 ```
 
@@ -117,7 +117,7 @@ $("[attribute*='word']");
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

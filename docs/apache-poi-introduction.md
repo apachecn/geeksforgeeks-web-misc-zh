@@ -30,7 +30,7 @@ Apache POI 提供了基于 Office Open XML (OOXML)标准和微软的 OLE2 标准
 
 Apache POI 运行时依赖关系:如果您正在处理一个 maven 项目，您可以使用下面的代码行集将 POI 依赖关系包含在 pom.xml 文件中。
 
-```
+```html
 <dependency> 
     <groupId>org.apache.poi</groupId> 
     <artifactId>poi</artifactId> 
@@ -40,7 +40,7 @@ Apache POI 运行时依赖关系:如果您正在处理一个 maven 项目，您�
 
 现在，为了在 eclipse 中添加这个，转到
 
-```
+```html
 Window -> Show View -> Other -> Maven -> Maven Repositories
 ```
 

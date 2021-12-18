@@ -9,7 +9,7 @@ T6】
 在上图中，我们需要定义用户名、密码和数据库名称。我们可以指定像 mysql 或 SQLite 这样的 dbdriver，无论我们使用什么，这就是它与我们的数据库连接的方式，我们将运行我们的查询。在 localhost 中创建一个数据库，在那里定义一个表，并插入一些虚拟数据。现在我们需要将这个数据库加载到模型文件中，然后我们就可以访问查询了。
 **车型:**
 
-```
+```html
 <?php 
 class Usermodel extends CI_Model {
         public function __construct(){
@@ -33,7 +33,7 @@ class Usermodel extends CI_Model {
 
 现在使用上面相同的代码，但是这次在模型中使用下面的函数来查看输出。
 
-```
+```html
 print_r($data->result());
 ```
 
@@ -43,7 +43,7 @@ print_r($data->result());
 
 现在使用上面相同的代码，但是这次在模型中使用下面的函数来查看输出。
 
-```
+```html
 print_r($data->result_array());
 ```
 
@@ -58,7 +58,7 @@ print_r($data->result_array());
 
 **型号:**
 
-```
+```html
 <?php 
 class Usermodel extends CI_Model {
       public function __construct(){

@@ -6,13 +6,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <iframe src = "URL"></iframe>
 ```
 
 透明的 **iframe** 可以通过将其背景设置为透明来制作。
 
-```html
+```htmlhtml
 body {
     background-color : transparent;
 }
@@ -21,7 +21,7 @@ body {
 
 并且，“iframe”的 **allowtransparency** 属性设置为“true”。
 
-```html
+```htmlhtml
 <iframe src = "URL" allowtransparency = "true"></iframe>
 ```
 
@@ -29,7 +29,7 @@ body {
 
 *   **HTML 代码:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 
@@ -49,7 +49,7 @@ body {
 
 *   **iframe.html**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 

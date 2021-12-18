@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 array_name.includes(searchElement, ?fromIndex)
 ```
 
@@ -19,7 +19,7 @@ array_name.includes(searchElement, ?fromIndex)
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

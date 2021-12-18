@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form method="post" action=
 "https://www.jdoodle.com/api/redirect-to-post/compiler_URL">
     <textarea name="initScript" 
@@ -39,7 +39,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -68,7 +68,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

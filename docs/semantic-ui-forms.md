@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -76,7 +76,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -126,7 +126,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -163,13 +163,13 @@ T3】输出:
 **示例 4:** 本示例创建复选框。语义用户界面中有各种各样的复选框样式，比如标准的复选框、切换和滑动。
 为此，您需要导入 jQuery 库。
 
-```
+```html
 $('.ui.checkbox').checkbox();
 ```
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -234,7 +234,7 @@ $('.ui.checkbox').checkbox();
 
 **示例 5:** 本示例创建单选按钮。为此，您需要导入一个 jQuery 库。
 
-```
+```html
 $('.ui.radio.checkbox').checkbox();
 ```
 
@@ -242,7 +242,7 @@ $('.ui.radio.checkbox').checkbox();
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -337,7 +337,7 @@ $('.ui.radio.checkbox').checkbox();
 
 **示例 6:** 本示例创建下拉列表。为此，您需要导入 jQuery 库。
 
-```
+```html
 $(function() {
    $('.ui.dropdown').dropdown();
 }); 
@@ -347,7 +347,7 @@ $(function() {
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -394,7 +394,7 @@ $(function() {
 
 **示例 7:** 本示例创建多选下拉菜单。为此，您需要导入 jQuery 库。
 
-```
+```html
 $(function() {
    $('.ui.dropdown').dropdown();
 }); 
@@ -404,7 +404,7 @@ $(function() {
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -455,7 +455,7 @@ $(function() {
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

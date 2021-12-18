@@ -10,7 +10,7 @@
 
 如上所述，如果我们在应用程序中硬编码命令行标志，我们需要导入**应用程序**模块的**命令行**属性，但是我们不需要任何额外的代码更改来设置电子中的环境变量。然而，由于电子也支持全局**过程**对象，我们也可以通过代码设置环境变量。例如:
 
-```
+```html
 process.env.GOOGLE_API_KEY = 'YOUR_KEY_HERE'
 ```
 
@@ -40,7 +40,7 @@ process.env.GOOGLE_API_KEY = 'YOUR_KEY_HERE'
     *   **–http 解析器**
 *   **GOOGLE_API_KEY:** 许多 GOOGLE 服务需要为特定用户的特定项目生成一个 **API_KEY** ，以便从应用程序中访问服务。例如，电子中的地理定位支持需要使用谷歌云平台的地理定位网络服务。要启用此功能，我们需要获取一个谷歌应用编程接口密钥。该密钥通常被硬编码在电子应用程序中，并且由于该应用编程接口密钥包含在每个有效会话的每个电子版本中，所以它经常超过其使用配额。为了防止这种情况，我们需要添加应用编程接口密钥作为环境的一部分。我们可以这样做，在打开任何会发出谷歌服务请求的应用程序窗口或功能之前，将以下代码放在主进程文件中:
 
-```
+```html
 process.env.GOOGLE_API_KEY = 'YOUR_KEY_HERE'
 ```
 
@@ -63,13 +63,13 @@ process.env.GOOGLE_API_KEY = 'YOUR_KEY_HERE'
 
 *   **视窗控制台**:
 
-```
+```html
 ~$ set ELECTRON_ENABLE_LOGGING=true
 ```
 
 *   **POSIX 外壳**:
 
-```
+```html
 ~$ export ELECTRON_ENABLE_LOGGING=true
 ```
 

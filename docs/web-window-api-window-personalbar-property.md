@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 objectReference = window.personalbar
 ```
 
 **示例:**检查能见度
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -12,7 +12,7 @@
 
 为此，您需要 jQuery 代码。
 
-```
+```html
 $('.image').dimmer({
     on: 'hover'
 });
@@ -21,7 +21,7 @@ $('.image').dimmer({
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -80,7 +80,7 @@ $('.image').dimmer({
 
 **jQuery Code:**
 
-```
+```html
 $('.dim').click(function() {$('.image').dimmer('show')});
 $('.show').click(function() {$('.image').dimmer('hide')});
 
@@ -90,7 +90,7 @@ $('.show').click(function() {$('.image').dimmer('hide')});
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -155,7 +155,7 @@ $('.show').click(function() {$('.image').dimmer('hide')});
 
 本示例显示模糊调光效果。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -222,7 +222,7 @@ $('.show').click(function() {$('.image').dimmer('hide')});
 
 本示例创建了反转调光器效果。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

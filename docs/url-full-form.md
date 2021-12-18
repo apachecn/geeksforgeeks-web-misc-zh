@@ -16,7 +16,7 @@
 
 **网址语法:**
 
-```
+```html
 protocol://hostname/filename
 ```
 

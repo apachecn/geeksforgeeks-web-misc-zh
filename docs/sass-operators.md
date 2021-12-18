@@ -27,23 +27,23 @@ SASS 遵循最标准的操作符顺序，即从**最紧到最松。**
 
 **SASS 代码:**
 
-*   ```html
+*   ```htmlhtml
     @debug 2 + 4 * 6 == 2 + (4 * 6)
     ```
 
     **输出:**
 
-    ```html
+    ```htmlhtml
     true
     ```
 
-*   ```html
+*   ```htmlhtml
     @debug true or false and false == true or (false and false)
     ```
 
     **输出:**
 
-    ```html
+    ```htmlhtml
     true
     ```
 
@@ -53,22 +53,22 @@ SASS 遵循最标准的操作符顺序，即从**最紧到最松。**
 
 **示例:**
 
-*   ```html
+*   ```htmlhtml
     @debug (2 + 3) * 4 
     ```
 
     **输出:**
 
-    ```html
+    ```htmlhtml
     20
     ```
 
-*   ```html
+*   ```htmlhtml
     @debug ((2 + 3) - 1) * 5
     ```
 
     **输出:**
 
-    ```html
+    ```htmlhtml
     20
     ```

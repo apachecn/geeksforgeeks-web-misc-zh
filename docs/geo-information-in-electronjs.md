@@ -17,7 +17,7 @@ Electron 为我们提供了一种方法，通过该方法，我们可以使用�
 
 *   **第一步:**按照[中给出的步骤进行设置中的**动态样式，设置基本的电子应用。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。我们将继续使用相同的代码库构建我们的应用程序。另外，使用 **npm** 安装 **axios** 套装。这个包是一个基于**承诺**的 HTTP 客户端。它用于对 REST APIs 进行 HTTP 调用。我们将使用这个包为用户获取地理信息。有关 axios 的更多信息。**](https://www.geeksforgeeks.org/dynamic-styling-in-electronjs/)
 
-```html
+```htmlhtml
 npm install axios --save
 
 ```
@@ -25,7 +25,7 @@ npm install axios --save
 *   还要对**包. json** 文件进行必要的更改，以启动电子应用程序。
     T3
 
-```html
+```htmlhtml
 {
   "name": "electron-local",
   "version": "1.0.0",
@@ -56,7 +56,7 @@ npm install axios --save
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>
   Language and Country Information in Electron
 </h3>
@@ -69,7 +69,7 @@ npm install axios --save
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require("electron");
 const axios = require("axios");
 
@@ -99,7 +99,7 @@ detect.addEventListener("click", () => {
     **注意:**我们也可以使用 electronic 中的命令行开关来设置自定义区域设置。我们可以在应用程序启动时简单地传递命令行开关，方法是使用**应用程序**模块的 [**命令行**](https://www.electronjs.org/docs/api/command-line) 属性，或者在启动电子应用程序时更改**包的 **start** 脚本。我们可以使用**–lang**命令行开关来设置自定义区域设置。
     **package.json:** 在该文件中进行以下更改。**
 
-```html
+```htmlhtml
 "scripts": {
   "start": "electron --lang=hi . "
 },

@@ -17,19 +17,19 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-    ```
+    ```html
     npm install electron --save-dev
     ```
 
     该命令还将创建**包-lock.json** 文件，并安装所需的**节点 _ 模块**依赖项。一旦电子安装成功，打开**包. json** 文件，并在**“脚本”**键下执行必要的更改。使用 npm 安装 **NODE-PING** 。
 
-    ```
+    ```html
     npm install ping --save
     ```
 
@@ -37,7 +37,7 @@
 
     **package.json:**
 
-    ```
+    ```html
     {
       "name": "electron-netlogging",
       "version": "1.0.0",
@@ -62,7 +62,7 @@
 
     **main.js:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow() {
@@ -114,7 +114,7 @@
 
     **index.html:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -149,7 +149,7 @@
 
 *   **Output:** At this point, our basic Electron Application is set up. To launch the Electron Application, run the Command:
 
-    ```
+    ```html
     npm start
     ```
 
@@ -167,7 +167,7 @@
 
 **index.html:** 在该文件中添加以下代码片段。
 
-```
+```html
 <br><br>
   <button id="external">
    Open GeeksForGeeks.org
@@ -181,7 +181,7 @@
 
 **index.js:** 在该文件中添加以下代码片段。
 
-```
+```html
 const electron = require('electron');
 const path = require('path');
 

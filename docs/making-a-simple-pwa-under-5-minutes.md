@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -61,7 +61,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 {
     "name":"PWA Tutorial",
     "short_name":"PWA",
@@ -100,7 +100,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 var staticCacheName = "pwa";
 
 self.addEventListener("install", function (e) {
@@ -128,7 +128,7 @@ self.addEventListener("fetch", function (event) {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <script>
     window.addEventListener('load', () => {
       registerSW();

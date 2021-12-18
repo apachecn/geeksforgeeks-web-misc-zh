@@ -6,7 +6,7 @@
 
 **RGB 配色方案:**是包含红、绿、蓝三种颜色数据的三通道格式。在 CSS 中，可以使用以下命令指定 RGB 颜色格式:
 
-```
+```html
 rgb(red, green, blue)
 ```
 
@@ -14,7 +14,7 @@ rgb(red, green, blue)
 
 **RGBA 配色方案:**RGBA 配色格式是 RGB 配色方案的扩展，增加了指定颜色不透明度的 alpha 通道。在 CSS 中，可以使用以下命令指定 RGBA 颜色格式:
 
-```
+```html
 rgba(red, green, blue, alpha)
 ```
 
@@ -26,7 +26,7 @@ alpha 值被声明为从 0 到 1 的十进制数，其中 0 是完全透明的�
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <style>

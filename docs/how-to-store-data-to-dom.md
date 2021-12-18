@@ -11,7 +11,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <div data-row = "value" data-column = "value"
      data-index = "value">
 </div>
@@ -26,7 +26,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 
 <body>
@@ -75,13 +75,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
 $(selector).data(para1);
 ```
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
 
 <head>

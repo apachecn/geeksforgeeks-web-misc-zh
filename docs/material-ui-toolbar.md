@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 <AppBar>
 <Toolbar>
   <Typography variant="h6">
@@ -24,13 +24,13 @@
 
 **步骤 1** :使用以下命令创建一个 React 应用。
 
-```
+```html
 npx create-react-app toolbar-example
 ```
 
 **第二步:**现在进入项目目录
 
-```
+```html
 cd toolbar-example
 ```
 
@@ -38,7 +38,7 @@ cd toolbar-example
 
 通过 npm/yarn 安装材料用户界面的源文件，它们负责注入所需的 CSS。
 
-```
+```html
 npm install @material-ui/core
 // OR
 yarn add @material-ui/core
@@ -46,7 +46,7 @@ yarn add @material-ui/core
 
 **导入应用程序栏和工具栏:**
 
-```
+```html
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 ```
@@ -69,7 +69,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 import {AppBar, Toolbar, IconButton, Typography, Button} from '@material-ui/core';
 import { fade, makeStyles } from '@material-ui/core/styles';
@@ -118,7 +118,7 @@ export default function ToolbarExample() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 
@@ -130,7 +130,7 @@ npm start
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {

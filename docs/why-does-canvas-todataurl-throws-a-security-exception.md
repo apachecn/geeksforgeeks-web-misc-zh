@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 Canvas.toDataURL(type, encoderOptions);
 
 ```
@@ -21,7 +21,7 @@ Canvas.toDataURL(type, encoderOptions);
 
 ## java 描述语言
 
-```
+```html
 function getBase64FromImageUrl(URL) {
     var img = new Image();
     img.src = URL;
@@ -44,7 +44,7 @@ alert(dataURL.replace(/^data:image\/(png|jpg);base64,/, ""));
 
 **输出:**当试图操纵画布上未经授权在代码中处理的图像时，会出现这种安全错误。这些错误是由服务器已批准的请求的“访问控制-允许-来源”标头引起的。由于图像属于另一个领域，大多数浏览器在访问它们时都会显示异常，导致严重的安全漏洞。
 
-```
+```html
 Uncaught Security Error: Failed to execute ‘toDataURL’ on 
 ‘HTMLCanvasElement’: tainted canvases may not be exported.
 
@@ -56,14 +56,14 @@ Uncaught Security Error: Failed to execute ‘toDataURL’ on
 
 *   **HTML:**
 
-```
+```html
 <img src="otherdomain.com"/>
 
 ```
 
 *   **JavaScript:**
 
-```
+```html
   var image = new Image();
   image.crossOrigin = "Anonymous";
   ...

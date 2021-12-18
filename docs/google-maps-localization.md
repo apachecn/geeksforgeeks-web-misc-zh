@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <script src=
     "https://maps.googleapis.com/maps/api/js?language=ja">
 </script>
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

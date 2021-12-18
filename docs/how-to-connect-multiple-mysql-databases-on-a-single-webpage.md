@@ -27,7 +27,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 // PHP program to connect multiple MySQL database
 // into single webpage

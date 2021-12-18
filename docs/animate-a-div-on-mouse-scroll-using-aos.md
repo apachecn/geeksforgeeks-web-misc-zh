@@ -24,7 +24,7 @@ AOS 允许您在向下和向上滚动时制作元素动画。如果您向后滚�
 
 #### 设置动画使用**数据-aos** 属性:
 
-```html
+```htmlhtml
 <div data-aos="fade-in"></div>
 ```
 
@@ -32,7 +32,7 @@ AOS 允许您在向下和向上滚动时制作元素动画。如果您向后滚�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

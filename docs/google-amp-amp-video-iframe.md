@@ -8,7 +8,7 @@
 
 **所需脚本:**将 amp-video-iframe 组件导入标题。
 
-```html
+```htmlhtml
 <script async custom-element="amp-video-iframe" src=
 "https://cdn.ampproject.org/v0/amp-video-iframe-0.1.js">
 </script>
@@ -24,7 +24,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html amp>
 

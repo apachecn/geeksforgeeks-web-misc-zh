@@ -16,14 +16,14 @@
 
 *   首先，我们将使用 **npm** 安装 **elemon** 。
 
-```html
+```htmlhtml
 npm install elemon --save
 
 ```
 
 *   使用 **npm** 安装**电子热装**。
 
-```html
+```htmlhtml
 npm install electron-hot-reload --save
 
 ```
@@ -32,7 +32,7 @@ npm install electron-hot-reload --save
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-hot",
   "version": "1.0.0",
@@ -74,7 +74,7 @@ npm install electron-hot-reload --save
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const env = process.env.NODE_ENV || 'development';
 // ..
     // Open the DevTools.
@@ -111,7 +111,7 @@ const env = process.env.NODE_ENV || 'development';
 
 ## java 描述语言
 
-```html
+```htmlhtml
 // Importing the watchers from electron-hot-reload
 const { mainReloader, rendererReloader } = require('electron-hot-reload')
 const env = process.env.NODE_ENV || 'development';

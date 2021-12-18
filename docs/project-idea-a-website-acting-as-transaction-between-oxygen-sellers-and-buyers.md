@@ -18,13 +18,13 @@
 1.  **从 Github 克隆存储库：**Github 链接为“https://github.com/LordofUniverse/oxy-zone-frontend”.。 将存储库克隆到本地服务器上的合适位置。 让您安装最新的稳定节点和 NPM。 要安装节点和 npm，请访问此链接“https://docs.npmjs.com/downloading-and-installing-node-js-and-npm”.
 2.  **在****本地服务器上运行：**在终端/命令提示符中，导航到终端/命令提示符中的 oxy-zone-front end/目录。 然后运行以下命令：
 
-```
+```html
 $ npm install
 ```
 
 这是为了安装运行应用程序所需的所有节点模块。
 
-```
+```html
 $ npm start
 ```
 
@@ -46,7 +46,7 @@ $ npm start
 
 ## JavaScript
 
-```
+```html
 import { React, useState } from 'react'
 
 import Header from '../Start/Header'
@@ -190,7 +190,7 @@ Migrations.py 的视图
 
 打开终端并导航到包含**manage.py**脚本的正确目录，然后运行命令：
 
-```
+```html
 $ python manage.py runserver
 ```
 

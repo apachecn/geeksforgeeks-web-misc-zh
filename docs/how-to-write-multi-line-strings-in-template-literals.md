@@ -10,7 +10,7 @@
 
 ## HTML
 
-```
+```html
 <script>
     const multilineString = `How 
     are you
@@ -23,7 +23,7 @@
 
 **输出:**
 
-```
+```html
 How      
 are you  
 doing    
@@ -34,7 +34,7 @@ I am fine
 
 ## HTML
 
-```
+```html
 <script>
     var multilineString = 
     "How \n\
@@ -48,7 +48,7 @@ I am fine
 
 **输出:**
 
-```
+```html
 How 
 are you
 doing

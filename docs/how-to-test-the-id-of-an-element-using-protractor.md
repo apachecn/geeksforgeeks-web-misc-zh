@@ -16,7 +16,7 @@
 
     ## java 描述语言
 
-    ```html
+    ```htmlhtml
     exports.config = {
 
         // Capabilities to be passed to the

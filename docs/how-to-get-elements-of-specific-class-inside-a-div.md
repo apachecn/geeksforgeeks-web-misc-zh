@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 document.querySelectorAll(CSS-selectors)
 ```
 
@@ -16,7 +16,7 @@ document.querySelectorAll(CSS-selectors)
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head>

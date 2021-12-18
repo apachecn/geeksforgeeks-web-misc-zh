@@ -6,19 +6,19 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var recX = DOMRect.height;
 ```
 
 **返回类型:**
 
-```html
+```htmlhtml
 Double value
 ```
 
 **示例:**获取创建的多矩形对象的高度。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

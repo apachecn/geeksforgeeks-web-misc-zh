@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```html
 element-name {
     style-name : styliings !important;
 }
@@ -25,7 +25,7 @@ element-name {
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@ element-name {
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 
 <head>

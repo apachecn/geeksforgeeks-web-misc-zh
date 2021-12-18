@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 $this->config->set_item('item_name', 'item_value');
 ```
 
@@ -21,7 +21,7 @@ $this->config->set_item('item_name', 'item_value');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
   // Setting the value of config variable
   $this->config->set_item('str', "Hello GFG!");
@@ -31,7 +31,7 @@ $this->config->set_item('item_name', 'item_value');
 
 **输出:**
 
-```
+```html
 [1] "Hello GFG!"
 ```
 
@@ -39,7 +39,7 @@ $this->config->set_item('item_name', 'item_value');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
   $config['str'] = "Hello GFG!";
   echo($this->config->item('str'));
@@ -48,7 +48,7 @@ $this->config->set_item('item_name', 'item_value');
 
 **输出:**
 
-```
+```html
 [1] "Hello GFG!"
 ```
 
@@ -56,7 +56,7 @@ $this->config->set_item('item_name', 'item_value');
 
 **语法:**
 
-```
+```html
 $this->config->item('item_name');
 ```
 
@@ -68,7 +68,7 @@ $this->config->item('item_name');
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
   // Getting the value of config variable
   $this->config->item('str');
@@ -77,6 +77,6 @@ $this->config->item('item_name');
 
 **输出:**
 
-```
+```html
 [1] "Hello GFG!"
 ```

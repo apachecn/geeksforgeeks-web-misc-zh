@@ -4,7 +4,7 @@
 
 **WCF(Windows Communication Foundation):**WCF，顾名思义，就是统一的。用于开发面向服务的应用程序。它允许您开发可以使用不同通信机制进行通信的应用程序。它是为其他微软分布式技术创建的，被认为是分布式计算的未来。由于其灵活性，它使端点的开发变得更加容易。它支持各种编程语言和平台。它基于 SOAP，并以 XML 形式返回数据。它可以托管在不同的场景中，这些场景包括各种服务，如 WAS、IIS、托管 Windows 等。以下代码将用于在 WCF 建立服务:
 
-```
+```html
 [ServiceContract]  
 public interface ITest  
 {    
@@ -18,7 +18,7 @@ public class Service: ITest
 
 **网络服务:**网络服务，顾名思义，是一个客户端-服务器应用程序，允许客户端和服务器应用程序之间的通信。它基本上是一个专门为执行某一组任务而设计的软件模块。该服务专门用于使应用平台和技术独立。有两种类型的网络服务，包括 SOAP 网络服务和 RESTful 网络服务。以下代码将用于在 Web 服务中构建服务:
 
-```
+```html
 [WebService]  
 public class Service: System.Web.Services.WebService  
 {  

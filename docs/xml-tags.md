@@ -10,7 +10,7 @@ XML 标签是 XML 文档的重要特征。它类似于 HTML，但 XML 比 HTML �
 
 ## 超文本标记语言
 
-```
+```html
 <root>
     <name>GeeksforGeeks</name>
     <address>
@@ -25,7 +25,7 @@ XML 标签是 XML 文档的重要特征。它类似于 HTML，但 XML 比 HTML �
 
 ## 超文本标记语言
 
-```
+```html
 <Name>GeeksforGeeks
 <address>Noida
 ```
@@ -35,7 +35,7 @@ XML 标签是 XML 文档的重要特征。它类似于 HTML，但 XML 比 HTML �
 
 ## 超文本标记语言
 
-```
+```html
 <Name>GeeksforGeeks</Name>
 <address>Noida</address>
 ```

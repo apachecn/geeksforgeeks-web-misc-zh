@@ -30,7 +30,7 @@ Maven 是基于 POM(项目对象模型)的强大项目管理工具。它用于�
 
 ## 超文本标记语言
 
-```
+```html
 <!---contributed by sambhav228------>
 <project xmlns="https://maven.apache.org/POM/3.2.3"
 xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"

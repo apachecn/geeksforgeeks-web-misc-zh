@@ -66,7 +66,7 @@ Node.js 命令提示符
 
 现在，您可以键入以下命令开始安装过程:
 
-```
+```html
 npm install -g @aws-amplify/cli 
 
 ```
@@ -83,7 +83,7 @@ npm install -g @aws-amplify/cli
 
 现在要将您的 AWS 帐户与此类型链接:
 
-```
+```html
 amplify configure 
 
 ```

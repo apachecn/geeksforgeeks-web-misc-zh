@@ -8,7 +8,7 @@
 
 **第一步:**打开终端，使用*光盘*命令，更改存储 web 应用程序的目录。
 
-```
+```html
 # Example: Suppose test is a web application 
 # folder stored in downloads, I'll open terminal 
 # in home screen 
@@ -28,7 +28,7 @@ ls
 
 **Vim-editor:** 是一个编辑器，用于在 ubuntu 中创建和修改文本文件。
 
-```
+```html
 # Commands to install all the above-required libraries in terminal 
 sudo apt-get install curl
 sudo apt-get install openssh-server
@@ -39,7 +39,7 @@ sudo apt-get install vim
 
 **第 3 步:**现在在这一步我们将把我们的 web 应用程序文件夹复制到这个绝对路径 */var/www*
 
-```
+```html
 # change directory to parent folder where 
 # you have stored the web application folder
 sudo cp -r test /var/www
@@ -51,7 +51,7 @@ sudo cp -r test /var/www
 
 首先，将您的目录更改为 var/www/然后使用 vim 命令:
 
-```
+```html
 # Change your directory 
 cd var/www
 
@@ -69,7 +69,7 @@ sudo vi /etc/hosts
 
 **步骤 5:** 与在远程服务器上一样，我们需要将我们的 web 应用程序文件夹添加到该服务器。为此，我们需要更改 web 应用程序文件夹的权限。(web 应用程序的文件夹名称可能会有所不同)
 
-```
+```html
 # Change directory to /var/www/test
 cd /var/www/test
 
@@ -86,7 +86,7 @@ scp -r * 0.0.0.0:/var/www/test
 
 **第 6 步:**现在，我们将配置我们的 Nginx 服务器来服务我们的网站，让我们，首先，看到 Nginx 文件夹
 
-```
+```html
 # Change directory 
 cd /etc/nginx
 
@@ -104,7 +104,7 @@ ls
 
 首先，我们将创建一个新文件，并向其中添加以下内容。
 
-```
+```html
 # Command to create and open a new file 
 sudo vim sites-available/test
 
@@ -124,14 +124,14 @@ try_files $url $url/ =404;
 
 **步骤 7:** 现在让我们将该文件添加到 Nginx 中的站点启用文件夹中
 
-```
+```html
 # Command to add file to sites-enabled folder
 sudo ln -s /etc/nginx/sites-available/test /etc/nginx/sites-enabled/test
 ```
 
 太神奇了！现在我们有一个主要问题，就像前面我们让我们的 Nginx 服务器运行一样，我们配置为在我们的 web 应用程序中打开端口 80，Nginx 也在尝试使用端口 80 打开它的默认页面。因此，我们需要将默认文件移动到其他地方，以避免冲突。
 
-```
+```html
 # I generally move it to home directory 
 sudo mv /etc/nginx/sites-enabled/default /home/yashtewatia/default
 
@@ -141,7 +141,7 @@ sudo systemctl restart nginx
 
 所以我们重启了 nginx 服务器！现在，您可以转到您的 IP 地址在浏览器中查看内容，也可以在终端中使用 curl 命令，
 
-```
+```html
 curl www.test.com
 # or we can give the IP address here of our server
 curl 0.0.0.0

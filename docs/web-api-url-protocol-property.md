@@ -6,7 +6,7 @@ Web API URL . protocol 属性用于获取包含 URL 协议方案的 USVString。
 
 **语法:**
 
-```html
+```htmlhtml
 var str = URL.protocol
 
 ```
@@ -17,7 +17,7 @@ var str = URL.protocol
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +51,7 @@ var str = URL.protocol
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

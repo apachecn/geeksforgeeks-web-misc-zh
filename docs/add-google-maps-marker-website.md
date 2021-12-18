@@ -12,7 +12,7 @@
 
     **第一步:创建一个 Html 页面。**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
       <head>
@@ -43,7 +43,7 @@
 
     **第二步:添加带标记的地图:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
       <head>
@@ -117,7 +117,7 @@
 
     **输入:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
       <head>

@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -100,7 +100,7 @@ src="https://code.jquery.com/jquery-3.5.1.min.js"
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form class="needs-validation" novalidate>
 
   <!-- The data-v-min-select attribute specifies
@@ -136,7 +136,7 @@ src="https://code.jquery.com/jquery-3.5.1.min.js"
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form class="needs-validation" novalidate>
   <b>Choose a colour: </b>
   <br>
@@ -159,7 +159,7 @@ src="https://code.jquery.com/jquery-3.5.1.min.js"
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form class="needs-validation" novalidate>
 
   <label for="country">Country:</label>
@@ -189,7 +189,7 @@ src="https://code.jquery.com/jquery-3.5.1.min.js"
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form class="needs-validation" novalidate>
   Enter your text content:<br>
 
@@ -214,7 +214,7 @@ src="https://code.jquery.com/jquery-3.5.1.min.js"
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form class="needs-validation" novalidate>
   <div>
     <b>Enter URL: </b>
@@ -239,7 +239,7 @@ src="https://code.jquery.com/jquery-3.5.1.min.js"
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form class="needs-validation" novalidate>
   <b>Regex:</b>
   <br>

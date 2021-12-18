@@ -14,7 +14,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 
@@ -49,7 +49,7 @@
 
     *   对于此步骤，您必须在系统中安装 npm。在 index.html 所在的同一目录中打开终端。运行以下命令:
 
-    ```html
+    ```htmlhtml
     npm install -g surge
     ```
 
@@ -57,7 +57,7 @@
 
     *   现在，您的系统中已经在全球范围内安装了“surge”，这样您将来就可以想用多少次就用多少次。执行以下命令:
 
-    ```html
+    ```htmlhtml
     surge
     ```
 

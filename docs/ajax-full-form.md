@@ -43,7 +43,7 @@ AJAX 使用以下两者的混合:
 
 **Ajax 结构:**
 
-```
+```html
 function geeksforgeeks(str) 
 {
   var gfg=new XMLHttpRequest();

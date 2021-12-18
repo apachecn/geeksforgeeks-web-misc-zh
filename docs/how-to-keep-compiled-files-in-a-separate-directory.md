@@ -12,20 +12,20 @@
 
 *   **步骤 01:** 在您的项目中初始化 npm。
 
-    ```
+    ```html
     npm init
     ```
 
 *   **步骤 02:** 从节点注册表
 
-    ```
+    ```html
     npm install parcel-bundler
     ```
 
     安装**包裹捆扎机**
 *   **Step 03:** Open your **package.json** file and make the below changes to your scripts object(add the below code to your script object).
 
-    ```
+    ```html
     "scripts":{
         "dev": "parcel index.html",
         "build": "parcel build index.html",
@@ -37,19 +37,19 @@
 
 *   **步骤 04:** 在开发阶段运行您的项目。
 
-    ```
+    ```html
     npm run dev
     ```
 
 *   **第 05 步:**保持你的项目在开发阶段持续关注任何变化
 
-    ```
+    ```html
     npm run watch
     ```
 
 *   **步骤 06:** 运行您的项目进行生产。
 
-    ```
+    ```html
     npm run build
     ```
 
@@ -62,7 +62,7 @@
 *   **步骤 02:** 在你想要的 IDLE 或 IDE 中打开文件夹。
 *   **步骤 03:** 在文件夹里面创建一个名为**“codetrans . html”**的 html 文件，并将下面的 html 代码插入到 html 文件中。
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html lang="en">
 
@@ -92,7 +92,7 @@
 
 *   **步骤 04:** 在“GFG”文件夹内创建一个 JavaSCript 文件，并将其命名为“js.js”。将下面的代码添加到 javascript 文件中。
 
-    ```
+    ```html
     const geeks = () =>{
         const btn = document.querySelector('button');
           const para = document.querySelector('p');
@@ -106,7 +106,7 @@
 
 *   **步骤 04:** 去你 **package.json** 文件和脚本对象里面，添加下面的代码。
 
-    ```
+    ```html
     "dev": "parcel index.html",
     "build": "parcel build codeTrans.html",
     "watch": "parcel watch codeTrans.html"
@@ -114,7 +114,7 @@
 
 *   **步骤 05:** 要将编译后的文件放入一个目录，请打开您的 IDE 终端并运行以下代码。
 
-    ```
+    ```html
     npm run build
     ```
 

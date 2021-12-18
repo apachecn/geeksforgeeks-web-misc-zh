@@ -40,7 +40,7 @@ Maven 的安装包括以下步骤:
 5.  将创建的目录 apache-maven-3.5.3 的 bin 目录(取决于您的安装版本)添加到 PATH 环境变量和系统变量中。
 6.  打开 cmd 并运行 **mvn -v** 命令。如果它打印以下代码行，则安装完成。
 
-    ```
+    ```html
      Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-25T01:19:05+05:30)
     Maven home: C:\apache-maven-3.5.3\bin\..
     Java version: 1.8.0_151, vendor: Oracle Corporation
@@ -56,7 +56,7 @@ POM 意味着项目对象模型是操作 Maven 的关键。Maven 读取 pom.xml 
 
 pom.xml 的示例
 
-```
+```html
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0

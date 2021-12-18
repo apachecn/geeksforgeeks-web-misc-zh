@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 array.map(function(currentelement, index, arrayobj) {
 
   // Returns the new value instead of the item
@@ -25,7 +25,7 @@ array.map(function(currentelement, index, arrayobj) {
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -66,7 +66,7 @@ array.map(function(currentelement, index, arrayobj) {
 
 **例 2:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -104,7 +104,7 @@ array.map(function(currentelement, index, arrayobj) {
 
 **输出:**
 
-```
+```html
 welcome
 0
 to

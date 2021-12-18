@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var str = encoder.encode( str );
 ```
 
@@ -14,7 +14,7 @@ var str = encoder.encode( str );
 
 **示例:**本示例使用 TextEncoder encode()方法。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

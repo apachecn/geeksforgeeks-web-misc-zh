@@ -6,7 +6,7 @@
 
 **示例 1:** 在本例中，我们将看到不同种类的页眉。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -37,7 +37,7 @@
 
 **示例 2:** 在本例中，我们将看到图标作为标题。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -72,7 +72,7 @@
 
 。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -102,7 +102,7 @@
 
 **示例 4:** 在本例中，我们将看到带有图像的标题。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -136,7 +136,7 @@
 
 **示例 5:** 在本例中，我们将看到带有图标的标题。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -170,7 +170,7 @@
 
 **示例 6:** 在本例中，我们将看到块标题。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -199,7 +199,7 @@
 
 **例 7:** 在本例中，我们将看到浮动表头。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

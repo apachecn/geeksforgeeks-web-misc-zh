@@ -6,7 +6,7 @@ TextEncoder API 中的 **encodeInto()** 方法用于取点流，发出 UTF-8 字
 
 **语法:**
 
-```html
+```htmlhtml
 encoder.encodeInto(src, dest)
 ```
 
@@ -22,7 +22,7 @@ encoder.encodeInto(src, dest)
 
 **例 1:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,7 +72,7 @@ encoder.encodeInto(src, dest)
 
 **例 2:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

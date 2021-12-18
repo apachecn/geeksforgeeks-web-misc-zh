@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 a { 
     text-decoration: none; 
 }
@@ -16,7 +16,7 @@ a {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

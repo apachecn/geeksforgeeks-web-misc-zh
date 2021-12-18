@@ -18,7 +18,7 @@
 
 使用`setTimeout()`控制 fps 的代码如下，将`requestAnimationFrame()`作为一个函数传递给`setTimeout()`，用于在指定的 fps 下定期更新屏幕。
 
-```
+```html
 <h1>Controlling requestAnimationFrame to a FPS</h1>
 <h2>Testing approach 1: 
          Results should be approximately 5 fps</h2>
@@ -79,14 +79,14 @@
 
     为此，请记录当前时间和前一时间。每次我们得到:
 
-    ```
+    ```html
     current_time - previous_time > update_interval 
 
     ```
 
     该帧被更新并重新绘制到屏幕上。这方面的代码如下:
 
-    ```
+    ```html
     <h1>Controlling requestAnimationFrame to a FPS</h1>
     <h2>This test: Results should be approximately 5 fps</h2>
     <h2 id="results">Results:</h2>

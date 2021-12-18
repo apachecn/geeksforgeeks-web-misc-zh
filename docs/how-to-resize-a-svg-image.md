@@ -10,7 +10,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 <style>
@@ -37,7 +37,7 @@
 
 **方法二:**直接修改**。svg** 文件并将宽度和高度设置为所需值。如果存在一个 SVG 图像，下面是 XML 文件的外观
 
-```html
+```htmlhtml
 <svg height="40px" width="60px" . . . . . . ></svg>
 ```
 
@@ -45,7 +45,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>

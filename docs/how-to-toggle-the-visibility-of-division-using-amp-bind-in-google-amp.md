@@ -8,7 +8,7 @@
 
 **设置:**要在页面中使用 amp-bind，您必须在文档的标题中导入其脚本。
 
-```html
+```htmlhtml
 <script async custom-element="amp-bind" src=
 "https://cdn.ampproject.org/v0/amp-bind-0.1.js">
 </script>
@@ -22,7 +22,7 @@
 
 **示例:**根据所选选项动态隐藏和显示分区。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html amp>
 

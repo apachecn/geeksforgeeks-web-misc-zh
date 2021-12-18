@@ -20,7 +20,7 @@
 
 下面的代码将创建一个分部，并将编译器嵌入到网站页面中。
 
-```html
+```htmlhtml
 <div data-pym-src="paste copied URL here."></div>
 ```
 
@@ -32,7 +32,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

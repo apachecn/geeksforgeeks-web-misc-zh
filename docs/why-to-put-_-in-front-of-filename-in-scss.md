@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```html
 @import filename;
 ```
 
@@ -15,7 +15,7 @@
 
 **示例 1:** 让我们创建一个 colors 文件 _colors.scss
 
-```
+```html
 $first-color: blue;
 $second-color: yellow;
 
@@ -31,7 +31,7 @@ body {
 
 **输出:**
 
-```
+```html
 body {
   color: blue;
   background: yellow; 
@@ -41,7 +41,7 @@ body {
 
 **示例 2:** 让我们创建一个颜色文件
 
-```
+```html
 $font: arial;
 $color: red;
 
@@ -57,7 +57,7 @@ body {
 
 **输出:**
 
-```
+```html
 body {
   font: 100% arial;
   color: red;

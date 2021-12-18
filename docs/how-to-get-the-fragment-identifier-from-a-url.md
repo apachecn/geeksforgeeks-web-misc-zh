@@ -8,14 +8,14 @@
 
     **语法:**
 
-    ```
+    ```html
     var x =  location.hash;
     document.getElementById("demo").innerHTML = x;
     ```
 
     **示例:**在本例中，我们将使用 **location.hash** 属性。
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -62,14 +62,14 @@
 
     **语法:**
 
-    ```
+    ```html
     var hash = url.substring(url.indexOf('#') + 1);
     alert(hash);
     ```
 
     **示例 2:** 本示例使用 substring()方法显示片段标识符。
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 

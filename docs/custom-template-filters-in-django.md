@@ -22,11 +22,11 @@ Django 是一个基于 Python 的网络框架，允许您快速创建高效的�
 
 首先，使用以下命令创建 django 项目
 
-```
+```html
 django-admin startproject myproj
 ```
 
-```
+```html
 cd myproj
 ```
 
@@ -34,7 +34,7 @@ cd myproj
 
 对于 Ubuntu
 
-```
+```html
 python3 manage.py startapp main
 ```
 
@@ -46,7 +46,7 @@ python3 manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```html
 from django.shortcuts import render
 
 # Create your views here.
@@ -65,7 +65,7 @@ def home(request):
 
 ## 蟒蛇 3
 
-```
+```html
 from django import template
 
 register = template.Library()
@@ -81,7 +81,7 @@ def low(value):
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -98,7 +98,7 @@ def low(value):
 
 ## 蟒蛇 3
 
-```
+```html
 from django.urls import path
 from .views import *
 
@@ -112,7 +112,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```html
 from django.contrib import admin
 from django.urls import path,include
 
@@ -126,7 +126,7 @@ urlpatterns = [
 
 对于 Ubuntu
 
-```
+```html
 python3 manage.py runserver
 ```
 

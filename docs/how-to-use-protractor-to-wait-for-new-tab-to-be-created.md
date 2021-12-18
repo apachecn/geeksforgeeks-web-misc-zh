@@ -14,7 +14,7 @@
 
 ## java 描述语言
 
-```
+```html
 exports.config = {
 
   // Define the capabilities to be passed
@@ -51,7 +51,7 @@ exports.config = {
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <body>  
   <p>Click the button to open a new tab </p>
@@ -72,7 +72,7 @@ exports.config = {
 
 ## java 描述语言
 
-```
+```html
 describe("Protractor Demo App", function () {
   it("should wait for new tab to be created", 
   async function () {
@@ -109,7 +109,7 @@ describe("Protractor Demo App", function () {
 
 **步骤 4:** 最后，我们将使用下面给出的命令运行配置文件。这将运行配置文件，测试将如下所示运行。
 
-```
+```html
 protractor conf.js
 ```
 

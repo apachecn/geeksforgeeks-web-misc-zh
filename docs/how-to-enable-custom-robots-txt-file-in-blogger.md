@@ -24,7 +24,7 @@ robots.txt 是一个示例 txt 文件，我们在其中放置一小段代码，�
 
 将这段简单的代码添加到**“定制机器人. txt”**中，点击**“保存”**
 
-```
+```html
 User-agent: *
 Allow: /
 Sitemap: http://<subdomain_name>.<domain_name>.<tld>/sitemap.xml
@@ -32,7 +32,7 @@ Sitemap: http://<subdomain_name>.<domain_name>.<tld>/sitemap.xml
 
 **示例:**
 
-```
+```html
 User-agent: *
 Allow: /
 Sitemap: http://www.example.com/sitemap.xml

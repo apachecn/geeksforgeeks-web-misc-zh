@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 Object.values(object)
 ```
 
@@ -19,7 +19,7 @@ Object.values(object)
 
 ## 超文本标记语言
 
-```
+```html
 <script>
     let fullname = {
         firstname: "geeks",
@@ -33,7 +33,7 @@ Object.values(object)
 
 **输出:**
 
-```
+```html
 ["geeks", "for", "geeks"]
 ```
 
@@ -43,7 +43,7 @@ Object.values(object)
 
 **语法:**
 
-```
+```html
 Object.entries(object)
 ```
 
@@ -54,7 +54,7 @@ Object.entries(object)
 
 ## 超文本标记语言
 
-```
+```html
 <script>
     let fullname = {
         firstname: "geeks",
@@ -68,7 +68,7 @@ Object.entries(object)
 
 **输出:**
 
-```
+```html
 [["firstname", "geeks"], 
  ["middlename", "for"], 
  ["lastname", "geeks"]]

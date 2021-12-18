@@ -19,7 +19,7 @@
 
 因此，考虑给定的表达式
 
-```
+```html
 var result = value 1 + value 2
 ```
 
@@ -28,7 +28,7 @@ var result = value 1 + value 2
 
 **例:**
 
-```
+```html
 > var value1 = “hello”  
 > var value2 = 123 
 > var result = value1 + value2 
@@ -49,7 +49,7 @@ Output : “number”
 
 **一些更期待的结果:** 增加两个空阵:
 
-```
+```html
 > var result = []+[]
 > console.log(result)
 Output :
@@ -62,13 +62,13 @@ Hence the result of []+[] is the concatenation of two empty strings.
 
 **语法:**
 
-```
+```html
 var <object-name> = { key1: value1, key2: value2,... keyN: valueN};
 ```
 
 **添加字符串和对象:**
 
-```
+```html
 > var result = []+{}
 > console.log(result) 
 Output : [object Object]

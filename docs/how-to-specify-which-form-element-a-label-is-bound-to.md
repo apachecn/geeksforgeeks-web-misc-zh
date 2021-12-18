@@ -6,7 +6,7 @@ HTML 中的[*标签*](https://www.geeksforgeeks.org/html-label-tag/) 标签允�
 
 **语法:**
 
-```html
+```htmlhtml
 <label for="element_id"> Label Content </label>
 ```
 
@@ -14,7 +14,7 @@ HTML 中的[*标签*](https://www.geeksforgeeks.org/html-label-tag/) 标签允�
 
 ## HTML
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
   <body style="text-align: center">

@@ -48,7 +48,7 @@ EditorConfig 是一个简单的配置文件，其中包含一系列规则，这�
 
 #### 配置文件示例:
 
-```
+```html
 # EditorConfig is awesome: https://EditorConfig.org
 
 # top-most EditorConfig file

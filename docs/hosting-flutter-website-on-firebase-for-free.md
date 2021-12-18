@@ -24,7 +24,7 @@ Firebase 也是一款护目镜产品，作为后端和服务提供给开发者�
 
 在这一步中，我们将创建我们已经准备好的 flutter 项目的 web 应用程序。我做了一个互动故事应用，可以根据用户的输入改变故事。为了创建 flutter 项目的 web 应用程序，我们将使用以下命令“ **flutter build web** ”。这将在 web 目录内的构建文件夹中创建一个轻盈流畅的 flutter web 应用程序。您甚至可以通过使用以下命令来检查构建是否有任何问题:
 
-```
+```html
 flutter run -d chrome --release
 ```
 
@@ -46,7 +46,7 @@ flutter run -d chrome --release
 
 在这一步中，我们将安装 firebase 命令行界面，让我们与 firebase 交互并使用它的功能。这是通过在终端中运行以下命令来完成的:
 
-```
+```html
 npm install -g firebase-tools
 ```
 

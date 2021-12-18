@@ -9,13 +9,13 @@
 
 *   设置节点的文本–
 
-    ```html
+    ```htmlhtml
     node.textContent = text
     ```
 
 *   返回节点的文本–
 
-    ```html
+    ```htmlhtml
     node.textContent
     ```
 
@@ -24,7 +24,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

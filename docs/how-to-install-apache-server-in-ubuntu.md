@@ -8,7 +8,7 @@ Apache 是由 Apache 软件基金会创建和维护的开源 web 服务器软件
 
 *   **Make Superuser:** Open terminal and use following command to make yourself superuser.
 
-    ```
+    ```html
     sudo su
     ```
 
@@ -16,7 +16,7 @@ Apache 是由 Apache 软件基金会创建和维护的开源 web 服务器软件
 
 *   **Update Ubuntu package:** Use the following command to update the Ubuntu package list.
 
-    ```
+    ```html
     sudo apt update
     ```
 
@@ -24,7 +24,7 @@ Apache 是由 Apache 软件基金会创建和维护的开源 web 服务器软件
 
 *   **Install Apache:** After installing the Ubuntu package list, use the following command to install apache server.
 
-    ```
+    ```html
     sudo apt install apache2
     ```
 
@@ -32,7 +32,7 @@ Apache 是由 Apache 软件基金会创建和维护的开源 web 服务器软件
 
 *   After completion of the installation process, the Apache server automatically start. The status of the Apache server can be checked by using the following command.
 
-    ```
+    ```html
     sudo systemctl status apache2
     ```
 

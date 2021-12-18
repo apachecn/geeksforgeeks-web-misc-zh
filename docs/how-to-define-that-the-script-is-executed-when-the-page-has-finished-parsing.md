@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```html
 <script src="example.js" ***defer***></script>
 ```
 
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>

@@ -8,13 +8,13 @@
 
 1.  **映射**–映射器处理输入数据的每一行(以文件的形式)，并产生键值对。
 
-    ```
+    ```html
     Input data → Mapper → list([key, value])
     ```
 
 2.  **减少**–减少器处理键值对列表(在映射器功能之后)。它输出一组新的键值对。
 
-    ```
+    ```html
     list([key, value]) → Reducer → list([key, list(values)])
     ```
 
@@ -24,7 +24,7 @@
 
 **SparkContext**–为了在 Spark 中创建独立的应用程序，我们首先定义一个 SparkContext–
 
-```
+```html
 from pyspark import SparkConf, SparkContext
 conf = SparkConf().setMaster("local").setAppName("Test")
 # setMaster(local) - we are doing tasks on a single machine
@@ -33,7 +33,7 @@ sc = SparkContext(conf = conf)
 
 **RDD 变换**–现在，创建了一个 SparkContext 对象。现在，我们将创建 rdd，并在上面看到一些转换。
 
-```
+```html
 # create an RDD called lines from ‘file_name.txt’
 lines = sc.textFile("file_name.txt", 2)
 
@@ -45,7 +45,7 @@ print lines.collect()
 
 **一个简单的 PySpark 应用程序，用于计算给定图形的每个顶点的度数**–
 
-```
+```html
 from pyspark import SparkConf, SparkContext
 conf = SparkConf().setMaster("local").setAppName("Test")
 # setMaster(local) - we are doing tasks on a single machine
@@ -80,7 +80,7 @@ print Adj_list.collect()
 
 1.  上述代码可以通过以下命令运行–
 
-    ```
+    ```html
     $ cd /home/arik/Downloads/spark-1.6.0/
     $ ./bin/spark-submit degree.py
 

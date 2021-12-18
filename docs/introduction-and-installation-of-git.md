@@ -37,13 +37,13 @@ Git 是实现版本控制思想的方法之一。是分布式版本控制系统(
 
 **设置用户名**
 
-```
+```html
 $ git config --global user.name "Geek1234"
 ```
 
 **设置您的电子邮件 id**
 
-```
+```html
 $ git config --global user.email geek1234@xyz.in
 ```
 
@@ -51,12 +51,12 @@ $ git config --global user.email geek1234@xyz.in
 
 默认情况下，git 使用系统的默认编辑器。这可以通过以下方式配置:
 
-```
+```html
 $ git config --global core.editor 
 "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession" 
 ```
 
-```
+```html
 $ git config --global core.editor vim
 ```
 
@@ -66,7 +66,7 @@ $ git config --global core.editor vim
 
 默认情况下，Git 不提供用于将冲突更改集成到工作树中的合并工具。我们可以通过启用以下设置来设置默认合并工具。
 
-```
+```html
 $ git config --global merge.tool vimdiff 
 ```
 
@@ -74,13 +74,13 @@ $ git config --global merge.tool vimdiff
 
 您可以使用***git config–list***列出您的设置
 
-```
+```html
 $ git config --list
 ```
 
 该命令将产生以下输出:
 
-```
+```html
 user.name=Geek1234
 user.email=geek1234@xyz.in
 color.status=auto

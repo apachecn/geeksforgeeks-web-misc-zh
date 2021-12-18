@@ -17,7 +17,7 @@ Heroku 致力于基于容器的设计系统，这些智能容器被称为 **dyno
     *   **Step 2: Running the installer to the system**
     Now, click on the installer file and it will ask for choosing components from the following options as given below.
 
-    ```
+    ```html
      Heroku cli
     Adding heroku to system path
     Adding local data 
@@ -39,7 +39,7 @@ Heroku 致力于基于容器的设计系统，这些智能容器被称为 **dyno
 
     **英雄库命令行界面已成功安装在您的系统上。要进行验证，请在命令提示符或终端中运行以下命令。**
 
-    ```
+    ```html
     heroku
     ```
 
@@ -47,7 +47,7 @@ Heroku 致力于基于容器的设计系统，这些智能容器被称为 **dyno
 
     **检查 Heroku 版本，在终端运行以下命令:**
 
-    ```
+    ```html
     heroku -v
     ```
 
@@ -65,7 +65,7 @@ Heroku 致力于基于容器的设计系统，这些智能容器被称为 **dyno
     **通过终端登录进入 Heroku CLI**
     **通过 Heroku CLI 登录在终端运行以下命令:**
 
-    ```
+    ```html
     heroku login
     ```
 
@@ -80,7 +80,7 @@ Heroku 致力于基于容器的设计系统，这些智能容器被称为 **dyno
     **登录的另一种方法是通过命令提示符:**
     要做到这一点，请在终端
 
-    ```
+    ```html
     heroku login -i
     ```
 

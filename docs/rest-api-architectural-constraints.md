@@ -62,19 +62,19 @@ REST 架构唯一可选的约束是按需编写代码。如果一个服务违反
 
 **注意:**你可以很容易地使用 GET 和 POST，但是为了使用 PUT 和 DELETE，你需要安装方法覆盖。您可以通过下面的代码来实现这一点:
 
-```
+```html
 npm install method-override --save
 ```
 
 这仅仅需要在您代码中编写这个包:
 
-```
+```html
 var methodOverride = require("method-override");
 ```
 
 现在，您可以轻松使用 PUT 和 DELETE 路由:
 
-```
+```html
 app.use(methodOverride("_method"));
 ```
 

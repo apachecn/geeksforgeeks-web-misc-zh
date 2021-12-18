@@ -10,7 +10,7 @@
 
 **代码片段:**
 
-```html
+```htmlhtml
 @media(hover: hover) {
     #btn:hover {
         background-color: #ccf6c8;
@@ -22,7 +22,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@
 
 因此，如果设备启用了触摸，则给定功能返回真。(要了解更多关于该功能的信息，请参考:[https://www . geeksforgeeks . org/how-detect-touch-screen-device-use-JavaScript/](https://www.geeksforgeeks.org/how-to-detect-touch-screen-device-using-javascript/))
 
-```html
+```htmlhtml
 function is_touch_enabled() {
     return ('ontouchstart' in window) ||
     (navigator.maxTouchPoints > 0) ||
@@ -76,7 +76,7 @@ function is_touch_enabled() {
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

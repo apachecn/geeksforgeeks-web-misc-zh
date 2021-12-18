@@ -16,7 +16,7 @@ JavaScript 的漂亮替代品证实了这一信息！它将用一个美丽的可
 
 *   **使用 NPM:**
 
-```html
+```htmlhtml
 npm install sweetalert --save
 ```
 
@@ -26,7 +26,7 @@ npm install sweetalert --save
 
 **语法:**
 
-```html
+```htmlhtml
 swal("add title Text","Add simple text","add icon",
        {Json Format To add other swal function})
 ```
@@ -39,7 +39,7 @@ swal("add title Text","Add simple text","add icon",
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,7 +68,7 @@ swal("add title Text","Add simple text","add icon",
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -107,7 +107,7 @@ swal("add title Text","Add simple text","add icon",
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -139,7 +139,7 @@ swal("add title Text","Add simple text","add icon",
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>
@@ -199,7 +199,7 @@ swal("add title Text","Add simple text","add icon",
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>
@@ -239,7 +239,7 @@ swal("add title Text","Add simple text","add icon",
 
 *   **内容:**用于添加 P 元素、H1 元素、按钮、文本区、输入、Div 等任意元素。内容属性包含两件事元素名称及其属性，属性表示元素的内部属性，如内联样式、宽度、高度、占位符、类名等。
 
-```html
+```htmlhtml
 swal({
   content: {
     element: "input",
@@ -255,7 +255,7 @@ swal({
 
 创建段落元素:
 
-```html
+```htmlhtml
 swal({
   content: {
     element: "p",
@@ -273,7 +273,7 @@ swal({
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

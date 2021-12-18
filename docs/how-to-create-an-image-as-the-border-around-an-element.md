@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 border-image-source: url(image-path.png) | none | initial | inherit;
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

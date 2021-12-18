@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 collect(array).sort()
 ```
 
@@ -21,7 +21,7 @@ collect(array).sort()
 
 ****语法:****
 
-```
+```html
 sorted_collection.all()
 ```
 
@@ -29,7 +29,7 @@ sorted_collection.all()
 
 ## **超文本标记语言**
 
-```
+```html
 <script>
 
     const collect = require('collect.js'); 
@@ -44,7 +44,7 @@ sorted_collection.all()
 
 ****输出:****
 
-```
+```html
 [2, 8, 14, 17, 19, 21, 26]
 ```
 
@@ -52,7 +52,7 @@ sorted_collection.all()
 
 ## **超文本标记语言**
 
-```
+```html
 <script>
 
     const collect = require('collect.js'); 
@@ -68,7 +68,7 @@ sorted_collection.all()
 
 ****输出:****
 
-```
+```html
 [26, 21, 19, 17, 14, 8, 2]
 ```
 
@@ -76,7 +76,7 @@ sorted_collection.all()
 
 ****语法:****
 
-```
+```html
 collect(array).sortByDesc(key)
 ```
 
@@ -89,7 +89,7 @@ collect(array).sortByDesc(key)
 
 ## **超文本标记语言**
 
-```
+```html
 <script>
     const collect = require('collect.js');
       const arr = ['Science', 'Welcome',
@@ -104,7 +104,7 @@ collect(array).sortByDesc(key)
 
 ****输出:****
 
-```
+```html
 Collection { items: [ 'Welcome', 'Science', 'GeeksforGeeks', 'Computer' ] }
 ```
 
@@ -112,7 +112,7 @@ Collection { items: [ 'Welcome', 'Science', 'GeeksforGeeks', 'Computer' ] }
 
 ## **超文本标记语言**
 
-```
+```html
 <script>  
     const collect = require('collect.js');
 
@@ -139,7 +139,7 @@ Collection { items: [ 'Welcome', 'Science', 'GeeksforGeeks', 'Computer' ] }
 
 ****输出:****
 
-```
+```html
 Collection {
  items: [
    { name: 'Aditya', id: 48 },

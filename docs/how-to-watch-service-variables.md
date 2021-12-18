@@ -20,7 +20,7 @@ AngularJs 对象中的作用域有$watch 事件，当模型属性被改变或更
 
 每次绑定 UI 时，我们都会在$watch 列表中插入$watch。
 
-```
+```html
 User: <input type="text" ng-model="user" />
 Password: <input type="password" ng-model="pass" />
 
@@ -28,7 +28,7 @@ Password: <input type="password" ng-model="pass" />
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -76,7 +76,7 @@ AngularJs 中的$watch 是一项服务。
 
 示例:
 
-```
+```html
 $scope.$watch(function() {}, //value function
              function() {}  //listener function
              );
@@ -115,7 +115,7 @@ $watch 跟踪变量。这个函数有两个参数:
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -163,7 +163,7 @@ $watch 跟踪变量。这个函数有两个参数:
 
 $scope。$apply()函数将函数作为参数来执行，并在$scope 之后。$digest()在内部调用。这有助于检查所有的手表
 
-```
+```html
 $scope.$apply(function() {
    $scope.data.myVar = "value";
 });
@@ -172,7 +172,7 @@ $scope.$apply(function() {
 
 **美元手表示例:**
 
-```
+```html
 <div class="container" data-ng-app="app">
     <div class="well" data-ng-controller="FooCtrl">
         <p><strong>Controller1</strong></p>
@@ -219,7 +219,7 @@ $scope.$apply(function() {
 </div>
 ```
 
-```
+```html
 var app = angular.module('app', []);
 
 app.factory('PostmanService', function() {
@@ -278,7 +278,7 @@ app.controller('BarCtrl', ['$scope',
 
 CSS:
 
-```
+```html
 .well {
  margin-top: 10px;
  margin-bottom: 10px;

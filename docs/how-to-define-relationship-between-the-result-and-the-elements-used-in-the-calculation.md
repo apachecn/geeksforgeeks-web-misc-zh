@@ -14,7 +14,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
   <body>
     <h1 style="color: green">GeeksforGeeks</h1>

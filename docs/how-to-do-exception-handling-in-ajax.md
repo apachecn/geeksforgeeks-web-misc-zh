@@ -10,19 +10,19 @@
 
 当 HTTP 请求成功时，会调用此方法。
 
-```
+```html
 $.ajax(options).done(callback)
 ```
 
 当 HTTP 请求失败时，会调用此方法。
 
-```
+```html
 $.ajax(options).fail(callback)
 ```
 
 无论 HTTP 请求失败还是成功，都会调用此方法。
 
-```
+```html
 $.ajax(options).always(callback)
 ```
 
@@ -30,7 +30,7 @@ $.ajax(options).always(callback)
 
 输出的格式如下。
 
-```
+```html
 "firstparam": {
     value: -> the value of the first parameter
     type:  -> the type of the first parameter
@@ -49,7 +49,7 @@ $.ajax(options).always(callback)
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

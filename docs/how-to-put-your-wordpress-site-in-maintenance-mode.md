@@ -49,7 +49,7 @@ WordPress 维护模式是在开发阶段覆盖网站的理想方式。更新 Wor
 
 你所需要做的就是将这些代码行添加到你的主题的**functions.php**文件的末尾。
 
-```
+```html
 // Activate WordPress Maintenance Mode
 function wp_maintenance_mode () {  
   if ( ! current_user_can ( 'edit_themes' ) 
@@ -68,7 +68,7 @@ add_action ( 'get_header' , 'wp_maintenance_mode' );
 
 **方法 3–使用。htaccess 文件:**你可以找到**。htaccess** 在你的网站目录中。只需将当前的. htaccess 文件重命名为。创建一个名为。并添加以下代码片段:
 
-```
+```html
 RewriteEngine On
 RewriteBase /
 RewriteCond% { REQUEST_URI } ! ^ / Maintenance \ .html $

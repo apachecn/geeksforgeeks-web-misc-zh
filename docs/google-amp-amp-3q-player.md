@@ -10,7 +10,7 @@
 
 **所需脚本:**将 amp-3q-player 导入表头。
 
-```html
+```htmlhtml
 <script async custom-element="amp-3q-player" src=
 "https://cdn.ampproject.org/v0/amp-3q-player-0.1.js">
 </script>
@@ -37,7 +37,7 @@
 
 *   将 id 粘贴到 amp-3q 播放器标签的视频 id 中
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html amp>
 

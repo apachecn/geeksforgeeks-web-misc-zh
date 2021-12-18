@@ -6,7 +6,7 @@
 
 有一个 CSS **光标**属性可以改变光标的类型。它还允许在光标属性中添加图像。
 
-```html
+```htmlhtml
 cursor: url(cursor1.png) 4 12, auto;
 ```
 
@@ -14,7 +14,7 @@ cursor: url(cursor1.png) 4 12, auto;
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

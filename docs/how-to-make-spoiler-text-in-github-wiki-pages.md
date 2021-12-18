@@ -15,7 +15,7 @@ GitHub Wiki 页面支持 GitHub 风味降价。点击此处了解更多关于 Gi
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <head>
 <head>

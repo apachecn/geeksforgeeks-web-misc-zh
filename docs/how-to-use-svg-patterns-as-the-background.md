@@ -24,7 +24,7 @@ HTML 中的 SVG **模式**元素用于绘制不同的图形设计或模式。图
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -71,7 +71,7 @@ HTML 中的 SVG **模式**元素用于绘制不同的图形设计或模式。图
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -14,7 +14,7 @@
 
 **我们来看看 JavaScript 代码:**
 
-```
+```html
 document.onreadystatechange = function() {
     if (document.readyState !== "complete") {
         document.querySelector("body").style.visibility = "hidden";
@@ -30,7 +30,7 @@ document.onreadystatechange = function() {
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

@@ -15,7 +15,7 @@
 
 然后会出现一个命令提示符，上面有您执行的下一步的地址。然后打字，
 
-```
+```html
 mysqldump -u root -p harshitdb >harshitbackup.sql 
 ```
 
@@ -23,7 +23,7 @@ mysqldump -u root -p harshitdb >harshitbackup.sql
 
 打开 cmd(命令提示符)有以下地址链接
 
-```
+```html
 C:\wamp\bin\mysql\mysql5.7.19\bin>mysqldump -u root -p harshitdb > harshitbackup.sql 
 ```
 

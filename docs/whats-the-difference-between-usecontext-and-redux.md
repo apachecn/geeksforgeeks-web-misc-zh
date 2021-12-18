@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 const Context = useContext(initialValue);
 ```
 
@@ -20,7 +20,7 @@ const Context = useContext(initialValue);
 
 ## java 描述语言
 
-```
+```html
 import React, { createContext } from 'react';
 import "./index.css";
 import ComB from './ComB';
@@ -44,7 +44,7 @@ export { Data };
 
 ## java 描述语言
 
-```
+```html
 import React, { useState } from "react";
 import ComC from "./ComC";
 
@@ -66,7 +66,7 @@ comc . js
 
 ## java 描述语言
 
-```
+```html
 import React, { useContext } from 'react';
 import { Data } from './App';
 
@@ -100,7 +100,7 @@ export default ComC;
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 import './index.css';
 import { useSelector, useDispatch } from 'react-redux';
@@ -130,7 +130,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```html
 export const incNum = () => {
    return{ type:"INCREMENT"}
 }
@@ -144,7 +144,7 @@ func . js
 
 ## java 描述语言
 
-```
+```html
 const initialState = 0;
 
 const change = (state = initialState, action) => {
@@ -162,7 +162,7 @@ export default change;
 
 ## java 描述语言
 
-```
+```html
 import change from './func'
 import {combineReducers}from 'redux';
 
@@ -175,7 +175,7 @@ export default rootReducer;
 
 ## java 描述语言
 
-```
+```html
 import {createStore} from 'redux';
 import rootReducer from './reducers/index';
 
@@ -189,7 +189,7 @@ export default store;
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

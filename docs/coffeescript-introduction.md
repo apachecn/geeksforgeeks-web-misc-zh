@@ -12,7 +12,7 @@ CoffeeScript 是一种编译成 JavaScript 的轻量级语言。它提供了简�
 
 *先决条件*:在运行下面的命令和安装 CoffeeScript 之前，您应该已经安装了 [Node.js](https://www.geeksforgeeks.org/introduction-to-nodejs/) 和 [NPM](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/) 。
 
-```
+```html
 # Install locally for a project:
 npm install --save-dev coffeescript
 
@@ -31,7 +31,7 @@ npm install --global coffeescript
 
 CoffeeScript 使用 JavaScript 库，反之亦然，这些库在使用 CoffeeScript 时提供了大量的库。这种语言的文件扩展名是。要执行咖啡脚本文件，您需要键入以下命令:
 
-```
+```html
 coffee -c filename.coffee
 ```
 
@@ -39,7 +39,7 @@ coffee -c filename.coffee
 
 ## java 描述语言
 
-```
+```html
 console.log "Hello world"
 ```
 

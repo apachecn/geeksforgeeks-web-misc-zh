@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```html
 run npm install -g <package-name>
 ```
 
@@ -25,7 +25,7 @@ run npm install -g <package-name>
 
 将此命令写入控制台。
 
-```
+```html
  npm install -g express
 ```
 
@@ -37,19 +37,19 @@ run npm install -g <package-name>
 
 命令打印系统上安装所有全局模块的位置。
 
-```
+```html
 npm root -g
 ```
 
 **输出:**
 
-```
+```html
 C:\Users\Pallavi\AppData\Roaming\npm\node_modules
 ```
 
 **列出系统中所有全局包:**
 
-```
+```html
 npm list -g --depth 0 
 ```
 
@@ -61,13 +61,13 @@ npm list -g --depth 0
 
 **语法:**
 
-```
+```html
 npm install <package-name>
 ```
 
 **举例说明如何在系统中本地安装** **包。**
 
-```
+```html
 npm install express
 ```
 

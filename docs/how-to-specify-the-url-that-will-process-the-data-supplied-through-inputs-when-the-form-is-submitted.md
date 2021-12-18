@@ -6,7 +6,7 @@ HTML <input> [*表单*](https://www.geeksforgeeks.org/html-formaction-attribute/
 
 **语法:**
 
-```html
+```htmlhtml
 <input type = "submit" formaction = "URL">
 ```
 
@@ -19,7 +19,7 @@ HTML <input> [*表单*](https://www.geeksforgeeks.org/html-formaction-attribute/
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <body style="text-align: center">

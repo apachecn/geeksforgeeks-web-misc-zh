@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
   <head>
     <title>Bulma Textarea</title>
@@ -48,7 +48,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
   <head>
     <title>Bulma Textarea</title>
@@ -126,7 +126,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
   <head>
     <title>Bulma Textarea</title>
@@ -190,7 +190,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
   <head>
     <title>Bulma Textarea</title>
@@ -254,7 +254,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
   <head>
     <title>Bulma Textarea</title>
@@ -295,7 +295,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
   <head>
     <title>Bulma Textarea</title>

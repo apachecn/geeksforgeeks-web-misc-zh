@@ -49,7 +49,7 @@ XAMPP 服务器用于测试 PHP 页面。它作为本地服务器工作。它包
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 phpinfo(); 
 ?>

@@ -16,7 +16,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -49,7 +49,7 @@
 
 **CSS 代码:** CSS 用于给出一般的样式，使其更具视觉吸引力。给整个页面一般的风格，如颜色和对齐。我们使用*弯曲*使元素居中。在上面的 HTML 代码中，在代码头部的样式部分包含以下内容。
 
-```html
+```htmlhtml
 /* General Alignment to container 
 using flexbox */
 .container{
@@ -102,7 +102,7 @@ button{
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 const openFile = document.getElementById('openfile');
 const saveFile = document.getElementById('savefile');
 const contentTextArea = document.getElementById('content');
@@ -115,7 +115,7 @@ let fileHandle;
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 const open = async () => {
   [fileHandle] = await window.showOpenFilePicker();
   const file = await fileHandle.getFile();
@@ -130,7 +130,7 @@ const open = async () => {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 const save = async content => {
     try {
         const handle = await window.showSaveFilePicker({
@@ -162,7 +162,7 @@ const save = async content => {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 openFile.addEventListener('click', () => open());
 saveFile.addEventListener('click', 
     () => save(contentTextArea.value));
@@ -172,6 +172,6 @@ saveFile.addEventListener('click', 
 
 <video class="wp-video-shortcode" id="video-528166-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20201215110553/up.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20201215110553/up.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20201215110553/up.mp4)</video>
 
-```html
+```htmlhtml
 https://github.com/Nandini-72/Notepad
 ```

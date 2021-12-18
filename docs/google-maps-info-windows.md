@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 var infowindow = new google.maps.InfoWindow({content: "Content String"});
                  infowindow.open(map, marker);
 
@@ -23,7 +23,7 @@ var infowindow = new google.maps.InfoWindow({content: "Content String"});
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

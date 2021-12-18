@@ -8,7 +8,7 @@ JSON web token 是一种高效、安全且最常用的在互联网上传输或�
 
 **语法:**
 
-```
+```html
 jwt.sign(payload, secretOrPrivateKey, [options, callback])
 ```
 
@@ -26,7 +26,7 @@ jwt.sign(payload, secretOrPrivateKey, [options, callback])
 
 当我们在一个节点库中工作时，创建一个节点项目是一个强制性的步骤，在终端中编写 npm init。它会询问一些关于你的项目的配置，这些配置非常容易提供。
 
-```
+```html
 npm init
 ```
 
@@ -34,7 +34,7 @@ npm init
 
 在编写 JWT 代码之前，我们必须安装软件包，
 
-```
+```html
 npm install jsonwebtoken
 ```
 
@@ -55,7 +55,7 @@ npm install jsonwebtoken
 
 ## java 描述语言
 
-```
+```html
 // Importing module
 const jwt = require('jsonwebtoken');
 const token = jwt.sign({
@@ -81,7 +81,7 @@ console.log(token);
 
 ## java 描述语言
 
-```
+```html
 // Importing module
 const jwt = require('jsonwebtoken');
 const token = jwt.sign({
@@ -109,7 +109,7 @@ console.log(token);
 
 ## java 描述语言
 
-```
+```html
 //Importing module
 const jwt = require('jsonwebtoken');
 // JWT token

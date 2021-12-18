@@ -16,7 +16,7 @@ CSS:
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -196,7 +196,7 @@ CSS:
 
 ## java 描述语言
 
-```html
+```htmlhtml
 $(document).ready(function() {
 
     /* marksscored is sorted in descending */
@@ -214,7 +214,7 @@ $(document).ready(function() {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 $(document).ready(function() {
 
     /* To hide column 2 and 3 */

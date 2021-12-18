@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 $('.shape').shape();
 $('.up').click(function() {
    $('.shape').shape('flip up');
@@ -23,7 +23,7 @@ $('.right').click(function() {
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <title>
@@ -138,7 +138,7 @@ $('.right').click(function() {
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <title>

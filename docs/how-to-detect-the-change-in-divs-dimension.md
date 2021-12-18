@@ -11,7 +11,7 @@ div 维度的变化可以通过两种方法来检测:
 
 **语法:**
 
-```
+```html
 let resizeObserver = new ResizeObserver(() => {
     console.log("The element was resized");
 });
@@ -21,7 +21,7 @@ resizeObserver.observe(elem);
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -87,7 +87,7 @@ resizeObserver.observe(elem);
 
 **语法:**
 
-```
+```html
 let lastHeight = $("#box").height();
 let lastWidth = $("#box").width();
 
@@ -109,7 +109,7 @@ setInterval(checkHeightChange, 500);
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

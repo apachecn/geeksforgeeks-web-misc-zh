@@ -45,7 +45,7 @@ Docker 的主要组件包括–Docker 客户端和服务器、Docker 映像、Do
 Docker Compose 是一个工具，我们可以用它创建一个多容器应用程序。它使配置和
 运行由多个容器组成的应用程序变得更加容易。例如，假设您有一个需要 WordPress 和 MySQL 的应用程序，您可以创建一个文件来启动两个容器作为服务，而不需要单独启动每个容器。我们在 YAML 文件中定义了一个多容器应用程序。使用 docker-compose up 命令，我们可以在前台启动应用程序。Docker-compose 将在当前文件夹中查找 docker-compose.yaml 文件来启动应用程序。通过向 docker-compose up 命令添加-d 选项，我们可以在后台启动应用程序。为 WordPress 应用程序创建 docker-compose.yaml 文件:
 
-```
+```html
 #cat docker-compose.yaml
 version: ’2’
 services:
@@ -93,13 +93,13 @@ Docker 中有三种类型的网络–
 
 我们可以将任何一个网络分配给 Docker 容器。“docker run”命令的–network 选项用于为容器分配特定的网络。
 
-```
+```html
 $docker run --network ="network name"
 ```
 
 要获得特定网络的详细信息，我们使用命令-
 
-```
+```html
 $docker network inspect "network name"
 ```
 

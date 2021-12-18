@@ -16,7 +16,7 @@
     **背景色:**
     **句法:**
 
-    ```
+    ```html
     body
     {
        background-color:color name
@@ -27,7 +27,7 @@
 
     *   **Example:**
 
-        ```
+        ```html
         <style>
             h1 {
                 background-color: blue;
@@ -48,7 +48,7 @@
 
         **语法:**
 
-        ```
+        ```html
         body
         {
            background-image : link;
@@ -57,7 +57,7 @@
 
     *   **Example:**
 
-        ```
+        ```html
         <style>
             body {
                 background-image: url(gfgpolaroidimagefunction.png);
@@ -79,7 +79,7 @@
 
     **语法:**
 
-    ```
+    ```html
     element {
         background-color property
     }
@@ -87,7 +87,7 @@
 
     **示例:**
 
-    ```
+    ```html
     <!DOCTYPE html> 
     <html> 
         <head> 

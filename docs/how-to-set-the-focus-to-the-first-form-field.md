@@ -13,7 +13,7 @@
 
 ## HTML
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

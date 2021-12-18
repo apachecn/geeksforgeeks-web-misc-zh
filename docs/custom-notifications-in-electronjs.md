@@ -17,13 +17,13 @@
 
     *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-        ```html
+        ```htmlhtml
         npm init
         ```
 
         生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-        ```html
+        ```htmlhtml
         npm install electron --save-dev
         ```
 
@@ -31,7 +31,7 @@
 
         **package.json:**
 
-        ```html
+        ```htmlhtml
         {
           "name": "electron-notification",
           "version": "1.0.0",
@@ -56,7 +56,7 @@
 
         **main.js:**
 
-        ```html
+        ```htmlhtml
         const { app, BrowserWindow } = require('electron')
 
         function createWindow() {
@@ -109,7 +109,7 @@
 
         **index.html:**
 
-        ```html
+        ```htmlhtml
         <!DOCTYPE html>
         <html>
 
@@ -144,7 +144,7 @@
 
     *   **Output:** At this point, our basic Electron Application is set up. To launch the Electron Application, run the Command:
 
-        ```html
+        ```htmlhtml
         npm start
         ```
 
@@ -171,7 +171,7 @@ T3】通知. isSupported() 。返回一个布尔值，说明当前系统是否�
 
 *   **index.html:**
 
-    ```html
+    ```htmlhtml
     <br><br>
         <strong>
          Trigger Custom Notifications in Electron
@@ -185,7 +185,7 @@ T3】通知. isSupported() 。返回一个布尔值，说明当前系统是否�
 
 **触发自定义通知**按钮没有任何相关功能。我们将在按钮上添加`EventListener`来触发自定义通知。我们还将向通知对象添加**事件监听器**。按照项目结构创建**索引. js** 文件，并执行以下更改。
 
-*  ```html
+*  ```htmlhtml
     const electron = require('electron');
     const path = require('path')
 
@@ -249,7 +249,7 @@ T3】通知. isSupported() 。返回一个布尔值，说明当前系统是否�
 
 ****实例事件:**通知模块还提供了另外两个实例事件，仅 **macOS** 支持。**
 
-```html
+```htmlhtml
 // Emitted when user clicks the reply button from 
 // 'hasReply: true' property
 customNotification.addListener('reply', (event, reply) => {
@@ -265,7 +265,7 @@ customNotification.addListener('action', (event, index) => {
 
 ****实例属性:**电子通知模块还支持实例属性，可以设置为通知对象。它们可以用来代替选项，还可以在触发自定义通知时更改预定义的选项。详细清单如下。**
 
-```html
+```htmlhtml
 customNotification.title = 'Title has been Changed';
 
 // Supported in macOS

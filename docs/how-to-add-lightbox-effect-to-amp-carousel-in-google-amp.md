@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-carousel"
     src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js">
 </script>
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-lightbox-gallery" 
         src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js">
 </script>
@@ -30,7 +30,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html ⚡>
 

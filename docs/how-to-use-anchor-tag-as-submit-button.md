@@ -6,7 +6,7 @@ HTML 中的  [(锚点标签)](https://www.geeksforgeeks.org/html-a-tag/)用于�
 
 **语法:**
 
-```html
+```htmlhtml
 <a href = "link"> Link Name </a>
 ```
 
@@ -16,7 +16,7 @@ HTML 中的  [(锚点标签)](https://www.geeksforgeeks.org/html-a-tag/)用于�
 
 **语法:**
 
-```html
+```htmlhtml
 document.getElementById("GFG").submit();
 ```
 
@@ -26,7 +26,7 @@ document.getElementById("GFG").submit();
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>
@@ -59,7 +59,7 @@ document.getElementById("GFG").submit();
 
 **注:**我们也可以称之为 ***。submit()*** 功能，通过编写 JavaScript 作为
 
-```html
+```htmlhtml
 <a href="javascript:$('GFG').submit();" >Click here to submit form</a>
 ```
 
@@ -69,7 +69,7 @@ document.getElementById("GFG").submit();
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>
@@ -102,7 +102,7 @@ document.getElementById("GFG").submit();
 
 ## submit.php
 
-```html
+```htmlhtml
 <?php
 $servername = "localhost";
 $username = "root";

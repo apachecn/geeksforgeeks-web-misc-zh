@@ -17,7 +17,7 @@
 
 要设置块菌框架，请运行以下命令:
 
-```
+```html
 npm install -g truffle
 
 ```
@@ -27,7 +27,7 @@ npm install -g truffle
 **第二步:使用块菌盒子生成样板代码:**为了简化在块菌中创建 dApp 的过程，您可以使用**块菌盒子**来代替手动创建文件和包含依赖关系。块菌盒子提供了有用的样板代码，你可以用它直接开始设计你的 dApp。这些“盒子”还包含其他有用的组件，例如常用的 Solidity Contracts、库、前端视图等。根据您项目的要求，您可以从他们的[官方网站](https://www.trufflesuite.com/boxes)
 中选择一个松露盒子
 
-```
+```html
 truffle unbox pet-shop
 truffle unbox react
 
@@ -49,7 +49,7 @@ truffle unbox react
 
 ## java 描述语言
 
-```
+```html
 pragma solidity ^0.4.4;
 
 contract TestContract {
@@ -67,7 +67,7 @@ contract TestContract {
 
 **第 4 步:编译并迁移合同:**一旦合同写好了，我们就可以编译然后迁移，将它们存储在我们的区块链上。要在 Truffle 中编译一个 Solidity 契约，请运行命令
 
-```
+```html
 truffle compile
 
 ```
@@ -77,7 +77,7 @@ truffle compile
 
 ## java 描述语言
 
-```
+```html
 // Instantiating the compiled contract to be deployed
 var TestContract = artifacts.require("TestContract ");
 
@@ -90,7 +90,7 @@ module.exports = function(deployer) {
 
 接下来执行命令:
 
-```
+```html
 truffle migrate
 
 ```
@@ -100,7 +100,7 @@ truffle migrate
 **第五步:编写单元测试:**虽然测试驱动开发在软件开发的所有领域都是一种非常推荐的方法。对于 dApps 来说，这是至关重要的。根据区块链的设计，一旦对区块链进行了更改，这些更改将永久地、不可更改地存储在链上。因此，如果开发人员在区块链部署了一个有问题的合同，那么一旦迁移，该合同将变得不可修改。修复 bug 的唯一方法是创建一个新的合同，在一个新的地址上部署和迁移它，并请求所有用户使用新的地址，而不是旧的、有问题的合同地址。因此，在 dApp 开发中必须进行一致的测试。
 所有测试文件都被写入并存储在测试目录中。块菌中的单元测试可以在柴和摩卡库的帮助下完成，它们提供了一系列断言和其他工具来执行测试。一旦编写完成，测试就通过执行来运行
 
-```
+```html
 truffle test
 
 ```
@@ -113,7 +113,7 @@ truffle test
 
 ## java 描述语言
 
-```
+```html
 App = {
   web3Provider: null,
   contracts: {},

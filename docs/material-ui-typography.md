@@ -10,7 +10,7 @@ Material-UI 是一个用户界面库，提供预定义和可定制的 React 组�
 
 **示例:**
 
-```
+```html
 <Typography variant="h1"> h1 - Heading Variant </Typography>
 ```
 
@@ -18,13 +18,13 @@ Material-UI 是一个用户界面库，提供预定义和可定制的 React 组�
 
 **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-```
+```html
 npx create-react-app typography-example
 ```
 
 **步骤 2:** 现在通过以下命令进入项目目录:
 
-```
+```html
 cd typography-example
 ```
 
@@ -32,7 +32,7 @@ cd typography-example
 
 通过 npm/yarn 安装材料用户界面的源文件，它们负责注入所需的 CSS。
 
-```
+```html
 npm install @material-ui/core 
 // OR
 yarn add @material-ui/core
@@ -42,7 +42,7 @@ yarn add @material-ui/core
 
 您可以使用以下代码从***@ material-ui/core***导入<typography>组件。</typography>
 
-```
+```html
 import { Typography } from '@material-ui/core' 
 // OR
 import Typography from '@material-ui/core/Typography'
@@ -60,7 +60,7 @@ import Typography from '@material-ui/core/Typography'
 
 ## java 描述语言
 
-```
+```html
 import { Typography } from '@material-ui/core';
 
 function App() {
@@ -91,7 +91,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 $('selector').remove();
 ```
 
@@ -16,7 +16,7 @@ $('selector').remove();
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 
 <head>
@@ -58,7 +58,7 @@ $('selector').remove();
 
 ****语法:****
 
-```
+```html
 $(selector).detach()
 ```
 
@@ -66,7 +66,7 @@ $(selector).detach()
 
 ## **超文本标记语言**
 
-```
+```html
 <!DOCTYPE html>
 
 <head>

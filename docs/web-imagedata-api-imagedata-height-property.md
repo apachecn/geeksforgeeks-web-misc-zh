@@ -6,13 +6,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
 imageData.height
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

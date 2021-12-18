@@ -10,7 +10,7 @@ HTML 中的 [**<图例>对齐**](https://www.geeksforgeeks.org/html-legend-align
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

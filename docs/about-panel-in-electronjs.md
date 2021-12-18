@@ -16,7 +16,7 @@
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-panel",
   "version": "1.0.0",
@@ -48,7 +48,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>About Panel in Electron</h3>
   <button id="about">
     About Panel in Electron
@@ -59,7 +59,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 const path = require('path')
 

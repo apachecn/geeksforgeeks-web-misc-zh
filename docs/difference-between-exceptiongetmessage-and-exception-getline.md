@@ -8,7 +8,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
     try {
         throw new Exception(" error message");
@@ -20,7 +20,7 @@
 
 **Output**
 
-```
+```html
  error message
 ```
 
@@ -30,7 +30,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
     try {
         throw new Exception(" error message");
@@ -43,7 +43,7 @@
 
 **Output**
 
-```
+```html
 The exception has occured on line: 3
 ```
 

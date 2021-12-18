@@ -11,7 +11,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -60,7 +60,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -129,7 +129,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 

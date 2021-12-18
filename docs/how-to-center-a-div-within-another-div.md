@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <div>
   <h3>'This is a div of the web page.>/h3>
   <p>This is some text in a div element.</p>
@@ -18,7 +18,7 @@
 
 **示例:**这个示例描述了如何将一个 div 放入另一个 div 中。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +59,7 @@ h2 { 
 
 **内部 div 的语法:**
 
-```html
+```htmlhtml
 <div style="width:50%;margin:0 auto">
 <!-- content of div container -->
 </div>
@@ -68,7 +68,7 @@ h2 { 
 
 **示例:**这个示例描述了我们如何在 div 中居中一个 div。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,7 +107,7 @@ h2 { 
 
 **内部 div 的语法:**
 
-```html
+```htmlhtml
 <div style="width:50%;margin:10px auto">
 <!-- content of div container -->
 </div>
@@ -115,7 +115,7 @@ h2 { 
 
 **示例:**此示例显示了如何在边距属性的第一个参数为非零值的 div 内居中 div。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -152,7 +152,7 @@ h2 { 
 
 **示例:**这个示例描述了我们如何并排放置 2 个 div，每个 div 内部都有一个中心对齐的 div。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

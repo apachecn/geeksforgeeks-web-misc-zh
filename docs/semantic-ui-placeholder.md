@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -46,7 +46,7 @@
 
 **例 2:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -128,7 +128,7 @@
 
 **示例 3:** 这是 Image 的占位符。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -160,7 +160,7 @@
 
 **示例 4:** 这是针对反转占位符的。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

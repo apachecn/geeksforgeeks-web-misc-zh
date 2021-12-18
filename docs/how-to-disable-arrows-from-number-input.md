@@ -20,7 +20,7 @@
 
 **对于 chrome、Safari、Edge、Opera :**
 
-```html
+```htmlhtml
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -30,7 +30,7 @@ input::-webkit-inner-spin-button {
 
 **火狐:**
 
-```html
+```htmlhtml
 input[type=number]{
     -moz-appearance: textfield;
 }
@@ -40,7 +40,7 @@ input[type=number]{
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -81,7 +81,7 @@ input[type=number]{
 
 **方法 2:** 这种方法简单而强大。使用 **inputmode="numeric"** 属性可以找到一个没有箭头的输入框。较旧的浏览器可能不支持此功能，例如 Internet Explorer 和 Safari，但大多数现代浏览器(如 Chrome、Firefox、Edge、Opera)都支持此属性。该属性的主要目的是在移动设备中提供数字输入界面。
 
-```html
+```htmlhtml
 <input type="text" inputmode="numeric" />
 ```
 
@@ -89,7 +89,7 @@ input[type=number]{
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

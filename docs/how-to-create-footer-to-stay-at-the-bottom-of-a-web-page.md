@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```html
 #footer {
    position:absolute;
    bottom:0;
@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```html
 <html>
 
 <head>

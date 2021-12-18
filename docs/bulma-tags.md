@@ -7,7 +7,7 @@
 
 **示例 1:** 简单标签元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Tag</title>
@@ -85,7 +85,7 @@
 
 **示例 2:** 彩色标签元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Tag</title>
@@ -163,7 +163,7 @@
 
 **示例 3:** 不同大小的标签元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Tag</title>
@@ -222,7 +222,7 @@
 
 **示例 4:** 圆形标签元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Tag</title>
@@ -291,7 +291,7 @@
 
 **示例 5:** 带有删除标记元素的文本标记元素
 
-```
+```html
 <html>
   <head>
     <title>Bulma Tag</title>
@@ -381,7 +381,7 @@
 
 **例 6:** 标签贴在一起
 
-```
+```html
 <html>
   <head>
     <title>Bulma Tag</title>

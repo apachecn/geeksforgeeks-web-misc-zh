@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 border-top-left-radius: length / % / initial / inherit;
 ```
 
@@ -18,7 +18,7 @@ border-top-left-radius: length / % / initial / inherit;
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +49,7 @@ https://media.geeksforgeeks.org/wp-content/uploads/20190405121202/GfGLH.png);
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
    <head>

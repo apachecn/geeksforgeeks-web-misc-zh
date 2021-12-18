@@ -14,7 +14,7 @@
 
 **示例:**按照 [**中给出的步骤，设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。我们将继续使用相同的代码库构建我们的应用程序。另外，使用**](https://www.geeksforgeeks.org/dynamic-styling-in-electronjs/) **[npm](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/) 安装**电子设置**组件。根据官方文档，这个包是一个简单而强大的电子应用程序设置管理库。这个包允许我们在重新加载和应用程序启动之间在应用程序中保存用户数据和设置，就像本地存储一样。使用这个包保存的所有数据都存储在一个名为 **settings.json** 的 **JSON** 文件中，该文件位于用户的本地系统应用程序目录中。为了更好的理解，请参考代码。**
 
-```html
+```htmlhtml
 npm install electron-settings --save
 
 ```
@@ -22,7 +22,7 @@ npm install electron-settings --save
 此外，对**包进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。
 T3**
 
-```html
+```htmlhtml
 {
   "name": "electron-persist",
   "version": "1.0.0",
@@ -54,7 +54,7 @@ T3**
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Persist Data and User Settings in Electron</h3>
   <h5>Enter Sample Text here</h5>
   <input type="text" id="sample">
@@ -67,7 +67,7 @@ T3**
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 const settings = require('electron-settings');
 

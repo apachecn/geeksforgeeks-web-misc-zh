@@ -10,7 +10,7 @@
     This method adds one or more event handlers for the selected elements and child elements.
     **Syntax:**
 
-    ```
+    ```html
     $(selector).on(event, childSelector, data, function, map)
 
     ```
@@ -26,7 +26,7 @@
 
 **示例 1:** 本示例提醒**当用户滚动到 class = div 的 div 元素的底部时，您已经到达了 DIV 的末尾**。
 
-```
+```html
 <!DOCTYPE HTML>
 <html>
 
@@ -91,7 +91,7 @@
 
 **例 2:** 本例提醒**到达 DIV 结束！**当用户滚动到 class = div 的 div 元素底部时。
 
-```
+```html
 <!DOCTYPE HTML>
 <html>
 

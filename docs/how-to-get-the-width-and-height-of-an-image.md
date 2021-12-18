@@ -6,19 +6,19 @@
 
 **宽度语法:**
 
-```
+```html
 var width = this.width;
 ```
 
 **高度语法:**
 
-```
+```html
 var height = this.height;
 ```
 
 **示例 1:** 本示例选择图像，然后使用 this.width 和 this.height 方法获取图像的宽度和高度。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -81,7 +81,7 @@ var height = this.height;
 
 **示例 2:** 本示例显示图像的尺寸。它将显示结果，而不使用报警功能。这里我们将在同一个窗口中显示结果。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

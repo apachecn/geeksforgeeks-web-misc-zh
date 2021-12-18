@@ -10,7 +10,7 @@
 
 *   **导入放大器自动完成组件。**
 
-    ```html
+    ```htmlhtml
     <script async custom-element="amp-autocomplete" 
             src=
     "https://cdn.ampproject.org/v0/amp-autocomplete-0.1.js">
@@ -19,7 +19,7 @@
 
     *   **Importing the amp-form component.**
 
-    ```html
+    ```htmlhtml
     <script async custom-element="amp-form" 
             src="https://cdn.ampproject.org/v0/amp-form-0.1.js">
     </script>
@@ -27,7 +27,7 @@
 
     为了使用 amp-autocomplete 建议丰富的内容，我们将数据传递到如下所示的项目中的 JsonObjects 数组中
 
-    ```html
+    ```htmlhtml
     { "items" : [
         {
             "city" : "Albany",
@@ -50,7 +50,7 @@
 
     这些数据的显示通过下面给出的模板给出
 
-    ```html
+    ```htmlhtml
     <template type="amp-mustache" id="amp-template-custom">
       <div class="city-item" data-value="{{city}}, {{state}}">
           <div>{{city}}, {{state}}</div>
@@ -61,7 +61,7 @@
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html ⚡>
         <head>

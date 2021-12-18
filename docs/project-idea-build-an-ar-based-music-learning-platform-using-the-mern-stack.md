@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```html
 import os
 import pymongo
 from dotenv import load_dotenv
@@ -67,7 +67,7 @@ class Mongo:
 
 在它的末尾，数据库应该如下所示，其中<tag>包含选项卡：</tag>
 
-```
+```html
 _id:ObjectId("604c6b18ab0d440efde7ae4f")
 title:"Drivers License"
 artist:"Olivia Rodrigo"
@@ -83,7 +83,7 @@ data:"[Verse 1]
 
 **1.设置-**创建一个文件夹并在其中运行**npm init**。 完成设置后，编辑**Package.json**使其如下所示：
 
-```
+```html
 // package.json
 
 {
@@ -107,7 +107,7 @@ data:"[Verse 1]
 
 ## JavaScript
 
-```
+```html
 // dbSongs.js
 import mongoose from 'mongoose'
 
@@ -127,7 +127,7 @@ export default mongoose.model('songsv2', songsSchema)
 
 ## JavaScript
 
-```
+```html
 // dbUser.js
 import mongoose from 'mongoose'
 
@@ -158,7 +158,7 @@ export default mongoose.model('userInfo', userSchema)
 
 **4.设置 CI/CD-**使用 GIT 将代码推送到存储库中的 GitHub。 创建 Heroku 应用程序，并在 GitHub 机密中添加 Heroku API 密钥和 MongoDB 密码。 另外，在 Heroku 环境下添加 MongoDB 密码。 现在，转到存储库，转到操作，并按如下方式设置新工作流：
 
-```
+```html
 name: Build And Deploy
 
 on:
@@ -276,7 +276,7 @@ jobs:
 
 ## JavaScript
 
-```
+```html
 export default function Map  (origin_x, origin_y , x_axis_x, 
                                x_axis_y, m_ratio, n_ratio) {
 
@@ -313,7 +313,7 @@ export default function Map  (origin_x, origin_y , x_axis_x, 
 
 ## JavaScript
 
-```
+```html
 const SplitLine =  (pt1, pt2, n) => {
     var ans = []
     n--;
@@ -335,7 +335,7 @@ export default SplitLine
 
 ## JavaScript
 
-```
+```html
 const FindIntersection = (A, B, C, D) => {
     var a1 = B.y - A.y;
     var b1 = A.x - B.x;
@@ -366,7 +366,7 @@ export default FindIntersection
 
 ## JavaScript
 
-```
+```html
 import FindIntersection from "../Utils/FindIntersection";
 import SplitLine from "../Utils/SplitLine";
 import Map from "../Utils/Map";
@@ -493,7 +493,7 @@ export default draw;
 
 ## JavaScript
 
-```
+```html
 const Plot = (origin_x, origin_y , x_axis_x, 
                  x_axis_y, x_val, y_val) => {
 
@@ -538,7 +538,7 @@ export default Plot
 
 ## JavaScript
 
-```
+```html
 const Song = (s) => {
     const LYRICS = 'LYRICS'
     const TAB = 'TAB'
@@ -599,7 +599,7 @@ export default Song
 
 ## JavaScript
 
-```
+```html
 import React, { useState, useRef, useEffect } from "react";
 import Webcam from "react-webcam";
 import axios from "../../Utils/axios";
@@ -775,7 +775,7 @@ export default function PlaySong(props) {
 
 **4.设置 CI/CD-**使用 GIT 将代码推送到存储库中的 Github。 创建你的 Heroku 应用程序，并在 GitHub 机密中添加 Heroku API 密钥。 现在，转到存储库，转到操作，并按如下方式设置新工作流：
 
-```
+```html
 name: Build And Deploy
 
 on:

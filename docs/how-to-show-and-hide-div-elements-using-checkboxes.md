@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```html
 $(selector).toggle(speed, easing, callback)
 ```
 
@@ -20,7 +20,7 @@ $(selector).toggle(speed, easing, callback)
 
 **示例 1:** 使用复选框显示内容。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -107,7 +107,7 @@ $(selector).toggle(speed, easing, callback)
 
 **示例 2:** 使用复选框隐藏内容
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -195,7 +195,7 @@ $(selector).toggle(speed, easing, callback)
 
 **例 3:** 连同报警方法
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

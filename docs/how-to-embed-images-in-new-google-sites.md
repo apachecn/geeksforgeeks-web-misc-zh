@@ -31,7 +31,7 @@
 
 *   要插入简单的图像，只需添加以下代码:
 
-```
+```html
 <img src="https://pbs.twimg.com/profile_images/1138375574726955008/1fNUyEdv.png" />
 
 ```
@@ -40,7 +40,7 @@
 
 *   要增加图像的高度和宽度，只需添加以下代码:
 
-```
+```html
 <img src="https://pbs.twimg.com/profile_images/1138375574726955008/1fNUyEdv.png" 
 width="300" height="300" />
 
@@ -50,7 +50,7 @@ width="300" height="300" />
 
 *   要添加边框样式，只需添加以下代码:
 
-```
+```html
 <img src="https://pbs.twimg.com/profile_images/1138375574726955008/1fNUyEdv.png" 
 style="border:4px solid green;" width="300" height="300" />
 

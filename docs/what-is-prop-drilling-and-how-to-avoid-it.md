@@ -16,13 +16,13 @@ React 中的组件可以被传递一些参数。这些参数一般被命名为�
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```html
     npx create-react-app useContextReact 
     ```
 
 *   **步骤 2:** 创建项目文件夹后，即*使用 useContextReact，* 使用以下命令移动到该文件夹:
 
-    ```
+    ```html
     cd useContextReact
     ```
 
@@ -34,7 +34,7 @@ React 中的组件可以被传递一些参数。这些参数一般被命名为�
 
 ## 不带 _useContext.js
 
-```
+```html
 import React, { useState } from "react";
 
 function Parent() {
@@ -86,7 +86,7 @@ export default Parent;
 
 ## App.js
 
-```
+```html
 import "./styles.css";
 import Parent from "./without_useContext";
 
@@ -101,7 +101,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 
@@ -119,7 +119,7 @@ Prop Drilling 的问题是，无论何时需要父组件的数据，它都必须
 
 ## with_useContext.js
 
-```
+```html
 import React, { useState, useContext } from "react";
 
 let context = React.createContext(null);
@@ -173,7 +173,7 @@ export default Parent;
 
 ## App.js
 
-```
+```html
 import "./styles.css";
 import Parent from "./with_useContext";
 
@@ -188,7 +188,7 @@ export default function App() {
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 

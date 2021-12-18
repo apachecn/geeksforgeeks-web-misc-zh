@@ -19,7 +19,7 @@
 *   **步骤 1:** 按照 [**中给出的步骤，在电子 JS**](https://www.geeksforgeeks.org/drag-and-drop-files-in-electronjs/) 中拖放文件，设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。还要对**包. json** 文件进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。
     **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-command",
   "version": "1.0.0",
@@ -53,7 +53,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const { app, BrowserWindow } = require("electron");
 app.commandLine.appendSwitch("log-net-log", "assets/log.txt");
 console.log(app.commandLine.hasSwitch("log-net-log"));

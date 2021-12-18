@@ -14,7 +14,7 @@
 
 **第二步:**现在，这里有一个简单的 VBScript 程序，它会让一个简单的消息对话框出现在屏幕上。VBScript 中这样一个程序的代码是:
 
-```
+```html
 a = msgbox("Have a good day, fellow GFG reader!", 0, "Making a VBScript program")
 ```
 
@@ -22,7 +22,7 @@ a = msgbox("Have a good day, fellow GFG reader!", 0, "Making a VBScript program"
 
 **代码说明:**只要遵循 VBScript 中的变量声明规则就可以放任何东西，而不是上面代码开头的“a”。实际上，我们可以通过以下方式破解和理解上述代码:
 
-```
+```html
 put_any_Variable_name = msgbox("Your main text here", 0, "Your title text here")
 ```
 
@@ -50,7 +50,7 @@ put_any_Variable_name = msgbox("Your main text here", 0, "Your title text here")
 要在 you 对话框中获得多个上述属性，可以简单编写，例如:“0+16”，而不是上面代码中的“0”。
 参考代码:
 
-```
+```html
 hydro = msgbox("Remember to drink water!", 0+64, "Hydration Check")
 ```
 

@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!-- amp-access component -->
 <script async custom-element="amp-access" src=
     "https://cdn.ampproject.org/v0/amp-access-0.1.js">
@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script id="amp-access" type="application/json">
  {
      "authorization": "geeksforgeeks.org",
@@ -54,7 +54,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <section>
     Welcome to GeeksForGeeks!
 </section>

@@ -12,13 +12,13 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```html
     npx create-react-app docker-react
     ```
 
 *   **步骤 2:** 创建项目文件夹(即 docker-react)后，使用以下命令移动到该文件夹。
 
-    ```
+    ```html
     cd docker-react
     ```
 
@@ -30,7 +30,7 @@
 
 **写文件:**在你的*文件*上写下以下几行。
 
-```
+```html
 FROM node:alpine
 RUN mkdir /app
 WORKDIR /app
@@ -49,13 +49,13 @@ CMD ["npm", "start"]
 
 ******创建 docker 映像:**从项目的根目录运行以下命令。确保您的 ***码头工人守护程序*** 正在运行。****
 
-```
+```html
 **docker build -t <yourname/projectname> .**
 ```
 
 ******运行应用程序的步骤:**从文件夹的根目录使用以下命令运行应用程序。****
 
-```
+```html
 **docker run -d -it -p 3000:3000 <yourname/projectname>**
 ```
 

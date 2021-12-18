@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 object.style.transform = scale(sx);
 
 object.style.transform = scale(sx, sy);
@@ -26,7 +26,7 @@ object.style.transform = scale(sx, sy);
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
   <head>
     <title>Image Resize JS</title>
@@ -75,7 +75,7 @@ object.style.transform = scale(sx, sy);
 
 **语法:**
 
-```html
+```htmlhtml
 object.style.width = value(%，px，em，auto 等)；object.style.height= value(%，px，em，auto 等)；
 ```
 
@@ -91,7 +91,7 @@ CSS 高度和宽度属性指定元素的高度和宽度。利用这一点，我�
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>
@@ -146,7 +146,7 @@ CSS 高度和宽度属性指定元素的高度和宽度。利用这一点，我�
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>

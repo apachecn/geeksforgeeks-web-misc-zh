@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <tr height="px | %">
 ```
 
@@ -20,7 +20,7 @@
 
 运行以下代码并改变屏幕大小，以查看两行之间的差异:
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

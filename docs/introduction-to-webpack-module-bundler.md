@@ -18,7 +18,7 @@
 
 **文件名:webpack.config.js**
 
-```
+```html
 module.exports = {
  entry: './GeeksForGeeks/file.js'
 };
@@ -28,7 +28,7 @@ module.exports = {
 
 **文件名:网络包**
 
-```
+```html
 const path = require('path');
 module.exports = {
  entry: './GeeksForGeeks/file.js',
@@ -52,7 +52,7 @@ module.exports = {
 
 **文件名:网络包**
 
-```
+```html
 const path = require('path');
 module.exports = {
  output: {
@@ -74,7 +74,7 @@ module.exports = {
 
 **文件名:网络包**
 
-```
+```html
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 module.exports = {
@@ -95,7 +95,7 @@ module.exports = {
 
 **文件名:网络包**
 
-```
+```html
 module.exports = {
  mode: 'development'
 }

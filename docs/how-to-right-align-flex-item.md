@@ -14,7 +14,7 @@ Flex-box 是一种简单的网页布局方法，它允许开发人员更容易�
 
 **示例 1:** 使用 **[弯曲方向属性](https://www.geeksforgeeks.org/css-flex-direction-property/)** 右对齐弯曲项
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,7 +56,7 @@ Flex-box 是一种简单的网页布局方法，它允许开发人员更容易�
 
 **示例 2:** 使用 **[对齐内容属性](https://www.geeksforgeeks.org/css-justify-content-property/)** 来右对齐伸缩项
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

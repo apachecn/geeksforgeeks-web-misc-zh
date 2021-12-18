@@ -46,19 +46,19 @@ Flux 架构有多个商店，由调度员协调在一起，当发生变化时，
 
 Redux 使用名为 **react-redux** 的模型与 React 集成在一起。现在对于这个集成，我们使用 **react-redux 包**。但是这里我们将只讨论 Redux。因此，作为第一步，您需要将 redux 安装到 React 应用程序中:
 
-```
+```html
 npm install redux --save
 ```
 
 运筹学
 
-```
+```html
 yarn add redux
 ```
 
 **示例:**
 
-```
+```html
 import {
     createStore
 }

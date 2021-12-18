@@ -10,7 +10,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 navigator.clipboard.writeText( <text> )
 ```
 
@@ -22,7 +22,7 @@ navigator.clipboard.writeText( <text> )
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -104,7 +104,7 @@ navigator.clipboard.writeText( <text> )
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -18,7 +18,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="myemail">Enter Email Address:</label>
    <input type="email" id="myemail" required>
@@ -35,7 +35,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="mynumber">Enter a Number:</label>
    <input type="number" min="1" max="10" step="0.5" id="mynumber">
@@ -52,7 +52,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="mytime">Select Time:</label>
    <input type="time" id="mytime">
@@ -69,7 +69,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="myweek">Select Week:</label>
    <input type="week" id="myweek">
@@ -86,7 +86,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="mymonth">Select Month:</label>
    <input type="month" id="mymonth">
@@ -103,7 +103,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="mydate">Select Date:</label>
    <input type="date" value="2019-04-15" id="mydate">
@@ -120,7 +120,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="mydatetime">Choose Date and Time:</label>
    <input type="datetime-local" id="mydatetime">
@@ -137,7 +137,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="myweek">Select Week:</label>
    <input type="week" id="myweek">
@@ -154,7 +154,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="mynumber">Select a Number:</label>
    <input type="range" min="1" max="10" step="0.5" id="mynumber">    
@@ -171,7 +171,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <form>
    <label for="myurl">Enter Website URL:</label>
    <input type="url" id="myurl" required>
@@ -195,7 +195,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -231,7 +231,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <input type="text" name="search" 
     placeholder="search the internet"/>
 ```
@@ -244,7 +244,7 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <input type=“text” name=“search” autofocus/>
 ```
 
@@ -257,6 +257,6 @@ HTML 表单是网页的特殊部分，包含某些控件，包括标签、文本
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <input type=“text” name=“search” required>
 ```

@@ -36,7 +36,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php  
 
 // Connect syntax
@@ -136,7 +136,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php  
 
 // Checking data by post method

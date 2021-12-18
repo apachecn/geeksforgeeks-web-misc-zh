@@ -18,7 +18,7 @@
 
 ## **去**
 
-```
+```html
 package main
 
 import (
@@ -47,7 +47,7 @@ func main() {
 
 **使用以下命令运行服务器(确保您在项目目录中):**
 
-```
+```html
 go run server.go
 ```
 
@@ -59,7 +59,7 @@ go run server.go
 
 **打开所需的 web 浏览器和这些 URL 中的任何一个，以验证服务器是否正在运行:**
 
-```
+```html
 [http://localhost:5000/](http://localhost:5000/) or [http://localhost:5000/hi](http://localhost:5000/hi)
 ```
 
@@ -81,7 +81,7 @@ go run server.go
 
 ## **超文本标记语言**
 
-```
+```html
 <html>
   <head>
     <title>Home</title>
@@ -96,7 +96,7 @@ go run server.go
 
 ## **超文本标记语言**
 
-```
+```html
 <html>
   <head>
     <title>About</title>
@@ -111,7 +111,7 @@ go run server.go
 
 ## **去**
 
-```
+```html
 package main
 
 import (

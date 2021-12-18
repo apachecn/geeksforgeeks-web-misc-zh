@@ -16,7 +16,7 @@
 *   **npm:** npm 随 Node 自动安装。
 *   **纱线:**安装纱线必须安装 npm。
 
-    ```
+    ```html
     npm install yarn --global
     ```
 
@@ -36,13 +36,13 @@
 
 *   **npm:** 要安装全局包，npm 的命令模板是:
 
-    ```
+    ```html
     npm install -g package_name@version_number
     ```
 
 *   **纱线:**要安装全局包，纱线的命令模板为:
 
-    ```
+    ```html
     yarn global add package_name@version_number
     ```
 
@@ -56,7 +56,7 @@
 *   **npm:** 由于安装的依赖关系，npm 没有一个许可证检查器可以方便地描述项目绑定的所有许可证。
 *   **yarn:** Yarn has a neat license checker. To see them, run
 
-    ```
+    ```html
     yarn licenses list
     ```
 

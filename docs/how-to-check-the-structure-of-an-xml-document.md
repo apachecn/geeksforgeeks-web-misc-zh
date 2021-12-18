@@ -6,7 +6,7 @@
 
 **示例:**一个简单的文档可以创建为–
 
-```
+```html
 <?xml version = "1.0"?>
 <Student-info>
    <name>Tanya Bajaj</name>

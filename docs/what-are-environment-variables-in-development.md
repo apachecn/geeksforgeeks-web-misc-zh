@@ -16,7 +16,7 @@
 
 例如，JavaScript 中的环境变量可以是这样的:
 
-```
+```html
 const weather_api_key = "YourVeryUsefulAndSecretToken";
 ```
 
@@ -40,7 +40,7 @@ const weather_api_key = "YourVeryUsefulAndSecretToken";
 
 我们可以在代码中包含这些键，以便在代码中使用它们各自的值。例如，在 JavaScript 中:
 
-```
+```html
 const weather_api_key = process.env.weather_key;
 ```
 

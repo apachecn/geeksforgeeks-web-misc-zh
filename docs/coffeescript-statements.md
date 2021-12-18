@@ -8,7 +8,7 @@ CoffeeScript 的语法比 JavaScript 更简单，如果你有 JavaScript 的知�
 
 **示例:**
 
-```
+```html
 Name = “Geek”
 Age = 19
 
@@ -18,7 +18,7 @@ Console.log Age
 
 **输出:**
 
-```
+```html
 Geek
 19
 ```
@@ -27,7 +27,7 @@ Console.log()是一个用 JavaScript 在控制台上打印结果的函数，但�
 
 **示例:**
 
-```
+```html
 Name = “Geek” ; Age = 19
 
 Console.log Name
@@ -36,14 +36,14 @@ Console.log Age
 
 Output:
 
-```
+```html
 Geek
 19
 ```
 
 **CoffeeScript 变量:**在 CoffeeScript 中，var 关键字的使用被豁免。变量是通过给它们赋值来创建的。像在 JavaScript 中一样，我们使用 var 关键字声明变量。
 
-```
+```html
 var a = 10
 var b = 20
 
@@ -51,7 +51,7 @@ var b = 20
 
 但是对于 CoffeeScript，我们将变量声明为:
 
-```
+```html
 a = 10
 b = 20
 
@@ -61,13 +61,13 @@ b = 20
 
 **示例:**
 
-```
+```html
 Function = > console.log "Hello World"
 ```
 
 当我们需要使用括号时，有时就是这种情况。例如，当调用上面创建的函数在控制台上显示结果时，我们将函数调用为:
 
-```
+```html
 Function()  
 
 ```
@@ -76,7 +76,7 @@ Function()
 
 **示例:**
 
-```
+```html
 Square = (x) -> x*x
 
 Console.log Square 4
@@ -84,7 +84,7 @@ Console.log Square 4
 
 **输出:**
 
-```
+```html
 16
 ```
 
@@ -92,7 +92,7 @@ Console.log Square 4
 
 **示例:**
 
-```
+```html
 Function = ->
     Name = "Nimrat"
     Console.log "Hello" + Name
@@ -102,7 +102,7 @@ Function()
 
 **输出:**
 
-```
+```html
 Hello Nimrat
 ```
 
@@ -110,7 +110,7 @@ Hello Nimrat
 
 *   **Single-line Comments:** When we need to comment on the single line in CoffeeScript, we only need to place a hashtag (#) before starting the line as shown below:
 
-    ```
+    ```html
     # This is a single-line comment
     ```
 
@@ -118,7 +118,7 @@ Hello Nimrat
 
 *   **多行注释:**当需要注释多行时，我们需要注释的行被包装在一对三个标签中，如下所示:
 
-    ```
+    ```html
     ###
     This is how multi lines are commented in CoffeeScript. 
     We can keep as many lines as we want in comments using

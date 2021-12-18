@@ -4,7 +4,7 @@
 
 HTML em 画布元素允许用户在任何网页上绘制图形。它就像一个图形容器来绘制图形，代码中使用了 JavaScript。
 
-```html
+```htmlhtml
 <canvas id="Canvas1" width="100" height="100"></canvas>
 ```
 
@@ -26,7 +26,7 @@ HTML em 画布元素允许用户在任何网页上绘制图形。它就像一个
 
 **语法:**
 
-```html
+```htmlhtml
 drawImage(image, sourceX, sourceY, sourceW, sourceH, 
     destinationX,destinationY, destinationW, destinationH)
 
@@ -36,7 +36,7 @@ drawImage(image, sourceX, sourceY, sourceW, sourceH,
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

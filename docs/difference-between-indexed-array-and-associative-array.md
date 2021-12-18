@@ -10,7 +10,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Declaring an array
@@ -26,7 +26,7 @@ print_r($arr);
 
 **Output**
 
-```
+```html
 Array : Array
 (
     [0] => 1
@@ -42,7 +42,7 @@ Array : Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Declaring an array
@@ -60,7 +60,7 @@ print_r($arr);
 
 **Output**
 
-```
+```html
 Array : Array
 (
     [0] => 5
@@ -75,7 +75,7 @@ Array : Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Declaring an array
@@ -94,7 +94,7 @@ print_r($arr);
 
 **Output**
 
-```
+```html
 Array : Array
 (
     [Java] => Spring Boot
@@ -110,7 +110,7 @@ Array : Array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Declaring an array
@@ -129,7 +129,7 @@ print_r($arr);
 
 **Output**
 
-```
+```html
 Array : Array
 (
     [Python] => Django

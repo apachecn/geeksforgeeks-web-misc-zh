@@ -10,7 +10,7 @@
 
 *   您必须在标题中导入 amp-accordion 组件才能使用此标签。
 
-```html
+```htmlhtml
 <script async custom-element="amp-accordion"
        src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js">
 </script>
@@ -18,7 +18,7 @@
 
 *   为了制作一个动态标题，我们使用下面提到的 **CSS 代码**。每当分部被展开或折叠时，这段代码将动态地改变标题的内容。
 
-```html
+```htmlhtml
 amp-accordion section[expanded] .show-more {
   display: none;
 }
@@ -30,7 +30,7 @@ amp-accordion section:not([expanded]) .show-less {
 
 **示例:**
 
-```html
+```htmlhtml
 <!doctype html>
 <html <img draggable="false" 
         class="emoji" 

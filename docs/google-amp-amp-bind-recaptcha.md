@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-bind" src=
 "https://cdn.ampproject.org/v0/amp-bind-0.1.js">
 </script>
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-form" src=
 "https://cdn.ampproject.org/v0/amp-form-0.1.js">
 </script>
@@ -30,7 +30,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <amp-state id="captcha">
   <script type="application/json">
       {
@@ -61,7 +61,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

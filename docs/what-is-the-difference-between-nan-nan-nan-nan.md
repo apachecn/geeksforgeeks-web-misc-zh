@@ -9,7 +9,7 @@
 
 ## java 描述语言
 
-```
+```html
 <script type="text/javascript">
 var value1 = Math.sqrt( -0.5 );
         document.write("First Value : " + value1 );
@@ -24,7 +24,7 @@ var boo= value1!=value2
 
 *   **输出:**
 
-```
+```html
 First Value : NaN
 Second Value : NaN
 Nan!==Nan: true
@@ -35,7 +35,7 @@ Nan!=Nan: true
 
 ## java 描述语言
 
-```
+```html
 <script type="text/javascript">
 var x="Hello";
     document.write("<br />"+ isNaN(x) + "<br />");
@@ -49,7 +49,7 @@ document.write(y!=x);
 
 *   **输出:**
 
-```
+```html
 true
 true
 true

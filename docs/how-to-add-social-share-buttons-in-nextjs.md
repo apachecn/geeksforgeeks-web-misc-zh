@@ -10,13 +10,13 @@ NextJS 是一个基于 React 的框架。它有能力为不同的平台开发漂
 
 **创建 NextJS 应用程序:**您可以使用以下命令创建一个新的 NextJs 项目:
 
-```
+```html
 npx create-next-app gfg
 ```
 
 **安装所需的包:**现在我们将使用以下命令安装下一个共享包:
 
-```
+```html
 npm i next-share
 ```
 
@@ -30,7 +30,7 @@ npm i next-share
 
 ## index.js
 
-```
+```html
 import React from 'react'
 import {
   FacebookShareButton,
@@ -83,7 +83,7 @@ export default function Text() {
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```html
 npm run dev
 ```
 

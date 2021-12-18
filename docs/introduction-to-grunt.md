@@ -7,7 +7,7 @@ Grunt 是一个 JavaScript 任务运行器，它帮助我们自动化平凡且�
 
 **安装 Grunt-CLI:** 首先，你需要全局安装 Grunt 的命令行界面(CLI)，这样我们就可以从任何地方使用它。
 
-```
+```html
 $ npm install -g grunt-cli
 ```
 
@@ -20,7 +20,7 @@ $ npm install -g grunt-cli
 
 从项目的根目录运行以下命令:
 
-```
+```html
 // Generate a package.json file
 $ npm init
 
@@ -30,7 +30,7 @@ $ npm install grunt --save-dev
 
 现在在你的目录中创建一个名为`Gruntfile.js`的文件，并将以下内容复制到其中。
 
-```
+```html
 module.exports = function(grunt) {
     // Do grunt-related things in here
 };
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 
 **index.html**
 
-```
+```html
 <html>
 <body>
     <h1>Hello World</h1>
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 
 **main.js**
 
-```
+```html
 function greet() {  
     alert("Hello GeeksForGeeks");  
 }  
@@ -64,13 +64,13 @@ function greet() {  
 
 **安装咕噜出资:**
 
-```
+```html
 $ npm install grunt-contrib-uglify --save-dev
 ```
 
 按照以下方式更新您的个人档案:
 
-```
+```html
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
 现在你可以运行`$ grunt uglify`来缩小你的文件。您也可以为每当`$ grunt`运行时运行的咕噜任务设置默认任务。
 为了验证我们的 JavaScript 文件，我们将使用 **grunt-contrib-jshint** 。使用`$ npm install grunt-contrib-jshint --save-dev`安装插件，运行`$ grunt jshint`即可使用
 
-```
+```html
 module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),

@@ -28,7 +28,7 @@ Page 对象是一个面向对象的类，它充当被测应用程序页面的接
 **TestBase 类:**
 在这个类中我们创建 **WebDriver** 类的对象，最大化浏览器，启动 Url 等。
 
-```
+```html
 package test_cases;
 
 import java.io.IOException;
@@ -73,7 +73,7 @@ public class TestBase {
 **Gmail 登录页面类:**
 在这个类中，我们识别 Gmail 登录页面的网页元素以及与这些网页元素交互的方法。
 
-```
+```html
 package pages;
 
 import org.openqa.selenium.WebDriver;
@@ -126,7 +126,7 @@ public class GmailLoginPage {
 **Gmail gintest:**
 这堂课我们测试的是 Gmail 的登录页面。
 
-```
+```html
 package test_cases;
 
 import org.openqa.selenium.support.PageFactory;

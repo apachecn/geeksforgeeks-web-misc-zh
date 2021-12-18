@@ -10,7 +10,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 former_element + target_element { style properties }  
 ```
 
@@ -18,7 +18,7 @@ former_element + target_element { style properties }
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +69,7 @@ former_element + target_element { style properties }
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -16,7 +16,7 @@
 
 ## C
 
-```html
+```htmlhtml
 // Simple C program to
 // display "Hello World"
 
@@ -41,7 +41,7 @@ int main()
 
 ## C++
 
-```html
+```htmlhtml
 // Simple C++ program to
 // display "Hello World"
 
@@ -67,7 +67,7 @@ int main()
 
 ## C#
 
-```html
+```htmlhtml
 // C# program to print Hello World!
 
 using System;
@@ -98,7 +98,7 @@ class Geeks {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```html
+```htmlhtml
 // This is a simple Java program.
 // FileName : "HelloWorld.java"
 
@@ -120,7 +120,7 @@ class HelloWorld {
 
 ## 计算机编程语言
 
-```html
+```htmlhtml
 # Python code for "Hello World"
 
 print("Hello World")    
@@ -130,7 +130,7 @@ print("Hello World")    
 
 ## Perl 语言
 
-```html
+```htmlhtml
 #!/usr/bin/perl
 
 # Modules used
@@ -148,7 +148,7 @@ print("Hello World\n");
 
 ## 斯卡拉
 
-```html
+```htmlhtml
 // Scala program to print Hello World!
 
 object Geeks
@@ -168,7 +168,7 @@ object Geeks
 
 ## 去
 
-```html
+```htmlhtml
 // Go program to print Hello World!
 
 package main
@@ -189,7 +189,7 @@ package main
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -206,7 +206,7 @@ echo "Hello World";
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
 <header><title></title></header>
 <body>
@@ -219,7 +219,7 @@ Hello World
 
 ## Java Script 语言
 
-```html
+```htmlhtml
 <script>
 
 // using console.log
@@ -231,7 +231,7 @@ console.log('Hello World');
 
 ## 朱莉娅
 
-```html
+```htmlhtml
 // Julia program
 println("Hello World")
 ```
@@ -240,7 +240,7 @@ println("Hello World")
 
 ## 稀有
 
-```html
+```htmlhtml
 # Code
 cat('Hello World')
 ```
@@ -249,7 +249,7 @@ cat('Hello World')
 
 ## 红宝石
 
-```html
+```htmlhtml
 # code
 puts "Hello World"
 ```
@@ -258,7 +258,7 @@ puts "Hello World"
 
 ## 固态
 
-```html
+```htmlhtml
 pragma solidity ^0.5.0;
 
 contract helloGeeks {
@@ -272,7 +272,7 @@ contract helloGeeks {
 
 ## 可扩展标记语言
 
-```html
+```htmlhtml
 <?xml version="1.0" encoding="UTF-8"?>
 <text>
   <para>Hello World</para>
@@ -283,7 +283,7 @@ contract helloGeeks {
 
 ## 客观的
 
-```html
+```htmlhtml
 #import
 #import
 
@@ -299,7 +299,7 @@ int main(void)
 
 ## 我的锅
 
-```html
+```htmlhtml
 fun main(args: Array<String>) {
     println("Hello World")
 }
@@ -309,7 +309,7 @@ fun main(args: Array<String>) {
 
 ## 镖
 
-```html
+```htmlhtml
 void main() {
   print('Hello World');
 }
@@ -319,7 +319,7 @@ void main() {
 
 ## C
 
-```html
+```htmlhtml
 // Simple C program to
 // display "Hello World"
 
@@ -342,7 +342,7 @@ int main()
 
 ## C++
 
-```html
+```htmlhtml
 // Simple C++ program to
 // display "Hello World"
 
@@ -366,7 +366,7 @@ int main()
 
 ## C#
 
-```html
+```htmlhtml
 // C# program to print Hello World!
 
 using System;
@@ -395,7 +395,7 @@ class Geeks {
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```html
+```htmlhtml
 // This is a simple Java program.
 // FileName : "HelloWorld.java"
 
@@ -415,7 +415,7 @@ class HelloWorld {
 
 ## 计算机编程语言
 
-```html
+```htmlhtml
 # Python code for "Hello World"
 
 print("Hello World")    
@@ -423,7 +423,7 @@ print("Hello World")    
 
 ## Perl 语言
 
-```html
+```htmlhtml
 #!/usr/bin/perl
 
 # Modules used
@@ -439,7 +439,7 @@ print("Hello World\n");
 
 ## 斯卡拉
 
-```html
+```htmlhtml
 // Scala program to print Hello World!
 
 object Geeks
@@ -457,7 +457,7 @@ object Geeks
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
 <header><title></title></header>
 <body>
@@ -468,7 +468,7 @@ Hello World
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>
@@ -483,25 +483,25 @@ echo "Hello World";
 
 ## 朱莉娅
 
-```html
+```htmlhtml
 println("Hello World")
 ```
 
 ## 红宝石
 
-```html
+```htmlhtml
 puts "Hello World"
 ```
 
 ## 稀有
 
-```html
+```htmlhtml
 cat('Hello World')
 ```
 
 ## 去
 
-```html
+```htmlhtml
 package main
 
 import "fmt"
@@ -515,7 +515,7 @@ func main() {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <script>
 
 // using console.log
@@ -525,7 +525,7 @@ console.log('Hello World');
 
 ## 固态
 
-```html
+```htmlhtml
 pragma solidity ^0.5.0;
 
 contract helloGeeks {
@@ -537,7 +537,7 @@ contract helloGeeks {
 
 ## 可扩展标记语言
 
-```html
+```htmlhtml
 <?xml version="1.0" encoding="UTF-8"?>
 <text>
   <para>Hello World</para>
@@ -546,7 +546,7 @@ contract helloGeeks {
 
 ## 客观的
 
-```html
+```htmlhtml
 #import
 #import
 
@@ -560,7 +560,7 @@ int main(void)
 
 ## 我的锅
 
-```html
+```htmlhtml
 fun main(args: Array<String>) {
     println("Hello World")
 }
@@ -568,7 +568,7 @@ fun main(args: Array<String>) {
 
 ## 镖
 
-```html
+```htmlhtml
 void main() {
   print('Hello World');
 }
@@ -576,7 +576,7 @@ void main() {
 
 **输出:**
 
-```html
+```htmlhtml
 Hello World
 
 ```

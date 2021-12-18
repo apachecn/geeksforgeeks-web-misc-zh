@@ -33,7 +33,7 @@ t228
 
 **语法:**
 
-```
+```html
 new TypedArray();
 // Or
 new TypedArray(length);
@@ -61,7 +61,7 @@ new TypedArray(buffer [, byteOffset [, length]]);
 
 ## java 描述语言
 
-```
+```html
 const buffer = new ArrayBuffer(8);
 
 // Initiating using the constructor
@@ -79,7 +79,7 @@ console.log(uint8.length);
 
 ## java 描述语言
 
-```
+```html
 const int8 = new Int8Array([0, 0, 0, 0]);
 
 int8.fill(4, 1, 3);
@@ -95,7 +95,7 @@ console.log(int8);
 
 ## java 描述语言
 
-```
+```html
 const int8 = new Int8Array([10, 20, 30, 40, 50]);
 
 console.log(int8.includes(20));

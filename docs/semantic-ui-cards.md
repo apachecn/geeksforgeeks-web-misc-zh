@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -57,7 +57,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -130,7 +130,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -186,7 +186,7 @@
 
 **jQuery Code**
 
-```
+```html
 $('.special.cards .image').dimmer({
    on: 'hover'
 });
@@ -196,7 +196,7 @@ $('.special.cards .image').dimmer({
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -292,7 +292,7 @@ $('.special.cards .image').dimmer({
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -332,7 +332,7 @@ $('.special.cards .image').dimmer({
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>

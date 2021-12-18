@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 objectReference = window.scrollbars
 ```
 
 **例:检查能见度**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

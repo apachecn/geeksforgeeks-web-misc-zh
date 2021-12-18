@@ -14,7 +14,7 @@
 2.  在集成开发环境中打开项目，并同步依赖项。现在用注释 *@RestController* 创建一个新的类 *Controller* 。这个类处理所有 RESTful 路由。
 3.  在这个类中，创建一个 GET API，用参数作为字符串初始化 *KafkaTemplate* 。以下是该类的实现:
 
-    ```
+    ```html
     // Java program to implement the
     // controller for the spring
     // application

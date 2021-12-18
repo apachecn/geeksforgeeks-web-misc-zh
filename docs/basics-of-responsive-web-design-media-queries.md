@@ -8,7 +8,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```htmlhtml
 @media only screen and (/*condition goes here */) {
     body {
         /* Conditions goes here */
@@ -22,7 +22,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```htmlhtml
 @media only screen and (max-width: 500px) {
   body {
     background-color: black;
@@ -32,7 +32,7 @@
 
 在这种情况下，我们基本上是说让这个条件成立:
 
-```html
+```htmlhtml
 body {    
     background-color: black; 
 }
@@ -44,7 +44,7 @@ body {
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```htmlhtml
 @media only screen and (min-width: 300px) and (max-width: 500px) {
   body {
     background-color: black;
@@ -58,7 +58,7 @@ body {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

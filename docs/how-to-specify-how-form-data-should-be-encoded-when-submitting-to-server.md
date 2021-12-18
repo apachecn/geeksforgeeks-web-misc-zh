@@ -14,7 +14,7 @@ HTML 表单提供了三种编码方法。
 
 ## HTML
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <body>

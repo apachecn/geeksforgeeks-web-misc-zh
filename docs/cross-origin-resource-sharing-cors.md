@@ -6,7 +6,7 @@ CORS(跨来源资源共享)是一种机制，通过这种机制，网站的数�
 
 进行 HTTP 调用的客户端代码如下所示，
 
-```
+```html
 function httpGetAction(urlLink)
 {
     var xmlHttp = new XMLHttpRequest();
@@ -21,7 +21,7 @@ function httpGetAction(urlLink)
 
 默认情况下，浏览器会阻止对非父域(除您发出呼叫的域之外的域)的请求。如果您尝试这样做，控制台会抛出以下错误。,
 
-```
+```html
 Failed to load https://contribute.geeksforgeeks.org/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'https://www.google.com' is therefore not allowed access.
 
 ```

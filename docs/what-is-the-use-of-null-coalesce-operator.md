@@ -13,7 +13,7 @@ PHP 7 引入了一个空合并操作符。？语法。如果该运算符的值�
 
 ## **PHP**
 
-```
+```html
 <?php
 
   echo 'Output when values are not Set'."\xA<br>";
@@ -44,7 +44,7 @@ PHP 7 引入了一个空合并操作符。？语法。如果该运算符的值�
 
 ****输出**
 
-```
+```html
 Output when values are not Set
 Name : Default
 Age : Default

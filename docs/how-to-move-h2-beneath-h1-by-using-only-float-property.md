@@ -9,7 +9,7 @@
 
 **示例 1:** 以下示例说明了如何仅使用浮动将 H2 移动到 H1 下方。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

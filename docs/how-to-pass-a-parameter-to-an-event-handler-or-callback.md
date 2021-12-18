@@ -15,13 +15,13 @@
 
 *   **步骤 1:** 要创建 react app，需要通过 npx 命令安装 react 模块。**“**Npx”被用来代替“npm”，因为你在你的应用程序的生命周期中只需要这个命令一次。
 
-    ```
+    ```html
     npx create-react-app project_name
     ```
 
 *   **第 2 步:**创建反应项目后，移动到文件夹中执行不同的操作。
 
-    ```
+    ```html
     cd project_name
     ```
 
@@ -33,7 +33,7 @@
 
 ## App.js
 
-```
+```html
 import React from "react";
 class App extends React.Component {
   call() {
@@ -51,7 +51,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 npm start
 ```
 
@@ -63,7 +63,7 @@ npm start
 
 ## App.js
 
-```
+```html
 import React from "react";
 class App extends React.Component {
   call(message,event) {
@@ -83,7 +83,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 npm start
 ```
 
@@ -95,7 +95,7 @@ npm start
 
 ## App.js
 
-```
+```html
 import React from "react";
 class App extends React.Component {
   call(message) {
@@ -114,7 +114,7 @@ export default App;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 npm start
 ```
 

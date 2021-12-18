@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```html
 function.call(object, arg1, arg2)
 ```
 
@@ -20,7 +20,7 @@ function.call(object, arg1, arg2)
 
 ## 超文本标记语言
 
-```
+```html
 <script>
    let obj = {
       fname: "geeks",
@@ -37,7 +37,7 @@ function.call(object, arg1, arg2)
 
 **输出:**
 
-```
+```html
 Welcome to geeksforgeeks
 ```
 
@@ -47,7 +47,7 @@ Welcome to geeksforgeeks
 
 **语法:**
 
-```
+```html
 function.apply(object, [arg1, arg2])
 ```
 
@@ -55,7 +55,7 @@ function.apply(object, [arg1, arg2])
 
 ## 超文本标记语言
 
-```
+```html
 <script>
     let obj = {
        fname: "geeks",
@@ -72,7 +72,7 @@ function.apply(object, [arg1, arg2])
 
 **输出:**
 
-```
+```html
 Welcome to geeksforgeeks
 ```
 

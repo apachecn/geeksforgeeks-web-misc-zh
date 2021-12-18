@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 { pageLength: value }
 ```
 
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <!-- jQuery -->
@@ -138,7 +138,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

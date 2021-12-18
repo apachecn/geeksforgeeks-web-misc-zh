@@ -12,7 +12,7 @@ ARIA 意味着可访问的丰富的互联网应用程序。它是一组属性，
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -113,7 +113,7 @@ CSS 代码:
 
 ## style.css
 
-```html
+```htmlhtml
 * {
     margin: 0;
     padding: 0;

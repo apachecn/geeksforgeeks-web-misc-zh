@@ -31,7 +31,7 @@
 
 ## conf.js(通用报告格式)
 
-```
+```html
 // An example configuration file to
 // illustrate sharding
 exports.config = {

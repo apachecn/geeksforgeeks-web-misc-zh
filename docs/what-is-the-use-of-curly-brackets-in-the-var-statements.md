@@ -6,7 +6,7 @@
 
 *   **无破坏:**
 
-    ```
+    ```html
     var array = [1, 20, 40];
 
     var first = array[0]
@@ -17,7 +17,7 @@
 
 *   **带破坏**
 
-    ```
+    ```html
     var array = [1, 20, 40];
 
     var [first, second, third] = array;
@@ -30,7 +30,7 @@
 
 *   **例:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html lang="en">
 
@@ -66,13 +66,13 @@
 
 *   **语法:**
 
-    ```
+    ```html
     {sourceProperty : targetVariable}
     ```
 
 *   **例:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html lang="en">
 
@@ -112,7 +112,7 @@
 
 *   **例:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html lang="en">
 

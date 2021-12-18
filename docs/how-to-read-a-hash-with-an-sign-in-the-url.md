@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 var q = url.split('?')[1];
 ```
 
 这里 **URL** 是任意一个示例 URL 字符串。获取**网址查询字符串参数**。如果 URL 在查询字符串中有许多参数，下面的代码片段将指导您解析并存储在可访问的变量中。
 
-```
+```html
 var vars = [], hash;
 var q = url.split('?')[1];
 var fullParameter = q;
@@ -36,7 +36,7 @@ if(q != undefined) {
 
 要使用任何参数，用户可以通过参数名称访问该值。例如，如果网址包含查询字符串**？var1 =姓名&var =姓氏&var3 =地址？**，用户可以使用以下方式访问**“var1”**的值:
 
-```
+```html
 alert(vars['var1']);
 ```
 
@@ -44,7 +44,7 @@ alert(vars['var1']);
 
 **示例:**该示例读取 URL 参数，该参数包括给定 URL 中的哈希以及“&”符号。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

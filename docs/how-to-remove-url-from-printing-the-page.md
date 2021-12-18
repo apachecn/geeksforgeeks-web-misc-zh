@@ -12,7 +12,7 @@
 1.  **Programatical Approach:** Here are few simplest ways of doing it.
     *Example 1:*
 
-    ```
+    ```html
     @page {
         size: auto;
         margin: 0;
@@ -21,7 +21,7 @@
 
     *例 2:*
 
-    ```
+    ```html
     @print {
         @page :footer {
             display: none
@@ -37,7 +37,7 @@
 
     *例 3:*
 
-    ```
+    ```html
     @media print {
         @page {
             margin-top: 0;

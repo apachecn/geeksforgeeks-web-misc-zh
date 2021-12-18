@@ -8,7 +8,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 @color-primary: #009900;
 @background-dark: #272822;
 @background-light: #fff;
@@ -18,7 +18,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 .card {
   color: @lt-gray;
   background: @background-light;
@@ -30,7 +30,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 @link-color:        #428bca;
 @link-color-hover:  darken(@link-color, 10%);
 ```
@@ -41,7 +41,7 @@
 
 ## gfg.html 格式
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@
 
 ## 没有风格
 
-```
+```html
 @green-color: #25C75C;
 @black-color: #000;
 @background-dark: #272822;
@@ -97,7 +97,7 @@ div {
 
 ## style.css
 
-```
+```html
 body {
   font-family: 'Lucida Sans', Verdana, sans-serif;
 }
@@ -125,7 +125,7 @@ div {
 
 ## gfg.html 格式
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -148,7 +148,7 @@ div {
 
 ## 没有风格
 
-```
+```html
 @link-color: #428bca;
 @link-color-hover: darken(@link-color, 10%);
 @green-color: #25C75C;
@@ -180,7 +180,7 @@ div {
 
 ## style.css
 
-```
+```html
 body {
   font-family: 'Lucida Sans', Verdana, sans-serif;
 }

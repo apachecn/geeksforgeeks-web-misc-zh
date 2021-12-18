@@ -15,20 +15,20 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```html
+    ```htmlhtml
     npm init
     ```
 
     生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-    ```html
+    ```htmlhtml
     npm install electron --save
     ```
 
     该命令还将创建**包-lock.json** 文件，并安装所需的**节点 _ 模块**依赖项。一旦电子安装成功，打开**包. json** 文件，并在**脚本**键下执行必要的更改。
     **package.json:**
 
-    ```html
+    ```htmlhtml
     {
       "name": "electron-find",
       "version": "1.0.0",
@@ -53,7 +53,7 @@
 
     **main.js:**
 
-    ```html
+    ```htmlhtml
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -109,7 +109,7 @@
 
     **index.html:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
       <head>
@@ -141,7 +141,7 @@
 
 *   **Output:** At this point, our basic Electron Application is set up. To launch the Electron Application, run the Command:
 
-    ```html
+    ```htmlhtml
     npm start
     ```
 
@@ -187,7 +187,7 @@
 
 *   **index.html:** 在该文件中添加以下代码片段。
 
-    ```html
+    ```htmlhtml
     <h3>Find Text in Page</h3>
         <div>Lorem ipsum dolor sit amet consectetur 
              adipisicing elit. GeeksForGeeks. Dolores
@@ -204,7 +204,7 @@
 
     *   **index.js:** Add the following snippet in that file.
 
-    ```html
+    ```htmlhtml
     const electron = require('electron')
     // Importing BrowserWindow from Main Process
     const BrowserWindow = electron.remote.BrowserWindow;

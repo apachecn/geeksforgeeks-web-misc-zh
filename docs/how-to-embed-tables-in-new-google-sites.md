@@ -16,7 +16,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <body>
     <h2>Test Scores</h2>
     <table style="width:100%">
@@ -44,7 +44,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <head>
     <style>
         table,
@@ -80,7 +80,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <head>
     <style>
         table,

@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```html
 column-break-inside:avoid;
 ```
 
 **示例:**本示例用于防止元素内的列中断。
 
-```
+```html
 <html>
 
 <head>

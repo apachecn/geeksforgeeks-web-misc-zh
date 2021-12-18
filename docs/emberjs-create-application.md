@@ -19,7 +19,7 @@
 
 **安装 Ember CLI:** 首先，我们需要使用 npm，Node.js 包管理器安装 Ember。因此，在终端中运行以下命令。
 
-```
+```html
 npm install -g ember-cli
 ```
 
@@ -29,7 +29,7 @@ npm install -g ember-cli
 
 **创建新应用程序:** Ember.js 使用以下命令创建新应用程序。有些导航到你想要的目录，在那里烬会自动创建一个文件夹，所有文件安装。
 
-```
+```html
 ember new ember-tutorial-gfg
 ```
 
@@ -57,7 +57,7 @@ ember new ember-tutorial-gfg
 
 **运行应用程序:**在终端/命令提示符下输入以下命令运行应用程序:
 
-```
+```html
 ember serve
 ```
 
@@ -77,7 +77,7 @@ ember serve
 
 ## 超文本标记语言
 
-```
+```html
 {{page-title 'EmberTutorialGfg'}}
 <h1 id='body-title'>Welcome to GeeksforGeeks Ember Tutorial</h1>
 <h4 id='body-subtitle'>Creating first website using Ember.js</h4>

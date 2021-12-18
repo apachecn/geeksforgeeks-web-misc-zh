@@ -16,33 +16,33 @@
 1.  **Download and Install Iconic :** The first step is to download and install the ionic on your system. Be clear here that since is ionic is npm module so therefore it can only be installed through npm i.e node package manager. In other words, you must have already nodejs installed on your system. Download nodejs from [here.](https://nodejs.org/en/download/). I would recommend to install the LTS version since it is stable.A fter installing nodejs your can install ionic since npm will be installed automatically. Here I will show the installation process.
     I have used ubuntu but if you are on Windows then don’t worry I will guide the windows fans as well :). For only linux users, write the below the command on your terminal to update the repositories below installing ionic.Windows users do not need to do anything.
 
-    ```
+    ```html
     sudo apt-get update
     ```
 
     然后使用不同于 linux 或 windows 的命令安装 ion。对于 linux 用户
 
-    ```
+    ```html
     sudo apt-get -g install ionic
     ```
 
     由于是全局安装，所以需要编写-g 和 sudo
     对于 Windows 用户，请按照下面的命令操作。您可能需要以管理员身份运行命令提示符
 
-    ```
+    ```html
     npm install ionic
     ```
 
 2.  **After installation run the following command :**
 
-    ```
+    ```html
     ionic --version
     ```
 
     这基本上是为了测试 ion 是否已经成功安装在你的系统上
     下一步是使用以下命令制作你的 ionic app
 
-    ```
+    ```html
     ionic start name_of_project template_name
     ```
 
@@ -52,7 +52,7 @@
 
 3.  **Project Directory :** The last step is to move through the project directory by typing the following command
 
-    ```
+    ```html
     cd project_name
     ```
 
@@ -60,7 +60,7 @@
     你也可以通过注册进入 ion 官网安装 ionic pro sdk 享受酷炫的环境。您也可以设置 SSH，或者如果您不想使用
     现在可以跳过。接下来键入以下命令
 
-    ```
+    ```html
     ionic serve
     ```
 

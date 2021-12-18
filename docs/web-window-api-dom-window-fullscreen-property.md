@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 BoolVal = windowReference.fullScreen;
 ```
 
@@ -19,7 +19,7 @@ BoolVal = windowReference.fullScreen;
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -13,7 +13,7 @@ mixin 参数是可以作为变量使用的 SassScript 值，并且在包含 mixi
 
 **SASS 代码:**
 
-```
+```html
 @mixin design($color, $height:1px) {
     color: red;
     border: $height solid black;
@@ -30,7 +30,7 @@ mixin 参数是可以作为变量使用的 SassScript 值，并且在包含 mixi
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 .temp {
   color: red;
   border: 1px solid black;
@@ -42,7 +42,7 @@ mixin 参数是可以作为变量使用的 SassScript 值，并且在包含 mixi
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,7 +66,7 @@ mixin 参数是可以作为变量使用的 SassScript 值，并且在包含 mixi
 
 **SASS 代码:**
 
-```
+```html
 @mixin design($var) {
    color: $var;
 }
@@ -81,7 +81,7 @@ $values: red, blue, green;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 .temp {
   color: red;
 }
@@ -91,7 +91,7 @@ $values: red, blue, green;
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

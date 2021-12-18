@@ -6,30 +6,30 @@
 
 **语法:**
 
-```
+```html
 tmpl([data], [options])
 ```
 
 **例如:**
 
-```
+```html
 $("#myTemplate").tmpl(Data).appendTo("ul");
 ```
 
-```
+```html
 $.tmpl(template, [data], [options])(string containing markup, 
 HTML Element, or Name of named template)
 ```
 
 **例如:**
 
-```
+```html
 $.tmpl("namedTemplate", Data).appendTo("ul");
 ```
 
 **示例:**
 
-```
+```html
 $.tmpl( "<li>${Name}</li>", { "Name" : "GFG" }).appendTo( "#target" );
 
 ```
@@ -40,13 +40,13 @@ JQuery x-tmpl 用于模板合成。
 
 *   用 npm 安装 blueimp-tmpl 包:
 
-```
+```html
 npm install blueimp-tmpl
 ```
 
 *   在 HTML 标记中包含 JavaScript 模板脚本:
 
-```
+```html
 <script src="js/tmpl.min.js"></script>
 // Implementing them into the variables. 
 var template = '<p>Hello!</p>' ;
@@ -54,7 +54,7 @@ var template = '<p>Hello!</p>' ;
 
 *   添加类型为“text/x-tmpl”的脚本部分:
 
-```
+```html
 <script type="text/x-tmpl" id="tmpl-demo">
   <h3>GFG}</h3>
   <h4>Features</h4>
@@ -69,7 +69,7 @@ var template = '<p>Hello!</p>' ;
 
 *   创建一个用于模板数据的 JavaScript 对象:
 
-```
+```html
 var data = {
  title:  'GFG',
  geeky: {
@@ -83,7 +83,7 @@ var data = {
 
 *   调用 tmpl()方法:
 
-```
+```html
 document.getElementById('result').innerHTML = tmpl('tmpl-demo', data)
 ```
 
@@ -91,13 +91,13 @@ document.getElementById('result').innerHTML = tmpl('tmpl-demo', data)
 
 *   使用 NPM 安装 blueimp-tmpl 软件包:
 
-```
+```html
 npm install blueimp-tmpl
 ```
 
 *   添加文件模板. html:
 
-```
+```html
 <!DOCTYPE HTML>
 <title>GFG</title>
 <h4>Features</h4>
@@ -111,7 +111,7 @@ npm install blueimp-tmpl
 
 *   添加文件服务器. js:
 
-```
+```html
 require('http')
  .createServer(function (req, res) {
    var fs = require('fs'),
@@ -138,13 +138,13 @@ console.log('Server running at http://localhost:8080/')
 
 *   运行应用程序:
 
-```
+```html
 node server.js
 ```
 
 **示例:**x-tmpl 的一个简单示例。
 
-```
+```html
 <script type='text/x-jquery-tmpl' id='person-template'>
  <div class='person'>
    <strong>Name: </strong> ${ Name } <br/>
@@ -159,7 +159,7 @@ node server.js
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -193,7 +193,7 @@ node server.js
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 
   Transitional//EN" "http://www.w3.org/TR
   /xhtml1/DTD/xhtml1-transitional.dtd">

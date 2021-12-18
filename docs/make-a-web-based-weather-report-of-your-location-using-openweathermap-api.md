@@ -14,7 +14,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,7 +51,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 p.styleIt{
     background-color: rgb(182, 182, 182);
     border: 2px solid rgb(182, 182, 182);
@@ -94,7 +94,7 @@ body{
 
 ## java 描述语言
 
-```html
+```htmlhtml
 var data = document.getElementById("data");
 var Latitude;
 var Longitude;

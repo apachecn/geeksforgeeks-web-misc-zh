@@ -10,13 +10,13 @@
 
 CSS:
 
-```html
+```htmlhtml
 https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
 ```
 
 **JavaScript:**
 
-```html
+```htmlhtml
 //cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 ```
 
@@ -24,7 +24,7 @@ https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -93,7 +93,7 @@ https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
 
 **ajaxData.txt:** 以下是*学生*表的数据，写在*【Ajax data . txt】*文件中，上面代码的 JavaScript 部分使用了这个文件。
 
-```html
+```htmlhtml
 {
     "data": [
         [

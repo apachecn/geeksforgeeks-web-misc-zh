@@ -7,7 +7,7 @@
 
 ### **material app 类的构造函数:**
 
-```
+```html
 const MaterialApp(
 {Key key,
 GlobalKey<NavigatorState> navigatorKey,
@@ -78,7 +78,7 @@ Map<Type, Action<Intent>> actions}
 
 ## 镖
 
-```
+```html
 import 'package:flutter/material.dart';
 
 void main() {

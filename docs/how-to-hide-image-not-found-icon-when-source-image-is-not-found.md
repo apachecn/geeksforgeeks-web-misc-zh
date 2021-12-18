@@ -7,7 +7,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>
@@ -39,7 +39,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>
@@ -66,7 +66,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
     <head>
     </head>
@@ -87,7 +87,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

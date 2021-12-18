@@ -8,19 +8,19 @@
 
 **语法:**
 
-```html
+```htmlhtml
 window.sessionStorage
 ```
 
 我们可以使用 **getItem()** 方法获得指定的会话存储。
 
-```html
+```htmlhtml
 sessionStorage.getItem('GFG_Item')
 ```
 
 我们可以使用 **clear()** 方法清除会话存储。
 
-```html
+```htmlhtml
 sessionStorage.clear()
 ```
 
@@ -28,7 +28,7 @@ sessionStorage.clear()
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

@@ -6,25 +6,25 @@
 
 *   **通过 id 查找 HTML 元素:**
 
-    ```
+    ```html
     var myElement = document.getElementById("element-id");
     ```
 
     *   **通过标签名查找 HTML 元素:**
 
-    ```
+    ```html
     var myElements = document.getElementsByTagName("div");
     ```
 
     *   **按类名查找 HTML 元素:**
 
-    ```
+    ```html
     var myElements = document.getElementsByClassName( "element-class");
     ```
 
     *   **Finding HTML elements by CSS selectors:**
 
-    ```
+    ```html
     var myElements = document.querySelectorAll("div.class-name");
     ```
 
@@ -32,7 +32,7 @@
 
     *   **用于循环。**
 
-    ```
+    ```html
     array = [ a, b, c, d, e ];
     for (index = 0; index < array.length; index++) { 
         console.log(array[index]); 
@@ -41,7 +41,7 @@
 
     *   **使用 while 循环。**
 
-    ```
+    ```html
     index = 0; 
     array = [ a, b, c, d, e ]; 
     while (index < array.length) { 
@@ -52,7 +52,7 @@
 
     *   **Using forEach method.**
 
-    ```
+    ```html
     index = 0; 
     array = [ a, b, c, d, e ]; 
     array.forEach(myFunction); 
@@ -69,7 +69,7 @@
 
     *   使用 querySelectorAll()获取第一个容器(列表-1)中的所有 div 元素。*   点击按钮(点击我！)来选择元素并将它们附加到第二个容器。*   使用 querySelector()选择第二个容器(列表-2)。*   使用 forEach()方法循环遍历所有 div 元素。*   Clone each div using the cloneNode() method and add it to the second container using appendChild()
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
 
@@ -151,6 +151,6 @@
 
     **将节点列表转换为数组:**
 
-    ```
+    ```html
     var divsArr = Array.prototype.slice.call(divs);
     ```

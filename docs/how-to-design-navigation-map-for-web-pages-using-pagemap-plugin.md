@@ -8,7 +8,7 @@
 
 开发人员可以通过下面的 CSS 代码来固定地图在屏幕上的位置。加入上面 HTML 代码的样式部分。
 
-```html
+```htmlhtml
 #map {
     position: fixed;
     top: 0;
@@ -22,7 +22,7 @@
 
 迷你地图的初始化和样式化在代码的脚本部分处理。下面的代码片段只是为开发人员提供的一个例子，他们可以根据自己的需要进行修改。
 
-```html
+```htmlhtml
 pagemap(document.querySelector('#map'), {
      /* Another HTML container ID  */
     viewport: document.querySelector('#container'),
@@ -40,7 +40,7 @@ pagemap(document.querySelector('#map'), {
 
 **示例:**下面的代码演示了一个在网页右上角导航网页的小地图。给你的网页添加一个*画布*标签。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

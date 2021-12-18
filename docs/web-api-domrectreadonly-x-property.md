@@ -6,7 +6,7 @@ DOMRectReadOnly API 接口中的 x 属性用于表示 x 坐标。它是只读属
 
 **语法:**
 
-```html
+```htmlhtml
 var recX = DOMRect.x;
 ```
 
@@ -14,7 +14,7 @@ var recX = DOMRect.x;
 
 **示例:**本示例使用 DOMRect.x 属性获取 DOMRect 对象的 x 坐标。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

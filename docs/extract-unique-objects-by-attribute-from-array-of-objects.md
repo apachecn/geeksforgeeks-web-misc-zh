@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```html
 Input: 
 [ { name: 'Geeks', id: 10 },
   { name: 'GeeksForGeeks', id: 10 },
@@ -31,7 +31,7 @@ Output:
 
 **示例:**
 
-```
+```html
 <script>
 objects = [{
     name: 'Geeks',
@@ -70,7 +70,7 @@ console.log(unique);
 
 **输出:**
 
-```
+```html
 [ { name: 'Geeks', id: 10 }, 
   { name: 'GeeksForGeeks', id: 10 } ]
 

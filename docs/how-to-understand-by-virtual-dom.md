@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 
 <head>
@@ -45,13 +45,13 @@ DOM 结构
 
 *   **步骤 1:** 使用以下命令创建一个 react 应用程序。
 
-```
+```html
 npx create-react-app foldername
 ```
 
 *   **步骤 2:** 使用以下命令将您的目录更改为新创建的文件夹。
 
-```
+```html
 cd foldername
 ```
 
@@ -67,7 +67,7 @@ cd foldername
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -87,7 +87,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```html
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -114,7 +114,7 @@ setInterval(time, 1000);
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 

@@ -6,19 +6,19 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var domRect = DOMRectReadOnly.fromRect(DOMRect object)
 ```
 
 **返回值:**
 
-```html
+```htmlhtml
 It returns an instance of DOMRect
 ```
 
 **示例:**使用 fromRect。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -8,19 +8,19 @@
 
 *   选定的输入类型将变为文本。
 
-    ```html
+    ```htmlhtml
     document.getElementById("id_of_tag_to_be_changed").type="text"; 
     ```
 
 *   选定的输入类型将变为按钮。
 
-    ```html
+    ```htmlhtml
     document.getElementById("id_of_tag_to_be_changed").type="button";
     ```
 
 *   选定的输入类型将更改为日期。
 
-    ```html
+    ```htmlhtml
     document.getElementById("id_of_tag_to_be_changed").type="date"; 
     ```
 
@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <body>

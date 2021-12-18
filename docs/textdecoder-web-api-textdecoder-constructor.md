@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 decoder = new TextDecoder( *utf-Label*, *option* );
 ```
 
@@ -17,7 +17,7 @@ decoder = new TextDecoder( *utf-Label*, *option* );
 
 **示例 1:** 本示例创建一个以“iso-8859-2”为参数的文本解码器对象。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -63,7 +63,7 @@ decoder = new TextDecoder( *utf-Label*, *option* );
 
 **示例:**创建一个没有参数的注释对象。所以将采用默认参数“utf-8”。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

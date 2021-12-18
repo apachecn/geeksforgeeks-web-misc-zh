@@ -13,19 +13,19 @@
 
 **基本设置:**您将使用 [**<u>创建-反应-app</u>**](https://www.geeksforgeeks.org/reactjs-setting-development-environment/) 开始一个新项目，因此打开您的终端并键入:
 
-```
+```html
 npx create-react-app react-highlight-text
 ```
 
 现在，通过在终端中键入给定的命令，进入您的**反应-高亮-文本**文件夹:
 
-```
+```html
 cd react-highlight-text
 ```
 
 **所需模块:**通过在终端中键入给定的命令，安装本项目所需的依赖项:
 
-```
+```html
 npm install --save styled-components
 ```
 
@@ -43,7 +43,7 @@ npm install --save styled-components
 
 ## App.js
 
-```
+```html
 import React,{useState} from 'react';
 import {
   InputContainer, 
@@ -78,7 +78,7 @@ export default App;
 
 ## AppStyles.js
 
-```
+```html
 import styled from 'styled-components';
 
 export const InputContainer = styled.div`
@@ -114,7 +114,7 @@ export const InputHighlighter = styled.span`
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```html
 npm start
 ```
 

@@ -11,7 +11,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <body background = "URL or path" > Website Body </body>
 ```
 
@@ -19,7 +19,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,7 +46,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <style>
     body {
         background-image:url(" URL of the image ");
@@ -58,7 +58,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,7 +89,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 background-repeat: no-repeat;
 ```
 
@@ -97,7 +97,7 @@ background-repeat: no-repeat;
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -131,7 +131,7 @@ background-repeat: no-repeat;
 
 **语法:**
 
-```html
+```htmlhtml
 background-attachment: fixed; 
 background-size: cover;
 ```
@@ -140,7 +140,7 @@ background-size: cover;
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

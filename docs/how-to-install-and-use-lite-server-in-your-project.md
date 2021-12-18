@@ -11,7 +11,7 @@ Node.js 管理 npm 库和依赖项，以便在加载特定页面时支持某些�
 *   按照安装向导中的说明安装下载的安装程序。
 *   After installation, the Node version can be checked using the following command.
 
-    ```
+    ```html
     node -v
     ```
 
@@ -23,7 +23,7 @@ Node.js 管理 npm 库和依赖项，以便在加载特定页面时支持某些�
 
     ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 new Date(year, month, date, hour, minute, second, millisecond)
 ```
 
@@ -15,7 +15,7 @@ new Date(year, month, date, hour, minute, second, millisecond)
 
 **例 1:**
 
-```
+```html
 <html>
 
 <body>
@@ -42,7 +42,7 @@ new Date(year, month, date, hour, minute, second, millisecond)
 
 **例 2:**
 
-```
+```html
 <html>
 
 <body>

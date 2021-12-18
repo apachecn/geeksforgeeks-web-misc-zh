@@ -10,7 +10,7 @@
 
 ## java 描述语言
 
-```
+```html
 {
   "geeksforgeeks": [
     {
@@ -25,7 +25,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-template="amp-mustache" src=
 "https://cdn.ampproject.org/v0/amp-mustache-0.2.js">
 </script>
@@ -37,7 +37,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-list" src=
 "https://cdn.ampproject.org/v0/amp-list-0.1.js">
 </script>
@@ -47,7 +47,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-form" src=
 "https://cdn.ampproject.org/v0/amp-form-0.1.js">
 </script>
@@ -64,7 +64,7 @@
 
 ## **超文本标记语言**
 
-```
+```html
 <!doctype html>
 <html ⚡>
 

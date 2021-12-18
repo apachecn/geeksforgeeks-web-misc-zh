@@ -12,7 +12,7 @@ BigInt 是 JavaScript 中一个新的数值原语。在 BigInt 类型中，您�
 
 ## 【JavaScript】
 
-```
+```html
 let max = Number.MAX_SAFE_INTEGER;
 
 console.log(max);

@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-soundcloud" 
         src="https://cdn.ampproject.org/v0/amp-soundcloud-0.1.js">
 </script>

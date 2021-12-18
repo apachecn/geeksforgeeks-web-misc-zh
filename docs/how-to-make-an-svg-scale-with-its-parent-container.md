@@ -18,7 +18,7 @@ SVG 是可缩放矢量图形的缩写。它是一种基于可扩展标记语言(
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@ SVG 是可缩放矢量图形的缩写。它是一种基于可扩展标记语言(
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

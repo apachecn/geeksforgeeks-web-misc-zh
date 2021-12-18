@@ -8,7 +8,7 @@
 **<font size="5px">初始化存储库</font>**
 要创建新的存储库，需要使用 ***git init*** 命令。它用于将现有项目转换为 git 存储库。这是我们在初始化新存储库时使用的第一个也是唯一一个命令。执行 git init 命令时， ***。git*** 子目录被创建。这包括对象、模板文件等的子目录。还会创建一个初始头文件或新的主分支。
 
-```
+```html
 git init (directory)
 ```
 
@@ -41,7 +41,7 @@ git init (directory)
 **<font size="5px">【Git Clone】</font>**
 当项目已经在中央存储库中时使用该命令。和 git init 一样，git clone 也是一次性命令。
 
-```
+```html
 git clone (repository URL) 
 ```
 

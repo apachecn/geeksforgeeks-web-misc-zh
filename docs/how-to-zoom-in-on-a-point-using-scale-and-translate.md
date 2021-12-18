@@ -13,7 +13,7 @@
 以下示例说明了上述方法:
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

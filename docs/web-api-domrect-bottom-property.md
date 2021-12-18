@@ -6,19 +6,19 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var recX = DOMRect.bottom;
 ```
 
 **返回类型:**
 
-```html
+```htmlhtml
 Double value
 ```
 
 **例 1:** 当高度为正时
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +69,7 @@ Double value
 
 **例 2:** 当高度为负时
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

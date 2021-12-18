@@ -15,7 +15,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -44,7 +44,7 @@ JavaScript 代码用于阻止这个默认菜单，然后我们将创建我们的
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -75,7 +75,7 @@ JavaScript 代码用于阻止这个默认菜单，然后我们将创建我们的
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <div id="contextMenu" class="context-menu" 
     style="display: none">
     <ul>
@@ -98,7 +98,7 @@ JavaScript 代码用于阻止这个默认菜单，然后我们将创建我们的
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <script>
     document.onclick = hideMenu;
     document.oncontextmenu = rightClick;
@@ -135,7 +135,7 @@ JavaScript 代码用于阻止这个默认菜单，然后我们将创建我们的
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <style type="text/css">
     .context-menu {
         position: absolute;
@@ -172,7 +172,7 @@ JavaScript 代码用于阻止这个默认菜单，然后我们将创建我们的
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

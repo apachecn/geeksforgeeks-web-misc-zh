@@ -12,19 +12,19 @@
 
 创建目录*保存我们的项目*
 
-```
+```html
 $ mkdir gfg_docker_compose
 ```
 
 移到那个目录
 
-```
+```html
 $ cd gfg_docker_compose
 ```
 
 创建*需求文件*
 
-```
+```html
 gfg_docker_compose/ $ touch requirements.txt
 ```
 
@@ -32,14 +32,14 @@ gfg_docker_compose/ $ touch requirements.txt
 
 ## 计算机编程语言
 
-```
+```html
 flask
 redis
 ```
 
 创建文件 *app.py* 将有我们的烧瓶应用程序的代码
 
-```
+```html
 gfg_docker_compose/ $ touch app.py
 ```
 
@@ -47,7 +47,7 @@ gfg_docker_compose/ $ touch app.py
 
 ## 蟒蛇 3
 
-```
+```html
 from flask import Flask, request, jsonify
 from redis import Redis
 
@@ -84,7 +84,7 @@ def animals():
 
 创建*文件*
 
-```
+```html
 gfg_docker_compose/ $ touch dockerfile
 ```
 
@@ -92,7 +92,7 @@ gfg_docker_compose/ $ touch dockerfile
 
 ## 蟒蛇 3
 
-```
+```html
 # pulling the base image
 FROM python:3.7.0-alpine3.8
 
@@ -128,7 +128,7 @@ CMD flask run --host=0.0.0.0
 
 现在您将有一个项目树，如下所示
 
-```
+```html
 gfg_docker_compose
 --- app.py
 --- requirements.txt
@@ -137,7 +137,7 @@ gfg_docker_compose
 
 现在将运行并启动我们的 redis 服务器容器
 
-```
+```html
 gfg_docker_compose/ $  docker run --name=redis redis:4.0.11-alpine
 ```
 
@@ -147,7 +147,7 @@ redis 服务器已启动
 
 因此，使用该命令，我们将拉 *redis:4.0.11-alpine* 图像并运行一个 redis 容器。现在我们的 redis 已经开始了，所以你应该取它的容器 IP 地址
 
-```
+```html
 gfg_docker_compose/ $ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' redis
 ```
 
@@ -159,7 +159,7 @@ gfg_docker_compose/ $ docker inspect --format='{{range .NetworkSettings.Networks
 
 现在这条线看起来像是在 *app.py* 中
 
-```
+```html
 redis = Redis(host="IPAddress", db=0, socket_timeout=5,
               charset="utf-8", decode_responses=True)
 ```
@@ -168,7 +168,7 @@ redis = Redis(host="IPAddress", db=0, socket_timeout=5,
 
 构建烧瓶应用程序
 
-```
+```html
 gfg_docker_compose/ $  docker build -t gfg/flask-app .
 ```
 
@@ -182,7 +182,7 @@ gfg_docker_compose/ $  docker build -t gfg/flask-app .
 
 打开一个新的终端选项卡，并运行以下命令
 
-```
+```html
 gfg_docker_compose/ $  docker run -p 5000:5000 gfg/flask-app
 ```
 
@@ -204,13 +204,13 @@ gfg_docker_compose/ $  docker run -p 5000:5000 gfg/flask-app
 
 创建*坞站-复合. yml* 文件
 
-```
+```html
 gfg_docker_compose/ $  touch docker-compose.yml
 ```
 
 现在项目树看起来像
 
-```
+```html
 gfg_docker_compose
 --- app.py
 --- requirements.txt
@@ -222,7 +222,7 @@ gfg_docker_compose
 
 ## 计算机编程语言
 
-```
+```html
 version: '3'
 
 services:
@@ -254,7 +254,7 @@ services:
 
 启动应用程序
 
-```
+```html
 gfg_docker_compose/ $  docker-compose up --build
 ```
 
@@ -272,7 +272,7 @@ gfg_docker_compose/ $  docker-compose up --build
 
 停止整个应用程序
 
-```
+```html
 gfg_docker_compose/ $  docker-compose down
 ```
 

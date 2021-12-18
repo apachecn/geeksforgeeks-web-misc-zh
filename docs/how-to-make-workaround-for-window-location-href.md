@@ -6,7 +6,7 @@
 
 **示例 1:** 此示例指向相同的 URL，并且仅重定向到相同的地址。**网址= ' https://gistr . herokupapp . com '**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,7 +63,7 @@
 **示例 2:** 在本例中，我们希望使用 **window.location.href** 属性
 来指向其他地址，让我们看看它是如何工作的。
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

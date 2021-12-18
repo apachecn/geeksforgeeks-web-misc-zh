@@ -24,19 +24,19 @@ MIME 基本上由两部分组成。
 
 主要类型的示例:
 
-```html
+```htmlhtml
 application, audio, font, image, message, text 
 ```
 
 子类型示例:
 
-```html
+```htmlhtml
 html, xml, zip, pdf, xls 
 ```
 
 媒体类型的一些常见示例如下:
 
-```html
+```htmlhtml
 1\. application/json
 2\. audio/mpeg
 3\. text/pdf 
@@ -54,7 +54,7 @@ html, xml, zip, pdf, xls
 
 以下示例摘自 RFC 2183，其中定义了标题:
 
-```html
+```htmlhtml
 Content-Disposition: attachment; filename=genome.jpeg;
   modification-date="Wed, 12 Feb 1997 16:29:51 -0500"; 
 ```

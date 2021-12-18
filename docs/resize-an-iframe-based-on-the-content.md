@@ -7,7 +7,7 @@ iframe HTML 元素通常用于插入其他来源的内容。需要调整大小�
 
 **示例 1:** 下面是使用**内部 CSS** 调整内容大小的 HTML 代码的实现:-
 
-```
+```html
 <html>
 
 <head>
@@ -57,7 +57,7 @@ iframe HTML 元素通常用于插入其他来源的内容。需要调整大小�
 *   我们通过以下方式调整 iframe 高度加载事件:
     iframe.onload = function(){}
 
-```
+```html
 <html>
 
 <head>

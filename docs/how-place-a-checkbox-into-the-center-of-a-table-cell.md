@@ -12,7 +12,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,7 +80,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>

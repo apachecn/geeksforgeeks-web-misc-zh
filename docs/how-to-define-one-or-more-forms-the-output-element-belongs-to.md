@@ -18,7 +18,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <output name="variable"  for= "other variable"  
 form="form id"></output>
 ```
@@ -29,7 +29,7 @@ form="form id"></output>
 
 ## **超文本标记语言**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 
 <html>
@@ -66,7 +66,7 @@ form="form id"></output>
 
 ## **超文本标记语言**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <body>

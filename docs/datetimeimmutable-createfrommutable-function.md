@@ -16,7 +16,7 @@
 
 ## PHP
 
-```
+```html
 <?php
 
 $dateTime = new DateTime("2020-04-12");
@@ -28,7 +28,7 @@ var_dump(DateTimeImmutable::createFromMutable($dateTime));
 
 **输出:**
 
-```
+```html
 object(DateTimeImmutable)#2 (3) {
   ["date"]=>
   string(26) "2020-04-12 00:00:00.000000"
@@ -43,7 +43,7 @@ object(DateTimeImmutable)#2 (3) {
 
 ## PHP
 
-```
+```html
 <?php
 
 // Creating a new DateTime::add() object 
@@ -69,7 +69,7 @@ var_dump(DateTimeImmutable::createFromMutable($datetime));
 
 **输出:**
 
-```
+```html
 object(DateTimeImmutable)#2 (3) {
   ["date"]=>
   string(26) "2019-10-03 10:00:00.000000"

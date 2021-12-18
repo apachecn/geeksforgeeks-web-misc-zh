@@ -40,7 +40,7 @@ PDO 支持的数据库有:
 
 *   **MySQL:** 连接数据库的 MySQL 代码是:
 
-    ```
+    ```html
     <?php
 
     // Add the hostname, username and password of the database
@@ -57,7 +57,7 @@ PDO 支持的数据库有:
 
 *   **MySQL:**以 MySQL 为例，只有一行代码。用户使用数据库的用户名、密码和名称实例化一个 MySQLi 实例。
 
-    ```
+    ```html
     <?php
 
     // Database credentials
@@ -68,7 +68,7 @@ PDO 支持的数据库有:
 
 *   **PDO:** In case of PDO, a new PDO object must be created.
 
-    ```
+    ```html
     <?php
 
     // Credentials required for connection
@@ -84,7 +84,7 @@ PDO 支持的数据库有:
 
 *   **MySQL:**
 
-    ```
+    ```html
     <?php
 
     $my_result = mysql_query("SELECT * FROM table", $connection_link)
@@ -96,7 +96,7 @@ PDO 支持的数据库有:
 
 *   **MySQL:**MySQL 中的错误处理如果简单一点。MySQL::$ error(MySQL _ error)返回最后一个错误的字符串描述。
 
-    ```
+    ```html
     <?php
 
     if (!$mysqli->query("SET a=1")) {
@@ -113,7 +113,7 @@ PDO 支持的数据库有:
 
     我们可以如下设置这些错误模式:
 
-    ```
+    ```html
     <?php
     $db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_SILENT );
     $db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
@@ -123,7 +123,7 @@ PDO 支持的数据库有:
 
     现在，可以按如下方式添加 try/catch 方法:
 
-    ```
+    ```html
     <?php
 
     try {
@@ -150,7 +150,7 @@ PDO 支持的数据库有:
 
 *   **MySQL:** 一般的编程循环，如 for，或 while 循环可以用于这种目的。假设数据库中有一个名为“data”的表，我们希望从该表的每一行输出用户名。While 循环可以用下面的方式来做这个工作。
 
-    ```
+    ```html
     <?php
 
     $my_result = mysql_query('SELECT * from data')
@@ -167,7 +167,7 @@ PDO 支持的数据库有:
 
 *   **MySQL:**MySQL 也为此使用了一个循环。然而，代码会有点不同。
 
-    ```
+    ```html
     <?php
 
     while($row = $my_result->fetch_assoc()) {
@@ -185,7 +185,7 @@ PDO 支持的数据库有:
 
     该查询还用于获取数据，因为它返回一个 PDOStatement 对象，该对象可用于通过使用 foreach 和 for 循环直接获取数据。
 
-    ```
+    ```html
     <?php
 
     // Select query
@@ -205,7 +205,7 @@ PDO 和 MySQLi 都提供了 SQL 注入安全性。
 
 假设一名黑客试图使用 POST 方法通过“名字”HTTP 查询参数注入一个 SQL 注入:
 
-```
+```html
 $_POST['firstname'] = "'; DELETE FROM users; /*"
 ```
 
@@ -213,7 +213,7 @@ $_POST['firstname'] = "'; DELETE FROM users; /*"
 
 在 PDO，人工逃生是为了增加安全性。
 
-```
+```html
 $name = PDO::quote($_POST['name']);
 $pdo->query("SELECT * FROM users WHERE name = $name");
 ```

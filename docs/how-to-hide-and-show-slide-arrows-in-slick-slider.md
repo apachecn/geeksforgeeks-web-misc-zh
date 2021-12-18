@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <body>
@@ -52,7 +52,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <body>
@@ -126,7 +126,7 @@ display = "block "将再次显示图片。
 **隐藏按钮:**
 要隐藏按钮，您可以删除这两行:
 
-```
+```html
 " button onclick="plusDivs(-1)">&#10094 button"
 " button onclick="plusDivs(1)">&#10095 button"
 
@@ -137,7 +137,7 @@ display = "block "将再次显示图片。
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type" />

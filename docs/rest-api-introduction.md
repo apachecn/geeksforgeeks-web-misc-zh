@@ -28,7 +28,7 @@ REST 技术通常比更健壮的简单对象访问协议(SOAP)技术更受青睐
 
 ## C
 
-```html
+```htmlhtml
 1\. a = 4 // It is Idempotence, as final value(a = 4)
         // would not change after executing it multiple
        // times.

@@ -14,13 +14,13 @@
 
 *   **sample.txt:**
 
-```
+```html
 This is a Sample Text file
 ```
 
 *   **delete.txt:**
 
-```
+```html
 Sample Text FIle to delete
 ```
 
@@ -28,13 +28,13 @@ Sample Text FIle to delete
 
 *   **步骤 1:** 导航到空目录设置项目，运行以下命令，
 
-```
+```html
 npm init
 ```
 
 生成**包. json** 文件。安装 [**电子**](https://www.geeksforgeeks.org/introduction-to-electronjs/) 如果没有安装，使用 npm。
 
-```
+```html
 npm install electron --save-dev
 ```
 
@@ -42,7 +42,7 @@ npm install electron --save-dev
 
 **package.json:**
 
-```
+```html
 {
   "name": "electron-DesktopOperation",
   "version": "1.0.0",
@@ -67,7 +67,7 @@ npm install electron --save-dev
 
 ## java 描述语言
 
-```
+```html
 const { app, BrowserWindow } = require('electron')
 
 function createWindow() {
@@ -119,7 +119,7 @@ app.on('activate', () => {
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -153,7 +153,7 @@ app.on('activate', () => {
 
 *   **输出:**此时，我们的基本电子应用程序设置完毕。要启动电子应用程序，请运行命令:
 
-```
+```html
 npm start
 ```
 
@@ -172,7 +172,7 @@ npm start
 
 ## 超文本标记语言
 
-```
+```html
 <br>
   <h3>
    Desktop Integrations in Electron using Shell Module
@@ -191,7 +191,7 @@ npm start
 
 ## java 描述语言
 
-```
+```html
 const electron = require('electron');
 const path = require('path');
 
@@ -241,7 +241,7 @@ mail.addEventListener('click', (event) => {
 
 ## 超文本标记语言
 
-```
+```html
 <br><be>
   <button id="show">
     Show sample.txt in File Explorer
@@ -252,7 +252,7 @@ mail.addEventListener('click', (event) => {
 
 ## java 描述语言
 
-```
+```html
 var show = document.getElementById('show');
 
 show.addEventListener('click', (event) => {

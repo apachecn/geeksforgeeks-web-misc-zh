@@ -12,7 +12,7 @@ NeumorphismUI 是一种用于设计网页元素、框架和屏幕的现代软 UI
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@ NeumorphismUI 是一种用于设计网页元素、框架和屏幕的现代软 UI
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```htmlhtml
 body {
     background: #ecf0f3;
     text-align: center;

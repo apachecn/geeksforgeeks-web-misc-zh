@@ -12,7 +12,7 @@
 
 *   您必须在标题中导入 amp-accordion 组件才能使用此标签。
 
-```html
+```htmlhtml
 <script async custom-element="amp-accordion" 
         src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js">
 </script>
@@ -20,7 +20,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html ⚡>
     <head>

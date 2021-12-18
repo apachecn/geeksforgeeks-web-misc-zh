@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```html
 *event*.stopPropagation();
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -20,13 +20,13 @@
 
 CSS:
 
-```html
+```htmlhtml
 https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
 ```
 
 **JavaScript:**
 
-```html
+```htmlhtml
 https://code.jquery.com/jquery-3.5.1.js
 https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 ```
@@ -35,7 +35,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

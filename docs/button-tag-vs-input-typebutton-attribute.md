@@ -8,7 +8,7 @@
 
 **示例 1:** 本示例使用<输入 type="button" >属性在 HTML 文档中创建按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -56,7 +56,7 @@
 
 **示例 2:** 本示例使用<按钮>标签在 HTML 文档中创建按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

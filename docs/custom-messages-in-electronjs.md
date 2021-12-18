@@ -17,13 +17,13 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
@@ -31,7 +31,7 @@
 
     **package.json:**
 
-    ```
+    ```html
     {
       "name": "electron-message",
       "version": "1.0.0",
@@ -56,7 +56,7 @@
 
     **main.js:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -113,7 +113,7 @@
 
     **index.html:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -151,7 +151,7 @@
 
     **输出:**此时，我们的应用程序已经设置好了，我们可以启动应用程序来检查 GUI 输出。要启动电子应用程序，请运行命令。
 
-    ```
+    ```html
     npm start
     ```
 
@@ -191,7 +191,7 @@
 
 **index.js:**
 
-```
+```html
 const electron = require('electron');
 const path = require('path');
 
@@ -230,7 +230,7 @@ showBox.addEventListener('click', (event) => {
 
 **注意:**如果用户在未成功关闭自定义消息框的情况下尝试继续执行应用程序，控制台上会显示以下消息:
 
-```
+```html
 Attempting to call a function in a renderer window that 
 has been closed or released. Function provided here: undefined
 ```
@@ -277,7 +277,7 @@ has been closed or released. Function provided here: undefined
 
 **index.js:**
 
-```
+```html
 .then(box => {
     console.log('Button Clicked Index - ', box.response);
     console.log('Checkbox Checked - ', box.checkboxChecked);
@@ -304,7 +304,7 @@ has been closed or released. Function provided here: undefined
 
     **index.js:**
 
-    ```
+    ```html
     var error = document.getElementById('error');
 
     error.addEventListener('click', (event) => {

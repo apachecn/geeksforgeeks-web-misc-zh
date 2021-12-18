@@ -60,7 +60,7 @@ npm 初始化
 
 **文件名:index.js**
 
-```
+```html
 const gfgFns = {
   add : function addTwoNums( num1, num2 ) {
     return (num1 + num2) ;
@@ -78,7 +78,7 @@ module.exports = gfgFns
 
 **4。发布模块:**编码模块完成后，发布 npm 包。要发布包，有一点要记住:如果您的包名已经存在于 npm 注册表中，您将无法发布包。要检查包名是否可用，请转到命令行并键入
 
-```
+```html
 npm search packagename
 ```
 
@@ -92,7 +92,7 @@ npm 搜索-gfgnpmpkgupload-cmd-1
 
 现在，检查名称可用性后，转到命令行/终端并执行以下操作:
 
-```
+```html
 npm publish
 ```
 
@@ -118,7 +118,7 @@ NPM-发布-cmd
 
 **版本化和发布代码:** NPM 允许我们在语义版本化的基础上对模块进行版本化。有三种类型的版本颠簸，我们可以做，即补丁，次要的，和主要的。例如，如果当前模块版本为 0.4.5:
 
-```
+```html
 # note how minor version upgrade resets patch version to 0, similarly,
 # major version upgrade sets minor and patch #to 0.
 > npm version patch  # update version to 0.4.6
@@ -145,7 +145,7 @@ NPM-发布-cmd
 *   在 npm 模块项目中，安装 npm 模块所需的依赖项。
 *   使用
 
-    ```
+    ```html
     npm install packagename1[ packagename2]
 
     ```
@@ -154,7 +154,7 @@ NPM-发布-cmd
 *   检查这些依赖项现在是否在 package.json 文件的“dependencies”键中提到。请注意，这里提到的依赖项及其版本将在 npm 包中继续使用。
 *   After assuring that all the above steps are rightly executed, simply publish the module using
 
-    ```
+    ```html
     > npm version minor
     npm publish
 
@@ -171,13 +171,13 @@ NPM-发布-cmd
 要做到这一点，我们的 npm 模块应该是[这个](https://www.npmjs.com/package/gfgnpmpkgupload/v/1.0.3)。
 现在，我们有了我们的模块集，让我们使用将其导入到我们的新项目中
 
-```
+```html
 npm install gfgnpmpkgupload
 ```
 
 在运行上述命令之前，请务必运行
 
-```
+```html
 npm init -y
 ```
 
@@ -191,7 +191,7 @@ npmpkguploadtest 项目结构
 
 数据文件应该包含一个 numFile.txt，其中包含必须添加并在控制台中显示的数字。
 
-```
+```html
 // numFile.txt - sum = 55
 1 2 3 4 5 6 7 8 9 10
 
@@ -205,7 +205,7 @@ npmpkguploadtest-gfgapjs
 
 要对此进行测试，请转到命令行并运行
 
-```
+```html
 node gfgapp.js
 ```
 
@@ -217,7 +217,7 @@ node gfgapp.js
 
 **取消发布 NPM 套餐:**NPM 套餐应在首次发布后 72 小时内取消。另一种方法是联系国家预防机制登记处。如果要在 72 小时内取消发布，请使用以下命令:
 
-```
+```html
 npm unpublish packageName
 ```
 
@@ -226,7 +226,7 @@ NPM 的[从注册表](https://docs.npmjs.com/unpublishing-packages-from-the-regi
 **示例:**使用发布的包添加两个数字。
 T3】文件名:app.js
 
-```
+```html
 const GFGFns = require('gfgnpmpkgupload');
 console.log(GFGFns.add(4, 5));
 ```

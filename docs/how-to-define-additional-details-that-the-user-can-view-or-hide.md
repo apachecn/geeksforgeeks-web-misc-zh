@@ -7,7 +7,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <details>
     <summary>  Text content  </summary>
     <div> Content . . . </div>
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
     <head> 

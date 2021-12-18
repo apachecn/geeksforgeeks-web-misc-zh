@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 $(selector).data(name)
 ```
 
@@ -22,7 +22,7 @@ $(selector).data(name)
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE HTML>
 <html>
 <head>

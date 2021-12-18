@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 driver.close()
 driver.quit()
 
@@ -22,7 +22,7 @@ driver.quit()
 
 **Code for close method() :**
 
-```
+```html
 # importing webdriver from selenium
 from selenium import webdriver
 
@@ -43,7 +43,7 @@ driver.close()
 
 **退出()方法代码:**
 
-```
+```html
 # importing webdriver from selenium
 from selenium import webdriver
 

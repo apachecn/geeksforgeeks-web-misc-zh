@@ -23,7 +23,7 @@
 
 ## java 描述语言
 
-```
+```html
 <script>
 // Example of arguments of two
 // number a and b.
@@ -42,7 +42,7 @@ args(1, 3);
 
 *   **输出:**
 
-```
+```html
 1
 2
 ```
@@ -66,7 +66,7 @@ options 对象不同于多个参数，因为多个参数可以接受多种类型
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -102,7 +102,7 @@ options 对象不同于多个参数，因为多个参数可以接受多种类型
 
 *   **输出:**
 
-```
+```html
 A dropdown menu of available courses
 ```
 

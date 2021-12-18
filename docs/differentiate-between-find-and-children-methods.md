@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 $(selector).find('filter-expression')
 ```
 
@@ -20,7 +20,7 @@ $(selector).find('filter-expression')
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 
 <head>
@@ -52,7 +52,7 @@ $(selector).find('filter-expression')
 
 ****语法:****
 
-```
+```html
 $(selector).children(filter-expression)
 ```
 
@@ -64,7 +64,7 @@ $(selector).children(filter-expression)
 
 ## **超文本标记语言**
 
-```
+```html
 <!DOCTYPE html>
 
 <head>
@@ -100,7 +100,7 @@ $(selector).children(filter-expression)
 
 ## **超文本标记语言**
 
-```
+```html
 <!DOCTYPE html>
 
 <head>

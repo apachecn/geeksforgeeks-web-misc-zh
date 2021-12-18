@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 *var* successBool = window.navigator.vibrate( *pattern* );
 ```
 
@@ -20,7 +20,7 @@
 
 **例 1:**
 
-```html
+```htmlhtml
 // To check that is vibration API supported
 if (navigator.vibrate) {
     window.navigator.vibrate(200);
@@ -29,13 +29,13 @@ if (navigator.vibrate) {
 
 **输出:**
 
-```html
+```htmlhtml
 Vibrates for 200 milliseconds
 ```
 
 **例 2:**
 
-```html
+```htmlhtml
 // To check that is vibration API supported
 if (navigator.vibrate) {
     window.navigator.vibrate(0);
@@ -44,13 +44,13 @@ if (navigator.vibrate) {
 
 **输出:**
 
-```html
+```htmlhtml
 Will cancel any currently ongoing vibration pattern
 ```
 
 **例 3:**
 
-```html
+```htmlhtml
 // To check that is vibration API supported
 if (navigator.vibrate) {
     window.navigator.vibrate([100, 30, 100, 30, 100, 30, 200, 
@@ -60,7 +60,7 @@ if (navigator.vibrate) {
 
 **输出:**
 
-```html
+```htmlhtml
 Vibrate 'SOS' in Morse
 ```
 

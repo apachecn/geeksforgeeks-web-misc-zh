@@ -19,20 +19,20 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**Package.json**文件。 如果未安装，请使用 NPM 安装**[Electron](https://www.geeksforgeeks.org/introduction-to-electronjs/)**。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
     该命令还将创建**package-lock.json**文件，并安装所需的**node_module**依赖项。 成功安装 Electron 后，打开**Package.json**文件，然后在**脚本**键下执行必要的更改。
     **Package.json：**
 
-    ```
+    ```html
     {
       "name": "electron-block",
       "version": "1.0.0",
@@ -57,7 +57,7 @@
 
     {T0}Main.js:{T1}*
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -110,7 +110,7 @@
 
     **index.html：**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -148,7 +148,7 @@
 
     **输出：**此时，我们的应用程序已经设置好，我们可以启动该应用程序来检查 GUI 输出。 要启动电子应用程序，请运行命令。
 
-    ```
+    ```html
     npm start
     ```
 
@@ -170,7 +170,7 @@
 
     **index.js：**在该文件中添加以下代码段。
 
-    ```
+    ```html
     const electron = require('electron')
 
     // Importing powerSaveBlocker Module from remote module
@@ -189,7 +189,7 @@
 *   **Step 5:** The **Disable Blocker** button does not have any functionality associated with it yet. The **powerSaveBlocker.isStarted(id)** and the **`powerSaveBlocker.stop(id)`** both take in the blocker ID integer value that was returned by the **powerSaveBlocker.start()** method. The **powerSaveBlocker.isStarted()** method returns a **Boolean** value signifying whether the corresponding **powerSaveBlocker** is started and in effect. For more detailed Information, Refer this [link](https://www.electronjs.org/docs/api/power-save-blocker#powersaveblockerisstartedid). The **powerSaveBlocker.stop()** method does not have a Return value. It simply stops the specified **powerSaveBlocker** in effect which is represented by the blocker ID.
     **index.js:** Add the following snippet in that file.
 
-    ```
+    ```html
     var disable = document.getElementById('disable');
 
     disable.addEventListener('click', () => {

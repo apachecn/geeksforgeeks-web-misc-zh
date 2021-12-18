@@ -14,7 +14,7 @@ XMLHTTPRequest 对象是一个用于从服务器获取数据的应用编程接�
 
 **语法:**
 
-```
+```html
 var XHR = $.ajax({configs});
 ```
 
@@ -22,7 +22,7 @@ var XHR = $.ajax({configs});
 
 ## Java Script 语言
 
-```
+```html
 // Example showing how XMLHTTPRequest object created
 var XMLO = $.ajax({
 
@@ -60,7 +60,7 @@ var XMLO = $.ajax({
 
 ## Java Script 语言
 
-```
+```html
 // Demonstrating Properties of XMLHTTPRequest object
 <script>
 
@@ -85,7 +85,7 @@ xmlObj.always(function(a, b, c) {
 
 **输出:**
 
-```
+```html
 # Status of request is : 200
 # readyState of request is : 4
 # statusText of request is : success
@@ -107,7 +107,7 @@ xmlObj.always(function(a, b, c) {
 
 ## Java Script 语言
 
-```
+```html
 // Example demonstrating methods of XMLHTTPRequest
 // object
 <script>
@@ -142,7 +142,7 @@ xmlObj.done(function(){
 
 **输出:**
 
-```
+```html
 #Always is resolved 
 #Done is resolved 
 #Then is resolved

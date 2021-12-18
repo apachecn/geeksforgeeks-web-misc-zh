@@ -15,7 +15,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@ CSS 盒子模型
 
 考虑下面设置元素的宽度和高度属性的代码示例:
 
-```
+```html
 .box {
   margin: 100px 20px 50px 370px;
   width: 350px;
@@ -82,7 +82,7 @@ CSS 盒子模型
 
 **语法:**
 
-```
+```html
 padding: "padding-top|padding-right|padding-bottom|padding-left";
 ```
 
@@ -95,13 +95,13 @@ padding: "padding-top|padding-right|padding-bottom|padding-left";
 
 **示例:**
 
-```
+```html
 padding: 20px 30px 50px 70px;
 ```
 
 我们也可以写作
 
-```
+```html
 padding: 40px;
 ```
 
@@ -111,7 +111,7 @@ padding: 40px;
 
 **语法:**
 
-```
+```html
 border : "width style color | initial | inherit";
 ```
 
@@ -125,7 +125,7 @@ border : "width style color | initial | inherit";
 
 **示例:**
 
-```
+```html
 border: 10px solid red;
 ```
 
@@ -133,7 +133,7 @@ border: 10px solid red;
 
 **语法:**
 
-```
+```html
 margin: "top-margin right-margin bottom-margin left-margin";
 ```
 
@@ -146,13 +146,13 @@ margin: "top-margin right-margin bottom-margin left-margin";
 
 **示例:**
 
-```
+```html
 margin: 100px 20px 50px 370px;
 ```
 
 如果我们写作
 
-```
+```html
 margin: 20px;
 ```
 
@@ -164,7 +164,7 @@ margin: 20px;
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 
 <head>
@@ -216,7 +216,7 @@ margin: 20px;
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 
 <head>

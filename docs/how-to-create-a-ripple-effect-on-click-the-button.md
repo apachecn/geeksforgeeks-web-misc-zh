@@ -6,7 +6,7 @@
 
 1.  **Basic styling:** Add basic styling to the button with a `position:relative` attribute to position the inner span tag and `overflow:hidden` to prevent span going outside of button.
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 
@@ -52,7 +52,7 @@
 
 2.  **为跨度元素添加样式:**现在为跨度元素添加样式，该样式将在单击按钮时显示。
 
-    ```html
+    ```htmlhtml
     <style>
         .btn span {
             position: absolute;
@@ -87,7 +87,7 @@
 
 3.  **添加 JavaScript:** 现在我们将根据鼠标点击的位置添加按钮点击的 span 元素。在按钮上点击我们要做的事情如下:
 
-    ```html
+    ```htmlhtml
     <script>
         const btn = document.querySelector(".btn");
 

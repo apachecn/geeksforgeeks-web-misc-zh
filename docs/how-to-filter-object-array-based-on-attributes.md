@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 var newArray = array.filter(function(item)
  {
   return conditional_statement;
@@ -20,7 +20,7 @@ var newArray = array.filter(function(item)
 
 ## java 描述语言
 
-```
+```html
 <script>
 var obj = {
     'Students': [{
@@ -63,7 +63,7 @@ console.log(newArray);
 
 ## java 描述语言
 
-```
+```html
 <script>
 let array = [
   { id: 3 },

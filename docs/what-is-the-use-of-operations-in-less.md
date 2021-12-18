@@ -10,7 +10,7 @@
 
 ## 无演示
 
-```
+```html
 @var : 10px;
 .class1 {
     font-size: @var * 8;
@@ -24,7 +24,7 @@
 
 使用下面的命令，我们可以将*无演示*编译成 CSS。
 
-```
+```html
 lessc demo.less demo.css
 ```
 
@@ -32,7 +32,7 @@ lessc demo.less demo.css
 
 ## 无演示
 
-```
+```html
 .class1 {
   font-size: 80px;
   color: red;
@@ -48,7 +48,7 @@ lessc demo.less demo.css
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>

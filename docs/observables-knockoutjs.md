@@ -13,7 +13,7 @@
 
 **定义可观察的(举例):**
 
-```
+```html
 1\. Creating an Observable Variable - 
 
         var myObservable = ko.observable();

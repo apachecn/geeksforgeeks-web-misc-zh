@@ -14,7 +14,7 @@
 
 ## conf.js(通用报告格式)
 
-```html
+```htmlhtml
 exports.config = {
 
   // Define the capabilities to be passed
@@ -50,7 +50,7 @@ exports.config = {
 
 ## test.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -97,7 +97,7 @@ exports.config = {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 describe("Protractor Demo App", function () {
 
     it("should have a title", async function () {
@@ -127,7 +127,7 @@ describe("Protractor Demo App", function () {
 
 **步骤 4:** 最后，我们将使用下面给出的命令运行配置文件。这将运行配置文件，测试将如下所示运行。
 
-```html
+```htmlhtml
 protractor conf.js
 ```
 

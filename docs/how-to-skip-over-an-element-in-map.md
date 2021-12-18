@@ -20,7 +20,7 @@ JavaScript 中的 **map()** 函数用于通过为每个数组元素调用函数�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -67,7 +67,7 @@ JavaScript 中的 **map()** 函数用于通过为每个数组元素调用函数�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -114,7 +114,7 @@ JavaScript 中的 **map()** 函数用于通过为每个数组元素调用函数�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

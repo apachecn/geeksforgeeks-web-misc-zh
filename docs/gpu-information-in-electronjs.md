@@ -16,7 +16,7 @@
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-gpu",
   "version": "1.0.0",
@@ -46,7 +46,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>GPU Information in Electron</h3>
   <button id="metrics">
     Fetch App Metrics
@@ -69,7 +69,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 // Importing the app module using Electron remote
 const app = electron.remote.app;
@@ -159,7 +159,7 @@ features.addEventListener('click', () => {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const { app, BrowserWindow } = require('electron')
 app.disableHardwareAcceleration();
 ```
@@ -168,7 +168,7 @@ app.disableHardwareAcceleration();
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const { app, BrowserWindow } = require('electron')
 app.disableHardwareAcceleration();
 app.disableDomainBlockingFor3DAPIs();
@@ -188,7 +188,7 @@ app.disableDomainBlockingFor3DAPIs();
 
 *   **基本:**返回的**承诺**通过一个**对象**实现，该对象仅包含比请求时返回的**对象**更少且更重要的参数**信息:完成**。如果只需要 **vendorId** 参数或 **driverId** 参数等基本信息，则应使用该值。返回的样本参数显示如下:
 
-```html
+```htmlhtml
 { auxAttributes:
    { amdSwitchable: true,
      canSupportThreadedTextureMailbox: false,

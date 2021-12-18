@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <div style=" display: flex; flex-direction: row; " ></div>
 ```
 
@@ -16,7 +16,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -80,7 +80,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

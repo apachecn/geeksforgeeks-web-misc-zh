@@ -17,7 +17,7 @@
 2.  提取 zip 文件并将所有 jar 文件复制到 java_base_path/JRE/lib/ext。
 3.  现在用下面的代码创建一个 XML 文件，并将其命名为“article.xml”。
 
-    ```
+    ```html
     <?xml version="1.0" encoding="UTF-8"?>
     <articles>
 
@@ -50,7 +50,7 @@
 
 4.  Now create a java file with any name of your choice(example.java in my case) and add the following code in the same.
 
-    ```
+    ```html
     import java.io.File;
     import java.io.FileInputStream;
     import java.io.FileNotFoundException;
@@ -97,7 +97,7 @@
 
 5.  用下面的代码创建一个名为“articles.xqy”的 XQuery 文件，并将其保存在与 article.xml 相同的目录中。
 
-    ```
+    ```html
     for $x in doc("article.xml")/articles/article
     return $x/title
 
@@ -105,7 +105,7 @@
 
 6.  Now open Command prompt in the same folder where article.xml is located and enter the following command there.
 
-    ```
+    ```html
     javac example.java
     java example
 

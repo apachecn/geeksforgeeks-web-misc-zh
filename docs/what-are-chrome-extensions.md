@@ -20,7 +20,7 @@
 *   每个扩展名都需要一个清单文件
     首先，创建一个**清单文件**
 
-```
+```html
  {
     "name": "Hello Extensions",
     "description" : "Base Level Extension",
@@ -32,7 +32,7 @@
 *   然后，为了演示，我们将在扩展中添加一个图标，点击该图标将打开我们创建的网页。
     将此添加到文件中
 
-    ```
+    ```html
     "browser_action": {
           "default_popup": "hello.html",
           "default_icon": "icon.png"
@@ -42,7 +42,7 @@
 
     *   Then add this to include a shortcut to display the HTML page
 
-    ```
+    ```html
     "commands": {
           "_execute_browser_action": {
             "suggested_key": {

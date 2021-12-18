@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-brightcove" src=
 "https://cdn.ampproject.org/v0/amp-brightcove-0.1.js">
 </script>
@@ -29,7 +29,7 @@ brightcove 视频如下所示嵌入，**需要数据账户、数据视频 id、�
 
 ## 超文本标记语言
 
-```
+```html
 <amp-brightcove data-account="906043040001"
     data-video-id="1401169490001"
     data-player-id=
@@ -45,7 +45,7 @@ brightcove 视频如下所示嵌入，**需要数据账户、数据视频 id、�
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

@@ -16,7 +16,7 @@
 
 ## 【index.html】
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <body>

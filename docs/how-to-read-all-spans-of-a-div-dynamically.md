@@ -10,7 +10,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 let getInfo = () => {
 
   // Get the division inside which the
@@ -41,7 +41,7 @@ let getInfo = () => {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -114,7 +114,7 @@ let getInfo = () => {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
 
 <body>

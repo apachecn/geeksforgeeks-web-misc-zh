@@ -6,7 +6,7 @@
 
 所以对于动画，我们使用**关键帧** CSS。
 
-```html
+```htmlhtml
 @keyframes animationname {keyframes-selector {css-styles;}}
 
 ```
@@ -24,7 +24,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

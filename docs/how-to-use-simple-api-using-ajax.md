@@ -11,7 +11,7 @@ AJAX(异步 JavaScript 和 XML)是一组用来调用服务器获取一些数据�
 
 **HTML 代码:**我们有一个获取数据的按钮和一个空的无序列表，我们将在其中使用 JavaScript 动态添加我们的列表项。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -86,7 +86,7 @@ AJAX(异步 JavaScript 和 XML)是一组用来调用服务器获取一些数据�
 
     下面是上述步骤的实现。为了使代码易于理解，我们还在每一行提供了注释。
 
-    ```html
+    ```htmlhtml
     <script>
         let fetchBtn = document.getElementById("fetchBtn");
 
@@ -130,7 +130,7 @@ AJAX(异步 JavaScript 和 XML)是一组用来调用服务器获取一些数据�
 
     **完整代码:**是以上两个代码段的组合。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 

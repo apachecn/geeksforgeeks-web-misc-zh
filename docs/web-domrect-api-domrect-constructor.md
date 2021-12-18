@@ -6,7 +6,7 @@ DOMRect API 中的 DOMRect()构造函数用于创建表示矩形的 DOMRect 对�
 
 **语法:**
 
-```html
+```htmlhtml
 var myDOMRect = new DOMRect(x, y, width, height);
 ```
 
@@ -19,7 +19,7 @@ var myDOMRect = new DOMRect(x, y, width, height);
 
 **示例:**本示例使用给定的参数创建了一个 DOMRect 对象。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

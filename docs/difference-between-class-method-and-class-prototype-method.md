@@ -12,7 +12,7 @@ JavaScript 是一种面向对象的编程语言，但与同类语言(基于类)�
 
     ## java 描述语言
 
-    ```
+    ```html
     <script>
 
        // Constructor function
@@ -36,7 +36,7 @@ JavaScript 是一种面向对象的编程语言，但与同类语言(基于类)�
 
     **Output:**
 
-    ```
+    ```html
     Login successful
     ```
 
@@ -46,7 +46,7 @@ JavaScript 是一种面向对象的编程语言，但与同类语言(基于类)�
 
     ## java 描述语言
 
-    ```
+    ```html
     <script>
        function User(userName) {
           this.userName = userName;
@@ -76,7 +76,7 @@ JavaScript 是一种面向对象的编程语言，但与同类语言(基于类)�
 
     **Output:**
 
-    ```
+    ```html
     Login successful
     Welcome GFG 
     ```
@@ -85,7 +85,7 @@ JavaScript 是一种面向对象的编程语言，但与同类语言(基于类)�
 
     ## java 描述语言
 
-    ```
+    ```html
 
     <script>
 
@@ -116,7 +116,7 @@ JavaScript 是一种面向对象的编程语言，但与同类语言(基于类)�
 
     **Output:**
 
-    ```
+    ```html
     Login successful
     Welcome GFG 
     ```

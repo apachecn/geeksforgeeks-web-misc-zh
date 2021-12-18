@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 <a [routerLink]="[/path]" [queryParams]="{property:value}">
    State Details 
 </a>
@@ -21,7 +21,7 @@
 
 ## java 描述语言
 
-```
+```html
 import { Component, OnInit } from '@angular/core'
 
 @Component({
@@ -61,7 +61,7 @@ export class AppComponent implements OnInit {
 
 ## java 描述语言
 
-```
+```html
 import { NgModule } from '@angular/core';
 import { BrowserModule } from 
             '@angular/platform-browser';
@@ -97,7 +97,7 @@ export class AppModule { }
 
 ## 超文本标记语言
 
-```
+```html
 <a [routerLink]="['/punjab']" [queryParams]=
     "{capital:'mohali',language:'punjabi'}">
     State Details
@@ -119,7 +119,7 @@ export class AppModule { }
 
 ## java 描述语言
 
-```
+```html
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
@@ -151,7 +151,7 @@ export class StateComponent implements OnInit {
 
 ## 超文本标记语言
 
-```
+```html
 State Details are : 
 
 <p>Capital  : {{capital}} </p>

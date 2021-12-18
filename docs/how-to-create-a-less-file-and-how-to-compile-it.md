@@ -21,7 +21,7 @@
 
 ## 无样式
 
-```
+```html
 @green-color: #25C75C;
 @light-color: #ebebeb;
 @background-dark: #2b2b2b;
@@ -50,13 +50,13 @@ a { 
 
 **第一步:**移动到终端中的项目目录，写下以下命令:
 
-```
+```html
 npm install less
 ```
 
 **步骤 2:** 您可以使用以下命令检查编译器是否已安装:
 
-```
+```html
 lessc -v
 ```
 
@@ -64,13 +64,13 @@ lessc -v
 
 **第三步:**移至 *css* 子文件夹(或存储较少文件的文件夹)
 
-```
+```html
 cd css
 ```
 
 **第 4 步:**写下以下命令:
 
-```
+```html
 lessc styles.less styles.css
 ```
 
@@ -78,7 +78,7 @@ lessc styles.less styles.css
 
 ## styles.css
 
-```
+```html
 body {
   font-family: 'Lucida Sans', Verdana, sans-serif;
   margin: 25px;
@@ -101,7 +101,7 @@ a:hover {
 
 ## gfg.html 格式
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

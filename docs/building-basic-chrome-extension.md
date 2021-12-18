@@ -36,7 +36,7 @@
 
 这是基本格式。
 
-```
+```html
 {
 "manifest_version": 2,
 "name": “EXTENSION NAME",
@@ -54,7 +54,7 @@
 
 这是我们的 Manifest.json 文件
 
-```
+```html
 {
 "manifest_version": 2,
 "name": "Hello World!",
@@ -73,7 +73,7 @@
 
 它是当你点击 Chrome 扩展按钮时弹出的 HTML。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>

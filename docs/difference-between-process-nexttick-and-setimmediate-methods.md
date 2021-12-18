@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```html
 process.nextTick(callback);
 ```
 
@@ -24,13 +24,13 @@ process.nextTick(callback);
 
 **语法:**
 
-```
+```html
 setImmediate(callback);
 ```
 
 **示例:**
 
-```
+```html
 setImmediate(function A() {
     console.log("1st immediate");
 });
@@ -58,7 +58,7 @@ console.log("program started");
 3.  Then previous event queue ends and **third** event queue is initialized with callback D. Then callback function A of setImmdeiate() method is placed in the followed by B.
     Now, the third event queue looks like this,
 
-    ```
+    ```html
     D A B
     ```
 

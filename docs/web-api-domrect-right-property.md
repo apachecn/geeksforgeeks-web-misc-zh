@@ -6,19 +6,19 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var recX = DOMRect.right;
 ```
 
 **返回类型:**
 
-```html
+```htmlhtml
 Double value
 ```
 
 **例 1:** 当宽度为正时
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -68,7 +68,7 @@ Double value
 
 **例 2:** 当宽度为负时
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

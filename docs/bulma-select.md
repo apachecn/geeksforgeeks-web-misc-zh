@@ -7,7 +7,7 @@
 
 **示例 1:** 该示例显示了简单的布尔玛下拉列表。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Select</title>
@@ -53,7 +53,7 @@
 
 **示例 2:** 本示例显示不同颜色的选择下拉列表。
 
-```
+```html
 `
 <html>
   <head>
@@ -172,7 +172,7 @@
 
 **示例 3:** 该示例显示了“可滚动”或“多选下拉列表”。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Select</title>
@@ -232,7 +232,7 @@
 
 **示例 4:** 本示例显示不同大小的选择下拉列表。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Select</title>
@@ -320,7 +320,7 @@
 
 **示例 5:** 该示例显示了舍入选择下拉列表。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Select</title>
@@ -430,7 +430,7 @@
 
 **示例 6:** 本示例显示带有“字体棒极了”图标的选择下拉列表。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Select</title>

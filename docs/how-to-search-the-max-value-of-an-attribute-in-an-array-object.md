@@ -6,7 +6,7 @@
 
 **示例 1:** 在此示例中，遍历数组，并针对数组的每个索引比较对象的所需值。
 
-```
+```html
 // Array of object
 var arr = [
     {
@@ -50,7 +50,7 @@ var arr = [
 
 **输出:**
 
-```
+```html
 50
 ```
 
@@ -61,13 +61,13 @@ var arr = [
 
 **语法:**
 
-```
+```html
 Math.max.apply(thisArg, [ argsArray])
 ```
 
 **更多信息**可在[https://developer.mozilla.org/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)找到
 
-```
+```html
 var arr = [
     {
       a: 10,
@@ -99,6 +99,6 @@ var arr = [
 
 **输出:**
 
-```
+```html
 50
 ```

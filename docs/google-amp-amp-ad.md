@@ -14,7 +14,7 @@
 
 在标题中导入放大器组件
 
-```html
+```htmlhtml
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js">
 </script>
 ```
@@ -23,7 +23,7 @@
 
 *   **占位符**–amp-ad 支持带有占位符属性的子元素。当出现网络问题并且广告不可见时，将显示占位符
 
-```html
+```htmlhtml
 <amp-ad width="100" height="100">
   <div placeholder>No geeky ads to show</div>
 </amp-ad>
@@ -31,7 +31,7 @@
 
 *   **回退**–amp-ad 支持带有回退属性的子元素。当没有可用于该槽的广告时，显示该元素
 
-```html
+```htmlhtml
 <amp-ad width="100" height="100">
   <div fallback>geeks for geeks has no ad available at the moment</div>
 </amp-ad>
@@ -39,7 +39,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!doctype html>
 <html ⚡>
 <head>

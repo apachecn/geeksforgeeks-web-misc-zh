@@ -11,7 +11,7 @@ Flutter **GridView** 是一个类似于任何编程语言中的二维数组的�
 
 ### **GridView 的构造函数:**
 
-```
+```html
 GridView(
 {Key key,
 Axis scrollDirection: Axis.vertical,
@@ -38,7 +38,7 @@ String restorationId}
 
 ### **GridView . builder 的构造函数:**
 
-```
+```html
 GridView.builder(
 {Key key,
 Axis scrollDirection: Axis.vertical,
@@ -66,7 +66,7 @@ Clip clipBehavior: Clip.hardEdge}
 
 ### **GridView . count 的构造函数:**
 
-```
+```html
 GridView.count(
 {Key key,
 Axis scrollDirection: Axis.vertical,
@@ -96,7 +96,7 @@ Clip clipBehavior: Clip.hardEdge}
 
 ### **GridView . custom 的构造函数:**
 
-```
+```html
 const GridView.custom(
 {Key key,
 Axis scrollDirection: Axis.vertical,
@@ -120,7 +120,7 @@ Clip clipBehavior: Clip.hardEdge}
 
 ### **GridView . extent 的构造函数:**
 
-```
+```html
 GridView.extent(
 {Key key,
 Axis scrollDirection: Axis.vertical,
@@ -173,7 +173,7 @@ GridView.count()与一些命名参数一起使用。我们可以在 GridView.cou
 
 ## 镖
 
-```
+```html
 import 'package:flutter/material.dart';
 
 void main() {

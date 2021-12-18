@@ -10,13 +10,13 @@
 
 **步骤 1:** 您可以使用以下命令创建一个新的 NextJs 项目:
 
-```
+```html
 npx create-next-app gfg
 ```
 
 **步骤 2:** 为了在我们的项目中添加 Algolia 搜索，我们将安装两个模块:
 
-```
+```html
 npm install algoliasearch react-instantsearch-dom
 ```
 
@@ -36,7 +36,7 @@ npm install algoliasearch react-instantsearch-dom
 
 对于这个例子，我正在上传下面的数据。
 
-```
+```html
 Title, Tag, Day
 GFG1, python, Monday
 GFG2, java, Tuesday
@@ -50,7 +50,7 @@ GFG6, nextjs, Saturday
 
 **第 4 步:**现在我们可以使用 API 在 NextJs Project 中添加分页功能了。之后，为了使用我们的分页，我们将在 **index.js** 文件中添加下面的代码。
 
-```
+```html
 import algoliasearch from "algoliasearch/lite";
 import { InstantSearch, Pagination , Configure , Hits } 
        from "react-instantsearch-dom";
@@ -77,7 +77,7 @@ export default function SearchBar() {
 
 **运行应用程序的步骤:**之后，使用以下代码运行应用程序:-
 
-```
+```html
 npm run dev
 ```
 

@@ -8,7 +8,7 @@ CDN 可以直接使用。语义 UI 中有不同类型的按钮。它提供了各
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -41,7 +41,7 @@ CDN 可以直接使用。语义 UI 中有不同类型的按钮。它提供了各
 
 **示例:**我们来看看一些不同颜色的按钮。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -78,7 +78,7 @@ CDN 可以直接使用。语义 UI 中有不同类型的按钮。它提供了各
 你可以使用很多其他颜色。
 **例:**倒扣
 
-```
+```html
 <!-- Write HTML code here -->
 <!DOCTYPE html>
 <html>
@@ -126,7 +126,7 @@ CDN 可以直接使用。语义 UI 中有不同类型的按钮。它提供了各
 
 社交媒体按钮
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -174,7 +174,7 @@ CDN 可以直接使用。语义 UI 中有不同类型的按钮。它提供了各
 
 图标按钮
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -220,7 +220,7 @@ CDN 可以直接使用。语义 UI 中有不同类型的按钮。它提供了各
 
 不同尺寸按钮
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

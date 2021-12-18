@@ -25,7 +25,7 @@
 
 **步骤 1:** 让我们创建一个包含一些元素的项目。稍后，我们将使用烬检查器检查这些元素。在**终端/命令提示符下输入以下命令。**
 
-```
+```html
 ember new ember_cli_tutorial
 ```
 
@@ -35,7 +35,7 @@ ember new ember_cli_tutorial
 
 **步骤 2:** 现在**使用以下命令构建并运行**项目。
 
-```
+```html
 ember serve
 ```
 
@@ -47,13 +47,13 @@ ember serve
 
 *   **家庭:**
 
-    ```
+    ```html
     ember generate route home
     ```
 
 *   **关于:**
 
-    ```
+    ```html
     ember generate route about
     ```
 
@@ -61,7 +61,7 @@ ember serve
 
 ## router.js
 
-```
+```html
 import EmberRouter from '@ember/routing/router';
 import config from 'ember-cli-tutorial/config/environment';
 
@@ -78,7 +78,7 @@ Router.map(function () {
 
 我们将显示名为**项目**的**组件**中的项目。要**创建新的**组件**，请使用以下命令。**
 
-```
+```html
 ember generate component item
 ```
 
@@ -86,7 +86,7 @@ ember generate component item
 
 ## 项目. hbs
 
-```
+```html
 <div class='item'>
   <h4>
     {{@title}}
@@ -99,7 +99,7 @@ ember generate component item
 
 ## home.js
 
-```
+```html
 import Route from '@ember/routing/route';
 
 export default class HomeRoute extends Route {
@@ -131,7 +131,7 @@ https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/',
 
 ## home.hbs
 
-```
+```html
 {{page-title "Home"}}
 
 <h1 id='title'>
@@ -150,7 +150,7 @@ https://www.geeksforgeeks.org/competitive-programming-a-complete-guide/',
 
 ## app.css 文件
 
-```
+```html
 body {
   margin: 2rem;
   background-color: rgb(22, 187, 64);
@@ -197,7 +197,7 @@ body {
 
 ## 关于. hbs
 
-```
+```html
 {{page-title "About"}}
 <h1 id="title">GeeksforGeeks Ember js Tutorial</h1>
 <div class="navbar">

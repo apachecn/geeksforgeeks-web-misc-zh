@@ -18,7 +18,7 @@ IndexedDB 是浏览器中的键值数据库。这是一个 NoSQL 数据库。它
 
 1.  Open a Database –
 
-    ```
+    ```html
     // Syntax
     let request = indexedDB.open(name, version);
     // name : database name, string value
@@ -28,7 +28,7 @@ IndexedDB 是浏览器中的键值数据库。这是一个 NoSQL 数据库。它
 
     打开数据库的代码应该检查数据库是否存在。
 
-    ```
+    ```html
     let request = indexedDB.open("gfg", 1);
 
      request.onupgradeneeded = function() {
@@ -48,7 +48,7 @@ IndexedDB 是浏览器中的键值数据库。这是一个 NoSQL 数据库。它
 
 2.  在数据库中创建对象存储–
 
-    ```
+    ```html
     // Syntax
     let objectStore = db.createObjectStore(name, [keyOption]);
     // name : object store name
@@ -56,7 +56,7 @@ IndexedDB 是浏览器中的键值数据库。这是一个 NoSQL 数据库。它
 
     ```
 
-    ```
+    ```html
     let request = indexedDB.open("gfg", 1);
 
     // Check if object store exists and
@@ -71,7 +71,7 @@ IndexedDB 是浏览器中的键值数据库。这是一个 NoSQL 数据库。它
 
 3.  开始交易–
 
-    ```
+    ```html
     // Syntax
     db.transaction(objectStore, type]);
     // objectStore : objectStore which is to be used
@@ -79,7 +79,7 @@ IndexedDB 是浏览器中的键值数据库。这是一个 NoSQL 数据库。它
 
     ```
 
-    ```
+    ```html
     let transaction = db.transaction("articles", "readwrite");
 
     // Access an object store
@@ -107,7 +107,7 @@ IndexedDB 是浏览器中的键值数据库。这是一个 NoSQL 数据库。它
 
 4.  Close the transaction
 
-    ```
+    ```html
     let transaction = db.transaction("books", "readwrite");
 
     // Conducting operations in the transaction

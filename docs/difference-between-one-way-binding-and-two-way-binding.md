@@ -16,7 +16,7 @@
 
 ## app.component.ts
 
-```
+```html
 import { Component } from "@angular/core";
 
 @Component({
@@ -31,7 +31,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```html
 <h3>Displaying the content without one way binding</h3>
 
 <hr />
@@ -41,7 +41,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```html
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
@@ -71,7 +71,7 @@ export class AppModule {}
 
 ## app.component.ts
 
-```
+```html
 import { Component } from "@angular/core";
 
 @Component({
@@ -85,7 +85,7 @@ export class AppComponent {
 
 ## app.component.html
 
-```
+```html
 <input [(ngModel)]="data"  type="text">
 
 <hr>
@@ -95,7 +95,7 @@ export class AppComponent {
 
 ## app.module.ts
 
-```
+```html
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";

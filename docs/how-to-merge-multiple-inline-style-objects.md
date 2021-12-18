@@ -8,7 +8,7 @@
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 
 const text= {
@@ -34,7 +34,7 @@ export default function App(){
 
 ## java 描述语言
 
-```
+```html
 import React from "react";
 
 const text= {

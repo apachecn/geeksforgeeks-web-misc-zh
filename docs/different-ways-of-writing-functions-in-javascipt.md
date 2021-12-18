@@ -18,7 +18,7 @@
 
 ## java 描述语言
 
-```
+```html
 // Function declaration
 function add(a, b) {        
     console.log(a + b);
@@ -32,7 +32,7 @@ add(2, 3);
 
 **输出:**
 
-```
+```html
 5
 ```
 
@@ -42,7 +42,7 @@ add(2, 3);
 
 ## java 描述语言
 
-```
+```html
 // Function Expression
 const add = function(a, b) {
     console.log(a+b);
@@ -56,7 +56,7 @@ add(2, 3);
 
 **输出:**
 
-```
+```html
 5
 ```
 
@@ -68,7 +68,7 @@ add(2, 3);
 
 ## java 描述语言
 
-```
+```html
 // Single line of code
 let add = (a, b) => a + b;
 
@@ -79,7 +79,7 @@ console.log(add(3, 2));
 
 **输出:**
 
-```
+```html
 5
 ```
 
@@ -89,7 +89,7 @@ console.log(add(3, 2));
 
 ## java 描述语言
 
-```
+```html
 // Multiple line of code
 const great = (a, b) => {
     if (a > b)
@@ -103,6 +103,6 @@ console.log(great(3,5));
 
 **输出:**
 
-```
+```html
 b is greater
 ```

@@ -8,7 +8,7 @@
 
 **步骤 1:** 创建导航链接的 HTML 列表。
 
-```html
+```htmlhtml
 <ul class="breadcrumb-navigation">
     <li><a href="home">Home</a></li>
     <li><a href="webdev">Web Development</a></li>
@@ -19,7 +19,7 @@
 
 **第二步:**设置 CSS *显示:内联*以便在同一行显示列表。
 
-```html
+```htmlhtml
 .breadcrumb-navigation > li {
   display: inline;
 }
@@ -27,7 +27,7 @@
 
 **步骤 3:** 在每个列表元素后添加一个分隔符。
 
-```html
+```htmlhtml
 .breadcrumb-navigation li + li:before {
   padding: 4px;
   content: "/";
@@ -38,7 +38,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -103,13 +103,13 @@
 
 **步骤 1:** 我们只需将 *aria-label=“面包屑”*添加到导航元素中。
 
-```html
+```htmlhtml
 <nav aria-label="breadcrumb">
 ```
 
 **步骤 2:** 接下来我们在列表元素中添加*类=“面包屑-项目”*。
 
-```html
+```htmlhtml
 <li class="breadcrumb-item"><a href="#">
     Home
 </a></li>
@@ -117,7 +117,7 @@
 
 **步骤 3:** 在当前列表元素中添加*类=“面包屑-项目活动”*。
 
-```html
+```htmlhtml
 <li class="breadcrumb-item active" aria-current="page">
     JavaScript
 </li>
@@ -127,7 +127,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

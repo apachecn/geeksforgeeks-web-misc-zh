@@ -10,7 +10,7 @@
 
 ## Javascript
 
-```
+```html
 var a = 10.54;
 var b = 9.99;
 var c = 1.01;

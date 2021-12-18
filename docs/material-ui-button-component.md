@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```html
 <Button> This ia a Button </Button> 
 ```
 
@@ -16,19 +16,19 @@
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```html
     npx create-react-app button-example
     ```
 
 *   **第二步:**现在进入项目目录
 
-    ```
+    ```html
     cd button-example
     ```
 
 **安装 Material-UI:** 通过 npm/yarn 安装 Material-UI 的源文件，它们负责注入需要的 CSS。
 
-```
+```html
 npm install @material-ui/core
 OR
 yarn add @material-ui/core
@@ -36,7 +36,7 @@ yarn add @material-ui/core
 
 **导入应用程序栏和工具栏:**
 
-```
+```html
 import Button from '@material-ui/core/Button';
 ```
 
@@ -68,7 +68,7 @@ import Button from '@material-ui/core/Button';
 
 ## App.js
 
-```
+```html
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -126,7 +126,7 @@ export default function SimpleContainer() {
 
 ## App.js
 
-```
+```html
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -177,7 +177,7 @@ export default function SimpleContainer() {
 
 ## App.js
 
-```
+```html
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';

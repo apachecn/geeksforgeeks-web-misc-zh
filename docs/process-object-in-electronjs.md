@@ -20,7 +20,7 @@
 
 **Package.json：**
 
-```
+```html
 {
   "name": "electron-properties",
   "version": "1.0.0",
@@ -53,7 +53,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <h3>System Properties in Electron</h3>
   <button id="print">
     Print all System Properties in Console
@@ -64,7 +64,7 @@
 
 ## JavaScript
 
-```
+```html
 const electron = require('electron')
 
 // Instance Properties 

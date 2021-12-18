@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```html
 .pointer-link {
   cursor: pointer;
 }
@@ -17,7 +17,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -58,13 +58,13 @@
 
 **语法:**
 
-```
+```html
 <a onmouseover="this.style.cursor='pointer'>Example link</a>
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

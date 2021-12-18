@@ -4,7 +4,7 @@
 
 Bootstrap 提供了一个类来覆盖内容和不同的样式属性，使其看起来更有吸引力。用*填充视口或整个屏幕。导航条*改变高度。
 
-```
+```html
 .navbar-nav{
 min-height: 100vh;
 }
@@ -12,7 +12,7 @@ min-height: 100vh;
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

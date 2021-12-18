@@ -7,7 +7,7 @@
 
 **例 1:**
 
-```
+```html
 <html>
   <head>
     <title>Bulma Breadcrumb</title>
@@ -50,7 +50,7 @@
 
 **示例 2:** 不同对齐的面包屑
 
-```
+```html
 <html>
   <head>
     <title>Bulma Breadcrumb</title>
@@ -130,7 +130,7 @@
 
 **例 3:** 不同大小的面包屑
 
-```
+```html
 <html>
   <head>
     <title>Bulma Breadcrumb</title>
@@ -203,7 +203,7 @@
 
 **示例 4:** 带图标的面包屑
 
-```
+```html
 <html>
   <head>
     <title>Bulma Breadcrumb</title>
@@ -298,7 +298,7 @@
 
 **实施例 5:** 不同的分离器
 
-```
+```html
 <html>
   <head>
     <title>Bulma Breadcrumb</title>

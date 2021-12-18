@@ -8,13 +8,13 @@
 
 **步骤 1:** 您可以使用以下命令创建一个新的 NuxtJs 项目:
 
-```
+```html
 npx create-nuxt-app gfg
 ```
 
 **步骤 2:** 现在使用以下命令导航到您的应用程序:
 
-```
+```html
 cd gfg
 ```
 
@@ -50,7 +50,7 @@ NuxtJs 中有 **7** 主子目录:
 
 ## gfg .视图
 
-```
+```html
 <template>
   <div>
     <h3>This is a simple NuxtJs Page.</h3> 
@@ -60,7 +60,7 @@ NuxtJs 中有 **7** 主子目录:
 
 **运行应用:**在终端使用下面的命令运行应用。
 
-```
+```html
 npm run dev
 ```
 

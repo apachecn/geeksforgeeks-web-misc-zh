@@ -9,7 +9,7 @@ JavaScript [window.open()方法](https://www.geeksforgeeks.org/javascript-window
 
 **示例 1:** 本示例创建弹出窗口，但不将其放在中心。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -63,7 +63,7 @@ JavaScript [window.open()方法](https://www.geeksforgeeks.org/javascript-window
 
 **示例 2:** 本示例创建弹出窗口，并将其置于中心。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

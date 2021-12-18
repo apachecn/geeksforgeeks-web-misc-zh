@@ -8,7 +8,7 @@
 
 **语法:**有三个关键词可以用来设置容器中项目的基线对齐，如下语法所示。
 
-```
+```html
 .container {
   align-items: baseline | first baseline | last baseline;
 }
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <style>
@@ -77,7 +77,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <style>
@@ -136,7 +136,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 <head>
   <style>

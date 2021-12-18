@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```html
 // will give the current position of the cursor
 document.getElementById("id").selectionStart; 
 
@@ -27,7 +27,7 @@ $('#text1').val(x.slice(0,curPos)+text_to_insert+x.slice(curPos));
 
 ## java 描述语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -82,7 +82,7 @@ x.slice(0, curPos) + text_to_insert + x.slice(curPos));
 
 这里，有一个名为**setextto current pos 的书面方法。**点击**在当前位置**插入，调用该方法。
 
-```
+```html
 //document.getElementById('text1').selectionStart;
 ```
 

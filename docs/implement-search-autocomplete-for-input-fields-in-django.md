@@ -10,23 +10,23 @@ Django 是一个基于 Python 的高级网络框架，允许快速开发和干�
 
 人的本质
 
-```
+```html
 pip3 install django
 ```
 
 首先，我们将创建新项目
 
-```
+```html
 django-admin startproject AutoC
 ```
 
-```
+```html
 cd AutoC
 ```
 
 然后我们将创建新的应用程序
 
-```
+```html
 python3 manage.py startapp main
 ```
 
@@ -38,7 +38,7 @@ python3 manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```html
 from django.db import models
 
 # Create your models here.
@@ -51,11 +51,11 @@ class Language(models.Model):
 
 然后为了创建数据库表，我们必须进行迁移
 
-```
+```html
 python3 manage.py makemigrations
 ```
 
-```
+```html
 python3 manage.py migrate
 ```
 
@@ -65,7 +65,7 @@ python3 manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```html
 from django.shortcuts import render
 from .models import Language
 
@@ -81,7 +81,7 @@ def home(request):
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -121,7 +121,7 @@ def home(request):
 
 ## 蟒蛇 3
 
-```
+```html
 from django.urls import path
 from .views import  *
 
@@ -136,7 +136,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```html
 from django.contrib import admin
 from django.urls import path,include
 
@@ -150,13 +150,13 @@ urlpatterns = [
 
 Windows 操作系统
 
-```
+```html
 python manage.py runserver
 ```
 
 人的本质
 
-```
+```html
 python3 manage.py runserver
 ```
 

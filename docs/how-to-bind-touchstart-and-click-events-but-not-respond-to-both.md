@@ -14,7 +14,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 
 <head>
@@ -57,7 +57,7 @@
 
 **触发 touchstart 事件时输出**
 
-```
+```html
 Here a touchstart event is triggered
 After triggering an event
 ```
@@ -67,7 +67,7 @@ After triggering an event
 然而，这也阻止了其他默认的浏览器行为(比如滚动)——尽管通常你完全在你的处理程序中处理触摸事件，并且你必须禁用默认的动作。
 此外，当用户在移动设备上点击网页中的元素时，尚未设计用于移动交互的页面在 touchstart 事件和鼠标事件(mousedown)的处理之间至少有 300 毫秒的延迟。因此，必须添加一行 HTML 代码来描述页面不需要缩放。
 
-```
+```html
 <meta name="viewport" content="width=device-width, user-scalable=no">
 ```
 
@@ -76,7 +76,7 @@ After triggering an event
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 
 <head>
@@ -108,7 +108,7 @@ After triggering an event
 
 **输出:**
 
-```
+```html
 click event is triggered
 After triggering an event
 ```

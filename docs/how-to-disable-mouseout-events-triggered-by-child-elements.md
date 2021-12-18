@@ -11,7 +11,7 @@
 
     ## Java Script 语言
 
-    ```html
+    ```htmlhtml
     window.addEventListener('load', ()=>{
         const parent = document.querySelector('.parent');
         const child1 = document.querySelector('.child1');
@@ -33,7 +33,7 @@
 
     ## Java Script 语言
 
-    ```html
+    ```htmlhtml
     $('document').ready(()=>{
         $('.parent').on({
             'mouseenter': () =>{
@@ -53,7 +53,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
     <head>

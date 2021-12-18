@@ -6,7 +6,7 @@ export 语句用于将一个 JavaScript 模块绑定到其他模块。为了导�
 
 **语法:**
 
-```
+```html
 export default class ClassName{...}
 ```
 
@@ -29,7 +29,7 @@ export default class ClassName{...}
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 
 <head>
@@ -56,7 +56,7 @@ export default class ClassName{...}
 
 ## Profile.js
 
-```
+```html
 // Importing User
 import User from './User.js';
 
@@ -69,7 +69,7 @@ console.log(user);
 
 ## User.js
 
-```
+```html
 export default class User
 {
     constructor(params)
@@ -87,13 +87,13 @@ export default class User
 
 *   如果你的机器上安装了 NodeJs 和 npm，通过在终端上运行这个命令来安装 ***http-server*** 。
 
-    ```
+    ```html
     npm install http-server -g
     ```
 
 *   通过终端导航到保存所有文件的目录，然后键入。
 
-    ```
+    ```html
     http-server
     ```
 

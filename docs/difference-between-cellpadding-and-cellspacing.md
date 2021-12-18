@@ -8,7 +8,7 @@
 
     **语法:**
 
-    ```html
+    ```htmlhtml
     <table cellpadding="value" >.....</table>
     where, value determines the padding 
     (space between the border of a table and its content)
@@ -20,7 +20,7 @@
 
     **语法:**
 
-    ```html
+    ```htmlhtml
     <table cellspacing="value" >.....</table>
     where, value determines the padding 
     (space between adjacent cells)
@@ -28,7 +28,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>

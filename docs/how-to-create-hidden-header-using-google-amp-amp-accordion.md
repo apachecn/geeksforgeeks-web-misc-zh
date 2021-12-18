@@ -10,7 +10,7 @@
 
 *   您必须在标题中导入 amp-accordion 组件才能使用此标签。
 
-```html
+```htmlhtml
 <script async custom-element="amp-accordion"
        src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js">
 </script>
@@ -18,7 +18,7 @@
 
 *   要实现隐藏标题样式，请使用下面提到的代码:
 
-```html
+```htmlhtml
 <amp-accordion class="sample hidden-header"
   disable-session-states>
   <!-- Content -->
@@ -27,7 +27,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!doctype html>
 <html <img draggable="false" 
      class="emoji" alt="" 

@@ -6,7 +6,7 @@ jQuery 中的 focusout()方法用于从所选元素中移除焦点。现在我�
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 
@@ -75,7 +75,7 @@ jQuery 中的 focusout()方法用于从所选元素中移除焦点。现在我�
 
 **示例 2:** 如果输入字段为空，请使用同胞()，addClass()方法发出验证警报。
 
-```
+```html
 <!DOCTYPE html> 
 <html> 
 

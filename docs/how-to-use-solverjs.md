@@ -10,7 +10,7 @@ SolverJS 是一个 JavaScript 库，它包含了很多数学和基本的逻辑�
 
 **语法:**
 
-```
+```html
 npm init 
 ```
 
@@ -20,7 +20,7 @@ npm init
 
 **语法:**
 
-```
+```html
 npm install solverjs 
 ```
 
@@ -28,7 +28,7 @@ npm install solverjs
 
 **第三步:**导入你的申请文件。创建一个 javascript 文件，命名为 **app.js** 、**T5】并在使用前将库导入代码中。下面给出了在节点应用程序中导入库的语法。我们在 require 关键字的括号内提供库的名称，然后将结果存储在一个 const 变量中。**
 
-```
+```html
 const solverjs = require('solverjs');
 ```
 
@@ -44,7 +44,7 @@ const solverjs = require('solverjs');
 
 ## app.js
 
-```
+```html
 //Import the library
 const solverjs = require('solverjs');
 
@@ -57,7 +57,7 @@ console.log(calculatedAverage);
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 node app.js
 ```
 
@@ -69,7 +69,7 @@ node app.js
 
 **1。转换:**库包含许多与从一个物理单元到另一个物理单元的转换相关的函数，在各种情况下，我们的应用程序都需要这些转换，因此我们只需简单的函数调用就可以实现我们的目标。该类别中每个函数的基本结构如下:
 
-```
+```html
 Name: someUnitToAnotherRequiredUnit()
 Argument: valueInGivenUnit
 Return Value: valueInRequiredUnit
@@ -82,7 +82,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const lengthInYard = 5;
@@ -98,7 +98,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const lengthInFeet = 2;
@@ -116,7 +116,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const areaInSquareMetre  = 25;
@@ -132,7 +132,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const areaInHectare = 2;
@@ -150,7 +150,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const storageInByte = 600;
@@ -166,7 +166,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const storageInGigaByte = 1.5;
@@ -184,7 +184,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const timeInNanoSecond = 1500;
@@ -200,7 +200,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const timeInNanoSecond = 200000000;
@@ -218,7 +218,7 @@ Return Value: valueInRequiredUnit
 
     ## app.js
 
-    ```
+    ```html
     const solverjs = require('solverjs');
 
     const temperatureInCelsius = 4;

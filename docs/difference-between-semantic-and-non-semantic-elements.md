@@ -23,7 +23,7 @@
 
 **示例:**下面的程序包含了一些语义元素，可以更好地解释上下文:
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -78,7 +78,7 @@
 **示例:**
 下面的代码描述了非语义元素的工作原理:
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

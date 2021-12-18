@@ -4,7 +4,7 @@
 
 任务是将一个数组的第一个索引与另一个数组的第一个索引合并。假设一个数组是 array1 = {a，b，c}，另一个数组是 array2 = {c，d，e}如果我们在这些数组上执行任务，那么输出将是
 
-```
+```html
 result array
     { 
     [0]=> array(2) 
@@ -34,7 +34,7 @@ result array
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
     $array1=array("a","b","c");
     $array2=array("c","d","e");
@@ -45,7 +45,7 @@ result array
 
 **输出:**
 
-```
+```html
 array(6) { [0]=> string(1) "a" 
            [1]=> string(1) "b" 
            [2]=> string(1) "c" 
@@ -62,7 +62,7 @@ array(6) { [0]=> string(1) "a"
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
     $array1=array("a","b","c");
     $array2=array("c","d","e");
@@ -78,7 +78,7 @@ array(6) { [0]=> string(1) "a"
 
 **输出:**
 
-```
+```html
 array(3) { 
     [0]=> array(2) 
         { 
@@ -103,7 +103,7 @@ array(3) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
     $array1=array(array("a","b"),array("c","d"));
     $array2=array(array("z","y"),array("x","w"));
@@ -119,7 +119,7 @@ array(3) {
 
 **输出:**
 
-```
+```html
 array(2) { 
     [0]=> array(2) 
         { 

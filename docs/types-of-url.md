@@ -21,7 +21,7 @@
 
 **绝对 URL:** 这种类型的 URL 包含域名和目录/页面路径。绝对网址提供完整的位置信息。它以“http://”这样的协议开始，然后继续，包括每一个细节。绝对网址通常带有以下语法。
 
-```html
+```htmlhtml
 protocol://domain/path
 ```
 
@@ -29,7 +29,7 @@ protocol://domain/path
 
 **注意:**协议可以是以下类型。
 
-```html
+```htmlhtml
 http://, https://, ftp://, gopher://, etc.
 ```
 
@@ -37,13 +37,13 @@ http://, https://, ftp://, gopher://, etc.
 
 让我们假设一个 web 开发人员设置了一个网页，并且想要链接一个名为“geeksforgeeks.jpg”的图像。
 
-```html
+```htmlhtml
 <img src="geeksforgeeks.jpg">
 ```
 
 内部解释如下。
 
-```html
+```htmlhtml
 <img src="./geeksforgeeks.jpg">
 ```
 

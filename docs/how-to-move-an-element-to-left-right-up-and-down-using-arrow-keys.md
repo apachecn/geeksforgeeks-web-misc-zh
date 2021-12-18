@@ -6,7 +6,7 @@
 每当用户按下键盘上的一个键时，**向下键()方法**触发向下键事件。
 **语法:**
 
-```
+```html
 $(selector).keydown(function)
 ```
 
@@ -22,7 +22,7 @@ $(selector).keydown(function)
 
 **示例 1:** 使用向上箭头键将元素向上移动。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -83,7 +83,7 @@ $(selector).keydown(function)
 
 **示例 2:** 使用向下箭头键将元素向下移动。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -145,7 +145,7 @@ $(selector).keydown(function)
 
 **示例 3:** 使用左箭头键向左移动元素。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -207,7 +207,7 @@ $(selector).keydown(function)
 
 **示例 4:** 使用右箭头键向右移动元素。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

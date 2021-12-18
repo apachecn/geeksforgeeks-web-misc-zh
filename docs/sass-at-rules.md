@@ -8,7 +8,7 @@ At-rules 只是一些指示 CSS 在特定条件下如何行为的 CSS 语句。�
 
 ## 【CSS】
 
-```html
+```htmlhtml
 @identifier(rule);
 ```
 
@@ -34,7 +34,7 @@ Sass 还为简单的 CSS at 规则提供了某些行为，比如: **@charset** �
 
 ## CSS
 
-```html
+```htmlhtml
 .error
   border: 1px green
   background-color: black
@@ -46,7 +46,7 @@ Sass 还为简单的 CSS at 规则提供了某些行为，比如: **@charset** �
 
 这将给出以下 CSS 输出:
 
-```html
+```htmlhtml
 .error, .error--serious {
   border: 1px green;
   background-color: black;

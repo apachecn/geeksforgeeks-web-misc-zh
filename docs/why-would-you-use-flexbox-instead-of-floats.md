@@ -24,7 +24,7 @@
 
 ## **超文本标记语言**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,7 +91,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex;       
         height: 350px;
@@ -117,7 +117,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         flex-direction:column;      
@@ -135,7 +135,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         flex-direction:row;      
@@ -153,7 +153,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         flex-direction:column-reverse;      
@@ -171,7 +171,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         flex-direction:row-reverse;      
@@ -197,7 +197,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         justify-content:start;
@@ -217,7 +217,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         justify-content:center;
@@ -237,7 +237,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         justify-content:space-around;
@@ -257,7 +257,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         justify-content:space-evenly;
@@ -277,7 +277,7 @@
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```html
 .flex-container {
         display: flex; 
         justify-content:space-between;

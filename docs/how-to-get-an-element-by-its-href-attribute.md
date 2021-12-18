@@ -8,7 +8,7 @@
 
 **示例 1:** 该示例使用上述方法。
 
-```
+```html
 <!DOCTYPE HTML>  
 <html>  
     <head> 
@@ -62,7 +62,7 @@
 
 **示例 2:** 该示例使用上述方法。
 
-```
+```html
 <!DOCTYPE HTML>  
 <html>  
     <head> 

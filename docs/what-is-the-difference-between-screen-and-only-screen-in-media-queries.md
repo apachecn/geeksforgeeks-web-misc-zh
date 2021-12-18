@@ -7,13 +7,13 @@
 
 **语法:**
 
-```
+```html
 @media screen and (max-width: width)
 ```
 
 **示例:**本示例使用媒体查询，当显示区域的最大宽度为 400px 时有效。它是指定屏幕，而不是其他可用的媒体类型，最常见的另一种是打印。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -61,13 +61,13 @@
 
 ****语法:****
 
-```
+```html
 @media only screen and (max-width: width) 
 ```
 
 ****例 2****
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

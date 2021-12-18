@@ -12,7 +12,7 @@ amp-bind 的制作方式是，任何使用它的文档都有一个可变的 JSON
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-bind" src=
 "https://cdn.ampproject.org/v0/amp-bind-0.1.js">
 </script>

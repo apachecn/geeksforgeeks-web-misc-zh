@@ -12,13 +12,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <div class="table-responsive">
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -194,7 +194,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 white-space: nowrap;
 ```
 
@@ -202,13 +202,13 @@ white-space: nowrap;
 
 **语法:**
 
-```html
+```htmlhtml
 white-space: normal;
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

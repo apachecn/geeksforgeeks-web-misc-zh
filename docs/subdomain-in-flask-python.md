@@ -19,14 +19,14 @@
 **为本地 IP 添加备用域名–**
 在编码部分之前，我们需要设置*主机*文件，以便为本地 IP 提供备用域名，这样我们就可以在本地测试我们的应用程序。以 root 权限编辑此文件。
 
-```
+```html
 Linux: /etc/hosts 
 Windows: C:\Windows\System32\Drivers\etc\hosts
 ```
 
 添加这些行来设置备用域名。
 
-```
+```html
 127.0.0.1       vibhu.gfg
 127.0.0.1       practice.vibhu.gfg
 ```
@@ -36,7 +36,7 @@ Windows: C:\Windows\System32\Drivers\etc\hosts
 **设置服务器–**
 在应用的配置中`SERVER_NAME`被设置为域名，以及我们打算运行应用的端口号。烧瓶使用的默认端口是`5000`，所以我们就这样吧。
 
-```
+```html
 from flask import Flask
 
 app = Flask(__name__)
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
 使用`app.route`装饰器中的`subdomain`参数设置烧瓶中的子域。
 
-```
+```html
 from flask import Flask
 
 app = Flask(__name__)

@@ -6,7 +6,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -60,7 +60,7 @@ Bootstrap 4 是 web 开发人员用来创建动态和交互式用户界面的最
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -109,7 +109,7 @@ Bootstrap 4 是 web 开发人员用来创建动态和交互式用户界面的最
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

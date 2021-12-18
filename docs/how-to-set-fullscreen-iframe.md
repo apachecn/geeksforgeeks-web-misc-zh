@@ -8,7 +8,7 @@ HTML 中的 iframe 代表内嵌框架。“iframe”标签在文档中定义了�
 
 1.  将 html 正文、div、iframe 标签的页面浮动边距重置为 0px:
 
-    ```html
+    ```htmlhtml
     html 
     {
      overflow: auto;
@@ -26,7 +26,7 @@ HTML 中的 iframe 代表内嵌框架。“iframe”标签在文档中定义了�
 
 2.  转换 CSS 中的 iframe 标签行为
 
-    ```html
+    ```htmlhtml
     iframe 
     {
      display: block; 
@@ -40,7 +40,7 @@ HTML 中的 iframe 代表内嵌框架。“iframe”标签在文档中定义了�
 
 3.  设置 iframe 属性以解决跨浏览器问题:
 
-    ```html
+    ```htmlhtml
     <iframe src="myurl.in"
         frameborder="0" 
         marginheight="0" 
@@ -53,7 +53,7 @@ HTML 中的 iframe 代表内嵌框架。“iframe”标签在文档中定义了�
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -104,7 +104,7 @@ HTML 中的 iframe 代表内嵌框架。“iframe”标签在文档中定义了�
 
 **示例 2:** 使用<框架集行=“100%，*>。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 
 padding-left : value;
 or
@@ -22,7 +22,7 @@ padding-right : value;
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -80,7 +80,7 @@ padding-right : value;
 
 **语法:**
 
-```html
+```htmlhtml
 
 margin-left : value;
 or
@@ -92,7 +92,7 @@ margin-right : value;
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

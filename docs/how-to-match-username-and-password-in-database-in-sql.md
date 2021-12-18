@@ -18,7 +18,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php
 $conn = mysqli_connect("localhost", "root", "", "check");
 ?>
@@ -30,7 +30,7 @@ $conn = mysqli_connect("localhost", "root", "", "check");
 *   创建一个名为*的数据库，勾选*。
 *   现在点击 SQL 并编写下面提到的查询代码。
 
-```html
+```htmlhtml
 CREATE TABLE register(
     id int(10) AUTO_INCREMENT PRIMARY KEY,
     firstname varchar(50),
@@ -54,7 +54,7 @@ CREATE TABLE register(
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php
 
 include("connect.php");
@@ -204,7 +204,7 @@ if(isset($_POST['submit'])) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php
 
 include("connect.php");
@@ -303,7 +303,7 @@ if(isset($_POST['login'])) {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <html>
 
 <body>

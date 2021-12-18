@@ -6,7 +6,7 @@
 
 **示例 1:** 本示例说明了使用布尔玛媒体对象的简单社交媒体界面。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Media Object</title>
@@ -78,7 +78,7 @@ as you already know the basics.
 
 **示例 2:** 我们可以包含任何布尔玛元素，如输入、按钮、图标、文本区域等。在这个例子中，我们在布尔玛媒体对象中包含了 Textarea 元素来说明它们是如何协同工作的。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Media Object</title>
@@ -132,7 +132,7 @@ as you already know the basics.
 
 **示例 3:** 该示例说明了嵌套的媒体对象。
 
-```
+```html
 <html>
   <head>
     <title>Bulma Media Object</title>

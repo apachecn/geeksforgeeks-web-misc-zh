@@ -7,7 +7,7 @@
 **例:**
 萨斯码:
 
-```html
+```htmlhtml
 .header
   padding: 3px 10px
   font-size: 40px
@@ -17,7 +17,7 @@
 
 这将导致以下 CSS 输出:
 
-```html
+```htmlhtml
 .header{
   padding: 3px 10px;
   font-size: 40px;
@@ -31,7 +31,7 @@
 
 **示例:** Sass 代码
 
-```html
+```htmlhtml
 navbar
   ul
     padding: 2px
@@ -48,7 +48,7 @@ navbar
 
 这将导致以下 CSS 输出:
 
-```html
+```htmlhtml
 navbar ul{
     padding: 2px;
     list-style: square;
@@ -70,7 +70,7 @@ navbar a{
 
 **SASS 代码:**
 
-```html
+```htmlhtml
 .abc, .def
   ul, p
     padding: 2px
@@ -80,7 +80,7 @@ navbar a{
 
 这将导致以下 CSS 输出:
 
-```html
+```htmlhtml
 .abc ul, .abc p, .def ul, .def p {
     padding: 2px;
     font-family: sans-serif;
@@ -93,7 +93,7 @@ navbar a{
 
 **示例:** Sass 代码
 
-```html
+```htmlhtml
 @mixin full-form($name, $glyph) 
     span.full-form-#{$name} 
     font-family: sans-serif
@@ -105,7 +105,7 @@ navbar a{
 
 这将导致以下 CSS 输出:
 
-```html
+```htmlhtml
 span.full-form-GFG {
   font-family: sans-serif;
   padding: 4px;

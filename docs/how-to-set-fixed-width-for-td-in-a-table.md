@@ -10,7 +10,7 @@
 
 ## html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>
@@ -85,7 +85,7 @@
 
 ## html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>
@@ -172,7 +172,7 @@
 
 ## html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

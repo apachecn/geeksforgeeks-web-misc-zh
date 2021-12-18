@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var b = encoder.encoding;
 ```
 
@@ -14,7 +14,7 @@ var b = encoder.encoding;
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -17,7 +17,7 @@ Symfony 是一个采用 MVC 架构的开源 PHP web 应用框架。它是一组�
     T3】
 *   **Step 2:** Enter the following command in the command prompt.
 
-    ```
+    ```html
     composer create-project symfony/skeleton project_1
     ```
 
@@ -33,7 +33,7 @@ Symfony 是一个采用 MVC 架构的开源 PHP web 应用框架。它是一组�
 
 *   **步骤 1:** 在 src/Controller/ 文件夹中创建新文件**“hello Controller . PHP”，并在该文件中写入以下代码。
 
-    ```
+    ```html
     <?php
     namespace App\Controller;
     use Symfony\Component\HttpFoundation\Response;
@@ -49,7 +49,7 @@ Symfony 是一个采用 MVC 架构的开源 PHP web 应用框架。它是一组�
     ```** 
 *   **步骤 2:** 打开 **config/routes.yaml** 文件，并在该文件中写入以下代码。
 
-    ```
+    ```html
     app_hello:
         path: /
         controller: App\Controller\HelloController::hello

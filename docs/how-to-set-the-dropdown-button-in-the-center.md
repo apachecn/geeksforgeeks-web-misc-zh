@@ -8,7 +8,7 @@
 
 **示例:**这里，属性“text-align: center”将下拉 div 的内容对中，这将下拉按钮设置为居中。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

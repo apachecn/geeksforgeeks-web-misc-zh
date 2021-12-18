@@ -13,14 +13,14 @@
 *   创建一个 html 文件并添加视频。
     **语法:**
 
-    ```html
+    ```htmlhtml
     <video src="video_url" controls></video>
     ```
 
     *   创建另一个包含该图像的 HTML 文件，其中该图像应该包含前一个 HTML 文件的链接。
     **语法:**
 
-    ```html
+    ```htmlhtml
     <a href="html_file_url">
                 <img src="image_url">
     </a>
@@ -30,7 +30,7 @@
 
     ## 视频 source.html
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <body bgcolor="black">
@@ -49,7 +49,7 @@
 
     ## web.html
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <body bgcolor="black">
@@ -79,7 +79,7 @@
     *   用图像创建一个 HTML 文件。*   Add link for the video to that image.
     **Syntax:**
 
-    ```html
+    ```htmlhtml
     <video poster="image_url">
          <source src="video_url" type="video_type">
     </video>
@@ -87,7 +87,7 @@
 
     **示例:**下面是主 html 文件。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <!--web.html.html-->
     <html>

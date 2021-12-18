@@ -6,7 +6,7 @@
 
 **语法:**它只会指向同一个页面的顶部，因为那个锚点标签没有任何链接。
 
-```html
+```htmlhtml
 <a href="#">Click me</a>
 ```
 
@@ -16,7 +16,7 @@
 
 *   **程序:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 

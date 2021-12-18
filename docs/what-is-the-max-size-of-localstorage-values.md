@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 localStorage.setItem ( 'abc', 10 ); 
 // this integer 10 gets converted to a string "10" 
 // and then stored in localStorage variable named "abc".
@@ -17,7 +17,7 @@ localStorage.setItem ( 'abc', 10 );
 
 这段代码用于计算 localStorage 变量的大小。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,7 +65,7 @@ window.onload = function calculate(){
 
 **输出:**
 
-```
+```html
 localStorage limit in your Browser is 5000 KBs.
 ```
 

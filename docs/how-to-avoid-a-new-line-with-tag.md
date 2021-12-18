@@ -5,7 +5,7 @@
 HTML 中的 p 标记代表一个段落。它是一个块级元素，这意味着段落标记中的文本被视为一个块，并占据了可用的全部宽度。默认情况下，浏览器在 p 标记前后应用换行符来分隔段落。
 **我们可以通过添加以下样式定义来实现:**
 
-```html
+```htmlhtml
 p {
    display:inline;
 }
@@ -16,7 +16,7 @@ p {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +63,7 @@ p {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>

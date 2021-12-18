@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 flex-wrap: wrap-reverse; 
 ```
 
@@ -16,7 +16,7 @@ flex-wrap: wrap-reverse;
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

@@ -15,7 +15,7 @@
 **示例:**按照 [**中给出的步骤，设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。此外，对**包进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。
 **package.json:******](https://www.geeksforgeeks.org/dynamic-styling-in-electronjs/)
 
-```html
+```htmlhtml
 {
   "name": "electron-frameless",
   "version": "1.0.0",
@@ -46,7 +46,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <body style="-webkit-app-region: drag">
 
 <h3>Frameless Window in Electron</h3>
@@ -67,7 +67,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 // Import BrowserWindow using Electron remote
 const BrowserWindow = electron.remote.BrowserWindow;
@@ -124,7 +124,7 @@ frameless.addEventListener('click', (event) => {
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <body style="-webkit-app-region: drag">
 
 <h3>Frameless Window in Electron</h3>
@@ -140,7 +140,7 @@ frameless.addEventListener('click', (event) => {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 // Import BrowserWindow using Electron remote
 const BrowserWindow = electron.remote.BrowserWindow;

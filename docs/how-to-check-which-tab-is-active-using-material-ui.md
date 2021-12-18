@@ -22,7 +22,7 @@
 
 *   通过在您的终端中运行以下命令
 
-    ```
+    ```html
     npx create-react-app react-material-ui
 
     ```
@@ -32,7 +32,7 @@
 *   上面的命令将在命令运行的路径中创建一个 React 应用程序样板，并确保您始终使用生成器或构建工具的最新版本，而不必在每次使用时都进行升级。
 *   通过键入以下命令
 
-    ```
+    ```html
     cd react-material-ui/
 
     ```
@@ -41,7 +41,7 @@
 
 *   使用命令
 
-    ```
+    ```html
     npm start
 
     ```
@@ -56,7 +56,7 @@
 
 *   在你的终端中使用下面的命令安装材料界面。你也可以使用 VS 代码的终端。
 
-    ```
+    ```html
     npm install @material-ui/core
 
     ```
@@ -65,7 +65,7 @@
 
     ## 爪哇描述语言
 
-    ```
+    ```html
     import './App.css';
     import TabsExample from './TabsExample';
 
@@ -93,7 +93,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import React from 'react';
     import Tabs from '@material-ui/core/Tabs';
     import Tab from '@material-ui/core/Tab';
@@ -129,7 +129,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import './App.css';
     import TabsExample from './TabsExample';
 
@@ -158,14 +158,14 @@
 
     ***语法:***
 
-    ```
+    ```html
     function(event: object, value: any) => void
 
     ```
 
     哪里，
 
-    ```
+    ```html
     event: The event source of the callback
     value: The index of the child (number)
     ```
@@ -174,7 +174,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import React from 'react';
     import Tabs from '@material-ui/core/Tabs';
     import Tab from '@material-ui/core/Tab';

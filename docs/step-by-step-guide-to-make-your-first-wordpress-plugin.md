@@ -22,7 +22,7 @@
 4.  现在，我们添加插件的名称。在文件中添加包含在 PHP 注释中的插件名称。
     PHP 文件 First-Plugin.php 的代码–
 
-```
+```html
 <?php
 /**
 * Plugin Name: First Plugin
@@ -35,7 +35,7 @@
 *   现在，转到 WordPress 仪表板->插件，在这里你可以看到我们新创建的插件及其名称。
     ![](img/5f20efc7b35e1135095e47a0a2c49407.png)*   We should not leave the description blank as it helps the user know what is plugin meant to do. so let’s add the description of our plugin by adding a new comment line after “Plugin Name:” with the title “Description” and save it. Code of PHP file First-Plugin.php –
 
-    ```
+    ```html
     <?php
     /**
     * Plugin Name: First Plugin
@@ -50,7 +50,7 @@
     ![](img/0d5c3f8fe4accb862e4fbc0dd0d16eec.png)*   Next, we add some functionality to our first Plugin. We will add a basic function named first_plugin() which prints “HELLO This is my first Plugin.” and its shortcode which allows this to be placed on a WordPress post or a Page.
     Code –
 
-    ```
+    ```html
     <?php
     /**
     * Plugin Name: First Plugin

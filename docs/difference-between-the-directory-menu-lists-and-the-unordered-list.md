@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <dir> lists.... </dir>
 ```
 
@@ -16,7 +16,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -48,7 +48,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <menu> lists... </menu>
 ```
 
@@ -56,7 +56,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -87,7 +87,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <ul> lists.... </ul>
 ```
 
@@ -95,7 +95,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

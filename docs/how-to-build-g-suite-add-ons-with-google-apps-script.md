@@ -30,7 +30,7 @@
 
 ## java 描述语言
 
-```
+```html
 /**
  * Send an E-mail with the help of Google Docs.
  */

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <meta
      http-equiv="refresh"
      content="0;
@@ -28,7 +28,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

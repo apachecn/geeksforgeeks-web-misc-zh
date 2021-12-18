@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -46,7 +46,7 @@
 
 *   现在在 ngrok 窗口中键入以下命令。
 
-```
+```html
 ngrok http <port-no>
 ```
 

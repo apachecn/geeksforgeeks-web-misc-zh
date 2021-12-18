@@ -8,7 +8,7 @@
 
 **index.html**这个 HTML 文件包含了网页的布局。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -103,7 +103,7 @@
 
 **style.css** 这个文件用来给 HTML 文件添加一些 css 样式。
 
-```html
+```htmlhtml
 body {
     background: url('images/background.jpg');
     background-size: cover;
@@ -143,7 +143,7 @@ body {
 
 **main . js**JavaScript 文件用于将文本文件转换为语音。
 
-```html
+```htmlhtml
 // Initialising the speech API
 const synth = window.speechSynthesis;
 

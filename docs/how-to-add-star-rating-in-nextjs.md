@@ -8,13 +8,13 @@
 
 **创建 NextJS 应用程序:**您可以使用以下命令创建一个新的 NextJs 项目:
 
-```
+```html
 npx create-next-app gfg
 ```
 
 **安装所需的软件包:**现在我们将使用以下命令安装 react-star 软件包:
 
-```
+```html
 npm i react-stars
 ```
 
@@ -26,7 +26,7 @@ npm i react-stars
 
 ## index.js
 
-```
+```html
 import React from 'react';
 import ReactStars from 'react-stars'
 
@@ -47,7 +47,7 @@ export default function SkeletonLoading(){
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```html
 npm run dev
 ```
 

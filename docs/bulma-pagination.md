@@ -13,7 +13,7 @@
 
 **示例 1:** 此示例显示了简单的布尔玛分页组件。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -79,7 +79,7 @@
 
 **例 2:** 本例展示了大量页面的分页。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -158,7 +158,7 @@
 
 **示例 3:** 本示例显示不同对齐方式的分页。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -336,7 +336,7 @@
 
 **示例 4:** 本示例显示不同大小的分页。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -515,7 +515,7 @@
 
 **示例 5:** 本示例显示了舍入分页功能。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

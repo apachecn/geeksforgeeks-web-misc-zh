@@ -8,7 +8,7 @@
 
 例如，当您想要更新候选人姓名和电子邮件时，您必须发送候选人的所有参数，包括那些不在请求正文中更新的参数，否则，它将简单地用姓名和电子邮件替换整个资源。
 
-```
+```html
 {
   id: 8,
   email: "lindsay.ferguson@reqres.in",
@@ -28,7 +28,7 @@
 
 ## java 描述语言
 
-```
+```html
 let PutRequest = () => {
   // Sending PUT request with fetch API in javascript
   fetch("https://reqres.in/api/users/2", {
@@ -69,7 +69,7 @@ put 请求的示例
 
 所以在前面的例子中，我们只需发送请求正文中的姓名和电子邮件字段。
 
-```
+```html
 {
 "first_name":"Geeky",    // field that to be updated
 "email":"hello@geeky.com",     // field that to be updated
@@ -80,7 +80,7 @@ put 请求的示例
 
 ## java 描述语言
 
-```
+```html
 let PatchRequest = () => {
   // sending PUT request with fetch API in javascript
   fetch("https://reqres.in/api/users/2", {

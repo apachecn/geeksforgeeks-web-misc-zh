@@ -20,7 +20,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

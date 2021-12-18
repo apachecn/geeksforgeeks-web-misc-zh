@@ -8,19 +8,19 @@ Material UI 是谷歌为 React 组件设计的前端 UI 框架。它是使用 Le
 
 *   **步骤 1:** 使用以下命令创建一个 React 应用程序。
 
-    ```
+    ```html
     npx create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹即文件夹名称后，使用以下命令移动到该文件夹。
 
-    ```
+    ```html
     cd foldername
     ```
 
 *   **步骤 3:** 创建 React.js 应用程序后，使用以下命令安装**材质-用户界面**模块。
 
-    ```
+    ```html
     npm install @material-ui/core
     npm install @material-ui/icons
     ```
@@ -35,7 +35,7 @@ Material UI 是谷歌为 React 组件设计的前端 UI 框架。它是使用 Le
 
 ## Navbar，js
 
-```
+```html
 // Importing files from Material-UI
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
@@ -82,7 +82,7 @@ export default function Navbar() {
 
 ## App.js
 
-```
+```html
 // Importing the navbar component inside
 // the main app file
 import Navbar from "./components/Navbar";
@@ -100,7 +100,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。
 
-```
+```html
 npm start
 ```
 

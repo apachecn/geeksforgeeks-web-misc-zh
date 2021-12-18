@@ -12,7 +12,7 @@
 
 下面是上述方法的实现:
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

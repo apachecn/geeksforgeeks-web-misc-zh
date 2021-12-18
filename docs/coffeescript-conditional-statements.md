@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 if condition
    statement
 ```
@@ -19,7 +19,7 @@ if condition
 
 ## 咖啡脚本
 
-```
+```html
 number = 10; 
 if number>0       
    console.log("Number is positive") 
@@ -28,7 +28,7 @@ console.log("Outside if block")
 
 **输出:**在上面的代码中，“if”语句因为持有真值而被执行，它里面的所有指令都会被执行。一旦“如果”块被执行，它将在条件块之外执行进一步的条件。
 
-```
+```html
 Number is positive
 Outside if block
 ```
@@ -37,7 +37,7 @@ Outside if block
 
 **语法:**
 
-```
+```html
 if condition1
    statement 1
 else 
@@ -48,7 +48,7 @@ else
 
 ## 咖啡脚本
 
-```
+```html
 number = -10; 
 if number>=0       
    console.log("Number is positive")     

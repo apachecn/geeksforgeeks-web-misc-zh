@@ -20,7 +20,7 @@ Nikto 是一个用 Perl 语言编写的开源软件，用于扫描网络服务�
 
 **如何在 Linux 中安装 Nikto:**
 
-```
+```html
 Step 1: root@kali:~# git clone https://github.com/sullo/nikto.git
 Step 2: root@kali:~# cd nikto/program
 Step 3: root@kali:~/nikto/program# perl nikto.pl 

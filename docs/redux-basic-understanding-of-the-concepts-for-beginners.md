@@ -50,7 +50,7 @@
 
 以上说法的意思相当简单。在 Redux 中，您的操作 retract _ MONEY 将由一个对象表示，它看起来如下所示…
 
-```
+```html
 {  
  type: "WITHDRAW_MONEY",
  amount: "$10,000"
@@ -82,7 +82,7 @@
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from "react";
 import HelloTech from "./HelloTech";
 
@@ -100,7 +100,7 @@ export default App;
 
 我们将**技术**作为**道具**传递到 HelloTech 组件，如下图所示:
 
-```
+```html
 <HelloTech tech={this.state.tech}/>
 
 ```
@@ -109,7 +109,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from "react";
 import HelloTech from "./HelloTech";
 
@@ -127,7 +127,7 @@ export default App;
 
 就银行保险库而言，可能会雇佣一些工程师来创建一个安全的货币保管设施。类似地，在 Redux 中，Redux 库提供了一些 API 来创建存储工具。以下是在 Redux 中创建商店的代码…
 
-```
+```html
 import { createStore } from "redux"; //an import from the redux library
 const store = createStore(); 
 
@@ -143,7 +143,7 @@ const store = createStore();
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from "react";
 import HelloTech from "./HelloTech";
 
@@ -163,7 +163,7 @@ export default App;
 
 如果你听到减压器这个词，它听起来像是一个执行“减少”工作的减少功能。在 JavaScript 中，您已经使用了 reduce，这是一个 Array.reduce()方法(您可能知道这个方法)。该方法采用两个值**累加器**和**当前值。**看看下面给出的例子…
 
-```
+```html
 let arr = [1, 2, 3, 4, 5]
 let sum = arr.reduce((x,y) => x + y)
 console.log(sum) // 15
@@ -174,7 +174,7 @@ console.log(sum) // 15
 
 现在，我们需要在我们的应用程序中包括减速器，我们还没有这样做。所以创建一个目录缩减器，并在其中创建一个文件**。**减速器功能的路径将是 **src/reducers/index.js.** 现在我们将只通过**存储**作为减速器中的参数，我们将只导出一个简单的功能。代码如下所示…
 
-```
+```html
 export default (state) => {
 }
 
@@ -182,7 +182,7 @@ export default (state) => {
 
 在 **Array.reduce()** 中，我们返回了累加器和当前值的**和**。如果你以我们的银行场景为例，那么在取款后，你银行金库里的钱就不再是了。它将再次更新，收银台和金库将与您帐户中的余额保持同步。就像收银员一样，减速器总是返回您的应用程序的**新状态**。我们将在本博客后面讨论更改/更新状态。现在考虑一个案例，你访问银行，你没有执行任何操作，所以银行余额保持不变。在 Redux 中，如果您不执行任何操作，并且您没有在 reduce 中将**操作**作为参数传递，则**状态**将保持不变，并且 reduce 将返回相同的**状态**作为**新状态。**此时点保持一个**新状态**被返回，与传入的**状态** 相同。
 
-```
+```html
 export default (state) => {
     return state  
 }
@@ -193,7 +193,7 @@ export default (state) => {
 
 当你在你的银行创建一个账户时，你可能已经在你的账户里存了一些钱，如果你问出纳员你的银行余额，他们会查出来并告诉你。同样，当你创建一个 Redux Store 时，你做了一个类似的初始存款，称为**初始状态。**我们将把这个**初始状态**表示为**第二个** **参数**传递到 **createStore** 。
 
-```
+```html
 const store = createStore(reducer, initialState);
 
 ```
@@ -204,7 +204,7 @@ const store = createStore(reducer, initialState);
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from "react";
 import HelloTech from "./HelloTech";
 import reducer from "./reducers";
@@ -228,7 +228,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from "react";
 import HelloTech from "./HelloTech";
 import { createStore } from "redux";  
@@ -253,7 +253,7 @@ class App extends Component {
 
 ****我们只需要用一个普通的 JavaScript 对象来描述**动作**，这个对象**必须有一个**类型的**字段来描述动作的意图。代码如下所示…******
 
-```
+```html
 {
  type: "withdraw_money"
 } 
@@ -261,7 +261,7 @@ class App extends Component {
 
 **如果你只告诉你的行动去收银台取钱，你就拿不到钱。你还需要提到金额。在我们的应用程序中，很多时候我们还需要添加一些额外的信息来获得完整的细节。因此，我们将在代码中再添加一个信息量，如下所示…**
 
-```
+```html
 {
  type: "withdraw_money",
  amount: "$3000"
@@ -270,7 +270,7 @@ class App extends Component {
 
 **我们可以包含一些更多的信息，但现在，这已经足够了，忽略其他细节。如何组织您的动作确实取决于您，但是 Redux 中的一种标准/通用方法是使用有效负载字段。我们把所有需要的数据/信息放在描述动作的有效载荷对象中，它看起来如下…**
 
-```
+```html
 {
  type: "withdraw_money",
  payload: {
@@ -283,7 +283,7 @@ class App extends Component {
 
 **我们已经讨论过，Reducer 需要两个参数来更新应用程序**。**一是**状态**，二是**动作。**所以一个简单的减速器看起来如下…**
 
-```
+```html
 function reducer(state, action) {
 
  // return new state
@@ -294,7 +294,7 @@ function reducer(state, action) {
 
 ## **java 描述语言**
 
-```
+```html
 function reducer (state, action) {
     switch (action.type) {
          case "withdraw_money":
@@ -326,7 +326,7 @@ function reducer (state, action) {
 
 **对于“反应”按钮:**
 
-```
+```html
 {
    type: "SET_TECHNOLOGY",
    text: "React"
@@ -335,7 +335,7 @@ function reducer (state, action) {
 
 **对于反应-还原按钮:**
 
-```
+```html
 {
     type: "SET_TECHNOLOGY",
     text: "React-redux"
@@ -344,7 +344,7 @@ function reducer (state, action) {
 
 **对于榆树按钮:**
 
-```
+```html
 {
  type: "SET_TECHNOLOGY",
  text: "Elm"
@@ -359,7 +359,7 @@ function reducer (state, action) {
 
 **动作创建器只是一些简单的函数，可以帮助你创建动作，保持你的代码干燥，并返回动作对象。下面是代码…**
 
-```
+```html
 export function setTechnology (text) {
  return {
     type: "SET_TECHNOLOGY",
@@ -370,7 +370,7 @@ export function setTechnology (text) {
 
 **在上面的函数中，我们只需要调用 setTechnology 函数，我们就可以取回操作。没有必要到处复制代码。我们可以进一步简化这一点，我们可以使用 ES6 特性编写相同的上述代码。**
 
-```
+```html
 const setTechnology = text => ({ type: "SET_TECHNOLOGY", text }); 
 ```
 
@@ -382,7 +382,7 @@ const setTechnology = text => ({ type: "SET_TECHNOLOGY", text });
 
 ****store/index.js****
 
-```
+```html
 import { createStore } from "redux";
 import reducer from "../reducers";
 
@@ -396,7 +396,7 @@ export const store = createStore(reducer, initialState);
 
 ## **java 描述语言**
 
-```
+```html
 import React, { Component } from "react";
 import HelloTech from "./HelloTech";
 import ButtonGroup from "./ButtonGroup";
@@ -424,7 +424,7 @@ export default App;
 
 ## **java 描述语言**
 
-```
+```html
 import React from "react";
 
 const ButtonGroup = ({ technologies }) => (
@@ -446,7 +446,7 @@ export default ButtonGroup;
 
 **在上面的代码中，传入的按钮数组是[“React”、“Elm”、“React-redux”]。我们需要使用**贴图**来循环这个数组，以渲染**中的每个技术<按钮></按钮>。**生成的按钮也没有什么属性，如**键**和**数据技术**。完全渲染的按钮如下所示:**
 
-```
+```html
 <button  
  data-tech="React-redux"  
  key="btn-1"  
@@ -458,7 +458,7 @@ export default ButtonGroup;
 
 ## **java 描述语言**
 
-```
+```html
 <div>
     {technologies.map((tech, i) => (
       <button

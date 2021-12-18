@@ -14,14 +14,14 @@
 
 *   **步骤 1:** 导航到空目录设置项目，运行以下命令，
 
-```
+```html
 npm init
 
 ```
 
 *   生成**包. json** 文件。安装 [**电子**](https://www.geeksforgeeks.org/introduction-to-electronjs/) 如果没有安装，使用 npm。
 
-```
+```html
 npm install electron --save
 
 ```
@@ -30,7 +30,7 @@ npm install electron --save
 
     **package.json:**
 
-```
+```html
 {
   "name": "electron-pdf",
   "version": "1.0.0",
@@ -55,7 +55,7 @@ npm install electron --save
 
     **main.js:**
 
-```
+```html
 const { app, BrowserWindow } = require('electron')
 
 function createWindow () {
@@ -109,7 +109,7 @@ app.on('activate', () => {
 *   **步骤 3:** 在 **src** 目录下创建**index.html**文件和 **index.js** 文件。我们还将从上述链接中复制**index.html**文件的样板代码。我们已经修改了代码以适应我们的项目需求。
     **index.html:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -141,7 +141,7 @@ app.on('activate', () => {
 
 *   **输出:**此时，我们的基本电子应用程序设置完毕。要启动电子应用程序，请运行命令:
 
-```
+```html
 npm start
 
 ```
@@ -153,7 +153,7 @@ npm start
 *   **方法 1:** 转换当前活动的**浏览器窗口**实例的内容，并将其保存为 PDF 文件。
     **index.html**:在该文件中添加以下片段。
 
-```
+```html
 <br><br>
    <button id="pdf">
      Convert Current BrowserWindow to PDF
@@ -162,7 +162,7 @@ npm start
 
 *   **index.js** :在该文件中添加以下代码片段。
 
-```
+```html
 const electron = require('electron');
 const path = require('path');
 const fs = require('fs');
@@ -215,14 +215,14 @@ pdf.addEventListener('click', (event) => {
 *   **方法 2:** 转换远程 URL 的内容，保存为 PDF 文件。
     **index.html**:在该文件中添加以下片段。
 
-```
+```html
 <br><br>
     <button id="convert">Convert Google.com to PDF</button>
 ```
 
 *   **index.js** :在该文件中添加以下代码片段。
 
-```
+```html
 const electron = require('electron');
 const path = require('path');
 const fs = require('fs');

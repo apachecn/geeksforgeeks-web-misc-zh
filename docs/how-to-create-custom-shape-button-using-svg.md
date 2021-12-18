@@ -6,7 +6,7 @@
 
 **示例 1:** 本示例使用 SVG 创建圆形按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 
@@ -43,7 +43,7 @@ SVG 元素中还有很多可用的形状，如框、文本、矩形等。
 
 **示例 2:** 本示例使用 SVG 创建一个矩形形状的按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 
@@ -76,7 +76,7 @@ SVG 元素中还有很多可用的形状，如框、文本、矩形等。
 
 **示例 3:** 本示例使用 SVG 创建星形按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 
@@ -112,7 +112,7 @@ SVG 元素中还有很多可用的形状，如框、文本、矩形等。
 
 **示例 4:** 本示例使用 SVG 创建一个标志形状按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

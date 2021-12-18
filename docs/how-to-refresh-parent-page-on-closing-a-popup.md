@@ -14,7 +14,7 @@
 
 重载是通过 JavaScript 使用下面的语句来实现的
 
-```
+```html
 window.location.reload();
 ```
 
@@ -22,7 +22,7 @@ window.location.reload();
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

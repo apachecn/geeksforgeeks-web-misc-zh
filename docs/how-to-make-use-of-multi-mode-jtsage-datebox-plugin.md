@@ -18,7 +18,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <head>
         <meta http-equiv="Content-Type"
     content="text/html; charset=utf-8" />
@@ -111,7 +111,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -209,7 +209,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -304,7 +304,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -15,7 +15,7 @@
 **示例:**按照 [**中给出的步骤，如何在电子表格中找到页面上的文本？**](https://www.geeksforgeeks.org/how-to-find-text-on-page-in-electronjs/) 设置基础电子应用。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。此外，对**包进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。
 **package.json:****
 
-```html
+```htmlhtml
 {
   "name": "electron-clickthrough",
   "version": "1.0.0",
@@ -46,7 +46,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Click-Through Window in Electron</h3>
   <button id="disable">
       Disable Mouse Events on Current Window
@@ -63,7 +63,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 // Import BrowserWindow using Electron remote
 const BrowserWindow = electron.remote.BrowserWindow;

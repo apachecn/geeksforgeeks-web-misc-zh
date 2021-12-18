@@ -16,7 +16,7 @@
 
 *   **查询:**
 
-    ```
+    ```html
     {
       pokemon {
         name
@@ -27,7 +27,7 @@
 
 *   **输出:**
 
-    ```
+    ```html
     {
      "data": {
        "pokemon": {
@@ -55,7 +55,7 @@ GraphQL 标量有 3 种方法。这些方法的目的是在客户端和服务器
 
 *   **语法:**
 
-    ```
+    ```html
     scalar customScalar
     ```
 

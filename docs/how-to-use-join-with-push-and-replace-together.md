@@ -7,7 +7,7 @@
 
     **语法:**
 
-    ```
+    ```html
     array.join(separator)
 
     ```
@@ -18,7 +18,7 @@
 
     **语法:**
 
-    ```
+    ```html
     arr.push(element1[, ...[, elementN]])
 
     ```
@@ -32,7 +32,7 @@
 
     **语法:**
 
-    ```
+    ```html
     array.splice(start_index, delete_count, value1, value2, value3, ...)
 
     ```
@@ -41,7 +41,7 @@
 
 **示例:**下面是说明使用的示例。将()方法与 push()方法和 splice()方法连接在一起:
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <body>

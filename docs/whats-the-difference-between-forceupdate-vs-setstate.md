@@ -26,7 +26,7 @@ forceUpdate()和 setState()的区别在于，如果组件的某些状态或道�
 
 **语法:**
 
-```
+```html
 this.setState({ state: this.state });
 ```
 
@@ -34,7 +34,7 @@ this.setState({ state: this.state });
 
 ## App.js
 
-```
+```html
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -67,7 +67,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 
@@ -81,7 +81,7 @@ npm start
 
 **语法:**
 
-```
+```html
 this.forceUpdate()
 ```
 
@@ -89,7 +89,7 @@ this.forceUpdate()
 
 ## App.js
 
-```
+```html
 import React from 'react';
 class App extends React.Component{
 
@@ -119,7 +119,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 

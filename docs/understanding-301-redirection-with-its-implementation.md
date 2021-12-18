@@ -74,7 +74,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
    <head>
@@ -101,7 +101,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
    <head>
@@ -134,7 +134,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 #.htaccess file content
 #OLD_PAGE.html will be Redirected to NEW_PAGE_REDIRECTED.html Page Automatically
 redirect 301 /OLD_PAGE.html http://localhost:8081/NEW_PAGE_REDIRECTED.html

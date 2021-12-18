@@ -8,7 +8,7 @@
 
 ## java 描述语言
 
-```
+```html
 function printThis(){
 
   console.log(this);
@@ -26,7 +26,7 @@ printThis();
 
 ## java 描述语言
 
-```
+```html
 var obj={
  name: "Ramesh",
  printThis: function(){
@@ -49,7 +49,7 @@ obj.printThis();
 
     ## java 描述语言
 
-    ```
+    ```html
     var outerFunction= function(){
        innerFunction = function() {
        };

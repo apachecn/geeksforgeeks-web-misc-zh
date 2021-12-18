@@ -10,7 +10,7 @@
 
 ## HTML
 
-```html
+```htmlhtml
 <!-- HTML Code -->
 <!DOCTYPE html>
 <html lang="en">

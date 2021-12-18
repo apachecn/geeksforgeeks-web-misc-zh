@@ -25,7 +25,7 @@
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>   
@@ -57,7 +57,7 @@
 
 ## style.css
 
-```html
+```htmlhtml
 /* restoring all the default 
    properties of the browser */
 *{
@@ -133,7 +133,7 @@ input:hover{
 
 ## index.js
 
-```html
+```htmlhtml
 // Selection of id's and classes from html document
 const bgclr = document.getElementById("clr");
 const headingg = document.querySelector(".head");

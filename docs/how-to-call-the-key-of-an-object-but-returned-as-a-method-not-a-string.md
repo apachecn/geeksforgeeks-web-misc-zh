@@ -15,7 +15,7 @@
 
 ## java 描述语言
 
-```
+```html
 <script>
 let person = {
     name : "Raktim Banerjee",
@@ -49,7 +49,7 @@ console.log(result);
 
 ## **java 描述语言**
 
-```
+```html
 <script>
 let person = {
     name : "Raktim Banerjee",

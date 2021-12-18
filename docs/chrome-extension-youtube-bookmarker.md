@@ -42,7 +42,7 @@
 
 **1。manifest.json 文件**
 
-```html
+```htmlhtml
 {
 "name": "Hi, there! Extension",
 "version": "1.0",
@@ -77,7 +77,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head></head>

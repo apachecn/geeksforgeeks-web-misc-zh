@@ -13,7 +13,7 @@
 
 **SASS 文件:**下面的代码片段演示了扩展名为“”的 SASS 文件。SCS”。
 
-```html
+```htmlhtml
 @mixin placeholder
 {
     &::-webkit-input-placeholder {@content}
@@ -35,7 +35,7 @@ input {
 
 将上面的 SASS 代码放在“style.scss”文件中，并使用下面的命令从 SASS 文件创建“style.css”文件。只有在系统中安装了 SASS 时，该命令才会起作用。可以从 SASS 官网下载。
 
-```html
+```htmlhtml
 sass style.scss style.css
 ```
 
@@ -43,7 +43,7 @@ sass style.scss style.css
 
 **CSS 代码:**下面的代码是上面的 SASS 文件的结果，执行时转换为“style.css”文件。
 
-```html
+```htmlhtml
 input::-webkit-input-placeholder {
   font-family: robota;
   font-size: 20px;
@@ -75,7 +75,7 @@ input:-ms-input-placeholder {
 
 **HTML 代码:**下面的代码演示了“index.html”文件。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
     <head>       
         <meta name="viewport" content="width=device-width,

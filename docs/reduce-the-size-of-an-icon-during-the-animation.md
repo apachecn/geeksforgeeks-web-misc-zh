@@ -8,7 +8,7 @@
 
 ****步骤 1:** 使用 [npm](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/) 安装 [**浏览器同步**](https://www.browsersync.io/) 。我们将使用浏览器同步启动一个服务器，并提供一个网址来查看 HTML 网站和 CSS 动画，并使用 CDN(内容交付网络)加载**字体-棒极了**。我们将在全球范围内安装浏览器同步。**
 
-```html
+```htmlhtml
 npm install -g browser-sync 
 ```
 
@@ -18,7 +18,7 @@ npm install -g browser-sync
 
 ## **超文本标记语言**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +43,7 @@ npm install -g browser-sync
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```html
+```htmlhtml
 #icon i {
             font-size: 128px;
             animation: size 4s infinite 1s;
@@ -72,7 +72,7 @@ npm install -g browser-sync
 
 ****第 4 步:**要使用 Browsersync 启动应用程序，请在项目目录中运行以下命令，或者可以将 HTML 文件直接运行到浏览器中。**
 
-```html
+```htmlhtml
 browser-sync start --server --files "*" 
 ```
 

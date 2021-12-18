@@ -21,7 +21,7 @@ YAML 的语言结构支持内嵌注释，但不支持块级注释
 
 **示例:**
 
-```
+```html
 # remarks Punctuation model in YAML document  
 or
 #### #### comment model
@@ -31,7 +31,7 @@ or
 
 **区块级注释:**方形注释用于注释各行。YAML 对阻止评论自然没有帮助，你可以利用大量的内嵌评论
 
-```
+```html
 # block level Comment model  
 # Comment line 1  
 # Comment line 2  
@@ -42,7 +42,7 @@ or
 
 YAML 支持单行评论。它的结构在模型的帮助下被阐明
 
-```
+```html
 # This is single line comment.
 ```
 
@@ -56,7 +56,7 @@ YAML 确实排除了任何摆脱哈希图像(#)的方法，因此在多行字符
 
 **示例:**
 
-```
+```html
 #comment 1
 - Value line 1
 

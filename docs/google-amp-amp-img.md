@@ -10,7 +10,7 @@ AMP HTML 页面不支持标准的 **img 标签**、**T3【我们使用 **amp-img
 
 ## 超文本标记语言
 
-```
+```html
 <script async src=
     "https://cdn.ampproject.org/v0.js">
 </script>
@@ -28,7 +28,7 @@ AMP HTML 页面不支持标准的 **img 标签**、**T3【我们使用 **amp-img
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html ⚡>
 

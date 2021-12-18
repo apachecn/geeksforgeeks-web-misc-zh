@@ -6,7 +6,7 @@
 
 **程序:**popover 的 DOM 结构。
 
-```html
+```htmlhtml
 <!-- DOM structure template for the popover
      id's and attributes are usually specified
      automatically -->
@@ -31,13 +31,13 @@
 
 *   **语法:**
 
-    ```html
+    ```htmlhtml
     $([selector]).popover({ html:true; title:[header]; content:[Content] });
     ```
 
 *   **例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 

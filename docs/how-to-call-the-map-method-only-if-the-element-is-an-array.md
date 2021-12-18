@@ -20,7 +20,7 @@ JavaScript 中的[数组映射()](https://www.geeksforgeeks.org/javascript-array
 
 **示例 1:** 从对象文字映射上述方法的问题在于，过滤器和映射方法都不能用于迭代对象。[为了解决这个问题，反对。应使用数值](https://www.geeksforgeeks.org/object-values-javascript/)。对象。值将一个对象作为参数，并返回该对象中所有值的数组。现在我们可以在这个数组上应用数组 map()和数组 filter()方法。
 
-```
+```html
 const person = {
  first_name : 'John',
  last_name : 'Doe',
@@ -38,7 +38,7 @@ const person = {
 
 ## java 描述语言
 
-```
+```html
 <script>
     // The object literal Person from which we
     // need to extract the arrays
@@ -72,7 +72,7 @@ const person = {
 
 **例 2 :** 映射从一个数组，我们可以在这里直接使用数组 map()和数组 filter()方法。
 
-```
+```html
 const Person = ['John',8.6,['C++', 'python', 'java', 
                      'javascript', 'pascal', 'C#' ],
    'john@someplace.com',[10, 19, 17, 62.98, 76, 32.9]];
@@ -85,7 +85,7 @@ const Person = ['John',8.6,['C++', 'python', 'java',
 
 ## java 描述语言
 
-```
+```html
 <script>
   const P = ['John',8.6,['C++', 'python', 'java',
              'javascript', 'pascal', 'C#' ],

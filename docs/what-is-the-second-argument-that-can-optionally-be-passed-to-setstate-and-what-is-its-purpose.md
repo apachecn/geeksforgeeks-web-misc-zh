@@ -10,13 +10,13 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```html
 npx create-react-app setState_example
 ```
 
 **步骤 2:** 创建项目文件夹，即 setState_example 后，使用以下命令移动到该文件夹:
 
-```
+```html
 cd setState_example
 ```
 
@@ -30,7 +30,7 @@ cd setState_example
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -68,7 +68,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 
@@ -84,7 +84,7 @@ npm start
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from 'react';
 
 class App extends Component {
@@ -125,7 +125,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 

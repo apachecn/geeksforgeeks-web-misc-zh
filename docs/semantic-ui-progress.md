@@ -7,7 +7,7 @@
 进度条显示任务的进度。让我们看一些例子。
 **例:** jQuery 代码。
 
-```
+```html
 $('.ui.button').on('click', function() {
 var
   $progress       = $('.ui.progress'),
@@ -35,7 +35,7 @@ $('.ui.progress').progress({
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -99,7 +99,7 @@ $('.ui.progress').progress({
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>
@@ -147,7 +147,7 @@ $('.ui.progress').progress({
 
 州
 
-```
+```html
 <!DOCTYPE html>
   <html>
       <head>

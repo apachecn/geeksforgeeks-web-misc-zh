@@ -36,7 +36,7 @@ T3】
 
 **第 9 步**:在. aspx.cs 页面写方法(代码)
 
-```
+```html
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -217,7 +217,7 @@ namespace Setup
 
 **第 10 步**:写入代码。aspx 页面
 
-```
+```html
 <%@ Page Language="C#" AutoEventWireup="true" 
 CodeBehind="LearnKO.aspx.cs" Inherits="Setup.LearnKO" %>
 
@@ -373,7 +373,7 @@ CodeBehind="LearnKO.aspx.cs" Inherits="Setup.LearnKO" %>
 
 **第 11 步**:在 LearnKO.js 页面写代码
 
-```
+```html
 /// <reference path="Scripts/jquery-3.4.0.min.js" />
 /// <reference path="Scripts/knockout-3.5.0.js" />
 function Student(data) {

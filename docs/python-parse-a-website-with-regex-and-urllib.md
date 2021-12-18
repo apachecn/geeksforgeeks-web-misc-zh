@@ -10,7 +10,7 @@
 
 **代码#1：**需要库
 
-```
+```html
 # importing libraries
 import urllib.request
 import urllib.parse
@@ -19,7 +19,7 @@ import re
 
 **代码#2：**
 
-```
+```html
 url = 'https://www.geeksforgeeks.org/'
 values = {'s':'python programming',
           'submit':'search'}
@@ -29,7 +29,7 @@ values = {'s':'python programming',
 
 **代码#3：**
 
-```
+```html
 data = urllib.parse.urlencode(values)        
 data = data.encode('utf-8')                  
 req = urllib.request.Request(url, data)      
@@ -44,7 +44,7 @@ respData = resp.read()                      
 
 **代码#4：**
 
-```
+```html
 paragraphs = re.findall(r'<p>(.*?)</p>', str(respData))
 
 for eachP in paragraphs:
@@ -57,7 +57,7 @@ for eachP in paragraphs:
 
 **示例 1：**
 
-```
+```html
 import urllib.request
 import urllib.parse
 import re
@@ -83,7 +83,7 @@ for eachP in paragraphs:
 
 **示例 2：**
 
-```
+```html
 import urllib.request
 import urllib.parse
 import re

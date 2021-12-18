@@ -9,7 +9,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 setInterval(function_reference, time interval)
 ```
 
@@ -17,7 +17,7 @@ setInterval(function_reference, time interval)
 
     **示例:** HTML 代码
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
     <head>
@@ -44,7 +44,7 @@ setInterval(function_reference, time interval)
 
     这里的主线是:
 
-    ```html
+    ```htmlhtml
     <progress id="progress" max="100" value="0">Progress</progress>
 
     ```
@@ -57,7 +57,7 @@ setInterval(function_reference, time interval)
 
     **示例:** CSS 代码
 
-    ```html
+    ```htmlhtml
     progress[value] {
       appearance: none; 
       border: none;     
@@ -86,7 +86,7 @@ setInterval(function_reference, time interval)
 
     **示例:**进度值的 Javascript 代码。
 
-    ```html
+    ```htmlhtml
     const progress = document.getElementById("progress");
     function progressLoop() {
       setInterval(function () {
@@ -113,7 +113,7 @@ setInterval(function_reference, time interval)
 
     在 HTML 文件中添加计时器标签:
 
-    ```html
+    ```htmlhtml
     <figure>
       <video controls id="video" 
              src="GFG.mp4">
@@ -131,7 +131,7 @@ setInterval(function_reference, time interval)
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     const progress = document.getElementById("progress");
     const timer = document.getElementById( "timer" );
 
@@ -157,7 +157,7 @@ setInterval(function_reference, time interval)
 
     在 HTML 中添加一个按钮:
 
-    ```html
+    ```htmlhtml
     <figure>
       <video id="video" src="GFG.mp4">
       </video>
@@ -177,7 +177,7 @@ setInterval(function_reference, time interval)
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     button = document.getElementById( "play" );
 
     function playPause() { 
@@ -201,7 +201,7 @@ setInterval(function_reference, time interval)
 
 **完整代码:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head>

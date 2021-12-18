@@ -11,7 +11,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

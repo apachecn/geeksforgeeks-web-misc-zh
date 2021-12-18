@@ -6,13 +6,13 @@
 
 *   我们必须从 react 包中导入 useState()钩子。
 
-    ```
+    ```html
     import  { useState } from 'react';
     ```
 
 *   使用 useState()钩子创建状态的语法:
 
-    ```
+    ```html
     const [ state, updateState] = useState("Initial Value")
     ```
 
@@ -22,13 +22,13 @@ useState()返回一个包含两个元素的列表。首先是状态本身，其�
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```html
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即 foldername)后，使用以下命令移动到该文件夹:
 
-```
+```html
 cd foldername
 ```
 
@@ -41,7 +41,7 @@ cd foldername
 
 ## java 描述语言
 
-```
+```html
 import React, { Component, useState } from "react";
 const App = () =>   {
 
@@ -74,7 +74,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 
 export default class App extends React.Component {

@@ -6,7 +6,7 @@
 
 **语法:**
 
-*   ```
+*   ```html
     fetch(url, { config }) 
     .then(res => { 
         // Handle response 
@@ -19,7 +19,7 @@
 
 *   Since fetch returns a Promise, we can also use the keyword **async/await** to make a request:
 
-    ```
+    ```html
     async () => {
       const resp = await fetch('http://example.com/example.json');
       // Handle response
@@ -29,7 +29,7 @@
 
 **使用 fetch()创建 POST 请求:**POST 请求广泛用于向服务器提交表单。
 
-```
+```html
 fetch(url, {
     method: 'POST',
     headers: {

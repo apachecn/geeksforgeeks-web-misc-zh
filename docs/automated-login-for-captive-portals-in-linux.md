@@ -34,7 +34,7 @@ HTML 中会嵌入 JavaScript(显然！).注意它调用的函数。
 
 **步骤 4:** 用变量创建自己的查询字符串。一旦观察到查询，就很容易用相同的变量进行自己的查询，并相应地填充适当的数据。本案中的联系如下:
 
-```
+```html
 'mode=191&username=admin&password=root&a=1551345153461'
 ```
 
@@ -54,7 +54,7 @@ HTML 中会嵌入 JavaScript(显然！).注意它调用的函数。
 
 **第六步:**将其插入 bash 脚本。为了使这个过程自动化，有必要创建一个 bash 脚本文件，它将在您每次连接到组织的网络时运行。要制作一个简单的 bash 脚本，请转到终端并键入
 
-```
+```html
 nano autologin
 ```
 
@@ -62,7 +62,7 @@ Nano 是一个命令行编辑器，现在将创建一个名为 autologin 的文�
 
 **注意:**要创建 bash 文件，不要输入文件扩展名，因为 Linux 从不使用扩展名，而是在内部识别文件。Linux 自己知道，文件是 ASCII 文本文件、doc 文件还是 bash 文件。
 
-```
+```html
 #!/bin/bash
 
 wget -q --tries=10 --timeout=10  http://192.168.1.8:8294
@@ -90,28 +90,28 @@ fi
 
 *注意:*如果默认找不到 4 个文件夹，创建我们需要的文件夹，并将条目添加到`/etc/network/interfaces`文件中。要粘贴脚本，请转到脚本所在的目录，然后键入:
 
-```
+```html
 sudo cp autologin /etc/network/if-up.d
 
 ```
 
 **步骤 8:** 使文件可执行并重新启动网络。文件的所有权必须更改为 root。因此，请键入以下命令:
 
-```
+```html
 sudo chown root:root autologin
 
 ```
 
 然后授予使文件可执行的权限:
 
-```
+```html
 sudo chmod +x autologin
 
 ```
 
 最后，重新启动网络管理器以进行新的设置！
 
-```
+```html
 /etc/init.d/network-manager restart
 
 ```

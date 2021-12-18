@@ -22,7 +22,7 @@ YAML 是所有编程语言的人性化数据序列化标准。它通常用于配
 
 **示例:**
 
-```
+```html
 Instead of
 # This comment
 # is too long

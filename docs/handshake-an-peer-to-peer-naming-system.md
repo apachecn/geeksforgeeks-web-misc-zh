@@ -52,7 +52,7 @@ HNS(或)握手币是握手协议中的原生类令牌币，允许域名的转移
 4.  投标期结束后，将开始 1440(约 10 天)的区块展示期，在此期间，投标人必须展示其投标的价值(Namebase 会自动为您这样做)。
 5.  在展示期结束后，出价最高的投标人将只支付第二高的投标金额，并将收到他们赢得的名称。
 
-```
+```html
 NOTE: 
 Namebase, it doesn't need any setup or technical abilities 
 all that is required is Browser with an Internet

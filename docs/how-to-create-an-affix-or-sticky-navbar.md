@@ -11,7 +11,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -145,7 +145,7 @@
 
 ## 钢性铸铁
 
-```html
+```htmlhtml
 <style>
     body {
         margin: 0;
@@ -208,7 +208,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <script>
     window.onscroll = function() {myFunction()};
 
@@ -231,7 +231,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

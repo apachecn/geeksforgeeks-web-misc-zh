@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 var ctx = anAudioNode.context;
 ```
 
@@ -14,7 +14,7 @@ var ctx = anAudioNode.context;
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@ var ctx = anAudioNode.context;
 
 **例 2:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

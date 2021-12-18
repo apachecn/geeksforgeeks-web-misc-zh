@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 // Mixin in LESS
 
 .button_basic{
@@ -20,7 +20,7 @@
 
 **示例**:在这个示例中，我们使用了上面的 mixin，就像调用其他元素块中的函数一样。
 
-```
+```html
 /*LESS file */
 
 .button_basic{
@@ -46,7 +46,7 @@
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 .button_basic {
   font-size: 1em;
   padding: 1em;
@@ -78,7 +78,7 @@
 
 **语法:**
 
-```
+```html
 .button_basic(@background_color){
     font-size: 1em;
     padding: 1em;
@@ -89,7 +89,7 @@
 
 **示例**:在这里，我们可以调用上面的 mixin，就像其他 mixin 一样，在调用的时候我们把值传递给 mixin 的参数。
 
-```
+```html
 /*Less Code file*/
 
 .button_basic(@background_color){
@@ -116,7 +116,7 @@
 
 ## 【CSS】
 
-```
+```html
 .btn1 {
   font-size: 1em;
   padding: 1em;
@@ -139,7 +139,7 @@
 
 我们也可以将*默认值*赋予参数化混音，如下图所示:
 
-```
+```html
 .button_basic(@background_color:red){
    font-size: 1em;
    padding: 1em;
@@ -155,7 +155,7 @@
 
 ## 【CSS】
 
-```
+```html
 .button1 {
   font-size: 1em;
   padding: 1em;
@@ -170,7 +170,7 @@
 
 **语法:**
 
-```
+```html
 .button_basic(){
    &:hover{
       background-color: white;
@@ -180,7 +180,7 @@
 
 **示例**:在上面的示例中，悬停选择器在 mixins 内部使用，可以从其他元素调用。
 
-```
+```html
 /*LESS Code file */
 
 .button_basic()
@@ -200,7 +200,7 @@
 
 ## 【CSS】
 
-```
+```html
 .btn1:hover {
   background-color: white;
 }
@@ -210,7 +210,7 @@
 
 **示例:**这里有一个示例，当从另一个元素调用时，我们使 mixin 变得很重要。
 
-```
+```html
 /* Less Code */
 .button_basic(){
     font-size: 1em;
@@ -228,7 +228,7 @@
 
 ## 【CSS】
 
-```
+```html
 /*CSS code */
 
 .btn2 

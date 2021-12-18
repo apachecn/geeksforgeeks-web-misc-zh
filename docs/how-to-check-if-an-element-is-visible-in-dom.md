@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -120,7 +120,7 @@ display 属性用于指定元素的显示行为。此属性的“none”值对�
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

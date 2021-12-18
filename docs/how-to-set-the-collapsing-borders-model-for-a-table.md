@@ -12,7 +12,7 @@ HTML [表格](https://www.geeksforgeeks.org/html-tables/)允许我们使用行�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -73,7 +73,7 @@ HTML 表格
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -145,7 +145,7 @@ HTML 表格
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

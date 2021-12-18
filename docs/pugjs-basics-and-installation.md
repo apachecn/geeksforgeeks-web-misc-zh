@@ -13,7 +13,7 @@ PUG 的前身是 Jade。
 
 **步骤 1：**创建空项目文件夹。 在命令提示符/终端中，运行 npm init 初始化 Package.json 文件：
 
-```
+```html
 npm init -y
 ```
 
@@ -23,7 +23,7 @@ npm init -y
 
 **第二步：**安装 Express 和 PUG。 为了简单起见，我们将直接安装‘express’包，而不是使用‘express-Generator’生成我们的 express 应用程序。 您可以选择安装[nodemon 以便热重新加载](https://www.geeksforgeeks.org/nodejs-automatic-restart-nodejs-server-with-nodemon/)。
 
-```
+```html
 npm install express pug
 ```
 
@@ -41,7 +41,7 @@ npm install express pug
 
 ## JavaScript
 
-```
+```html
 // Importing node modules
 const express = require("express");
 const pug = require("pug");
@@ -76,7 +76,7 @@ app.listen(3000);
 
 ## JavaScript
 
-```
+```html
 doctype html
 html
     head
@@ -90,7 +90,7 @@ html
 
 **步骤 6：**终端启动应用。 如果我们之前已经安装了 nodemon 命令，则运行 nodemon 命令，或者直接使用 node。
 
-```
+```html
 node index.js or nodemon index.js
 ```
 

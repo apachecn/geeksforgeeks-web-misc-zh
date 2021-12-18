@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,7 +64,7 @@ CSS [*尺寸框*](https://www.geeksforgeeks.org/css-box-sizing-property/) 允许
 
 ## style.css
 
-```html
+```htmlhtml
 *,*:after,*:before{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

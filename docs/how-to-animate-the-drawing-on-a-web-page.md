@@ -12,7 +12,7 @@ CSS 允许在不使用 JavaScript 的情况下动画化 HTML 元素。
 
 **语法:**
 
-```html
+```htmlhtml
 @keyframes animation-name {keyframes-selector {css-styles;}}
 
 ```
@@ -27,7 +27,7 @@ CSS 允许在不使用 JavaScript 的情况下动画化 HTML 元素。
 
 以下是我们将使用的@规则:
 
-```html
+```htmlhtml
 /* define the animation */
 @keyframes your-animation-name {
     /* style rules */
@@ -45,7 +45,7 @@ CSS 允许在不使用 JavaScript 的情况下动画化 HTML 元素。
 
 **实施例 1:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,7 +81,7 @@ div {
 
 **实施例 2:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

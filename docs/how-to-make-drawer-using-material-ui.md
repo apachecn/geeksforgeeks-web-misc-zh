@@ -37,19 +37,19 @@
 
     **模块安装:**但是在我们继续之前，我们需要将以下包安装到我们的项目中。打开您的终端并键入以下命令:
 
-    ```
+    ```html
     npm i @material-ui/core
     ```
 
     它将反应组件安装到我们的项目中。在我们的例子中，它安装了抽屉组件。
 
-    ```
+    ```html
     npm i react-router-dom
     ```
 
     这为网站提供了路由组件。简单地说，这是将用户从应用程序的一部分重定向到另一部分所必需的。
 
-    ```
+    ```html
     npm i @material-ui/icons
     ```
 
@@ -57,7 +57,7 @@
 
     上面所有的命令都应该在您的项目中对您的*包进行如下更改:*
 
-    ```
+    ```html
     "dependencies": {
         "@material-ui/core": "^4.11.0",
         "@material-ui/icons": "^4.9.1",
@@ -71,7 +71,7 @@
 
     **示例:1** 使用以下命令进入您的 ***src*** 文件夹:
 
-    ```
+    ```html
     cd src
     ```
 
@@ -81,7 +81,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import React from 'react';
     const styles = {
       home: {
@@ -110,7 +110,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import React from 'react';
     const styles = {
       contact: {
@@ -140,7 +140,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import React from 'react';
     const styles = {
       about: {
@@ -172,7 +172,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import React from 'react';
     import { Drawer, Divider, IconButton } 
         from '@material-ui/core';
@@ -264,7 +264,7 @@
 
     ## java 描述语言
 
-    ```
+    ```html
     import './App.css';
     import Home from './Home';
     import Contact from './Contact';

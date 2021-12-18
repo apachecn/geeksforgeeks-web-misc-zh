@@ -14,7 +14,7 @@
 **示例：**
 例如，下面的代码表示一个表示组件，它从道具中获取数据，只关注显示元素。
 
-```
+```html
 // presentational component
 const Users = props => 
       (<ul>   
@@ -31,7 +31,7 @@ const Users = props => 
 *   向表示组件或其他容器组件提供数据和行为。
 *   调用流量动作，并将它们作为回调提供给表示组件。
 
-```
+```html
 // container component
 classUsersContainerextendsReact.Component{constructor() 
    { 

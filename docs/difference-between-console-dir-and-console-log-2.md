@@ -7,14 +7,14 @@
 **console.log()** 方法向用户打印出控制台中对象的 toString 表示。
 **语法:**
 
-```
+```html
 console.log(object) or console.log("string", object)
 ```
 
 **console.dir()** 方法将控制台中指定对象的对象属性列表输出给用户。
 **语法:**
 
-```
+```html
 console.dir(object)
 ```
 
@@ -22,7 +22,7 @@ console.dir(object)
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

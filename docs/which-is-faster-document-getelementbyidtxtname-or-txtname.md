@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 document.getElementById( elementID )
 ```
 
@@ -22,7 +22,7 @@ document.getElementById( elementID )
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,7 +59,7 @@ document.getElementById( elementID )
 
 **语法:**
 
-```
+```html
 $("#id")
 ```
 
@@ -71,7 +71,7 @@ $("#id")
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

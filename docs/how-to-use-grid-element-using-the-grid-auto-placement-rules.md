@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 grid-template-rows : auto
 grid-template-columns: auto
 ```
@@ -19,7 +19,7 @@ grid-template-columns: auto
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -77,7 +77,7 @@ grid-template-columns: auto
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

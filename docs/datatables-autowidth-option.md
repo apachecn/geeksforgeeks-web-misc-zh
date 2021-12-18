@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 { autoWidth: value }
 ```
 
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -124,7 +124,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

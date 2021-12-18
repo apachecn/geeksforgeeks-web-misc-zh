@@ -17,7 +17,7 @@ Slim 是一个轻量级、易于使用和快速的 PHP 框架，用于轻松快�
     ![](img/705bdfe55315e65634c2549e76e75168.png)
 3.  Enter the command
 
-    ```
+    ```html
     mkdir project_name && cd project_name
     ```
 
@@ -26,7 +26,7 @@ Slim 是一个轻量级、易于使用和快速的 PHP 框架，用于轻松快�
 
 4.  Now enter the command
 
-    ```
+    ```html
     composer require slim/slim:3.* 
     ```
 
@@ -36,7 +36,7 @@ Slim 是一个轻量级、易于使用和快速的 PHP 框架，用于轻松快�
 
 5.  Now enter the command
 
-    ```
+    ```html
     notepad index.php
     ```
 
@@ -45,7 +45,7 @@ Slim 是一个轻量级、易于使用和快速的 PHP 框架，用于轻松快�
 
 6.  Now type the following code in the file
 
-    ```
+    ```html
     <?php
 
     require 'vendor/autoload.php';

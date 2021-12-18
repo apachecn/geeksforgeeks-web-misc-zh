@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```html
 Input: 1\. DataURI for a file.
        2\. fileName. // To store the file
 Output: fileName - [ObjectFile]
@@ -22,7 +22,7 @@ Output: fileName - [ObjectFile]
 **输入:** URI 为一个图像。
 **程序:**
 
-```
+```html
 <script type="text/javascript">
     var inputURL ="";
 

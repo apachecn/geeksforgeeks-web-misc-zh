@@ -5,7 +5,7 @@
 在本文中，我们将了解如何以多种语言提供页面内容。我们可以通过在代码中设置 **lang** 属性来设置 HTML 文档中的语言。默认情况下，指定的语言是英语，但可以在我们方便的时候更改。有一种方法可以通过使用谷歌来改变内容语言，你可以查看这篇文章，[如何在你的网页上添加谷歌翻译按钮？](https://www.geeksforgeeks.org/add-google-translate-button-webpage/)、
 **默认:**
 
-```html
+```htmlhtml
 <html lang="en">
 ```
 
@@ -13,13 +13,13 @@
 
 *   **例 1:** 和这里一样，我们在 span 标签中把语言改成了法语。
 
-    ```html
+    ```htmlhtml
     <p> French " <span lang="fr"> Bonjour </span> " </p>
     ```
 
 *   **例 2:**
 
-    ```html
+    ```htmlhtml
     <p> Spanish " <span lang="es">Hola</span> "</p>
     ```
 
@@ -33,7 +33,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +62,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="fr">
 

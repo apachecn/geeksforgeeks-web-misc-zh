@@ -23,7 +23,7 @@
 
 *   **第一步:**打开你的文本编辑器，创建一个基本的 HTML 文件(例如:index.html)，并将下面的代码粘贴到该文件中。
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
         <head>
@@ -38,7 +38,7 @@
 
 *   **第二步:**把下面的代码粘贴到你的 HTML 代码的主体标签里面，也可以粘贴到头部标签里面。与您使用 JavaScript 所做的完全相同。
 
-    ```
+    ```html
     <script type="text/vbscript">
         document.write("Hello geeks, greeting from GeeksforGeeks")
     </script>
@@ -46,7 +46,7 @@
 
 *   **Step 3:** Combine both the code and run it on Internet Explorer and you will get the below output in the console.
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
     <head>
@@ -63,7 +63,7 @@
 
     **输出:**
 
-    ```
+    ```html
     Welcome to GeeksforGeeks 
     ```
 

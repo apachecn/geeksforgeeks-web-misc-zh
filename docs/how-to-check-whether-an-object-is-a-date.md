@@ -7,13 +7,13 @@
 
 **语法:**
 
-```
+```html
 object instanceof Date
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -91,13 +91,13 @@ object instanceof Date
 
 **语法:**
 
-```
+```html
 Object.prototype.toString.call(object)
 ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

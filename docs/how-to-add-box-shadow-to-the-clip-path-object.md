@@ -23,7 +23,7 @@
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,7 +49,7 @@
 
 ## Style.css
 
-```
+```html
 .main_box{
   filter: drop-shadow(1.25em .75em 0px rgb(150, 223, 150));
  }
@@ -67,7 +67,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

@@ -16,7 +16,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <img src="svgImage.svg" alt="SVG_img">
 ```
 
@@ -24,7 +24,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +51,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <object data="svgImage.svg"> </object>
 ```
 
@@ -59,7 +59,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -86,7 +86,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <embed src="svgImage.svg" />
 ```
 
@@ -94,7 +94,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -120,7 +120,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <svg>
     <image attributes="values" >
 </svg>
@@ -130,7 +130,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

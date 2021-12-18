@@ -14,13 +14,13 @@ React.js 允许我们使用 props(属性的缩写)将数据从父组件传递给
 
 **创建应用程序:**下面的命令将帮助你[启动一个新的 react 应用程序](https://www.geeksforgeeks.org/reactjs-setting-development-environment/)。
 
-```
+```html
 npx create-react-app testapp
 ```
 
 接下来，您必须从终端移动到“**test PP**”项目文件夹。
 
-```
+```html
 cd testapp
 ```
 
@@ -47,7 +47,7 @@ cd testapp
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from 'react';
 import Child from './components/child.js';
 
@@ -75,7 +75,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from 'react';
 
 // Accessing the props value using this.props
@@ -100,7 +100,7 @@ export default Child;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 npm start
 ```
 
@@ -126,7 +126,7 @@ npm start
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from 'react';
 import Child from './components/child.js';
 
@@ -148,7 +148,7 @@ function App (){
 
 ## java 描述语言
 
-```
+```html
 import React, { Component } from 'react';
 
 // Passing props as a parameter
@@ -166,7 +166,7 @@ function Child ({gfgcolor,usercolor}){
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 npm start
 ```
 

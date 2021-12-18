@@ -13,7 +13,7 @@ Day js 是一个轻量级的日期和时间操作库。它是具有相同现代 
 
 *   您可以访问“https://day . js . org/docs/en/installation/installation”获取文档。可以使用此命令安装软件包。
 
-    ```
+    ```html
     npm install dayjs
     ```
 
@@ -21,7 +21,7 @@ Day js 是一个轻量级的日期和时间操作库。它是具有相同现代 
 
 *   After installing, you can check the installed version of the package with this command.
 
-    ```
+    ```html
     npm ls dayjs
     ```
 
@@ -29,7 +29,7 @@ Day js 是一个轻量级的日期和时间操作库。它是具有相同现代 
 
 *   要开始使用 DayJS，请创建一个名为 **index.js** 的文件。这个包可以用这个命令包含在 index.js 中。
 
-```
+```html
 const dayjs = require('dayjs');
 ```
 
@@ -41,7 +41,7 @@ const dayjs = require('dayjs');
 
 ## java 描述语言
 
-```
+```html
 const dayjs = require('dayjs');
 
 // 2021-02-08T03:08:30+05:30 - ISO 8601 standard
@@ -66,7 +66,7 @@ console.log(dayjs().format("MMM D[th],YY")); 
 
 **运行文件:**在终端运行以下命令执行 index.js 文件。
 
-```
+```html
 node index.js
 ```
 

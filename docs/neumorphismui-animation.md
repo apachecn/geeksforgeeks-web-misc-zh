@@ -8,7 +8,7 @@ NeumorphismUI 是一种用于设计网页元素、框架和屏幕的现代软 UI
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -29,7 +29,7 @@ NeumorphismUI 是一种用于设计网页元素、框架和屏幕的现代软 UI
 
 **index.css:** 以下是上述 HTML 代码中使用的文件“index.css”的代码。
 
-```html
+```htmlhtml
 <style>
     .container {
         background: #f2f2f2;

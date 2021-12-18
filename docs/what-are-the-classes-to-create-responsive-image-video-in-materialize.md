@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```html
 <img class="responsive-img" src="url">
 ```
 
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -65,7 +65,7 @@
 
 **语法:**
 
-```
+```html
 <video class="responsive-video" controls>
     <source src="..." type="....">
 </video>
@@ -75,7 +75,7 @@
 
 标签。如果您正在添加已经下载到电脑的视频，您可以在此情况下使用<视频>标签。
 
-```
+```html
 <div class="video-container responsive-video">
     <iframe width="853" height="480" src=
 "https://www.youtube.com/embed/gaNp9i6rQHc?rel=0" 
@@ -88,7 +88,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

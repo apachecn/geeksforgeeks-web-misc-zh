@@ -8,14 +8,14 @@ Pop 用于在页面顶部显示一些内容。
 
 **语法:** jQuery 代码
 
-```
+```html
 $('.button').popup();
 
 ```
 
 **示例 1:** 本示例在鼠标移动时显示弹出消息。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@ $('.button').popup();
 
 **jQuery code:**
 
-```
+```html
 $('.menu .browse').popup({
    hoverable: true,
 });
@@ -75,7 +75,7 @@ $('.menu .browse').popup({
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -152,7 +152,7 @@ $('.menu .browse').popup({
 
 **jQuery Code:**
 
-```
+```html
 $('.button').popup({
    on: 'click'
 });
@@ -161,7 +161,7 @@ $('.button').popup({
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -209,7 +209,7 @@ $('.button').popup({
 
 **jQuery Code:**
 
-```
+```html
 $('input').popup({
    on: 'focus'
 });
@@ -220,7 +220,7 @@ $('input').popup({
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -269,7 +269,7 @@ $('input').popup({
 
 **jQuery Code:**
 
-```
+```html
 $('.button').popup({
   position : 'right center',
   target   : '.image',
@@ -285,7 +285,7 @@ $('.button').popup({
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

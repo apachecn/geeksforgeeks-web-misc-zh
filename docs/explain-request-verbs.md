@@ -30,7 +30,7 @@ HTTP 方法提供了一种方法来指定要在给定资源上执行的所需操
 
 ## java 描述语言
 
-```
+```html
 // GET request
 fetch("https://jsonplaceholder.typicode.com/users/2")
 

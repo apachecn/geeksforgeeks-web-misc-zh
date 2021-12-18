@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 window.requestAnimationFrame( callback );
 ```
 
@@ -24,7 +24,7 @@ window.requestAnimationFrame( callback );
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,7 +73,7 @@ window.requestAnimationFrame( callback );
 
 **例 2:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

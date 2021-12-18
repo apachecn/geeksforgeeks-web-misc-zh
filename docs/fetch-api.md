@@ -7,7 +7,7 @@
 Fetch API 提供了在窗口对象上定义的 Fetch()方法。这用于执行请求。该方法返回一个 Promise，该 Promise 可进一步用于检索对请求的响应。
 **基本语法:**
 
-```
+```html
  fetch(url) //call the fetch function passing the url of the API as a parameter
 .then(function(){
   //code for handling data from API
@@ -45,7 +45,7 @@ Fetch API 提供了在窗口对象上定义的 Fetch()方法。这用于执行�
 
 ## java 描述语言
 
-```
+```html
 fetch('https://www.reddit.com/r/javascript/top/.json?limit=5')
 .then(res=>res.json())
 .then(json=>console.log(json));

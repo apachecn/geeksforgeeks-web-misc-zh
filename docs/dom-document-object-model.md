@@ -6,7 +6,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -74,7 +74,7 @@ HTML 用来**构造**网页，Javascript 用来给我们的网页添加**行为*
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <table>
   <ROWS>
     <tr>
@@ -122,7 +122,7 @@ HTML 用来**构造**网页，Javascript 用来给我们的网页添加**行为*
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

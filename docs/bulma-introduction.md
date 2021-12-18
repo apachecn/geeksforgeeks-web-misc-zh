@@ -10,7 +10,7 @@
 
 **使用布尔玛:**如果你是一个初学 web 开发的人，最简单的方法就是使用链接标签在 HTML 文件的头部使用一个 jsDelivr CDN 链接。
 
-```html
+```htmlhtml
 <html>
 <head>
      <link rel="stylesheet" 
@@ -24,7 +24,7 @@
 
 **输出:**
 
-```html
+```htmlhtml
 Hello world!!
 ```
 
@@ -32,7 +32,7 @@ Hello world!!
 
 **示例:**布尔玛语法极其简单，有预定义的类名帮助我们根据名称创建元素。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
   <head>
@@ -57,7 +57,7 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -93,7 +93,7 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 
 尺寸修饰符的范围从 **is-size-1** 到 **is-size-6** 。这些有助于改变字体大小。在布尔玛尝试使用 *h1* 到 *h6* 标签，但是你会注意到可见字体大小没有变化。这是因为布尔玛只使用修饰符来改变文本的大小，而不是用标准的 HTML 方式。尝试运行以下代码来了解 h1 到 h6 标签如何不影响文本的大小:
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -119,7 +119,7 @@ href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 
 **输出:**
 
-```html
+```htmlhtml
 hello world
 hello world
 hello world
@@ -127,7 +127,7 @@ hello world
 
 在元素类属性中添加多个变体。尝试这个代码，并观察到我们使用了两个修改器，一个用于颜色，另一个用于大小。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 <head>

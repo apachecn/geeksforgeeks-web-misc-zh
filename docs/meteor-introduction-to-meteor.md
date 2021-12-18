@@ -16,13 +16,13 @@ Meteor 是一个全栈 JavaScript 平台，用于开发现代网络和移动应�
 
     首先安装**巧克力**
 
-    ```
+    ```html
     -    Pip install choco
     ```
 
     使用管理员命令提示符运行此命令
 
-    ```
+    ```html
      -    Choco install meteor
     ```
 
@@ -30,7 +30,7 @@ Meteor 是一个全栈 JavaScript 平台，用于开发现代网络和移动应�
 
     在您的终端中运行以下命令来安装 Meteor
 
-    ```
+    ```html
     -   Curl https://install.meteor.com/ |sh
     ```
 
@@ -40,13 +40,13 @@ Meteor 是一个全栈 JavaScript 平台，用于开发现代网络和移动应�
 
     创建新项目。您必须运行以下命令
 
-    ```
+    ```html
      - meteor create project_name
     ```
 
     要在 Meteor 中运行项目，您需要运行以下命令:
 
-    ```
+    ```html
      " meteor "
     ```
 

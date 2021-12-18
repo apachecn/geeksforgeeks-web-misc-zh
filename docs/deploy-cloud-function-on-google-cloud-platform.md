@@ -69,14 +69,14 @@
 1.  在**云功能概述**页面中，在**最后部署的**列旁边，您可能会发现 3 个点，显示您的功能菜单。点击**测试功能**。
 2.  Now, a **Function details** page will open. In the **Triggering event** box, add
 
-    ```
+    ```html
     {"message":"Hello World!"}
     ```
 
     。在这个测试表单中，我们提供了一个 JSON 格式的消息。接下来，点击**测试功能**。这调用了我们的函数，out 函数的输出将在输出框中显示给我们，您可以看到您的函数被执行了。
     T3】输出:
 
-    ```
+    ```html
     Hello World!
     ```
 

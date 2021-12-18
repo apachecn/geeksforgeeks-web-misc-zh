@@ -13,7 +13,7 @@ Date.now()方法返回自世界协调时 1970 年 1 月 1 日 00:00:00 以来经
 
 **语法:**
 
-```
+```html
 Date.now();
 ```
 
@@ -25,7 +25,7 @@ Date.now();
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -90,7 +90,7 @@ Date.getTime()方法返回自世界协调时 1970 年 1 月 1 日 00:00:00 以�
 
 **语法:**
 
-```
+```html
 new Date().getTime();
 ```
 
@@ -102,7 +102,7 @@ new Date().getTime();
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

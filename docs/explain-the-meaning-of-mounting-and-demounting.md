@@ -9,7 +9,7 @@
 *   **更新:**更新是组件状态更新，应用重绘的阶段。
 *   **卸载:**顾名思义，卸载是组件生命周期的最后一步，即从页面中移除组件。
 
-```
+```html
 Here we will learn about Mounting and Demounting/Unmounting in Detail
 ```
 
@@ -19,7 +19,7 @@ Here we will learn about Mounting and Demounting/Unmounting in Detail
 
 ## App.js
 
-```
+```html
 import React from "react";
 
 class ComponentOne extends React.Component {
@@ -50,7 +50,7 @@ export default App;
 
 ## App.js
 
-```
+```html
 import React from "react";
 class App extends React.Component {
   constructor(props) {
@@ -105,13 +105,13 @@ export default App;
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```html
 npx create-react-app functiondemo
 ```
 
 **步骤 2:** 创建项目文件夹(即 functiondemo)后，使用以下命令移动到该文件夹:
 
-```
+```html
 cd functiondemo
 ```
 
@@ -123,7 +123,7 @@ cd functiondemo
 
 ## App.js
 
-```
+```html
 import React from "react";
 class ComponentOne extends React.Component {
 
@@ -164,7 +164,7 @@ export default App;
 
 **运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序:
 
-```
+```html
 npm start
 ```
 

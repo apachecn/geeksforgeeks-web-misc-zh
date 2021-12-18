@@ -10,7 +10,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <?xml version="1.0" encoding="UTF-8"?>
 ```
 
@@ -26,7 +26,7 @@
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```html
+```htmlhtml
 <?php
 $doc = new DOMDocument;
 $doc->loadXML('<?xml version="1.0" encoding="ISO-8859-1"?><from>John</from>');
@@ -40,7 +40,7 @@ echo "encoding is:", $encoding;
 
 **输出:**
 
-```html
+```htmlhtml
 Version is:1.0
 encoding is:ISO-8859-1
 ```
@@ -49,7 +49,7 @@ encoding is:ISO-8859-1
 
 ## 可扩展标记语言
 
-```html
+```htmlhtml
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
 <to>Students</to>
@@ -70,7 +70,7 @@ encoding is:ISO-8859-1
 
 ## 可扩展标记语言
 
-```html
+```htmlhtml
 <to>Students</to>
 <from>Teacher</from>
 <subject>Regarding assignment submission</subject>

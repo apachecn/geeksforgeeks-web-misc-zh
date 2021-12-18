@@ -7,7 +7,7 @@ CSS 动画让网页上的各种元素逐渐从一种风格变成另一种风格�
 **方法 1:** 此示例说明了使用**@关键帧从**到**@关键帧到**反转动画，反之亦然。
 
 *   **语法:**
-    *   ```html
+    *   ```htmlhtml
         elementSelector {
           animation-name: myanimation;
         }
@@ -21,13 +21,13 @@ CSS 动画让网页上的各种元素逐渐从一种风格变成另一种风格�
         }
         ```
 
-    *   ```html
+    *   ```htmlhtml
         element.classList.add("myclassname");
         ```
 
 *   **程序:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 
@@ -98,7 +98,7 @@ CSS 动画让网页上的各种元素逐渐从一种风格变成另一种风格�
 
 *   **程序:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 

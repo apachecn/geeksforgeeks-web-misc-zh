@@ -14,7 +14,7 @@
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>
@@ -53,7 +53,7 @@
 
 *   **在 JavaScript 中使用 Audio 类:**这个方法纯粹使用 JavaScript，在 JavaScript 中创建一个 Audio 对象，内置 **[audio.play()方法](https://www.geeksforgeeks.org/html-dom-audio-play-method/)** 。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>
@@ -91,7 +91,7 @@
 
 *   **使用纯 Jquery:** 在这个过程中，我们选择播放 id 并与点击事件绑定。在函数中，我们创建一个新的音频文件，然后播放它。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
         <head>

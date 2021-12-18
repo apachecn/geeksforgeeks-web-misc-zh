@@ -13,7 +13,7 @@
 
 **例 1:** 鼠标一移动，鼠标一滚动，或者用户一点击，就会调用 enableScrolling()函数，允许我们向下滚动。当用户试图向下滚动时，调用 disableScrolling()函数，使滚动条在 1000 毫秒后消失。这个时间可以变化。要再次启用滚动条，请移动鼠标指针，或单击或滚动鼠标指针以调用 enableScrolling()函数。文本的样式是使用“style”标签完成的。HTML 和 JavaScript 代码如下:
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -73,7 +73,7 @@
 
 **示例 2:** 本示例隐藏图像上的滚动条。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

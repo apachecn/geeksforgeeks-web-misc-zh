@@ -10,7 +10,7 @@ position CSS 属性设置元素在文档中的定位方式。绝对定位允许�
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 $this->load->helper('helper-name');
 ```
 
@@ -16,13 +16,13 @@ $this->load->helper('helper-name');
 
 还可以在各自的控制器构造函数中使用单个助手的调用在单独的行中调用助手。
 
-```
+```html
 $this->load->helper( 'form')
 ```
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 $this->load->helper(
         array('helper1', 'helper2', 'helper3')
@@ -36,7 +36,7 @@ $this->load->helper(
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 // Specifying the helpers
     $autoload['helper'] = 

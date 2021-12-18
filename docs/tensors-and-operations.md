@@ -21,7 +21,7 @@
 
 ## Java Script 语言
 
-```
+```html
 // Create a rank-2 tensor (matrix) matrix
 // tensor from a multidimensional array
 const a = tf.tensor([[1,2], [3,4]]);
@@ -38,7 +38,7 @@ b.print();
 
 **输出:**
 
-```
+```html
 
 shape: 2,2
 Tensor
@@ -54,7 +54,7 @@ Tensor
 
 ## Java Script 语言
 
-```
+```html
 const a = tf.tensor([[1,2], [3,4]], [2,2], 'int32');
 console.log('shape:', a.shape);
 console.log('dtype', a.dtype);
@@ -63,7 +63,7 @@ a.print();
 
 **输出:**
 
-```
+```html
 shape: 2, 2
 dtype int32
 Tensor
@@ -77,7 +77,7 @@ TensorFlow.js 还提供了一套方便的方法来创建随机张量、用特定
 
 ## Java Script 语言
 
-```
+```html
 const a = tf.tensor([[1,2], [3,4]]);
 console.log('a shape:', a.shape);
 a.print();
@@ -88,7 +88,7 @@ b.print();
 
 **输出:**
 
-```
+```html
 a=array([1, 2, 3, 4])
 ```
 
@@ -96,7 +96,7 @@ a=array([1, 2, 3, 4])
 
 ## Java Script 语言
 
-```
+```html
 const a = tf.tensor([[1,2], [3,4]]);
 
 // Returns the multi-dimensional array of values
@@ -108,7 +108,7 @@ a.data().then(data => console.log(data));
 
 **输出:**
 
-```
+```html
 Tensor 
     [1, 2, 3, 4]
 ```
@@ -117,7 +117,7 @@ Tensor
 
 ## Java Script 语言
 
-```
+```html
 const a = tf.tensor([[1,2],[3,4]]);
 
 // Returns the multi dimensional array of values
@@ -129,7 +129,7 @@ console.log(a.dataSync());
 
 **输出:**
 
-```
+```html
 a = [1, 2, 3, 4]
 ```
 
@@ -139,7 +139,7 @@ a = [1, 2, 3, 4]
 
 ## Java Script 语言
 
-```
+```html
 const x = tf.tensor([1,2,3,4]);
 
 // Equivalent to tf.square(x)
@@ -147,7 +147,7 @@ const y = x.square();  
 y.print();
 ```
 
-```
+```html
 Output for the above code:
 y=x([1, 4, 9, 16 ] )
 ```
@@ -156,7 +156,7 @@ y=x([1, 4, 9, 16 ] )
 
 ## Java Script 语言
 
-```
+```html
 const a = tf.tensor([1,2,3,4]);
 const b = tf.tensor([10,20,30,40]);
 
@@ -167,7 +167,7 @@ y.print();
 
 **输出:**
 
-```
+```html
 numpy = array([ 11, 22, 33, 44 ])
 ```
 
@@ -181,7 +181,7 @@ numpy = array([ 11, 22, 33, 44 ])
 
 ## **Java Script 语言**
 
-```
+```html
 const a = tf.tensor([[1,2],[3,4]]);
 const y = tf.tidy(() => {
 const result = a.square().log().neg();
@@ -197,13 +197,13 @@ return result;
 
 ## **Java Script 语言**
 
-```
+```html
 console.log(tf.memory());
 ```
 
 ****输出:****
 
-```
+```html
 It will display a message on the console while debugging.
 e.g 
 console.log("Hello World");

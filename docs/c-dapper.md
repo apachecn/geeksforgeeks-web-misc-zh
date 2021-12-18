@@ -30,7 +30,7 @@ Execute 是从 IDbConnection 类型对象调用的方法，可以一次或多次
 
 ## **C#**
 
-```
+```html
 string sql = "INSERT INTO Companies (CompanyName) 
                 Values (@CompanyName);";
 
@@ -47,7 +47,7 @@ using (var connection = new SqlConnection(
 
 ## **C#**
 
-```
+```html
 string sql = "SELECT * FROM Companies";
 
 using (var connection = new SqlConnection(
@@ -62,7 +62,7 @@ QueryFirst 是从 IDbConnection 类型对象调用的方法，可以执行查询
 
 ## **C#**
 
-```
+```html
 string sql = "SELECT * FROM Companies WHERE CompanyId = @CompanyId";
 
 using (var connection = new SqlConnection(
@@ -80,7 +80,7 @@ query single 是从 IDbConnection 类型对象调用的方法，它可以执行�
 
 ## **C#**
 
-```
+```html
 string sql = "SELECT * FROM Companies WHERE CompanyId = @CompanyId";
 
 using (var connection = new SqlConnection(

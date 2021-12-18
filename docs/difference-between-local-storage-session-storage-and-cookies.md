@@ -16,25 +16,25 @@ DOMStrings 是使用 UTF-16 编码数据的存储格式，每个字符使用两�
 
 *   **setItem()方法–**该方法采用两个参数，一个是键，另一个是值。它用于将值与键的名称一起存储在特定位置。
 
-    ```html
+    ```htmlhtml
     localStorage.setItem(key, value)
     ```
 
 *   **getitem()方法–**该方法采用一个参数，该参数是用于获取以特定键名存储的值的键。
 
-    ```html
+    ```htmlhtml
     localStorage.getItem(key)
     ```
 
 *   **removeItem()方法–**该方法用于移除存储在内存中的与键相关的值。
 
-    ```html
+    ```htmlhtml
     localStorage.removeItem(key)
     ```
 
 *   **清除()方法–**该方法用于清除本地存储中存储的所有值。
 
-    ```html
+    ```htmlhtml
     localStorage.clear()
     ```
 
@@ -54,25 +54,25 @@ DOMStrings 是使用 UTF-16 编码数据的存储格式，每个字符使用两�
 
 *   **setItem()方法–**该方法采用两个参数，一个是键，另一个是值。它用于将值与键的名称一起存储在特定位置。
 
-    ```html
+    ```htmlhtml
     sessionStorage.setItem(key, value)
     ```
 
 *   **getitem()方法–**该方法采用一个参数，该参数是用于获取以特定键名存储的值的键。
 
-    ```html
+    ```htmlhtml
     sessionStorage.getItem(key)
     ```
 
 *   **removeItem()方法–**该方法用于移除存储在内存中的与键相关的值。
 
-    ```html
+    ```htmlhtml
     sessionStorage.removeItem(key)
     ```
 
 *   **清除()方法–**该方法用于清除会话存储器
 
-    ```html
+    ```htmlhtml
     sessionStorage.clear()
     ```
 

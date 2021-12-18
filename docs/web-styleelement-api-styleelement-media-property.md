@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 label = style.media
 style.media = label
 ```
@@ -15,7 +15,7 @@ style.media = label
 
 **示例:**获取媒体属性
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

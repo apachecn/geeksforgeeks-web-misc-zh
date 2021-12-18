@@ -47,7 +47,7 @@ HTML 的**媒体属性用于指定浏览器，链接文档针对哪些设备进�
 
 **语法:**
 
-```html
+```htmlhtml
 <a href="#" media="all" target="_blank"></a>
 ```
 
@@ -57,7 +57,7 @@ HTML 的**媒体属性用于指定浏览器，链接文档针对哪些设备进�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

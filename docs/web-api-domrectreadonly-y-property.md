@@ -6,7 +6,7 @@ DOMRectReadOnly 接口中的 y 属性用于表示 DOMRect 对象的 y 坐标。�
 
 **语法:**
 
-```html
+```htmlhtml
 var recX = DOMRect.y;
 ```
 
@@ -14,7 +14,7 @@ var recX = DOMRect.y;
 
 **示例:**本示例使用 DOMRect.y 属性获取 DOMRect 对象的 y 坐标。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

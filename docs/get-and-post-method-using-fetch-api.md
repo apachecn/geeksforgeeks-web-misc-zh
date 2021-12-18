@@ -9,7 +9,7 @@ fetch()请求的基本语法如下:
 
 ## java 描述语言
 
-```
+```html
 fetch(url, {options})
 .then(data => {
     // Do some stuff here
@@ -28,7 +28,7 @@ fetch()方法可用于多种类型的请求，如 **POST** 、 **GET** 、 **PUT
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -53,7 +53,7 @@ fetch()方法可用于多种类型的请求，如 **POST** 、 **GET** 、 **PUT
 
 ## java 描述语言
 
-```
+```html
 //  main.js
 
 //  GET request using fetch()
@@ -95,7 +95,7 @@ POST 请求广泛用于向服务器提交表单。Fetch 还支持 POST 方法调
 
 ## java 描述语言
 
-```
+```html
 //  main.js
 
 // POST request using fetch()

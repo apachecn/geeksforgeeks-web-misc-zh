@@ -8,7 +8,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -78,7 +78,7 @@
 
 ## 钢性铸铁
 
-```html
+```htmlhtml
 <style>
     /* Styling the menu button */
     .menu-btn {

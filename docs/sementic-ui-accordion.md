@@ -8,14 +8,14 @@
 
 **jQuery Code:**
 
-```html
+```htmlhtml
 $('.ui.accordion').accordion();
 
 ```
 
 **示例 1:** 本示例使用 Sementic 创建手风琴。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -89,7 +89,7 @@ $('.ui.accordion').accordion();
 
 示例 2:本示例使用 Sementic 创建了一个时尚的手风琴。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -161,7 +161,7 @@ $('.ui.accordion').accordion();
 
 **示例 3:** 本示例使用 Sementic 创建嵌套手风琴。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -255,7 +255,7 @@ $('.ui.accordion').accordion();
 
 **jQuery Code:**
 
-```html
+```htmlhtml
 $('.ui.accordion').accordion();
 $('.ui.radio.checkbox').checkbox();
 $('.ui.checkbox').checkbox();
@@ -264,7 +264,7 @@ $('.ui.checkbox').checkbox();
 
 **完整代码:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

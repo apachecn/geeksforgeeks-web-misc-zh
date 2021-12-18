@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```html
 if (typeof OffscreenCanvas !== "undefined") {
     isSupported = true;
 } else {
@@ -19,7 +19,7 @@ if (typeof OffscreenCanvas !== "undefined") {
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -82,7 +82,7 @@ if (typeof OffscreenCanvas !== "undefined") {
 
 **语法:**
 
-```
+```html
 let canvasObj = document.createElement("canvas");
 if (typeof canvasObj.transferControlToOffscreen === "function") {
     isSupported = true;
@@ -93,7 +93,7 @@ if (typeof canvasObj.transferControlToOffscreen === "function") {
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

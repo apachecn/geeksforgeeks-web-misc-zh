@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
   <body>
     <style>
@@ -67,7 +67,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <html>
   <body>
     <style>

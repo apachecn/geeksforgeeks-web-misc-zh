@@ -10,7 +10,7 @@
 
 *   **步骤 1:** 在 SCSS 定义一个函数，并生成精确的视口宽度值以获取窗口宽度
 
-    ```
+    ```html
     @function get-vw($target) { 
       $vw-context: (1000*.01) * 1px;
       @return ($target/$vw-context) * 1vw;
@@ -19,7 +19,7 @@
 
 *   **步骤 2:** 将像素值传入该函数，并将其存储在 SCSS 变量中。
 
-    ```
+    ```html
     $window-width: get-vw(72px);
     ```
 
@@ -29,7 +29,7 @@
 
     ## main . scss
 
-    ```
+    ```html
     $window-width: get-vw(72px); /* Passing in a value in pixels */
 
     /* Defining the function to generate the window width* /
@@ -60,7 +60,7 @@
 
     ## main . CSS-主文件
 
-    ```
+    ```html
     /* Passing in a value in pixels */
     /* Defining the function to generate the window width*/
     /* Setting the default values*/
@@ -85,7 +85,7 @@
 
     ## index.html
 
-    ```
+    ```html
     <!DOCTYPE html>
         <html>
          <body>

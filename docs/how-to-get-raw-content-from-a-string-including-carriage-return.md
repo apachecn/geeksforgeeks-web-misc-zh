@@ -12,7 +12,7 @@
 
 ## java 描述语言
 
-```
+```html
 <script>
 // Define the original string
 const str = 'Geeks\nFor\nGeeks';
@@ -30,7 +30,7 @@ console.log(JSON.stringify(str));
 
 **输出:**
 
-```
+```html
 Original String:
 Geeks
 For
@@ -46,7 +46,7 @@ Raw Content:
 
 ## java 描述语言
 
-```
+```html
 <script>
 // Define the original string
 const str = 'Geeks\nFor\nGeeks';
@@ -64,7 +64,7 @@ console.log(str.replace(/\n/g, `\\n`));
 
 **输出:**
 
-```
+```html
 Original String:
 Geeks
 For

@@ -17,20 +17,20 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
     该命令还将创建**包-lock.json** 文件，并安装所需的**节点 _ 模块**依赖项。一旦电子安装成功，打开**包. json** 文件，并在**脚本**键下执行必要的更改。将您选择的任何图像文件复制到**资产**文件夹中，并将其命名为**image.png**。在本教程中，我们将使用电子标志作为****image.png****文件。
     **package.json:**
 
-    ```
+    ```html
     {
       "name": "electron-clip",
       "version": "1.0.0",
@@ -55,7 +55,7 @@
 
     **main.js:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -113,7 +113,7 @@
 
     **index.html:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -166,7 +166,7 @@
 
     **输出:**此时，我们的应用程序已经设置好了，我们可以启动应用程序来检查 GUI 输出。要启动电子应用程序，请运行命令:
 
-    ```
+    ```html
     npm start
     ```
 
@@ -206,7 +206,7 @@
 
     **index.js:** 在该文件中添加以下代码片段。
 
-    ```
+    ```html
     const electron = require('electron')
 
     // Importing the clipboard Module

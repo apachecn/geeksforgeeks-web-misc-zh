@@ -31,7 +31,7 @@
 ![](img/4af80da701d34a808aa6d506861cb8ce.png)
 T18】INPUT:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en-US">
 <body>
@@ -74,7 +74,7 @@ function drawChart() {
 ![](img/3410d41b51fcacd091ae99f96e52d9cb.png)
 **输入:****
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en-US">
 <body>

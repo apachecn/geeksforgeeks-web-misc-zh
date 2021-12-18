@@ -18,7 +18,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 // Declaring audiocontext constructor
 var audioContext=new AudioContext();
 audioContext.close().then(function()
@@ -32,7 +32,7 @@ await audioContext.close()
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

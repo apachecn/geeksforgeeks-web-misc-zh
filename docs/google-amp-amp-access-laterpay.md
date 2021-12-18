@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-access" src=
     "https://cdn.ampproject.org/v0/amp-access-0.1.js">
 </script>
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-analytics" src=
     "https://cdn.ampproject.org/v0/amp-analytics-0.1.js">
 </script>

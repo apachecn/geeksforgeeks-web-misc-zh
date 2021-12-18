@@ -16,7 +16,7 @@ API 代表应用程序编程接口。基本上，它是一个信使，接受我�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,7 +74,7 @@ API 代表应用程序编程接口。基本上，它是一个信使，接受我�
 
 ## java 描述语言
 
-```html
+```htmlhtml
 document.querySelector(".changeData")
     .addEventListener("click", changeData);
 
@@ -146,7 +146,7 @@ xhr.send();
 
 ## java 描述语言
 
-```html
+```htmlhtml
 function getCurrency() { 
     const selectElement =document.querySelector('#select1'); 
 
@@ -161,7 +161,7 @@ function getCurrency() { 
 
 ## java 描述语言
 
-```html
+```htmlhtml
 function changeData(){
 
     const newOutput=getCurrency();
@@ -178,7 +178,7 @@ function changeData(){
 
 ## java 描述语言
 
-```html
+```htmlhtml
 {
     "manifest_version":2,
     "name":"CryptoCount",

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 selector:pseudo-class { property: value; }
 ```
 
@@ -26,7 +26,7 @@ selector:pseudo-class { property: value; }
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

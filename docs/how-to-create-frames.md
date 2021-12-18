@@ -25,7 +25,7 @@ HTML 中的框架用于将您的浏览器窗口分成多个部分，其中每个
 
 ## frame1.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>     
@@ -37,7 +37,7 @@ HTML 中的框架用于将您的浏览器窗口分成多个部分，其中每个
 
 ## frame2.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>     
@@ -49,7 +49,7 @@ HTML 中的框架用于将您的浏览器窗口分成多个部分，其中每个
 
 ## frame3.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>     
@@ -63,7 +63,7 @@ HTML 中的框架用于将您的浏览器窗口分成多个部分，其中每个
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html>
 
@@ -88,7 +88,7 @@ HTML 中的框架用于将您的浏览器窗口分成多个部分，其中每个
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html>
 

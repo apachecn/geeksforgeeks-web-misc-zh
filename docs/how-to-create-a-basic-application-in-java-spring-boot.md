@@ -26,7 +26,7 @@
 5.  转到*src*->*main*->*java*->*com . gfg . spring . boot . app*，创建一个名为
     的 Java 类作为 Controller，并添加注释 *@RestController* 。现在创建一个 GET 应用编程接口，如下所示:
 
-```
+```html
 @RestController
 public class Controller {
 

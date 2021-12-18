@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
    <head>
@@ -84,7 +84,7 @@
 
 **例 2:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

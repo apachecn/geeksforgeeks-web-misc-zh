@@ -6,13 +6,13 @@
 
 **语法:**
 
-```html
+```htmlhtml
 imageData.data
 ```
 
 **示例 1:** 本示例用零显示数组的 ImageData 像素值。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 
@@ -56,7 +56,7 @@ imageData.data
 
 **示例 2:** 本示例显示 ImageData 数组对象的长度。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
 

@@ -9,7 +9,7 @@
 *   **Manually change the order of the element in the SVG document:
     **Example:**
 
-    ```html
+    ```htmlhtml
     <svg xmlns="http://www.w3.org/2000/svg" 
             viewBox="10 30 220 420">
         <g>
@@ -37,7 +37,7 @@
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <svg xmlns="http://www.w3.org/2000/svg" 
             viewBox="10 30 220 420">
         <g>
@@ -63,7 +63,7 @@
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <svg xmlns="http://www.w3.org/2000/svg" 
             viewBox="10 30 220 420">
         <g>
@@ -89,7 +89,7 @@
 
     要增加“绿色”元素的 *z 指数*，我们将使用**使用**功能。
 
-    ```html
+    ```htmlhtml
     <svg xmlns="http://www.w3.org/2000/svg" 
             viewBox="10 30 220 420">
         <g>

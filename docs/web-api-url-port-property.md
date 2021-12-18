@@ -6,7 +6,7 @@ Web API URL . port 属性用于获取包含 URL 端口号的 USVString。
 
 **语法:**
 
-```html
+```htmlhtml
 var str = URL.port
 
 ```
@@ -17,7 +17,7 @@ var str = URL.port
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +50,7 @@ var str = URL.port
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

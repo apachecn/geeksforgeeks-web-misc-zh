@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 document.getElementById('YOUR IFRAME').contentDocument.location.reload(true);
 ```
 
@@ -16,7 +16,7 @@ document.getElementById('YOUR IFRAME').contentDocument.location.reload(true);
 
 **例 1:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -69,7 +69,7 @@ document.getElementById('YOUR IFRAME').contentDocument.location.reload(true);
 
 **例 2:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

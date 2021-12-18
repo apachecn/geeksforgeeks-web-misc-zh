@@ -10,7 +10,7 @@
 
 **示例 1:** 下面给出了使用 border-top 属性给出元素间距的代码。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,7 +77,7 @@
 
 **示例 2:** 在下面给出的示例中，我们使用了 Before 选择器属性。这有助于在 tbody 元素之间留出余量，因此下面给出了相关代码。我们还在表中使用了**溢出:隐藏**属性来防止 before 元素溢出。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -8,7 +8,7 @@
 
 **例 1:** 褪色显现。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -45,7 +45,7 @@
 
 **例 2:** 显示移动。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -89,7 +89,7 @@
 
 **示例 3:** 旋转显示
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

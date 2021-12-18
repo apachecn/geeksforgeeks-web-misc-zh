@@ -15,7 +15,7 @@
 **示例:**按照 [**中的步骤在电子表格**](https://www.geeksforgeeks.org/printing-in-electronjs/) 中打印，以设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。还要对**包. json** 文件进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-zoom",
   "version": "1.0.0",
@@ -46,7 +46,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Zoom in Electron</h3>
 <div>Ctrl+Scroll for Triggering Zoom Functionality</div>
 ```
@@ -55,7 +55,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require("electron");
 
 // Import BrowserWindow using Electron remote

@@ -12,13 +12,13 @@
 
 *   **Instantiate Sidetap:** In your mobile web app, the following syntax is used to create a reference to Sidetap. This is written in the script section of the HTML code.
 
-    ```html
+    ```htmlhtml
     var my_variable = new sidetap();
     ```
 
     **最终代码:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
 

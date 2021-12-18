@@ -13,7 +13,7 @@ br 不占用页面任何空间。
 
 *   **Example-1:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html >
     <html>
 
@@ -63,7 +63,7 @@ br 不占用页面任何空间。
 
     *   **Example-2:** You can also decrease break height less than normal height by using negative bottom-margin for the span classes.
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html >
     <html>
 
@@ -116,7 +116,7 @@ br 不占用页面任何空间。
 
     *   **Example-3:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html >
     <html>
 

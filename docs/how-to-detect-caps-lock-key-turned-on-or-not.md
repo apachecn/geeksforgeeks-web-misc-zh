@@ -17,7 +17,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 const isActive = event.getModifierState(keyString);
 
 // It will return a boolean 
@@ -31,7 +31,7 @@ const isActive = event.getModifierState(keyString);
 
 ## index.html
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,7 +55,7 @@ const isActive = event.getModifierState(keyString);
 
 ## index.js
 
-```html
+```htmlhtml
 // Get the input field
 const input = document.getElementById("text");
 

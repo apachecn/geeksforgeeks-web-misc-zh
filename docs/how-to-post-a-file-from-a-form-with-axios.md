@@ -6,7 +6,7 @@
 
 首先，我们需要使用 CDN 链接将 axios 添加到我们的开发中:
 
-```
+```html
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"> </script>
 ```
 
@@ -14,7 +14,7 @@
 
 **HTML:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,7 +70,7 @@
 
 **向服务器发送表单数据的 Javascript 代码:**
 
-```
+```html
 window.addEventListener('load', ()=>{
 
        const form = document.querySelector('form');
@@ -95,7 +95,7 @@ window.addEventListener('load', ()=>{
 **用模拟休息 API 测试 Axios 请求:**
 **前端代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -148,7 +148,7 @@ window.addEventListener('load', ()=>{
 
 **基于 Node.js 的模拟 REST API 的代码:**
 
-```
+```html
 const express = require('express');
 const formidable = require('express-formidable');
 
@@ -177,6 +177,6 @@ app.listen('3000', ()=>{
 
 **控制台输出:**
 
-```
+```html
 {"first-name":"Geeks", "last-name":"Geeks", "address":"Noida"}
 ```

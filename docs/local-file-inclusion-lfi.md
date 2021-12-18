@@ -8,7 +8,7 @@
 
 以下示例说明了 LFI 漏洞的工作过程:
 
-```
+```html
 <?php
 
 // The Page we wish to display

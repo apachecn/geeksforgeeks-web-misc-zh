@@ -6,7 +6,7 @@
 
 **Iframe 语法:**
 
-```html
+```htmlhtml
 <iframe src="URL"></iframe>
 
 ```
@@ -15,7 +15,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -62,14 +62,14 @@
 
 **语法:**
 
-```html
+```htmlhtml
 <iframe srcdoc="div goes here"></iframe>
 
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

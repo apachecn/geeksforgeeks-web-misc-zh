@@ -14,7 +14,7 @@
 
 导入**放大器自动完成**组件。
 
-```html
+```htmlhtml
 <script async custom-element="amp-autocomplete" 
               src=
 "https://cdn.ampproject.org/v0/amp-autocomplete-0.1.js">
@@ -23,7 +23,7 @@
 
 导入 **amp-form** 组件。
 
-```html
+```htmlhtml
 <script async custom-element="amp-form" 
          src=
 "https://cdn.ampproject.org/v0/amp-form-0.1.js">
@@ -34,7 +34,7 @@
 
 输入通过输入标签给出，并在提交时使用模板标签进行查询
 
-```html
+```htmlhtml
 <form class="sample-form"
   method="post"
   action-xhr="https://amp.dev/documentation/examples/api/echo"
@@ -58,7 +58,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html ⚡>
     <head>

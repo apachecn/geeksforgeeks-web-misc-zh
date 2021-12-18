@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 React.createElement(
     type,
     [props],
@@ -16,7 +16,7 @@ React.createElement(
 
 **示例:**在本例中，我们使用 React.createElement()方法创建了一个 div 元素。
 
-```
+```html
 import React from 'react';
 import "./styles.css";
 const title = React.createElement('h1', 

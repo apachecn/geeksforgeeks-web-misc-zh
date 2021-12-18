@@ -15,7 +15,7 @@
 
 *   **第一步:**打开命令提示符或终端，安装一个名为 **degit** 的包，可以让我们从 github 存储库中轻松克隆最新的 commit。
 
-```
+```html
 npm install -g degit
 ```
 
@@ -23,7 +23,7 @@ npm install -g degit
 
 *   **步骤 2:** 现在在桌面上创建一个目录，运行下面的命令。degit 转到存储库(sveltejs)找到模板，并在名为 myproject 的项目中为我们本地下载它。
 
-```
+```html
 degit sveltejs/template myproject
 ```
 
@@ -35,13 +35,13 @@ degit sveltejs/template myproject
 
 *   **步骤 4:** 现在安装所有的依赖项，确保你在**“我的项目”**目录中。
 
-```
+```html
 npm install
 ```
 
 *   **步骤 5:** 现在创建一个本地开发服务器来运行我们的应用程序。
 
-```
+```html
 npm run dev
 ```
 

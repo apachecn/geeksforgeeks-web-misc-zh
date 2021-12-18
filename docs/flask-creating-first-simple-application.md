@@ -21,13 +21,13 @@
 
 *   ****virtualenv****
 
-```
+```html
 pip install virtualenv
 ```
 
 *   ****烧瓶****
 
-```
+```html
 pip install Flask
 ```
 
@@ -35,7 +35,7 @@ pip install Flask
 
 ## **蟒蛇 3**
 
-```
+```html
 # Importing flask module in the project is mandatory
 # An object of Flask class is our WSGI application.
 from flask import Flask
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 ****示例:****
 
-```
+```html
 def gfg():
    return ‘geeksforgeeks’
 app.add_url_rule(‘/’, ‘g2g’, gfg)
@@ -77,7 +77,7 @@ app.add_url_rule(‘/’, ‘g2g’, gfg)
 
 ****输出:****
 
-```
+```html
 geeksforgeeks
 ```
 
@@ -85,7 +85,7 @@ geeksforgeeks
 
 ## **蟒蛇 3**
 
-```
+```html
 from flask import Flask
 app = Flask(__name__)
 
@@ -117,7 +117,7 @@ HTTP 协议是万维网数据通信的基础。该协议定义了从指定网址
 
 ## **超文本标记语言**
 
-```
+```html
 <html>
    <body>     
       <form action = "http://localhost:5000/login" method = "post">
@@ -137,7 +137,7 @@ HTTP 协议是万维网数据通信的基础。该协议定义了从指定网址
 
 ## **蟒蛇 3**
 
-```
+```html
 from flask import Flask, redirect, url_for, request
 app = Flask(__name__)
 

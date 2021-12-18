@@ -82,7 +82,7 @@ Nginx 所需的主要设置存储在名为 **nginx.conf** 的文件中。这个�
 
 首先，在你的 Linux 发行版中打开终端，然后输入以下命令在你的系统上安装 Nginx。
 
-```
+```html
 # Update your system 
 sudo apt-get update
 # After updating your system 
@@ -98,7 +98,7 @@ sudo ufw enable
 
 这些是在 Linux 中安装 Nginx 和启用防火墙的一些步骤。让我们检查版本并继续启动服务器。
 
-```
+```html
 # checking Nginx version
 nginx -v
 # if output is -> nginx version: nginx/1.xx.x (ubuntu)
@@ -107,7 +107,7 @@ nginx -v
 
 现在我们需要将规则添加到防火墙中，这样您的服务器就可以在 Http 和 Https 端口上获取请求。
 
-```
+```html
 # This commands tells you all the configuration 
 # that your firewall know which can be added
 sudo ufw app list
@@ -122,7 +122,7 @@ sudo ufw allow 'Nginx HTTPS'
 
 现在，我们需要查看添加到防火墙的规则的状态。
 
-```
+```html
 # To check status 
 sudo ufw status
 ```
@@ -131,7 +131,7 @@ sudo ufw status
 
 现在我们将检查我们的服务器是否正在运行。
 
-```
+```html
 # To check the status of the server
 sudo systemctl status nginx
 ```

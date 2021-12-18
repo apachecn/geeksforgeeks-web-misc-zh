@@ -4,7 +4,7 @@
 
 一个好的网站需要一个搜索栏。从头开始创建自己的搜索引擎可能是一项困难的任务，但在谷歌的帮助下，这项任务可以跳过。谷歌已经创建了一个网站来创建一个自定义的搜索栏，来创建你自己的检查下面的链接。
 
-*   ```
+*   ```html
     https://programmablesearchengine.google.com/about/
     ```
 
@@ -23,7 +23,7 @@
 
 *   **Example:** You can see that the output screen has a search bar with an option to search which shows the result from the sites or domain you have selected while creating this search bar. Moreover, this search option will automatically change as you change the sites from the control panel. Currently, the search results are been shown in the default manner. Apart from that, you can manipulate the result displaying manner and much more as directed on the below links
 
-    ```
+    ```html
     https://developers.google.com/custom-search/docs/element
     ```
 
@@ -31,7 +31,7 @@
 
     ## 超文本标记语言
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
         <head>

@@ -10,14 +10,14 @@
 
 *   doctype 声明是必需的。
 
-```
+```html
 <!doctype html>
 
 ```
 
 *   设计者必须使用或代替或标准的标签来启动放大器页面代码。这告诉浏览器该文件是一个放大器文件。
 
-```
+```html
 <html amp>
 
 ```
@@ -26,7 +26,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!-- The charset definition must be the
     first child of the `<head>` tag. -->
 <meta charset="utf-8">
@@ -132,7 +132,7 @@ It's recommended to include initial-scale=1 -->
 
 ## 超文本标记语言
 
-```
+```html
 <style amp-custom>
   <!-- Custom CSS -->
 </style>
@@ -144,7 +144,7 @@ It's recommended to include initial-scale=1 -->
 
 ## 超文本标记语言
 
-```
+```html
 <!-- Doctype declaration is required. -->
 <!doctype html>
 

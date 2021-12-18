@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 string shell_exec( $cmd )
 ```
 
@@ -20,7 +20,7 @@ string shell_exec( $cmd )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Command 
@@ -35,7 +35,7 @@ echo $cmd_output;
 
 **输出**
 
-```
+```html
 The current date is 08-07-2021\. Enter the new date: (dd-mm-yy)
 ```
 
@@ -43,7 +43,7 @@ The current date is 08-07-2021\. Enter the new date: (dd-mm-yy)
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Command 
@@ -58,7 +58,7 @@ echo $cmd_output;
 
 **输出:**
 
-```
+```html
 The current time is: 21:05:01.82\. Enter the new time: 
 ```
 
@@ -66,7 +66,7 @@ The current time is: 21:05:01.82\. Enter the new time:
 
 **语法:**
 
-```
+```html
 string exec( $command, $output, $return_var )
 ```
 
@@ -82,7 +82,7 @@ string exec( $command, $output, $return_var )
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Command to be executed in the shell
@@ -99,7 +99,7 @@ echo var_dump($output_array)
 
 **输出:**
 
-```
+```html
 Command status - 1
 
 array(2) { [0]=> string(31) "The current date is: 08-07-2021" 
@@ -110,7 +110,7 @@ array(2) { [0]=> string(31) "The current date is: 08-07-2021"
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 
 // Command to be executed in the shell
@@ -127,7 +127,7 @@ echo var_dump($output_array)
 
 **输出:**
 
-```
+```html
 Command status - 1
 
 array(2) { [0]=> string(32) "The current time is: 21:38:09.81" 

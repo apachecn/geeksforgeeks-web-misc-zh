@@ -25,7 +25,7 @@ Firebase 可用于各种用途，但主要用于实时数据库、在线处理�
 
 ### 配置代码如下所示:
 
-```
+```html
 var config = {
     apiKey: "YOUR KEY",
     authDomain: "YOUR DOMAIN",
@@ -40,19 +40,19 @@ var config = {
 **在添加以上配置代码**
 之前，添加以下脚本标签
 
-```
+```html
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 ```
 
 **初始化你的 FireBase 云存储**
 
-```
+```html
 firebase.initializeApp(config);
 ```
 
 **给你的 html 代码添加一些 HTML，这样我们就可以上传文件了**
 
-```
+```html
 <form>
 <progress value="0" id="uploader" max="100">0%</progress><br><br>
 // get the file from user
@@ -68,7 +68,7 @@ firebase.initializeApp(config);
 
 **添加 javascript，使 html 中定义的函数可以工作:**
 
-```
+```html
 <script type="text/javascript">
        var selectedFile;
       function getfile()

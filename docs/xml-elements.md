@@ -6,7 +6,7 @@ XML 元素是 XML 文档的基本构造块。它被用作存储文本元素、�
 
 **语法:**
 
-```
+```html
 <element-name attributes> Contents...</element-name>
 ```
 
@@ -15,7 +15,7 @@ XML 元素是 XML 文档的基本构造块。它被用作存储文本元素、�
 
 **示例:**
 
-```
+```html
 name="Geeks"
 Here, Geeks represents the value of attribute
 
@@ -30,13 +30,13 @@ Here, Geeks represents the value of attribute
 
 **空元素:**XML 文档中不包含内容的元素称为空元素。XML 中空元素的基本语法如下:
 
-```
+```html
 <elements-name attributename/>
 ```
 
 **示例 1:** 下面是一个使用 XML 元素描述大学生地址的 XML 文档示例。
 
-```
+```html
 <?xml version = “1.0”?>
 <contactinfo>
     <address category = “college”>
@@ -49,7 +49,7 @@ Here, Geeks represents the value of attribute
 
 **输出:**
 
-```
+```html
       G4G
       Geeksforgeeks
       2345456767
@@ -58,7 +58,7 @@ Here, Geeks represents the value of attribute
 
 **例 2:**
 
-```
+```html
 <?xml version = "1.0"?>
 <student>
     <_personal_details = "Personal Details">
@@ -74,7 +74,7 @@ Here, Geeks represents the value of attribute
 
 **输出:**
 
-```
+```html
       xyz 
       abc
       80%

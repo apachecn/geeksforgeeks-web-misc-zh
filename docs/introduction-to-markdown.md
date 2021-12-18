@@ -25,7 +25,7 @@ Markdown 是一种轻量级标记语言。由约翰·格鲁伯于 2004 年创建
 *   **表头**
     **语法:**
 
-```
+```html
 # Header1
 ## Header2
 ### Header3
@@ -40,7 +40,7 @@ Markdown 是一种轻量级标记语言。由约翰·格鲁伯于 2004 年创建
 *   **格式化**
     **语法:**
 
-```
+```html
 *This is Italic*
 _This is also Italic_
 
@@ -57,7 +57,7 @@ __This is a **combination**__
 *   **列出**
     **语法:**
 
-```
+```html
 1.One
 2.Two
 3.Three
@@ -83,7 +83,7 @@ __This is a **combination**__
 *   **图像&链接**
     **语法:**
 
-```
+```html
     IMAGE :
 ![GeeksForGeeks Logo](
 https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-6.png)
@@ -99,8 +99,8 @@ https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-6.png)
 *   **代码&引用**
     **语法:**
 
-```
-``` This is Some Code ```
+```html
+``` This is Some Code ```html
 Here Code is `Inline` .
 > These are
 > Some Quotes

@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-jwplayer" 
     src="https://cdn.ampproject.org/v0/amp-jwplayer-0.1.js">
 </script>
@@ -26,7 +26,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html ⚡>
 

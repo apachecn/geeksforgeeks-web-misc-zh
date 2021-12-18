@@ -7,7 +7,7 @@
 
 **示例 1:** 本示例使用布尔玛创建彩色按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -61,7 +61,7 @@
 
 **示例 2:** 本示例创建不同大小的按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -112,7 +112,7 @@
 
 **示例 3:** 本示例创建轮廓按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -160,7 +160,7 @@
 
 **示例 4:** 本示例使用布尔玛创建圆形按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -206,7 +206,7 @@
 
 **示例 5:** 本示例使用布尔玛创建加载按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -254,7 +254,7 @@
 
 **示例 6:** 本示例创建字体棒极了的图标按钮。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

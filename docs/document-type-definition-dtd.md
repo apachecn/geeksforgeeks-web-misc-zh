@@ -13,7 +13,7 @@ DTD 可以在 XML 文档中声明为内联或外部推荐。DTD 决定了一个�
 
 **语法:**
 
-```
+```html
 <!DOCTYPE element DTD identifier
 [
    first declaration
@@ -35,7 +35,7 @@ DTD 可以在 XML 文档中声明为内联或外部推荐。DTD 决定了一个�
 
 ## 可扩展标记语言
 
-```
+```html
 <?xml version="1.0"?>
 <!DOCTYPE address [
 <!ELEMENT address (name, email, phone, birthday)>
@@ -83,7 +83,7 @@ DTD 可以在 XML 文档中声明为内联或外部推荐。DTD 决定了一个�
 
 ## 可扩展标记语言
 
-```
+```html
 <?xml version="1.0"?>
 <!DOCTYPE address SYSTEM "address.dtd">
 <address>

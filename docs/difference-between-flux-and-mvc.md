@@ -23,25 +23,25 @@
 
 **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-```
+```html
 npx create-react-app foldername
 ```
 
 **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-```
+```html
 cd foldername
 ```
 
 **步骤 3:** 创建 ReactJS 应用程序后，使用以下命令安装所需的模块:
 
-```
+```html
 npm install redux react-redux
 ```
 
 **第 4 步:**要启动并运行 react 服务器，请使用以下命令
 
-```
+```html
 npm start
 ```
 
@@ -53,7 +53,7 @@ npm start
 
 ## java 描述语言
 
-```
+```html
 const counterReducer=(state=0,action)=>{
     switch(action.type){
         case "INCREMENT":

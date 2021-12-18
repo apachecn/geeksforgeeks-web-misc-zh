@@ -10,7 +10,7 @@ WhatsApp 是最受欢迎的消息应用。本文介绍了如何在网站中添�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -35,7 +35,7 @@ WhatsApp 是最受欢迎的消息应用。本文介绍了如何在网站中添�
 
 **第二步:**这在台式机\笔记本电脑上是行不通的，所以我们添加 CSS 在大屏幕上隐藏。为此，使用了 CSS @media 查询。
 
-```html
+```htmlhtml
 <style type="text/css">
     @media screen and (min-width: 500px) {
         a {
@@ -50,14 +50,14 @@ WhatsApp 是最受欢迎的消息应用。本文介绍了如何在网站中添�
 
 **语法:**
 
-```html
+```htmlhtml
 href="whatsapp://send?text=Your message here"
 
 ```
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -105,7 +105,7 @@ href="whatsapp://send?text=Your message here"
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

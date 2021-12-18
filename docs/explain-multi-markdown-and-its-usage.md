@@ -10,7 +10,7 @@ MultiMarkdown 是 **[Markdown](https://www.geeksforgeeks.org/introduction-to-mar
 
 *   **HTML:**
 
-    ```html
+    ```htmlhtml
     This will make the <strong>'word'</strong> bold.
     ```
 
@@ -20,7 +20,7 @@ MultiMarkdown 是 **[Markdown](https://www.geeksforgeeks.org/introduction-to-mar
 
 *   **HTML:**
 
-    ```html
+    ```htmlhtml
     This will make the <em>'word'</em> appear in italics.
     ```
 
@@ -30,7 +30,7 @@ MultiMarkdown 是 **[Markdown](https://www.geeksforgeeks.org/introduction-to-mar
 
 *   **HTML:**
 
-    ```html
+    ```htmlhtml
     <ul>
       <li>HTML is the skeliton</li>
       <li>CSS is the skin</li>
@@ -43,14 +43,14 @@ MultiMarkdown 是 **[Markdown](https://www.geeksforgeeks.org/introduction-to-mar
 
 *   **HTML:**
 
-    ```html
+    ```htmlhtml
     <p> Read this page about MultiMarkdown, click 
     <a href="https://fletcherpenney.net/multimarkdown/index.html"> [here]</a>
     ```
 
 *   **多指标类集调查-ed:**
 
-    ```html
+    ```htmlhtml
     Read this page about MultiMarkdown, click 
     [here](https://fletcherpenney.net/multimarkdown/index.html)
     ```
@@ -64,7 +64,7 @@ MultiMarkdown 是 **[Markdown](https://www.geeksforgeeks.org/introduction-to-mar
 
     **Linux:** 逐一运行以下命令。
 
-    *   ```html
+    *   ```htmlhtml
         sudo apt install libtext-multimarkdown-perl
         ```
 
@@ -72,39 +72,39 @@ MultiMarkdown 是 **[Markdown](https://www.geeksforgeeks.org/introduction-to-mar
 
 1.  从**文本文件到**XHTML 文件的转换
 
-    ```html
+    ```htmlhtml
      multimarkdown file.txt
     ```
 
 2.  从**文本文件到**HTML 文件的转换
 
-    ```html
+    ```htmlhtml
      multimarkdown file.txt>file.html 
     ```
 
 3.  从**文本文件到**LaTex 文件
 
-    ```html
+    ```htmlhtml
      multimarkdown -t latex file.txt 
     ```
 
     的转换
 4.  从**文本文件转换到 OPML**
 
-    ```html
+    ```htmlhtml
      multimarkdown -t opml file.txt 
     ```
 
 5.  从**文本文件到**开放文档文件
 
-    ```html
+    ```htmlhtml
     multimarkdown -t opf file.txt
     ```
 
     的转换
 6.  从**文本文件到平面打开文档文件**
 
-    ```html
+    ```htmlhtml
     multimarkdown -t fopt file.txt
     ```
 

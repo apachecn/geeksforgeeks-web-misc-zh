@@ -44,7 +44,7 @@ mime-type of the linked content. |
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -80,7 +80,7 @@ mime-type of the linked content. |
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -160,7 +160,7 @@ target = " _ self " | 指定
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

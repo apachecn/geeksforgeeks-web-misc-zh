@@ -13,14 +13,14 @@
 
 *   **在终端中运行 npm init:**通过运行 npm init 命令来初始化 NPM，创建一个 package.json 文件。
 
-    ```
+    ```html
     npm init
     ```
 
 *   **安装节点-sass:** 运行 npm init 命令后，安装一个名为“节点-sass”的库。这个命令将把 SCS 编译成 css。
     **注意:** Node-sass 需要作为开发依赖项安装。
 
-    ```
+    ```html
     npm install node-sass --save-dev
     ```
 
@@ -28,7 +28,7 @@
 *   **将 webfonts 添加到公共文件夹:**在 css 文件夹内创建 style.css 文件。复制 webfonts 文件夹并将其粘贴到公共文件夹中。
 *   **编辑 scss 文件夹中的 _variables.scss 文件:**打开变量文件，通过写入 webfont 文件夹的路径来编辑“$fa-font-path”。
 
-    ```
+    ```html
     // Variables
     // --------------------------
 
@@ -38,7 +38,7 @@
 
 *   **在 scss 文件夹内创建 style.scss 文件:**在 scss 文件夹内创建 style.scss 文件，导入字体 awesome。
 
-    ```
+    ```html
     @import "fontawesome.scss";
     @import "solid.scss";
 
@@ -46,7 +46,7 @@
 
 *   **创建 index.html 文件:**在公共目录中创建 index.html 文件，并添加以下代码:
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -65,7 +65,7 @@
 
 *   **Edit the scripts field in package.json file:**
 
-    ```
+    ```html
     "scripts": {
         "compile:sass": "node-sass resources/assets/scss/style.scss public/css/style.css -w"
       }
@@ -76,7 +76,7 @@
 
 *   **编译你的代码:**打开终端，使用以下命令:
 
-    ```
+    ```html
     npm run compile:sass
     ```
 

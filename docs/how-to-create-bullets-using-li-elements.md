@@ -23,7 +23,7 @@
 
     **语法:** CSS 瞄准< li >元素:
 
-    ```html
+    ```htmlhtml
     ol {
         list-style-type: decimal
     }
@@ -38,7 +38,7 @@
     1.  有序列表的默认列表样式类型是**十进制**，无序列表是**圆盘。**从上面的代码可以明显看出。
         *   **例:**
 
-            ```html
+            ```htmlhtml
             <!DOCTYPE html>
             <html>
             <head>
@@ -76,7 +76,7 @@
     2.  现在我们知道了列表元素中项目符号的来源，我们可以相应地更改它。让我们将其设置为有序列表中的罗马数字和无序列表中的正方形。
         *   **例:**
 
-            ```html
+            ```htmlhtml
             <!DOCTYPE html>
             <html>
             <head>
@@ -119,7 +119,7 @@
 
     **完整代码:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html>
     <head>

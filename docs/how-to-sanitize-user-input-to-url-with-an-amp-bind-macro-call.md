@@ -8,7 +8,7 @@
 
 **设置:**要在我们的 amp 页面中使用 amp-bind-macro，我们必须在文档头部导入 **amp-bind** 脚本。
 
-```html
+```htmlhtml
 <script async custom-element="amp-bind" src=
 "https://cdn.ampproject.org/v0/amp-bind-0.1.js">
 </script>
@@ -16,7 +16,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html amp>
 

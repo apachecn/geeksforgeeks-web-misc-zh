@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 .border {
     width: 400px;
     border: 3px solid transparent;
@@ -20,7 +20,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -62,7 +62,7 @@
 
 **语法:**
 
-```
+```html
 .border {
     width: 400px;
     position: relative;
@@ -78,7 +78,7 @@
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

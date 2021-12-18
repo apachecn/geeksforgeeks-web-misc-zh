@@ -17,7 +17,7 @@
     ![](img/705bdfe55315e65634c2549e76e75168.png)
 3.  Enter the command.
 
-    ```
+    ```html
     mkdir project_name && cd project_name
     ```
 
@@ -26,7 +26,7 @@
 
 4.  Now enter the command.
 
-    ```
+    ```html
     composer create-project --prefer-dist cakephp/app:4.* app_name
     ```
 

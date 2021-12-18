@@ -8,7 +8,7 @@
 
 ## java 描述语言
 
-```
+```html
 <script>// Creating an array 
 let originalArr = ["c", "cpp", "java", "python", "javascript", "kotlin"];
 
@@ -26,7 +26,7 @@ console.log(originalArr)</script>
 
 **输出:**
 
-```
+```html
 Extracted Array
 
 ["c", "cpp", "java"]
@@ -49,7 +49,7 @@ Original Array
 
 ## java 描述语言
 
-```
+```html
 <script>// Creating an array 
 let originalArr = ["c", "cpp", "java", "python", "javascript", "kotlin"];
 
@@ -73,7 +73,7 @@ console.log(originalArr)</script>
 
 **输出:**这里原阵没有变异。但是在较大的阵列中应用这种方法并不是一个好的做法，因为当我们创建阵列的克隆时，它的空间消耗会增加。
 
-```
+```html
 Extracted Array
 ["c", "cpp", "java", "python"]
 
@@ -85,7 +85,7 @@ Original Array
 
 **语法:**
 
-```
+```html
 Array.filter((item, index)=>{ return index >= start 
 && index < howMany + start })
 ```
@@ -94,7 +94,7 @@ Array.filter((item, index)=>{ return index >= start
 
 ## java 描述语言
 
-```
+```html
 <script>// Creating an array 
 let originalArr = ["c", "cpp", "java", "python", "javascript", "kotlin"];
 
@@ -120,7 +120,7 @@ console.log(originalArr)
 
 ## java 描述语言
 
-```
+```html
 <script>// Creating an array 
 let originalArr = ["c", "cpp", "java", "python", "javascript", "kotlin"];
 
@@ -142,7 +142,7 @@ console.log(originalArr)
 
 **输出:**
 
-```
+```html
 Extracted Array
 ["cpp", "java", "python"]
 

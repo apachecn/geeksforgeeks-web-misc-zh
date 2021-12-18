@@ -16,7 +16,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 background-image: linear-gradient( direction, color1, color2, ... )
 ```
 
@@ -24,7 +24,7 @@ background-image: linear-gradient( direction, color1, color2, ... )
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -64,14 +64,14 @@ background-image: linear-gradient( direction, color1, color2, ... )
 
 **语法:**
 
-```html
+```htmlhtml
 background-image: radial-gradient( shape size at position, 
         start-color, ..., last-color );
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -119,13 +119,13 @@ background-image: radial-gradient( shape size at position,
 
 **语法:**
 
-```html
+```htmlhtml
 Background image: conic-gradient(color degree, color degree, ...)
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

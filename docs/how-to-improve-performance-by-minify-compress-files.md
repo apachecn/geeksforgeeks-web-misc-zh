@@ -19,19 +19,19 @@
 
 *   **对于 HTML:**
 
-    ```html
+    ```htmlhtml
     https://html-minifier.com/
     ```
 
 *   **对于 CSS:**
 
-    ```html
+    ```htmlhtml
     https://cssminifier.com/
     ```
 
 *   **对于 JavaScript:**
 
-    ```html
+    ```htmlhtml
     https://javascript-minifier.com/
     ```
 
@@ -51,7 +51,7 @@
 
     ## **超文本标记语言**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
 
     <html>
@@ -77,7 +77,7 @@
 
     ## **超文本标记语言**
 
-    ```html
+    ```htmlhtml
     <!doctype html>
     <html>
     <head>
@@ -98,7 +98,7 @@
 
     ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-    ```html
+    ```htmlhtml
     body {
       background-color: #282c34;
       color: white;
@@ -112,6 +112,6 @@
 
     ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-    ```html
+    ```htmlhtml
     body{background-color:#282c34;color:#fff;padding:40px;font-family:Arial;text-align:center}
     ```**

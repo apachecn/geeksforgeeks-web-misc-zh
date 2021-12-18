@@ -5,14 +5,14 @@
 清除整个下拉列表非常容易，我们所要做的就是创建一个按钮，它调用一个执行删除的函数。
 我们来看看删除部分的语法:
 
-```
+```html
 document.getElementById("idofdropdownlist").innerHTML = "";
 ```
 
 这里，它获取给定标识中存在的所有元素，然后通过将所有对象赋为空来清除，如果没有赋为空，对象仍然存在。
 **进场 1:** 查看代码:
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -55,7 +55,7 @@ document.getElementById("idofdropdownlist").innerHTML = "";
 这个过程不仅删除了选项，还删除了下拉框。
 **查看代码:**
 
-```
+```html
 <html>
 
 <body>

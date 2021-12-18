@@ -11,7 +11,7 @@
 
 #### 安装 django-脆皮-表单:
 
-```
+```html
 pip install django-crispy-forms
 
 ```
@@ -22,7 +22,7 @@ pip install django-crispy-forms
 
 并添加
 
-```
+```html
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 ```
@@ -39,7 +39,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 要加载 django-脆皮表单标签，请添加
 
-```
+```html
 {%load crispy_forms_tags %} 
 
 ```
@@ -48,14 +48,14 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 现在要用 django-脆皮-表单来设计任何表单，请替换
 
-```
+```html
 {{ form }}
 
 ```
 
 随着
 
-```
+```html
 {{ form|crispy }}
 
 ```
@@ -66,7 +66,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 **现在你可以通过运行服务器**来查看你的 Django 表单中的变化
 
-```
+```html
 python manage.py runserver
 
 ```

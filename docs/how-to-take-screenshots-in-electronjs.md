@@ -12,7 +12,7 @@
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-screenshot",
   "version": "1.0.0",
@@ -44,7 +44,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Screenshot of Page in Electron</h3>
 <button id="screenshot">
   Take Screenshot
@@ -55,7 +55,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require("electron");
 const BrowserWindow = electron.remote.BrowserWindow;
 const path = require("path");

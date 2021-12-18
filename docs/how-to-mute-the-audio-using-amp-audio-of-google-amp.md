@@ -8,7 +8,7 @@
 
 **设置:**要使用音频放大器，必须将音频放大器组件导入网页头部。
 
-```html
+```htmlhtml
 <script async custom-element="amp-audio" src=
 "https://cdn.ampproject.org/v0/amp-audio-0.1.js">
 </script>
@@ -18,7 +18,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html amp>
 

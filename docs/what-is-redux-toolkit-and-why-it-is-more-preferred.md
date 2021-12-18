@@ -19,7 +19,7 @@ Redux 工具包附带的依赖项:
 
 **安装:**
 
-```
+```html
 # NPM
 npm install @reduxjs/toolkit
 
@@ -42,7 +42,7 @@ yarn add @reduxjs/toolkit
 
     ## java 描述语言
 
-    ```
+    ```html
     const addHandler=(state=0,action)=>{
     if(action.type==='ADD')
     {
@@ -60,7 +60,7 @@ yarn add @reduxjs/toolkit
 
     ## java 描述语言
 
-    ```
+    ```html
     // Action Creators
     const add = createAction('ADD'); 
 
@@ -81,7 +81,7 @@ yarn add @reduxjs/toolkit
 
     ## java 描述语言
 
-    ```
+    ```html
     const store = createStore(
       reducer,   window.__REDUX_DEVTOOLS_EXTENSION__ && 
                  window.__REDUX_DEVTOOLS_EXTENSION__()

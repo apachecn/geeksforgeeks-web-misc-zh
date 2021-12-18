@@ -8,13 +8,13 @@
 
 *   首先，在**@关键帧**的帮助下添加一个过渡，使用以下语法将背景颜色从**蓝色**慢慢更改为**绿色**BTN-success 类:
 
-    ```
+    ```html
     @keyframes animation-name {keyframes-selector {css-styles;}}
     ```
 
 *   其次，我们必须使用
 
-    ```
+    ```html
     // To target the elements having class change
     $(".change")                      
     // To add click event to elements having class change
@@ -28,7 +28,7 @@
 以下示例说明了该方法:
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>

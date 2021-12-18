@@ -18,7 +18,7 @@
 
 **index.html**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,7 +48,7 @@
 
 **script.js**
 
-```
+```html
 // Step 1: Get user coordinates
 function getCoordintes() {
     var options = {

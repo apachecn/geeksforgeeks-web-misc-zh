@@ -15,7 +15,7 @@
 
 **示例:**按照 [**中给出的步骤，设置基本的电子应用程序。复制文章中提供的 **main.js** 文件和**index.html**文件的样板代码。我们将继续使用相同的代码库构建我们的应用程序。另外，使用**](https://www.geeksforgeeks.org/dynamic-styling-in-electronjs/) **[npm](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/) 安装**电子处理**包。使用这个外部包，我们可以捕获电子应用程序中未处理的错误和拒绝承诺，并安全地处理它们。**
 
-```html
+```htmlhtml
 npm install electron-unhandled --save
 
 ```
@@ -23,7 +23,7 @@ npm install electron-unhandled --save
 此外，对**包进行必要的更改，以启动电子应用程序。我们将继续使用相同的代码库构建我们的应用程序。设置电子应用程序所需的基本步骤保持不变。
 T3**
 
-```html
+```htmlhtml
 {
   "name": "electron-catch",
   "version": "1.0.0",
@@ -55,7 +55,7 @@ T3**
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Catch Unhandled Errors and Promise Rejections in Electron</h3>
     <button id="generate">
          Generate Errors
@@ -67,7 +67,7 @@ T3**
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require('electron')
 const electron = require('electron');
 // Importing unhandled.

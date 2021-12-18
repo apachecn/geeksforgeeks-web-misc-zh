@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 composer remove dependency_name
 ```
 
@@ -24,7 +24,7 @@ composer remove dependency_name
 
 现在只需转到 composer.json 文件所在的目录，然后键入以下命令:
 
-```
+```html
 composer remove stripe/stripe-php
 ```
 
@@ -44,7 +44,7 @@ composer remove stripe/stripe-php
 
 **语法:**
 
-```
+```html
 composer update 
 ```
 
@@ -84,7 +84,7 @@ composer update
 
 现在，如果您只想删除一个特定的包而不更新其他包，那么只需指定该包的名称。
 
-```
+```html
 composer update packageauthor/package_name
 ```
 

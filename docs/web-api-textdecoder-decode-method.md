@@ -6,7 +6,7 @@ TextDecoder API 中的 **decode()** 方法用于以一个字节流作为输入�
 
 **语法:**
 
-```html
+```htmlhtml
 decoder.decode(buffer, options)
 ```
 
@@ -22,7 +22,7 @@ decoder.decode(buffer, options)
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -77,7 +77,7 @@ decoder.decode(buffer, options)
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

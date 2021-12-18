@@ -10,13 +10,13 @@
 
 **步骤 1:** 您可以使用以下命令创建一个新的 NextJs 项目:
 
-```
+```html
 npx create-next-app gfg
 ```
 
 **步骤 2:** 为了在我们的项目中添加 Algolia 搜索，我们将安装两个模块:
 
-```
+```html
 npm install algoliasearch react-instantsearch-dom @material-ui/core @material-ui/lab
 ```
 
@@ -36,7 +36,7 @@ npm install algoliasearch react-instantsearch-dom @material-ui/core @material-ui
 
 对于这个例子，我正在上传下面的数据。
 
-```
+```html
 Title, Tag, Day
 GFG1, python, Monday
 GFG2, java, Tuesday
@@ -52,7 +52,7 @@ GFG6, nextjs, Saturday
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Pagination from '@material-ui/lab/Pagination';
@@ -93,7 +93,7 @@ export default connectPagination(Pagin);
 
 ## java 描述语言
 
-```
+```html
 // Importing modules
 import algoliasearch from "algoliasearch/lite";
 import { InstantSearch, Hits, Configure }
@@ -127,7 +127,7 @@ export default function CustomizedFilter() {
 
 **运行应用的步骤:**在终端使用下面的命令运行应用。
 
-```
+```html
 npm run dev
 ```
 

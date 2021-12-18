@@ -8,7 +8,7 @@
 
 ### 1.创建应用程序:
 
-```
+```html
 Syntax: flutter create APP_NAME 
 ```
 
@@ -18,7 +18,7 @@ Syntax: flutter create APP_NAME
 
 ### 2.分析省道代码:
 
-```
+```html
 Syntax: flutter analyze -d <DEVICE_ID>
 ```
 
@@ -28,7 +28,7 @@ Syntax: flutter analyze -d <DEVICE_ID>
 
 ### 3.测试颤振应用:
 
-```
+```html
 Syntax: flutter test [<DIRECTORY|DART_FILE>] 
 ```
 
@@ -38,7 +38,7 @@ Syntax: flutter test [<DIRECTORY|DART_FILE>]
 
 ### 4.运行 Dart 文件:
 
-```
+```html
 Syntax: flutter run <DART_FILE>
 ```
 
@@ -48,7 +48,7 @@ Syntax: flutter run <DART_FILE>
 
 ### 5.下载依赖项/包:
 
-```
+```html
 Syntax: flutter pub get
 ```
 
@@ -58,7 +58,7 @@ Syntax: flutter pub get
 
 ### 6.更新颤振包:
 
-```
+```html
 Syntax:  flutter pub update
 ```
 
@@ -68,7 +68,7 @@ Syntax:  flutter pub update
 
 ### 7.获取帮助:
 
-```
+```html
 Syntax: flutter --help --verbose 
 ```
 
@@ -78,7 +78,7 @@ Syntax: flutter --help --verbose
 
 ### 8.检查项目运行状况:
 
-```
+```html
 Syntax: flutter doctor
 ```
 
@@ -88,7 +88,7 @@ Syntax: flutter doctor
 
 ### 9.检查版本:
 
-```
+```html
 Syntax: flutter version
 ```
 
@@ -98,7 +98,7 @@ Syntax: flutter version
 
 ### 10.检查频道:
 
-```
+```html
 Syntax: flutter channel <CHANNEL_NAME>
 ```
 
@@ -108,7 +108,7 @@ Syntax: flutter channel <CHANNEL_NAME>
 
 ### 11.构建项目:
 
-```
+```html
 Syntax: flutter build <DIRECTORY>
 ```
 
@@ -118,7 +118,7 @@ Syntax: flutter build <DIRECTORY>
 
 ### 12.列出连接的设备:
 
-```
+```html
 Syntax: flutter devices -d <DEVICE_ID>
 ```
 
@@ -128,7 +128,7 @@ Syntax: flutter devices -d <DEVICE_ID>
 
 ### 13.升级颤振版本:
 
-```
+```html
 Syntax:  flutter upgrade 
 ```
 
@@ -138,7 +138,7 @@ Syntax:  flutter upgrade
 
 ### 14.获取项目所需的包:
 
-```
+```html
 Syntax:  flutter assemble -o <DIRECTORY>
 ```
 
@@ -148,7 +148,7 @@ Syntax:  flutter assemble -o <DIRECTORY>
 
 ### 15.添加预先存在的颤振应用程序:
 
-```
+```html
 Syntax: flutter attach -d <DEVICE_ID>
 ```
 
@@ -156,7 +156,7 @@ Syntax: flutter attach -d <DEVICE_ID>
 
 ### 16.使用堆栈跟踪文件:
 
-```
+```html
 Syntax: flutter symbolize --input=<STACK_TRACK_FILE>
 ```
 
@@ -164,7 +164,7 @@ Syntax: flutter symbolize --input=<STACK_TRACK_FILE>
 
 ### 17.配置功能:
 
-```
+```html
 Syntax: flutter config --build-dir=<DIRECTORY>
 ```
 
@@ -174,7 +174,7 @@ Syntax: flutter config --build-dir=<DIRECTORY>
 
 ### 18.降级颤振/飞镖 SDK:
 
-```
+```html
 Syntax: flutter downgrade
 ```
 
@@ -184,7 +184,7 @@ Syntax: flutter downgrade
 
 ### 19.使用连接的设备硬件:
 
-```
+```html
 Syntax: flutter drive
 ```
 
@@ -194,7 +194,7 @@ Syntax: flutter drive
 
 ### 20.列出可用的仿真器:
 
-```
+```html
 Syntax: flutter emulators
 ```
 
@@ -204,7 +204,7 @@ Syntax: flutter emulators
 
 ### 21.设置 Dart 文件格式:
 
-```
+```html
 Syntax: flutter format <DART_FILE | DIRECTORY>
 ```
 
@@ -214,7 +214,7 @@ Syntax: flutter format <DART_FILE | DIRECTORY>
 
 ### 22.本地获取依赖项:
 
-```
+```html
 Syntax: flutter gen-l10n <DIRECTORY>
 ```
 
@@ -224,7 +224,7 @@ Syntax: flutter gen-l10n <DIRECTORY>
 
 ### 23.在设备上安装颤振应用程序:
 
-```
+```html
 Syntax: flutter install -d <DEVICE_ID>
 ```
 
@@ -234,7 +234,7 @@ Syntax: flutter install -d <DEVICE_ID>
 
 ### 24.查看终端日志:
 
-```
+```html
 Syntax: flutter logs
 ```
 
@@ -244,7 +244,7 @@ Syntax: flutter logs
 
 ### 25.列出项目资产:
 
-```
+```html
 Syntax: flutter precache <ARGUMENTS> 
 ```
 

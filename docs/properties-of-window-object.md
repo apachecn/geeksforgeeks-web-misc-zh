@@ -53,7 +53,7 @@
 
 **语法：**
 
-```
+```html
 window.property_name
 ```
 
@@ -61,7 +61,7 @@ window.property_name
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -24,11 +24,11 @@
 
     *   **Step 1:** Make sure **node** and **npm** are installed.
 
-    ```
+    ```html
     node -v
     ```
 
-    ```
+    ```html
     npm -v
     ```
 
@@ -36,11 +36,11 @@
 
     *   **步骤 2:** 在您的工作文件夹中，从您的代码编辑器集成终端运行以下命令，然后查看一个基本的 **package.json** 文件，npm 使用该文件来定义属性和导入库。
 
-    ```
+    ```html
     npm install electron --save-dev 
     ```
 
-    ```
+    ```html
     {
       "name": "electronapp",
       "version": "1.0.0",
@@ -61,7 +61,7 @@
 
     *   **第三步:**现在，我们来看一个基本的 **main.js** 文件，它充当主进程。
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     let win
@@ -118,7 +118,7 @@
 
     *   **第 4 步:**主要过程完成，让我们看看一个基本的 HTML 代码，它充当**渲染器过程**。
 
-    ```
+    ```html
     <!DOCTYPE HTML>
     <html>
         <head>
@@ -133,7 +133,7 @@
 
     *   **Step 5:** This ends our coding part. Now, running
 
-    ```
+    ```html
     npm install --unsafe-perm=true
     ```
 

@@ -13,7 +13,7 @@
 
 **下面是如何操作的例子:** *让我们看看如何使用 array_unshift()函数在数组的开头插入一个元素。*
 
-```
+```html
 Input:  names[] = array("portal", "for", "geeks"), size = 3, capacity = 3
 Output: names[] = array("_", "_", "portal", "for", "geeks"), size = 5, capacity = 5
 ```
@@ -24,7 +24,7 @@ Output: names[] = array("_", "_", "portal", "for", "geeks"), size = 5, capacity 
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
 $names = array("portal", "for", "geeks");
 array_unshift($names, "A", "Computer science");

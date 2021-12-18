@@ -21,13 +21,13 @@
 
 CSS:
 
-```html
+```htmlhtml
 https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css
 ```
 
 **JavaScript:**
 
-```html
+```htmlhtml
 https://code.jquery.com/jquery-3.5.1.js
 https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 ```
@@ -36,7 +36,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -120,7 +120,7 @@ https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js
 
 **nestedData.txt:** 以下是上述 HTML 代码中使用的文件“nestedData.txt”的内容。
 
-```html
+```htmlhtml
 {
   "data": [
     {

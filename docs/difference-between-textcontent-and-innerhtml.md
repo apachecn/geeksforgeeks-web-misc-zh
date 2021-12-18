@@ -8,7 +8,7 @@
 
 让 *elem* 成为一个 JavaScript 变量，保存从页面中选择的元素。
 
-```html
+```htmlhtml
 let elem = document.getElementById('test-btn');
 ```
 
@@ -16,19 +16,19 @@ let elem = document.getElementById('test-btn');
 
 *   **text content 属性:**此属性用于获取或设置指定节点及其后代的文本内容。
 
-    ```html
+    ```htmlhtml
     elem.textContent
     ```
 
 *   **innerHTML 属性:**这个属性用来获取或者设置元素的 HTML 内容。
 
-    ```html
+    ```htmlhtml
     elem.innerHTML
     ```
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -13,7 +13,7 @@
 
 路由应该在 **app-routing.module.ts** 文件中定义，如下所示:
 
-```
+```html
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ParentComponent } from './parent/parent.component';
@@ -37,7 +37,7 @@ export class AppRoutingModule { }
 
 要为任何组件注册角度路由，请在 **app-routing.module.ts** 文件中设置路径和组件的类名。其语法如下:
 
-```
+```html
 import { Routes, RouterModule } from '@angular/router';
 import { Component_1 } from 'path_to_component_1';
 import { Component_2 } from 'path_to_component_2';
@@ -61,7 +61,7 @@ const routes: Routes = [
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,7 +85,7 @@ const routes: Routes = [
 
 在父组件文件中，可以按如下方式访问查询参数:
 
-```
+```html
 @Component({
   selector: 'app-parent',
   templateUrl: './parent.component.html',
@@ -107,7 +107,7 @@ export class ParentComponent implements OnInit {
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -129,7 +129,7 @@ export class ParentComponent implements OnInit {
 
 在本节中，我们将使用来自 **@angular/route** 模块的 **Route** 类。route 对象用于通过。ts 文件。这个物体有一个**。导航()**方法路由到不同的模块。它需要两个参数，第一个是路由路径，第二个是由要发送的查询参数、与路由路径的相关性等信息组成的对象。当需要通过模板有条件地触发事件时，使用此方法。
 
-```
+```html
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
@@ -158,7 +158,7 @@ private activatedRoute: ActivatedRoute) {}
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -39,7 +39,7 @@ Web 组件是一组各种各样的技术，使您能够构建可重用的定制�
 
 **构建了 Shadow DOM:**DOM 的结构通常对我们是隐藏的，但是我们可以在开发者工具中看到。例如，在 Chrome 中，我们需要在开发工具中允许“显示用户代理阴影 DOM”选项。
 
-```html
+```htmlhtml
 What you can see below #shadow-root is called “shadow DOM”.
 
 ```
@@ -54,7 +54,7 @@ What you can see below #shadow-root is called “shadow DOM”.
 
 这里，这个阴影 DOM 树从一个阴影根开始，它可以附加到你选择的任何元素上，就像普通的 DOM 一样。
 
-```html
+```htmlhtml
 <my-header>
   #shadow-root
     <header>
@@ -76,7 +76,7 @@ What you can see below #shadow-root is called “shadow DOM”.
 
 **创建阴影 DOM:** 一旦选择了要用于托管阴影 DOM 的元素，就必须将阴影 DOM 附加到它上面。请参见下面的片段。
 
-```html
+```htmlhtml
 <p class="highlight">Welcome to GeeksForGeeks</p> 
 
 <div id="Firstcomponent"></div> 
@@ -100,7 +100,7 @@ What you can see below #shadow-root is called “shadow DOM”.
 
 *   **“打开”**–打开意味着可以使用 JavaScript 访问影子 DOM。
 
-```html
+```htmlhtml
 For example using the Element.shadowRoot property:
 let myShadowDom = myCustomElem.shadowRoot;
 
@@ -114,7 +114,7 @@ let myShadowDom = myCustomElem.shadowRoot;
 
 让我们看看下面给出的例子，它显示了在组件托管的阴影根上添加一个段落元素。
 
-```html
+```htmlhtml
 const paragraphElement = document.createElement('p'); 
 paragraphElement.setAttribute('class', 'highlight'); 
 paragraphElement.innerText = 
@@ -130,7 +130,7 @@ shadowRootOne.appendChild(paragraphElement);
 
 有 2 种方法可以为阴影 DOM 添加样式。将样式包含到阴影 DOM 中的第一种方法与将任何其他元素添加到阴影 DOM 中相同。用一个简单的 appendChild 调用影子根。另一种方法是使用<template></template>
 
-```html
+```htmlhtml
 const styleElement = document.createElement('style'); 
 styleElement.innerText = ` 
   .highlight { 

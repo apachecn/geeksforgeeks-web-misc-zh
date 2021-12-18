@@ -10,7 +10,7 @@ JavaScript 的属性 screenX/Y、clientX/Y 和 pageX/Y 之间的区别通常是�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -70,7 +70,7 @@ JavaScript 的属性 screenX/Y、clientX/Y 和 pageX/Y 之间的区别通常是�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -128,7 +128,7 @@ JavaScript 的属性 screenX/Y、clientX/Y 和 pageX/Y 之间的区别通常是�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

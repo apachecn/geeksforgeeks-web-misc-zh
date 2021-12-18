@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 (function (parameters) {
     // Code block to be executed
 })(parameters);
@@ -16,7 +16,7 @@
 
 ## HTML
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

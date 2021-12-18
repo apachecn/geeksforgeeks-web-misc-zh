@@ -6,7 +6,7 @@ CSS float 属性用于设置或返回元素的水平对齐方式。但是这个�
 
 **示例 1:** 本示例将元素的位置精确设置在屏幕的中心。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -43,7 +43,7 @@ CSS float 属性用于设置或返回元素的水平对齐方式。但是这个�
 
 **示例:**本示例将文本浮动元素的位置精确设置在屏幕中心。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

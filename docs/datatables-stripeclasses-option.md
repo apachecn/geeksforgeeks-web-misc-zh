@@ -8,7 +8,7 @@ DataTables 是 jQuery 插件，可以用来为网页的 HTML 表格添加交互�
 
 **语法:**
 
-```
+```html
 stripeClasses( array )
 ```
 
@@ -22,7 +22,7 @@ stripeClasses( array )
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -144,7 +144,7 @@ stripeClasses( array )
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

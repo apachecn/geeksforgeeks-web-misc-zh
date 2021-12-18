@@ -7,7 +7,7 @@
 
 **示例 1:** 首先，我们将为注册设计模态内容，然后通过使用 CSS，我们将该模态居中对齐(垂直对齐)。使用垂直对齐属性，垂直对齐属性设置元素的垂直对齐方式。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -189,7 +189,7 @@
 
 **示例 2:** 类似地，我们首先为注册创建一个模态内容，然后我们将使用 JavaScript 将模态居中(垂直)。我们将使用 CSS 进行设计。在本例中，首先使用 **[find()方法](https://www.geeksforgeeks.org/javascript-array-find-method/)** 找出模态对话框。然后从窗口高度减去模态高度，并将其分成两半，将模态放在中间(垂直)。该解决方案将动态调整模式的对齐。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

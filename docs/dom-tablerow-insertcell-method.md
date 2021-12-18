@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 tablerowObject.insertCell(index)
 ```
 
@@ -23,7 +23,7 @@ tablerowObject.insertCell(index)
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -91,7 +91,7 @@ tablerowObject.insertCell(index)
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

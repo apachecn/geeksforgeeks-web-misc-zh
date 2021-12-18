@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```html
 <iframe src="example.com"></iframe>
 ```
 

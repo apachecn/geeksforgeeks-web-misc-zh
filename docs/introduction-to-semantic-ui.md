@@ -9,7 +9,7 @@
 
 让我们看看如何在 HTML 中放置语义 UI CDN 的代码。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -33,7 +33,7 @@
 
 现在让我们看一个使用语义用户界面的例子。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -59,7 +59,7 @@
 
 让我们看看语义用户界面加载器的另一个例子。
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>

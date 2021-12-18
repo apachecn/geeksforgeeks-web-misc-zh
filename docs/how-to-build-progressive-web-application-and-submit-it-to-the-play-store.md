@@ -12,7 +12,7 @@
 
 ## java 描述语言
 
-```
+```html
 { 
 "name": "Django Blogiee", 
 "short_name": "Django Blogiee", 
@@ -39,7 +39,7 @@
 
 ## java 描述语言
 
-```
+```html
 var staticCacheName = "django-blogiee-v" + new Date().getTime();
 var filesToCache = [
     '/static/icons/Django-Blogiee.1b98d36d50a7.png',
@@ -73,7 +73,7 @@ self.addEventListener("fetch", event => {
 
 ## java 描述语言
 
-```
+```html
 <script type="application/javascript">
     // Initialize the service worker
     if ('serviceWorker' in navigator) {

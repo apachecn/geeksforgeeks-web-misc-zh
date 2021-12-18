@@ -8,7 +8,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -67,7 +67,7 @@
 
 *   In the above example, we will use Google API to load google map.
 
-    ```html
+    ```htmlhtml
     <script src = "https://maps.googleapis.com/maps/api/js"></script>
     ```
 
@@ -81,7 +81,7 @@
     *   用您自己的 API 密钥替换 URL 中的密钥参数值
 *   To custmize the maps:
 
-    ```html
+    ```htmlhtml
     var CustomOp = {
         center:new google.maps.LatLng(28.502212, 77.405603), 
         zoom:17, 
@@ -96,6 +96,6 @@
     *   **maptypeid:** 该属性用于指定地图的类型。(路线图、卫星、混合、地形)
 **To create a map object we will use the following code:**
 
-```html
+```htmlhtml
 var map = new google.maps.Map(document.getElementById("DivID"), CustomOp);
 ```

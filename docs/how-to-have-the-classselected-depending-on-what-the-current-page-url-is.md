@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```html
 const currentLocation = location.href
 ```
 
@@ -23,7 +23,7 @@ const currentLocation = location.href
 
 ## 超文本标记语言
 
-```
+```html
 <html>
   <head>
     <style>

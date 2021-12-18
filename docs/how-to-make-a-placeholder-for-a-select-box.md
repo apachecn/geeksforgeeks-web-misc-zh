@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>
@@ -51,7 +51,7 @@
 
 **示例 2:** 使用 JavaScript 在选择框中创建占位符。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <head>

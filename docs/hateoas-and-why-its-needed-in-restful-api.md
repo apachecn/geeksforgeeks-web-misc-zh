@@ -18,14 +18,14 @@ HATEOAS 代表**超媒体作为应用状态的引擎**，是 RESTful API 架构�
 
 例如，考虑一个客户端想要与网络应用程序交互，以获取组织内员工工资单的详细信息。启用此功能的 RESTful 调用如下:
 
-```
+```html
 GET /payroll/employee_123 HTTP/1.1
 
 ```
 
 服务器将以包含所需细节的 JSON 进行响应。此外，响应将包含超媒体链接，允许客户端采取进一步的行动。例如，考虑服务器的响应如下。
 
-```
+```html
 HTTP/1.1 200 OK
 Content-Type: application/+json
 Content-Length: ...
@@ -49,7 +49,7 @@ Content-Length: ...
 
 假设对于给定的员工，帐户已经关闭。因此，增量和减量方法与这样的帐户无关。因此，点击此类员工的工资单端点将导致如下响应:
 
-```
+```html
 HTTP/1.1 200 OK
 Content-Type: application/+json
 Content-Length: ...

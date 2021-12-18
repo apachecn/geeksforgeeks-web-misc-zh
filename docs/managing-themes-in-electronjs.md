@@ -16,7 +16,7 @@
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-theme",
   "version": "1.0.0",
@@ -50,7 +50,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <br><br>
    <button id="dark">
      Enable Dark Theme
@@ -64,7 +64,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require("electron");
 
 // Importing the nativeTheme module
@@ -134,7 +134,7 @@ light.addEventListener("click", () => {
 
 *   **dark.css** :在那个文件中添加下面的片段。
 
-```html
+```htmlhtml
 body {
     background-color: darkgray;
     color: white;
@@ -143,7 +143,7 @@ body {
 
 *   **light.css** :在那个文件中添加下面的片段。
 
-```html
+```htmlhtml
 body {
     background-color: lightgray;
     color: black;
@@ -154,7 +154,7 @@ body {
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require("electron");
 
 // Importing the nativeTheme module

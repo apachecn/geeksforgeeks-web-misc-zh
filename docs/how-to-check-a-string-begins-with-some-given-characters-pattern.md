@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 for (var i = 0; i < pattern.length; i++) {
         if(str.charAt(i) != pattern.charAt(i)){
             result = false;
@@ -19,7 +19,7 @@ for (var i = 0; i < pattern.length; i++) {
 
 **示例:**下面的程序演示了上述方法:
 
-```
+```html
 <script>
     // Javascript script to check 
     // whether the String begins
@@ -83,7 +83,7 @@ for (var i = 0; i < pattern.length; i++) {
 
 **输出:**
 
-```
+```html
 String = "GeeksforGeeks"
 String should begin with = "Geeks"
 String begins with "Geeks"
@@ -98,7 +98,7 @@ String doesn't begins with "Geeks"
 
 **语法:**
 
-```
+```html
 var = string.substring(Startindex, Endindex)
 var.localeCompare(compareString)
 
@@ -106,7 +106,7 @@ var.localeCompare(compareString)
 
 **示例:**下面的程序演示了上述方法:
 
-```
+```html
 <script>
     // Javascript script to check 
     // whether the String begins
@@ -159,7 +159,7 @@ var.localeCompare(compareString)
 
 **输出:**
 
-```
+```html
 String = "GeeksforGeeks"
 String should begin with = "Geeks"
 String begins with "Geeks"
@@ -174,14 +174,14 @@ String doesn't begins with "Geeks"
 
 **语法:**
 
-```
+```html
 str.startsWith( searchString , position )
 
 ```
 
 **示例:**下面的程序演示了上述方法:
 
-```
+```html
 <script>
     // Javascript script to check 
     // whether the String begins
@@ -232,7 +232,7 @@ str.startsWith( searchString , position )
 
 **输出:**
 
-```
+```html
 String = "Burn to shine"
 String should begin with = "Burn"
 String begins with "Burn"

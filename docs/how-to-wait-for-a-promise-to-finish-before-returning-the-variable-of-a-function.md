@@ -12,7 +12,7 @@
 下面程序将举例说明方法:
 **程序:**
 
-```
+```html
 <script>
 const wait=ms=>new Promise(resolve => setTimeout(resolve, ms));
 
@@ -33,7 +33,7 @@ wait(2*1000).then(() => console.log("waited for 2 seconds"));         �
 
 **输出:**
 
-```
+```html
 waited for 2 seconds
 waited for 4 seconds
 This is failure callback
@@ -45,7 +45,7 @@ This is failure callback
 下面程序将说明方法:
 **程序:**
 
-```
+```html
 <script>
 //This function returns promise after 2 seconds
 var first_function = function() {
@@ -88,7 +88,7 @@ async_function();                 
 
 **输出:**
 
-```
+```html
 async function called
 Entered first function
 Returned first promise

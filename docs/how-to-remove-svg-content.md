@@ -8,13 +8,13 @@
 
     **语法:**
 
-    ```html
+    ```htmlhtml
     d3.select("element").remove()
     ```
 
     **示例:**在此示例中，删除了第一个 paramgraph (p)元素。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html> 
     <html> 
 
@@ -50,13 +50,13 @@
 
     **语法:**
 
-    ```html
+    ```htmlhtml
     d3.selectAll("element").remove()
     ```
 
     **示例:**在此示例中，删除了所有段落(p)元素。
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html> 
     <html> 
 

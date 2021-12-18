@@ -53,7 +53,7 @@
 
 **第三步：**创建**‘app.py’**文件夹并编写下面给出的代码。
 
-```
+```html
 # Store this code in 'app.py' file
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL
@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
 **第-5 步：**打开**‘login.html’**文件并编写下面给出的代码。 在‘login.html’中，我们有两个字段，即用户名和密码。 当用户输入正确的用户名和密码时，它会将您转到索引页，否则会显示“用户名/密码不正确”。
 
-```
+```html
 <!--Store this code in 'login.html' file inside the 'templates' folder-->
 <html>
     <head>
@@ -212,7 +212,7 @@ if __name__ == "__main__":
 
 **第-6 步：**打开**‘register.html’**文件并编写下面给出的代码。 在‘register.html’中，我们有九个字段，即用户名、密码、电子邮件、组织、地址、城市、州、国家和邮政编码。 当用户输入所有信息时，它会将数据存储在数据库中，并显示“注册成功”。
 
-```
+```html
 <!--Store this code in 'register.html' file inside the 'templates' folder--> 
 <html>
     <head>
@@ -248,7 +248,7 @@ if __name__ == "__main__":
 
 **Step-7：**打开**‘index.html’**文件并编写下面给出的代码。 当用户登录成功时，会显示此页面并显示“登录成功！” 将显示。
 
-```
+```html
 <!--Store this code in 'index.html' file inside the 'templates' folder-->
 <html lang="en">
     <head>
@@ -283,7 +283,7 @@ if __name__ == "__main__":
 
 **步骤 8：**打开**‘display.html’**文件并编写下面给出的代码。 这里显示了存储在数据库中的用户信息。
 
-```
+```html
 <!--Store this code in 'display.html' file inside the 'templates' folder-->
 
 <html lang="en">
@@ -360,7 +360,7 @@ if __name__ == "__main__":
 
 **步骤 9：**打开**‘update.html’**文件并编写下面给出的代码。 用户可以更新他/她的数据，这也会更新数据库。
 
-```
+```html
 <!--Store this code in 'update.html' file inside the 'templates' folder-->
 <html lang="en">
     <head>
@@ -407,7 +407,7 @@ if __name__ == "__main__":
 
 **步骤-10：**创建文件夹**‘static’**。 在‘static’文件夹中创建文件‘style.css’，并粘贴给定的 CSS 代码。
 
-```
+```html
 /*Store this code in 'style.css' file inside the 'static' folder*/
 
 .logincontent{

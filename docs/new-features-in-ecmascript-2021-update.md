@@ -14,7 +14,7 @@ ECMAScript 的新更新将于今年 7 月发布。引入新的改进是为了让
 
     **上一版本:**
 
-    ```
+    ```html
     let x = 1;
     if(x){
       a = 10;
@@ -23,20 +23,20 @@ ECMAScript 的新更新将于今年 7 月发布。引入新的改进是为了让
 
     **输出:**
 
-    ```
+    ```html
     x = 10
     ```
 
     **新版本:**
 
-    ```
+    ```html
     let x = 1;
     x &&= 10;
     ```
 
     **输出:**
 
-    ```
+    ```html
     x = 10
     ```
 
@@ -44,33 +44,33 @@ ECMAScript 的新更新将于今年 7 月发布。引入新的改进是为了让
 
     **上一版本:**
 
-    ```
+    ```html
     let x = 0;
     x = x || 10;
     ```
 
     **输出:**
 
-    ```
+    ```html
     x = 10
     ```
 
     **新版本:**
 
-    ```
+    ```html
     let x = 0;
     x ||= 10
     ```
 
     **输出:**
 
-    ```
+    ```html
     x = 10
     ```
 
 *   **Nullish coalescing & Equals (??=):** Symbol ?? is a nullish coalescing operator in JavaScript. It checks if a value is null or undefined.
 
-    ```
+    ```html
     let x;
     let y = 10;
     x ??= y;
@@ -80,14 +80,14 @@ ECMAScript 的新更新将于今年 7 月发布。引入新的改进是为了让
 
     **输出:**x 的值未定义，因此计算右侧表达式并将 x 设置为 10。
 
-    ```
+    ```html
     10
     10
     ```
 
 **2。数字分隔符:**为了提高可读性和分隔数字组，数字文字使用下划线作为分隔符。
 
-```
+```html
 // A billion dollar that I want to earn
 const money = 1_000_000_000;
 
@@ -98,14 +98,14 @@ const money = 1_000_000_000.00;
 
 **3。字符串**[**replace all()**](https://www.geeksforgeeks.org/javascript-string-replaceall-method/)**:**如果我们想替换字符串中一个子字符串的所有实例，那么这个新方法 **replaceAll()** 非常有用。
 
-```
+```html
 const s = "You are reading JavaScript 2021 new updates.";
 console.log(s.replaceAll("JavaScript", "ECMAScript"));
 ```
 
 **输出:**
 
-```
+```html
 You are reading ECMAScript 2021 new updates.
 ```
 
@@ -113,7 +113,7 @@ You are reading ECMAScript 2021 new updates.
 
 **当所有承诺都被拒绝时会发生什么，该方法会抛出一个带有拒绝原因的**聚合错误**异常。我们已经在 try-catch 块中编写了代码。**
 
-```
+```html
 const promiseOne = new Promise((resolve, reject) => {
   setTimeout(() => reject(), 1000);
 });
@@ -139,7 +139,7 @@ try {
 
 ****输出:****
 
-```
+```html
 await is only valid in async functions and the top-level bodies of modules
 ```
 
@@ -147,7 +147,7 @@ await is only valid in async functions and the top-level bodies of modules
 
 ****上一版本:****
 
-```
+```html
 class GfG {
   showMe() {
     console.log("I am a geek")
@@ -165,13 +165,13 @@ gfg.notShowMe()
 
 ****输出:**错误如下。这是因为 **notShowMe()** 现在是 GfG 类内部的私有方法，只能通过类内部的公共方法访问。**
 
-```
+```html
 gfg.notShowMe is not a function
 ```
 
 ****新版本:****
 
-```
+```html
 class GfG {
   showMe() {
     console.log("I am a geek");
@@ -191,14 +191,14 @@ gfg.showAll();
 
 ****输出:**我们在 GfG 类内部创建了一个名为 **showAll()** 的新公共方法。从这个公共方法中，我们可以访问私有方法 **#notShowMe()** ，由于我们的新方法是公共的，我们得到了以下结果。**
 
-```
+```html
 I am a geek
 Hidden informations
 ```
 
 ****6。Private Getters 和 setter:**就像 private 方法一样，现在我们可以制作 getter 和 setter，这样它们只能在类内部或者通过创建的实例来访问。**
 
-```
+```html
 class GfG {
   get #Name() {
     return "GeeksforGeeks"
@@ -215,6 +215,6 @@ console.log(name.viewName);
 
 ****输出:****
 
-```
+```html
  GeeksforGeeks
 ```

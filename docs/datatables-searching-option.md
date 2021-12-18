@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 { searching: value }
 ```
 
@@ -24,7 +24,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -143,7 +143,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <html>
 
 <head>

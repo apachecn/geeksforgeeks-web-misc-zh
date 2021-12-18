@@ -15,20 +15,20 @@
 
 *   **Step 1:** Navigate to an Empty Directory to setup the project, and run the following command,
 
-    ```
+    ```html
     npm init
     ```
 
     生成**包. json** 文件。安装 **[电子](https://www.geeksforgeeks.org/introduction-to-electronjs/)** 如果没有安装，使用 npm。
 
-    ```
+    ```html
     npm install electron --save
     ```
 
     该命令还将创建**包-lock.json** 文件，并安装所需的**节点 _ 模块**依赖项。一旦电子安装成功，打开**包. json** 文件，并在**脚本**键下执行必要的更改。根据项目结构创建**资产**文件夹。将您选择的任何图像文件复制到**资源**文件夹中，并将其命名为**image.png**。在本教程中，我们将使用电子标志作为**image.png**文件。该图像文件将被拖放到电子应用程序的**浏览器窗口**中。
     **package.json:**
 
-    ```
+    ```html
     {
       "name": "electron-drag",
       "version": "1.0.0",
@@ -53,7 +53,7 @@
 
     **main.js:**
 
-    ```
+    ```html
     const { app, BrowserWindow } = require('electron')
 
     function createWindow () {
@@ -106,7 +106,7 @@
 
     **index.html:**
 
-    ```
+    ```html
     <!DOCTYPE html>
     <html>
       <head>
@@ -141,7 +141,7 @@
 
 *   **Output:** At this point, our basic Electron Application is set up. To launch the Electron Application, run the Command:
 
-    ```
+    ```html
     npm start
     ```
 
@@ -153,7 +153,7 @@
 
 **index.js:** 在该文件中添加以下代码片段。
 
-```
+```html
 document.addEventListener('drop', (event) => {
     event.preventDefault();
     event.stopPropagation();

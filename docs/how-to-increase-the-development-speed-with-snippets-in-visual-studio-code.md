@@ -96,11 +96,11 @@ VS 代码扩展市场上有许多包含代码片段的扩展。如果你找到�
 
 ## java 描述语言
 
-```
+```html
 console.log()
 ```
 
-```
+```html
 //  JSON code snippet file
 
 {
@@ -135,13 +135,13 @@ console.log()
 
 ## java 描述语言
 
-```
+```html
 function functionName() {
 
 }
 ```
 
-```
+```html
 //  JSON code snippet file
 
 {
@@ -174,7 +174,7 @@ function functionName() {
 
 ![](img/6365b3c7f1a10ef816e8c76e05e60ecd.png)
 
-```
+```html
 //  JSON code snippet file
 
 "Array Method": {

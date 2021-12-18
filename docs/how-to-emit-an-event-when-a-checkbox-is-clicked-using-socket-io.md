@@ -14,7 +14,7 @@
 
 *   安装模块。
 
-    ```
+    ```html
     npm install express socket.io
     ```
 
@@ -26,7 +26,7 @@
 
 ## server.js
 
-```
+```html
 // Importing express module
 const express = require('express'); 
 const app = express(); 
@@ -53,13 +53,13 @@ app.listen(4000 , ()=>{
 
 **语法:**
 
-```
+```html
 const io = require('socket.io')(server);
 ```
 
 ## server.js
 
-```
+```html
 // Importing express module
 const express = require('express');
 const app = express();

@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-audio" src=
 "https://cdn.ampproject.org/v0/amp-audio-0.1.js">
 </script>
@@ -37,7 +37,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!doctype html>
 <html amp>
 

@@ -11,7 +11,7 @@
 
 **例 1:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -97,7 +97,7 @@
 
 **例 2:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

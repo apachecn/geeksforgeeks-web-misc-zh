@@ -14,7 +14,7 @@
 
 ## index.html
 
-```html
+```htmlhtml
 <html lang="en">
 <head>
   <link rel="stylesheet" href="style.css">

@@ -15,19 +15,19 @@
 
 *   **步骤 1:** 打开终端，通过以下命令安装 expo-cli。
 
-    ```
+    ```html
     npm install -g expo-cli
     ```
 
 *   **步骤 2:** 现在通过以下命令创建一个项目。
 
-    ```
+    ```html
     expo init demo-app
     ```
 
 *   **第三步:**现在进入你的项目文件夹，即演示应用程序
 
-    ```
+    ```html
     cd demo-app
     ```
 
@@ -40,7 +40,7 @@
 
 ## App.js
 
-```
+```html
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
 
 **运行应用程序的步骤:**使用以下命令启动服务器:
 
-```
+```html
 expo start
 ```
 
@@ -86,7 +86,7 @@ expo start
 
 ## App.js
 
-```
+```html
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
 
 **运行应用程序的步骤:**使用以下命令启动服务器:
 
-```
+```html
 expo start
 ```
 

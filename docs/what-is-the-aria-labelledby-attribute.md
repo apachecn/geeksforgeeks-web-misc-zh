@@ -6,7 +6,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
 **语法:**
 
-```html
+```htmlhtml
 <element aria-labelledby =""> Content </element>
 ```
 
@@ -18,7 +18,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html> 
     <html> 
 
@@ -62,7 +62,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html> 
     <html> 
 
@@ -98,7 +98,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html> 
     <html> 
 
@@ -137,7 +137,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <div role="dialog" aria-labelledby="dialogheader"> 
         <dialog id="dialogheader">Choose a File</dialog> 
         A Computer Science Portal 
@@ -151,7 +151,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <p>
         The articles are reviewed by reviewers and then 
         <dfn id="placebo">placebo</dfn>, published. 
@@ -170,7 +170,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <dl> 
         <dt id="Geeks">Geeks</dt> 
         <dd role="definition" aria-labelledby="Geeks"> 
@@ -203,7 +203,7 @@ aria-labelledby 属性是超文本标记语言的一个固有属性，它习惯�
 
     **示例:**
 
-    ```html
+    ```htmlhtml
     <div role="menubar"> 
         <div role="menuitem" aria-haspopup="true" id="fileMenu">File</div> 
         <div role="menu" aria-labelledby="fileMenu"> 

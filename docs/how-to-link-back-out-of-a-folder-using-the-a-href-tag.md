@@ -16,7 +16,7 @@
 
 它显示当前网页文件所在文件夹上方的文件夹中文件的路径。图像文件存在于名为 images 的文件夹中，当前网页文件存在于子文件夹中，那么代码如下:
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
     <head> 
@@ -37,7 +37,7 @@
 
 它显示位于当前子目录根目录下的文件夹中文件的路径。
 
-```html
+```htmlhtml
 <!DOCTYPE html> 
 <html> 
     <head> 

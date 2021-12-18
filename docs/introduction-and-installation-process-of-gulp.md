@@ -34,7 +34,7 @@
 
 *   **第一步:**打开你系统的终端应用。为了方便起见，文章中附上了截图并运行了下面的命令。-g 表示大口将在系统中全局安装，任何文件都可以访问。
 
-```
+```html
 $ sudo npm install gulp-cli -g
 ```
 
@@ -42,14 +42,14 @@ $ sudo npm install gulp-cli -g
 
 *   **步骤 2:** 创建一个项目目录，并使用以下命令导航到该目录。
 
-```
+```html
 $ npx mkdir install-project
 $ cd install-project
 ```
 
 *   **第三步:**在打开的目录中输入以下命令行。这条线确保我们已经打开了一个基于 **npm** 的项目目录。所附图像显示了进入命令行后的屏幕输出。现在，软件包名称必须由用户用小写字母提供。这里，输入的示例包名是 install-project。
 
-```
+```html
 $ npm init
 ```
 
@@ -77,7 +77,7 @@ $ npm init
 
 *   **第 4 步:**以下命令将在您的**开发依赖项**中安装吞咽包。
 
-```
+```html
 $ npm install --save-dev gulp
 ```
 
@@ -85,7 +85,7 @@ $ npm install --save-dev gulp
 
 *   **第 5 步:**要检查 glaw 是全局安装还是本地安装，您可以运行以下命令。
 
-```
+```html
 $ gulp --version
 ```
 

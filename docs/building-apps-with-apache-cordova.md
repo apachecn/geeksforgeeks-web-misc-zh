@@ -10,7 +10,7 @@ Apache Cordova 是一个混合移动开发框架，用于从渐进式网络应�
 
 节点包管理器(npm)用于轻松地在您的计算机上安装、升级或卸载包。我们必须安装科尔多瓦软件包。我们键入以下命令:
 
-```
+```html
 npm install -g cordova
 
 ```
@@ -25,21 +25,21 @@ npm install -g cordova
 
 转到要在其中创建项目的文件夹。使用以下命令创建第一个项目:
 
-```
+```html
 cordova create projectDirectory com.example.name ProjectName
 
 ```
 
 ***com.example.name*** 是项目 ID， ***ProjectName*** 是项目名称，***project directory***是现在为构建我们的 Cordova app 而创建的目录。将工作目录更改为您刚刚创建的项目。
 
-```
+```html
 cd projectDirectory
 
 ```
 
 现在让我们添加我们的平台。需要注意的是，Cordova 是一个混合应用开发框架，这意味着同一个代码库可以部署到 Windows Desktop、Android Phones、iOS Phones 等多个平台。，在本例中，我们将部署到 android。
 
-```
+```html
 cordova platform add android
 
 ```
@@ -56,7 +56,7 @@ cordova platform add android
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -80,7 +80,7 @@ cordova platform add android
 
 ## java 描述语言
 
-```
+```html
 function showTime() {
     var date = new Date();
     var h = date.getHours();
@@ -98,7 +98,7 @@ setInterval(showTime, 1000);
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```html
 html {
   height: 100%;
 }
@@ -136,7 +136,7 @@ body {
 
 Apache Cordova 使构建应用程序变得非常简单。打开终端，将目录改为科尔多瓦项目目录。只需键入以下命令即可构建:
 
-```
+```html
 cordova build android
 
 ```

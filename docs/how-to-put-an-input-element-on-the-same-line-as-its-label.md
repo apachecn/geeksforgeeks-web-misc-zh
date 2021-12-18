@@ -8,7 +8,7 @@
 
 *   **例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 
@@ -54,7 +54,7 @@
 
 *   **例:**
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 

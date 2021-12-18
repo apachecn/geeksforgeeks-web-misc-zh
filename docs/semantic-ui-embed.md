@@ -12,14 +12,14 @@
 
 jQuery:
 
-```
+```html
 $('.ui.embed').embed();
 
 ```
 
 **完整代码:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -66,7 +66,7 @@ $('.ui.embed').embed();
 
 **jQuery Code:**
 
-```
+```html
 $('.ui.embed').embed({
     source: 'youtube',
     id: 'JfiKYgfxCPc',
@@ -74,7 +74,7 @@ $('.ui.embed').embed({
 });
 ```
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

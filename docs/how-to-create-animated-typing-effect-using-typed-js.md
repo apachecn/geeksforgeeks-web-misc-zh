@@ -12,7 +12,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 
@@ -44,7 +44,7 @@
 
 2.  将以下 CSS 代码写入您的*“style . CSS”*文件。
 
-    ```html
+    ```htmlhtml
     <style>
         body {
             background-color: white;
@@ -86,7 +86,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```htmlhtml
     <script src="./typed.js-master/lib/typed.min.js">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/
@@ -110,7 +110,7 @@
 
     ## 超文本标记语言
 
-    ```html
+    ```htmlhtml
     <!DOCTYPE html>
     <html lang="en">
 

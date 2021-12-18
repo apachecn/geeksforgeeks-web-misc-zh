@@ -16,14 +16,14 @@ BrowserSync 是一个自动化工具，广泛用于 web 开发。这个工具通
 
     BrowserSync 是一个 npm 包，因此您必须确保安装了`Node.js`。要安装浏览器同步，只需打开终端并执行以下命令。
 
-    ```
+    ```html
     sudo npm install -g browser-sync
 
     ```
 
     要检查是否安装了浏览器同步，请输入以下命令。
 
-    ```
+    ```html
     browser-sync --version
 
     ```
@@ -32,7 +32,7 @@ BrowserSync 是一个自动化工具，广泛用于 web 开发。这个工具通
 
     转到项目目录的根目录，运行以下命令。
 
-    ```
+    ```html
     browser-sync start --server --files "*.html, css/*.css"
 
     ```

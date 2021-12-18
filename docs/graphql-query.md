@@ -14,7 +14,7 @@ T3】
 *   **字段:**将作为查询响应的一部分返回的数据单元被称为字段，即使它们是嵌套的。查询结构和查询结构的结果将与下图所示相同。
     T3】查询:
 
-```
+```html
 {
   pokemon(name:"pikachu") {
     name
@@ -30,7 +30,7 @@ T3】
 *   **Arguments:** Arguments help to **resolve** a query on the server-side in a specific way. It is a **key:value** pair supplied with a field. It can be a literal or a variable as well in the fields example we already used arguments on pokemon by providing specific name.
     **Query:**
 
-    ```
+    ```html
     {
       pokemon(id:"UG9rZW1vbjowMDE") {
         name
@@ -46,7 +46,7 @@ T3】
 
     **查询:**
 
-    ```
+    ```html
     query retrievePokemon{
       firstPokemon: pokemon(name:"Pikachu") {
         id
@@ -64,7 +64,7 @@ T3】
     *   **Fragments:** GraphQL provides the power to make a sub-type of query fields that can be used again and again using an identifier attached to it. It is known as a **fragment** and is supplied as **…fragmentName**. Getting multiple objects, each with possibly different fields
     **Syntax:**
 
-    ```
+    ```html
     fragment basicInfoOfPokemon on Pokemon {
       name
       id
@@ -88,7 +88,7 @@ T3】
     *   **Operation Name:** Till now we are using shorthand syntax, we can also omit query keyword and name. In this example, we add a query keyword as an operation type and **Electrictype** as operation name.
     **Syntax:**
 
-    ```
+    ```html
     query Electrictype {
       pokemon(name: "pikachu") {
         name
@@ -108,7 +108,7 @@ T3】
     **@skip:** 如果你想在特定的‘If’条件下**‘skip’**特定的字段，你可以使用。
     **语法:**
 
-    ```
+    ```html
     fieldName @skip (if: booleanCondition) {
       name
     }
@@ -123,7 +123,7 @@ T3】
     **@include** 如果要在特定的‘If’条件下‘包含’特定的字段，可以使用。
     **语法:**
 
-    ```
+    ```html
     fieldName @include (if: booleanCondition) {
       name
     }

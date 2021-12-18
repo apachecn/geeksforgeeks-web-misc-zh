@@ -15,7 +15,7 @@
 
         一旦 jar 文件放入文件夹，就在 MySQL 中创建一个数据库和表，
 
-        ```
+        ```html
         mysql> create database demoprj;
         Query OK, 1 row affected (4.10 sec)
 
@@ -39,7 +39,7 @@
     *   **Step 2: Implementation of required Web-pages**
         Create a form in HTML file, where take all the inputs required to insert data into the database. Specify the servlet name in it, with the POST method as security is important aspects in database connectivity.
 
-        ```
+        ```html
         <!DOCTYPE html>
         <html>
         <head>
@@ -80,7 +80,7 @@
 
         创建一个单独的类来创建数据库连接，因为在所有程序中编写相同的代码片段是一个蹩脚的过程。创建一个返回连接对象的. java 文件。
 
-        ```
+        ```html
         import java.sql.Connection;
         import java.sql.DriverManager;
         import java.sql.SQLException;
@@ -112,7 +112,7 @@
 
         下面的程序展示了创建连接并将数据插入`**demo**`表的 Servlet 类，
 
-        ```
+        ```html
         import java.io.IOException;
         import java.io.PrintWriter;
         import java.sql.Connection;
@@ -186,7 +186,7 @@
 
         **结果在 MySQL 界面**
 
-        ```
+        ```html
         mysql> select * from demo;
         +------+---------------+
         | id   | string        |

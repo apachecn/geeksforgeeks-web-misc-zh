@@ -20,7 +20,7 @@
 
 安装所有必备项目后，您必须创建新的 rails 应用程序。为此，请使用以下命令:
 
-```
+```html
 $ rails new my_postgresql_app
 $ cd my_postgresql_app
 ```
@@ -29,13 +29,13 @@ $ cd my_postgresql_app
 
 因此，要在 rails 应用程序中添加 PostgreSQL 数据库，我们必须在我们的项目 ***中添加 **pg gem** 文件，并从 *gemfile* 中删除**gem“SQLite 3”、“~>1.4”**。***
 
-```
+```html
 ***gem 'pg'***
 ```
 
 在 *gemfile* 中添加 pg gem 后，在终端上运行给定的命令。
 
-```
+```html
 $ bundle install
 ```
 
@@ -43,7 +43,7 @@ $ bundle install
 
 接下来，我们必须移动到 ***config/database.yml 文件*** ，从该文件中删除所有现有数据，并添加新数据以连接到 PostgreSQL。
 
-```
+```html
 development:
   adapter: postgresql
   encoding: unicode
@@ -70,7 +70,7 @@ production:
 
 在 *config/database.yml 文件*中添加数据后，您必须运行给定的命令。
 
-```
+```html
 $ rails db:create
 ```
 

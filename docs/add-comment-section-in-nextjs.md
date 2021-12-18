@@ -12,13 +12,13 @@ NextJS 是一个基于 React 的框架。它有能力为不同的平台开发漂
 
 **创建 NextJS 应用程序:**您可以使用以下命令创建一个新的 NextJs 项目:
 
-```
+```html
 npx create-next-app gfg
 ```
 
 **安装所需的软件包:**现在我们将使用以下命令安装 Disqus 软件包:
 
-```
+```html
 npm install disqus-react
 ```
 
@@ -48,7 +48,7 @@ npm install disqus-react
 
 ## java 描述语言
 
-```
+```html
 import {DiscussionEmbed} from "disqus-react"
 
 const Comments = () => {
@@ -81,7 +81,7 @@ export default Comments;
 
 ## java 描述语言
 
-```
+```html
 import React from 'react'
 import Comments from '../components/Comment'
 
@@ -99,7 +99,7 @@ export default function Text() {
 
 **运行应用的步骤:**在终端运行下面的命令运行应用。
 
-```
+```html
 npm run dev
 ```
 

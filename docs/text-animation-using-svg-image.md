@@ -29,7 +29,7 @@ SVG 代表可缩放矢量图形。它是一种基于 XML 的图像格式。它�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -124,7 +124,7 @@ SVG 代表可缩放矢量图形。它是一种基于 XML 的图像格式。它�
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```htmlhtml
 *{  
     padding: 0;
     margin: 0;
@@ -241,7 +241,7 @@ body{
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const logo = document.querySelectorAll('#logo path');
 
 // Loop to calculate length of path

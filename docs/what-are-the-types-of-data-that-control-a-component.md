@@ -21,13 +21,13 @@
 
 *   **步骤 1:** 在终端/命令提示符下使用以下命令创建 React 应用程序:
 
-    ```
+    ```html
     create-react-app foldername
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名)后，使用以下命令移动到该文件夹:
 
-    ```
+    ```html
     cd foldername
     ```
 
@@ -39,7 +39,7 @@
 
 ## App.js
 
-```
+```html
 import React, {Component}  from 'react';
 
 class App extends React.Component {
@@ -87,7 +87,7 @@ export default App;
 
 ## App.js
 
-```
+```html
 import React, { Component } from 'react';
 
 class App extends Component {

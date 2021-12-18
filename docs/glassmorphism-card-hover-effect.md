@@ -8,7 +8,7 @@
 
 *   在继续之前，首先我们必须安装香草倾斜模块，通过在您的项目目录中运行以下命令，借助您的 SRC 文件夹中的终端，或者您也可以在您的项目文件夹中的 Visual Studio Code 的终端中运行该命令。
 
-    ```html
+    ```htmlhtml
     npm install vanilla-tilt
     ```
 
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -54,7 +54,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <style>
     *{
         margin:0;
@@ -110,7 +110,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 <script>
     VanillaTilt.init(document.querySelector(".card"), {
         max: 40,
@@ -125,7 +125,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

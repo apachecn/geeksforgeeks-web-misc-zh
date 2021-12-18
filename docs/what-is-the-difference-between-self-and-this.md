@@ -7,14 +7,14 @@
 **self 运算符:** self 运算符代表当前类，因此用于访问类变量或静态变量，因为这些成员属于某个类，而不是该类的对象。
 **语法:**
 
-```
+```html
 self::$static_member
 ```
 
 **$this 运算符:** $this，作为“{ content }”；暗号暗示，是一个物体。$这表示类的当前对象。它用于访问类的非静态成员。
 **语法:**
 
-```
+```html
 $that->$non_static_member;
 ```
 
@@ -24,7 +24,7 @@ $that->$non_static_member;
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```html
 <?php
     class StudentDetail{
 
@@ -58,7 +58,7 @@ $that->$non_static_member;
 
 **Output**
 
-```
+```html
 Name : GFG
 Age  : 18
 ```

@@ -6,7 +6,7 @@
 
 **示例 1:** 在本例中，位于 div **内部的指定内容(id="printThis")** 通过 innerHTML。而且，正文内容也是通过 innerHTML 设置为上面指定的内容。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -58,7 +58,7 @@
 
 **示例 2:** 在本例中，位于 **<体内的指定内容>** 最初是通过内部 HTML 获取的。并且，打印正文内容。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

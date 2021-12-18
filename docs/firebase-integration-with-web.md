@@ -15,7 +15,7 @@ Firebase 是谷歌开发的一个平台，用于创建移动和网络应用程�
 
 下图是上述方法的实施
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

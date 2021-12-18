@@ -18,19 +18,19 @@
 
 **步骤 1:** 首先，使用下面提到的命令创建一个 React 应用程序:
 
-```
+```html
 npx create-react-app Principle
 ```
 
 **步骤 2:** 一旦您用适当的文件夹名称创建了文件夹–原则–并使用以下命令执行:
 
-```
+```html
 cd Principle
 ```
 
 **步骤 3:** 创建完 ReactJS 应用程序后，使用下面提到的命令安装模块:
 
-```
+```html
 npm install
 ```
 
@@ -42,7 +42,7 @@ npm install
 
 ## App.js
 
-```
+```html
 import React from "react";
 import { connect } from "react-redux";
 
@@ -102,7 +102,7 @@ export default connect(mapStateToProps, 
 
 ## cricketterreducer . js
 
-```
+```html
 const INITIAL_STATE = {
   cricketer: [
     { id: "0", name: "Rahul Sharma", type: "Spin Bolwer" },
@@ -132,7 +132,7 @@ export default cricketerReducer;
 
 ## Reducer2.js
 
-```
+```html
 const INITIAL_STATE = {
   searchFruite: "",
 };
@@ -151,7 +151,7 @@ export default searchReducer;
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```html
 npm start
 ```
 

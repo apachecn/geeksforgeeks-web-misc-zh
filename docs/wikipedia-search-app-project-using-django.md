@@ -12,29 +12,29 @@ Django 是一个基于 Python 的高级网络框架，允许快速开发和干�
 
 人的本质
 
-```
+```html
 pip install django
 ```
 
 然后安装维基百科库
 
-```
+```html
 pip install wikipedia
 ```
 
 让我们创建新的 django 项目
 
-```
+```html
 django-admin startproject wikipedia_app
 ```
 
-```
+```html
 cd wikipedia_app
 ```
 
 然后在 django 项目中创建新的应用程序
 
-```
+```html
 python3 manage.py startapp main
 ```
 
@@ -46,7 +46,7 @@ python3 manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```html
 from django.shortcuts import render,HttpResponse
 import wikipedia
 
@@ -70,7 +70,7 @@ def home(request):
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -94,7 +94,7 @@ def home(request):
 
 ## 蟒蛇 3
 
-```
+```html
 from django.urls import path
 from .views import *
 
@@ -107,7 +107,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```html
 from django.contrib import admin
 from django.urls import path,include
 
@@ -119,7 +119,7 @@ urlpatterns = [
 
 要运行此应用程序，请打开 cmd 或终端
 
-```
+```html
 python3 manage.py runserver
 ```
 

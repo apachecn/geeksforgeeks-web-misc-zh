@@ -21,7 +21,7 @@
 
 因此，克隆 repo 后，转到根目录，首先启动 minikube–driver 用于指定环境，您也可以将其更改为 docker。但是在使用 docker 环境的入口中有一个错误。
 
-```
+```html
 minikube start --driver="virtualbox"
 ```
 
@@ -33,7 +33,7 @@ minikube start --driver="virtualbox"
 
 **启用仪表板的命令:**
 
-```
+```html
 minikube addons enable dashboard
 ```
 
@@ -41,7 +41,7 @@ minikube addons enable dashboard
 
 **启用入口的命令:**
 
-```
+```html
 minikube addons enable ingress
 ```
 
@@ -49,7 +49,7 @@ minikube addons enable ingress
 
 现在我们需要暴露 ***入口-nginx*** 部署，以便可以从外部世界到达。使用以下命令进行操作:
 
-```
+```html
 kubectl expose deployment ingress-nginx-controller --target-port=80 
 --type=NodePort -n kube-system
 ```
@@ -58,7 +58,7 @@ kubectl expose deployment ingress-nginx-controller --target-port=80
 
 现在验证服务是否正在运行:输出应该类似于下面给出的输出。
 
-```
+```html
 kubectl get services -n kube-system
 ```
 
@@ -66,7 +66,7 @@ kubectl get services -n kube-system
 
 接下来，设置一个环境变量，它是一个 ***jwt-secret*** ，要设置它，运行以下命令:
 
-```
+```html
 kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
 ```
 
@@ -76,7 +76,7 @@ kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
 
 使用以下命令运行应用程序:
 
-```
+```html
 skaffold dev
 ```
 
@@ -88,13 +88,13 @@ skaffold dev
 
 **停止迷你库:**以下是停止迷你库的命令:
 
-```
+```html
 minikube stop
 ```
 
 **删除集群:**以下是删除集群的命令:
 
-```
+```html
 minikube delete
 ```
 

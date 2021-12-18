@@ -25,7 +25,7 @@
 
 **步骤 1:** 通过运行以下命令，在项目中安装更漂亮的东西:
 
-```
+```html
 npm install -D prettier
 ```
 
@@ -37,7 +37,7 @@ npm install -D prettier
 
 **第 3 步:**现在，让我们在 package.json 的“scripts”属性中添加一个命令来运行 bearry。
 
-```
+```html
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
@@ -64,13 +64,13 @@ npm install -D prettier
 
 安装 eslint-config-bearry，这将关闭一些在使用 bearry 时发生冲突的 ESLint 规则
 
-```
+```html
 npm install -D eslint-config-prettier
 ```
 
 将“*更漂亮的“*”附加到您的“*. eslintrc **”文件的扩展数组中的最后一个
 
-```
+```html
 {
   "extends": [
     "eslint:recommended",

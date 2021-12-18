@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 unset( $variable )
 ```
 
@@ -16,7 +16,7 @@ unset( $variable )
 
 **例 1:**
 
-```
+```html
 <?php
 
 // Declare an array and initialize it
@@ -44,7 +44,7 @@ print_r($Array);
 
 **Output:**
 
-```
+```html
 Array
 (
     [0] => GeeksForGeeks_1
@@ -61,7 +61,7 @@ Array
 
 **例 2:**
 
-```
+```html
 <?php
 
 // Declare an array and initialize it
@@ -90,7 +90,7 @@ print_r($Array);
 
 **Output:**
 
-```
+```html
 Array
 (
     [0] => Array

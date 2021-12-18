@@ -21,7 +21,7 @@ SOAP 是由鲍勃·阿特金森、唐·博克斯、戴夫·怀纳和莫森·阿�
 
     **示例消息:**
 
-    ```
+    ```html
     Content-Type: application/soap+xml
     <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
         <env:Header>

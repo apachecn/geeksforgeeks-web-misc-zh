@@ -16,13 +16,13 @@ useCallback、useMemo 和 useEffect 是一种在重新呈现组件之间优化�
 
 *   **步骤 1:** 使用以下命令创建一个反应应用程序:
 
-    ```
+    ```html
     npx create-react-app usecallbackdemo
     ```
 
 *   **步骤 2:** 创建项目文件夹(即文件夹名**)后，使用以下命令移动到该文件夹中:**
 
-    ```
+    ```html
     cd usecallbackdemo
     ```
 
@@ -40,7 +40,7 @@ useCallback、useMemo 和 useEffect 是一种在重新呈现组件之间优化�
 
 ## java 描述语言
 
-```
+```html
 function doubleFactory(){
     return (a) => 2*a;
 }
@@ -61,7 +61,7 @@ double1 === double1;  // true
 
 ## java 描述语言
 
-```
+```html
 function MyComponent(){
 
     // HandleChange is created on every render
@@ -81,7 +81,7 @@ function MyComponent(){
 
 ## jsx 应用程序
 
-```
+```html
 import React, { useState} from "react"
 import List from "./List"
 
@@ -128,7 +128,7 @@ export default App;
 
 ## List.jsx
 
-```
+```html
 import React, { useEffect, useState } from "react"
 
 function List({ getItems }){
@@ -155,7 +155,7 @@ export default List;
 
 **运行应用程序的步骤:**
 
-```
+```html
 npm start
 ```
 
@@ -175,7 +175,7 @@ npm start
 
 ## jsx 应用程序
 
-```
+```html
 import React, { useCallback, useState} from "react"
 import List from "./List"
 
@@ -242,7 +242,7 @@ export default App;
 
     ## MyComponent.jsx 文件
 
-    ```
+    ```html
     function MyComponent(){
         const [data, setData] = useState(0);
         const number = verySlowFunction(data);
@@ -261,7 +261,7 @@ export default App;
 
     ## MyComponent.jsx 文件
 
-    ```
+    ```html
     function MyComponent(){
         const [data, setData] = useState(0);
         const number = useMemo(() => {
@@ -282,7 +282,7 @@ export default App;
 
     ## MyComponent.jsx 文件
 
-    ```
+    ```html
     function MyComponent() {    
         const [number, setNumber] = useState(0);
         const data = {
@@ -301,7 +301,7 @@ export default App;
 
     ## MyComponent.jsx 文件
 
-    ```
+    ```html
     function MyComponent(){
 
         const [number, setNumber] = useState(0);
@@ -327,7 +327,7 @@ export default App;
 
 ## jsx 应用程序
 
-```
+```html
 import React, { useEffect, useState} from "react"
 
 function App(){

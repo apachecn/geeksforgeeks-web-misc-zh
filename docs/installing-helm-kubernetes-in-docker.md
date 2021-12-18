@@ -42,7 +42,7 @@
 *   **在您的命令上运行 ***设置-执行策略旁路-作用域过程*** 来检查执行策略**
 *   **现在要在您的系统上下载 choco，请复制以下代码并将其粘贴到您的命令 shell 中-**
 
-```
+```html
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
@@ -52,7 +52,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 *   **现在从巧克力安装头盔，转到**命令外壳**或更常见的**动力外壳**并键入:**
 
-```
+```html
 choco install kubernetes-helm
 ```
 
@@ -64,7 +64,7 @@ Windows PowerShell 运行 choco install kubricks 头盔**
 
 **最简单的方法就是复制下面的代码，粘贴到你的命令外壳上:-**
 
-```
+```html
 curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh
 chmod 700 get_helm.sh
 ./get_helm.sh

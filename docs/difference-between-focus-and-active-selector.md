@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 :focus {
     // CSS Property
 }
@@ -16,7 +16,7 @@
 
 **示例:**此示例说明了:焦点选择器。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -68,7 +68,7 @@
 
 **说明:**在上例中，使用以下 CSS 属性设置:焦点选择器。
 
-```
+```html
 button:focus {
     color: green;
     background-color: white;
@@ -86,7 +86,7 @@ button:focus {
 
 **语法:**
 
-```
+```html
 :active {
     // CSS property
 }
@@ -94,7 +94,7 @@ button:focus {
 
 **示例:**此示例说明了:活动选择器。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -148,7 +148,7 @@ button:focus {
 
 **说明:**在上例中，使用以下 CSS 属性设置:活动选择器。
 
-```
+```html
 button:active {
     background-color: green;
     font-family: 'Courier New', Courier, monospace

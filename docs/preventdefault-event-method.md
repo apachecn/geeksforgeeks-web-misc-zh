@@ -5,7 +5,7 @@
 方法的作用是：阻止浏览器执行所选元素的默认操作。 它可以阻止用户通过单击该链接来处理请求。
 **语法：**
 
-```
+```html
 event.preventDefault()
 ```
 
@@ -17,7 +17,7 @@ event.preventDefault()
  ****Code #1:**
 This code will prevents the browser from going to another page.
 
-```
+```html
 <html>
       <head>
             <title>GEEKSFORGEEKS ARTICLE<title/>
@@ -48,7 +48,7 @@ This code will prevents the browser from going to another page.
 **代码#2：**
 此代码将阻止浏览器将页面重定向到另一个 PHP 文件。
 
-```
+```html
 <html>
          <head>
              <title>GEEKSFORGEEKS ARTICLE<title/>

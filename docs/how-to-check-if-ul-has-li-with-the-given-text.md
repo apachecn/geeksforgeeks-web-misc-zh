@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```html
 let found = false;
 
 $("#list li").each((id, elem) => {
@@ -24,7 +24,7 @@ return found;
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -103,7 +103,7 @@ contains()选择器与用于选择列表元素的选择器一起使用。如果�
 
 **语法:**
 
-```
+```html
 let found = false;
 
 selector = `#list :contains('${requiredText}')`
@@ -117,7 +117,7 @@ return found;
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

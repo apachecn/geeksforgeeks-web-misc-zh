@@ -33,7 +33,7 @@ HTML 的内联和块元素是 web 开发人员经常混淆的重要领域之一�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -106,7 +106,7 @@ HTML 的内联和块元素是 web 开发人员经常混淆的重要领域之一�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

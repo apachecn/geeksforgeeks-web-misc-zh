@@ -15,7 +15,7 @@
 
 *   **index.html**T3
 
-    ```
+    ```html
     <!-- index.html -->
     <!DOCTYPE html>
     <html lang="en">
@@ -49,7 +49,7 @@
     T4】
 *   **stylew.css**
 
-    ```
+    ```html
     /*   style.css   */
 
     * {
@@ -96,7 +96,7 @@
 
 *   **index.html**T3
 
-    ```
+    ```html
     <!-- index.html -->
     <!DOCTYPE html>
     <html lang="en">
@@ -152,7 +152,7 @@
     T4】
 *   **style.css**
 
-    ```
+    ```html
     /*   style.css   */
 
     * {
@@ -187,7 +187,7 @@
 
 *   **服务**
 
-    ```
+    ```html
     /*  service_worker.js  */
 
     const offlineCache = './offline-page.html';
@@ -241,7 +241,7 @@
 
 *   **offline-page.html**T3
 
-    ```
+    ```html
     <!-- offline-page.html-->
     <!DOCTYPE html>
     <html lang="en">

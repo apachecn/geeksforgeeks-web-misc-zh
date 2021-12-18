@@ -13,21 +13,21 @@
 
 *   **HTML:**
 
-    ```
+    ```html
      < div id="elementId" onclick="fn_name()"></div>
           < input name="ColorPickerId" type="color" id="ColorPickerName" />
     ```
 
 *   **JavaScript:**
 
-    ```
+    ```html
     document.getElementById("elementID").style.Color = 
           document.getElementById("ColorPickerId").value;
     ```
 
 **例 1:**
 
-```
+```html
 <html>
 
 <head>
@@ -70,7 +70,7 @@
 
 **例 2:**
 
-```
+```html
 <html>
 
 <head>

@@ -10,7 +10,7 @@
 
 **步骤 1:** 使用以下命令创建一个新的 NextJs 项目:
 
-```
+```html
 npx create-next-app gfg
 ```
 
@@ -32,13 +32,13 @@ npx create-next-app gfg
 
 **步骤 5:** 现在我们将使用以下命令安装 auth0 模块:
 
-```
+```html
 npm install @auth0/nextjs-auth0
 ```
 
 **步骤 6:** 用以下代码创建一个新的*环境本地*文件:
 
-```
+```html
 AUTH0_SECRET=
   "[A 32 characters secret used to encrypt the cookies]"
 AUTH0_BASE_URL="http://localhost:3000"
@@ -53,7 +53,7 @@ AUTH0_CLIENT_SECRET="YOUR_AUTH0_CLIENT_SECRET"
 
 ## java 描述语言
 
-```
+```html
 import { handleAuth } from '@auth0/nextjs-auth0';
 
 export default handleAuth();
@@ -65,7 +65,7 @@ export default handleAuth();
 
 ## java 描述语言
 
-```
+```html
 import React from 'react';
 import { UserProvider } from '@auth0/nextjs-auth0';
 
@@ -84,7 +84,7 @@ export default function App({ Component, pageProps }) {
 
 ## java 描述语言
 
-```
+```html
 import { useUser } from "@auth0/nextjs-auth0";
 
 export default function Login(){
@@ -104,7 +104,7 @@ export default function Login(){
 
 **运行应用程序的步骤:**之后，使用以下命令运行应用程序:
 
-```
+```html
 npm run dev
 ```
 

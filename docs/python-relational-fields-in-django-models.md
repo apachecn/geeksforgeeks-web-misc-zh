@@ -12,7 +12,7 @@ Django 模型代表真实世界的实体，真实世界的实体彼此完全独�
 
 下面的示例演示了这一点。
 
-```
+```html
 from django.db import models
 
 class Album(models.Model):
@@ -32,7 +32,7 @@ class Song(models.Model):
 
 下面的示例演示了这一点。
 
-```
+```html
 from django.db import models
 
 class Author(models.Model):
@@ -53,7 +53,7 @@ class Book(models.Model):
 
 下面的示例演示了这一点。
 
-```
+```html
 from django.db import models
 
 class Vehicle(models.Model):

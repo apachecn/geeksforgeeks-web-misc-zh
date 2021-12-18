@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```html
 position: static|absolute|fixed|relative|sticky|initial|inherit;
 
 ```
@@ -23,7 +23,7 @@ position: static|absolute|fixed|relative|sticky|initial|inherit;
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

@@ -8,20 +8,20 @@ MongoDB 是一个 NoSQL 文档模型数据库，主要用于选举投票结果�
 
 **模块安装:**使用以下命令安装所需的模块。
 
-```
+```html
 npm install mongoose
 ```
 
 **数据库:**以下是 MongoDB 数据库集合中的样本数据。
 
-```
+```html
 Database Name: UserDB
 Collection Name: UserValidation
 ```
 
 下图显示了文档在其中的存在。具体单拿 *ssn* 和薪资栏目来说。
 
-```
+```html
 db.UserValidation.find({},{_id:0,salary:1,ssn:1,firstName:1});
 ```
 
@@ -37,7 +37,7 @@ db.UserValidation.find({},{_id:0,salary:1,ssn:1,firstName:1});
 
 **语法:**当我们对字段求和时，我们需要一个分组操作($group)，后跟求和($sum)，如下所示。
 
-```
+```html
 db.UserValidation.aggregate([  
  {  
    $group: {
@@ -54,7 +54,7 @@ db.UserValidation.aggregate([
 
 ## java 描述语言
 
-```
+```html
 // Requiring module
 const mongoose = require("mongoose");
 
@@ -89,7 +89,7 @@ mongoose.connect(
 
 **运行程序的步骤:**使用以下命令运行服务器。
 
-```
+```html
 node server.js
 ```
 
@@ -101,7 +101,7 @@ node server.js
 
 **语法:**为了提供额外的过滤条件，我们可以使用$match 运算符。
 
-```
+```html
 db.UserValidation.aggregate([
 {  
   $match: {
@@ -126,7 +126,7 @@ db.UserValidation.aggregate([
 
 ## java 描述语言
 
-```
+```html
 // Requiring module
 const mongoose = require("mongoose");
 
@@ -168,7 +168,7 @@ mongoose.connect(
 
 **运行程序的步骤:**使用以下命令运行服务器。
 
-```
+```html
 node server.js
 ```
 
@@ -180,7 +180,7 @@ node server.js
 
 **语法:**我们需要使用以下语法将平均功能用于平均/最小功能，将最小/最大功能用于最大功能。
 
-```
+```html
 db.UserValidation.aggregate([{
     $match: { address: { $eq: "Chennai" } }
     },
@@ -200,7 +200,7 @@ db.UserValidation.aggregate([{
 
 ## java 描述语言
 
-```
+```html
 // Requiring module
 const mongoose = require("mongoose");
 
@@ -254,7 +254,7 @@ mongoose.connect(
 
 **运行程序的步骤:**使用以下命令运行服务器。
 
-```
+```html
 node server.js
 ```
 

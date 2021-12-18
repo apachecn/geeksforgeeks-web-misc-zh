@@ -6,7 +6,7 @@ NodeJS 为我们提供了一个内置的 [**fs(文件系统)模块**](https://ww
 
 **语法:**
 
-```
+```html
 npm install fs --save
 ```
 
@@ -14,7 +14,7 @@ npm install fs --save
 
 要使用 fs 模块，请在代码中添加以下语句:
 
-```
+```html
 const fs = require('fs');
 ```
 
@@ -36,7 +36,7 @@ fs 模块对文件处理有不同的操作，如读取文件、写入文件、�
 
 **第一步:**我们创建一个名为 **main.js** 的 JavaScript 文件和一个名为 **sample.txt** 的文本文件，其语句如下:
 
-```
+```html
 GeeksForGeeks is a Computer Science portal.
 ```
 
@@ -44,7 +44,7 @@ GeeksForGeeks is a Computer Science portal.
 
 ## main.js
 
-```
+```html
 var fs = require("fs");
 
 // Synchronous read
@@ -63,7 +63,7 @@ console.log("Data in the file is - " + data.toString());
 
 **第一步:**我们创建一个名为 **main.js** 的 JavaScript 文件和一个名为 **sample.txt** 的文本文件，其语句如下:
 
-```
+```html
 Hello World !
 ```
 
@@ -71,7 +71,7 @@ Hello World !
 
 ## main.js
 
-```
+```html
 var fs = require("fs");
 
 // Synchronous read
@@ -113,7 +113,7 @@ console.log("Data in the file after appending is - \n" + data.toString());
 
 **第一步:**我们创建一个名为 **main.js** 的 JavaScript 文件和一个名为 **sample.txt** 的文本文件，其语句如下:
 
-```
+```html
 GeeksForGeeks is a Computer Science portal.
 ```
 
@@ -121,7 +121,7 @@ GeeksForGeeks is a Computer Science portal.
 
 ## main.js
 
-```
+```html
 var fs = require("fs");
 
 // Asynchronous read
@@ -144,7 +144,7 @@ fs.readFile('sample.txt', function (err, data) {
 
 **第一步:**我们创建一个名为 **main.js** 的 JavaScript 文件和一个名为 **sample.txt** 的文本文件，其语句如下:
 
-```
+```html
 Hello World !
 ```
 
@@ -152,7 +152,7 @@ Hello World !
 
 ## main.js
 
-```
+```html
 var fs = require("fs");
 
 const data = "\nGeeksForGeeks is a Computer Science portal.";

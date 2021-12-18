@@ -10,14 +10,14 @@
 *   **curl_init()函数:**它将启动 curl 一个新的会话并返回一个 curl 句柄。
     **语法:**
 
-    ```
+    ```html
     curl_init();
     ```
 
 *   **CURR _ setopt()函数:**它为由 ch 参数标识的 CURR 会话设置一个选项。选项指定要设置的选项，值指定给定选项的值。
     **语法:**
 
-    ```
+    ```html
     curl_setopt($ch, option, value);
 
     ```
@@ -33,7 +33,7 @@
 
 **程序:**
 
-```
+```html
 <?php
 
 // From URL to get redirected URL
@@ -65,7 +65,7 @@ echo "Redirected URL: " . $redirectedUrl . "<br/>";
 
 **输出:**
 
-```
+```html
 Original URL: https://geeksforgeeks.org/
 Redirected URL: https://www.geeksforgeeks.org/
 
@@ -76,7 +76,7 @@ Redirected URL: https://www.geeksforgeeks.org/
 1.  **Get Redirect URL with cURL:**
     **Syntax:**
 
-    ```
+    ```html
     curl -Ls -w %{url_effective} -o /dev/null [URL]
 
     ```
@@ -93,7 +93,7 @@ Redirected URL: https://www.geeksforgeeks.org/
 
     **例 1:**
 
-    ```
+    ```html
     curl -Ls -w %{url_effective} -o /dev/null 
     https://www.geeksforgeeks.org/php-cucrl/
 
@@ -106,14 +106,14 @@ Redirected URL: https://www.geeksforgeeks.org/
 
     **语法:**
 
-    ```
+    ```html
     curl -s -L -D - [URL] -o /dev/null -w '%{url_effective}'
 
     ```
 
     **示例 2:** 以下重定向至 404 错误页面。
 
-    ```
+    ```html
     curl -s -L -D - 
     https://www.geeksforgeeks.org/php-cucrl/ -o /dev/null -w 
     '%{url_effective}'
@@ -122,7 +122,7 @@ Redirected URL: https://www.geeksforgeeks.org/
 
     **输出:**
 
-    ```
+    ```html
     D:\mycurl\bin>curl -s -L -D - https://www.geeksforgeeks.org/php-cucrl/ 
     -o /dev/null -w '%{url_effective}'
     HTTP/2 404
@@ -143,7 +143,7 @@ Redirected URL: https://www.geeksforgeeks.org/
 3.  **Followed redirect to correct page:**
     **Example 3:**
 
-    ```
+    ```html
     curl -s -L -D - 
     https://www.geeksforgeeks.org/php-curl/ -o /dev/null -w 
     '%{url_effective}'
@@ -152,7 +152,7 @@ Redirected URL: https://www.geeksforgeeks.org/
 
     **输出:**
 
-    ```
+    ```html
     D:\mycurl\bin>curl -s -L -D - https://www.geeksforgeeks.org/php-curl/ 
     -o /dev/null -w '%{url_effective}'
     HTTP/2 200

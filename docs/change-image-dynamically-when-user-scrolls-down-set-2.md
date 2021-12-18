@@ -11,7 +11,7 @@
 *   设置一个滚动事件监听器来知道用户已经滚动了页面。
 *   计算用户垂直向上滚动的像素。它是通过使用 scrollTop 元素来访问的。
 
-    ```html
+    ```htmlhtml
     document.documentElement.scrollTop
     ```
 
@@ -21,7 +21,7 @@
 
 用户每次滚动时`window.onscroll`监听器都会调用一个函数。然后，被调用的函数使用`document.getElementById("myImage")`选择图像，并在滚动像素超过 150 像素时改变图像的源路径。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -97,7 +97,7 @@
 
 滚动侦听器调用的函数动态地打乱图像的来源。这给了我们图像旋转的外观。
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

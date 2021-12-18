@@ -9,7 +9,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <div id="Parent">
    <div id="child1">child 1</div>
    <div id="child2">child 2</div>
@@ -19,13 +19,13 @@
 
 **语法:**以下函数清除父“div”
 
-```html
+```htmlhtml
 $('#parent').empty();
 ```
 
 下面的函数清除所有子“div”，但保留父“div”不变。
 
-```html
+```htmlhtml
 $('#parent div').empty()
 ```
 
@@ -33,7 +33,7 @@ $('#parent div').empty()
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 

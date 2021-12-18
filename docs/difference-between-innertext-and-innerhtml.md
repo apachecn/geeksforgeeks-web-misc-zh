@@ -7,7 +7,7 @@
 **语法:**
 假设我们有一个叫做 x 的 JavaScript 变量。
 
-```
+```html
 var x = document.getElementById('test');
 ```
 
@@ -15,19 +15,19 @@ var x = document.getElementById('test');
 
 *   **【内文】**
 
-    ```
+    ```html
     x.innerText
     ```
 
 *   **内部 HTML**
 
-    ```
+    ```html
     x.innerHTML
     ```
 
 **示例:**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

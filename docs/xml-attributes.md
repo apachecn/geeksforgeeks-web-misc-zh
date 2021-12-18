@@ -6,7 +6,7 @@
 XML 属性是 XML 元素的一部分。在 XML 元素中添加属性可以提供更精确的元素属性，也就是说，它增强了 XML 元素的属性。
 **语法:**
 
-```
+```html
 <element_name attribute1 attribute2 ... > Contents... </element_name>
 ```
 
@@ -16,7 +16,7 @@ XML 属性是 XML 元素的一部分。在 XML 元素中添加属性可以提供
 
 ## 可扩展标记语言
 
-```
+```html
 <text category = "message">Hello Geeks</text>
 ```
 
@@ -25,6 +25,6 @@ XML 属性是 XML 元素的一部分。在 XML 元素中添加属性可以提供
 
 ## 可扩展标记语言
 
-```
+```html
 <text category = "message" purpose ="Greet">Hello Geeks</text>
 ```

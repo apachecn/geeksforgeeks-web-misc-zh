@@ -27,7 +27,7 @@
 *   转到 [Node.js 下载](https://nodejs.org/en/download/)，点击下载按钮，获取最新版本，并根据您的操作系统进行安装。
 *   Verify whether it is installed correctly by checking the version:
 
-    ```
+    ```html
     node -v
     ```
 
@@ -35,13 +35,13 @@
 
 *   检查 npm 版本(默认与节点一起安装):
 
-    ```
+    ```html
     npm -v
     ```
 
 *   在项目文件夹中创建一个 index.js 文件，并复制以下代码:
 
-    ```
+    ```html
     var http = require("http");
 
     http.createServer(function (request, response) {
@@ -57,13 +57,13 @@
 
 *   现在打开终端，执行以下命令:
 
-    ```
+    ```html
     node index.js
     ```
 
 *   您将在终端控制台上看到一个日志，上面写着:
 
-    ```
+    ```html
     Server running at http://127.0.0.1:3100/
     ```
 
@@ -82,13 +82,13 @@
     3.  模板代码(角度素材、HTML 5 等)
 *   使用 npm(节点包管理器)安装 Angular CLI–命令行界面
 
-    ```
+    ```html
     npm install -g @angular/cli
     ```
 
 *   Now check whether it was installed correctly using below command:
 
-    ```
+    ```html
     ng --version
     ```
 
@@ -97,19 +97,19 @@
 
 *   现在，使用以下命令创建一个新项目:
 
-    ```
+    ```html
     ng new project_name
     ```
 
 *   使用以下命令进入项目目录:
 
-    ```
+    ```html
     cd project_name
     ```
 
 *   使用以下命令启动角度应用:
 
-    ```
+    ```html
     ng serve
     ```
 
@@ -131,19 +131,19 @@
     2.  数据库的缺点
 *   创建数据库:
 
-    ```
+    ```html
     use database_name;
     ```
 
 *   创建收藏:
 
-    ```
+    ```html
     db.createCollection("first_collection");
     ```
 
 *   在集合中插入记录:
 
-    ```
+    ```html
     db.first_collection.insertOne(
         {name:"Geeks For Geeks"}
     );
@@ -151,7 +151,7 @@
 
 *   Print all the records in a collection:
 
-    ```
+    ```html
     db.first_collection.find()
     ```
 
@@ -171,13 +171,13 @@
     2.  Node.js
 *   通过在终端上键入以下命令来初始化项目:
 
-    ```
+    ```html
     npm init
     ```
 
 *   它会问一些问题，按回车键以设置所有默认选项。这将创建如下所示的 package.json 文件:
 
-    ```
+    ```html
     {
       "name": "gfg-express",
       "version": "1.0.0",
@@ -193,7 +193,7 @@
 
 *   Install the express using below command:
 
-    ```
+    ```html
     npm install express --save
     ```
 
@@ -201,7 +201,7 @@
 
 *   现在，package.json 文件将被更改以添加依赖项，如下所示:
 
-    ```
+    ```html
     {
       "name": "gfg-express",
       "version": "1.0.0",
@@ -220,7 +220,7 @@
 
 *   创建 index.js 文件并添加下面的代码:
 
-    ```
+    ```html
     const express = require('express')
     const app = express()
     const PORT = 3000
@@ -234,7 +234,7 @@
 
 *   使用以下命令启动快递服务器:
 
-    ```
+    ```html
     node index.js
     ```
 

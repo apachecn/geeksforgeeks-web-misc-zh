@@ -8,7 +8,7 @@
 
 请注意，此选项不阻止在表的 API 中使用其他方法，仅阻止用户这样做。
 
-```
+```html
 { orderMulti: value }
 ```
 
@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -148,7 +148,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

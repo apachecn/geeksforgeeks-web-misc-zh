@@ -31,7 +31,7 @@ StatiCrypt 使用 AES -256 通过利用可在浏览器中解密的 crypto-js 库
 
 打开您的 PowerShell 或终端，并使用 npm 安装 staticrypt
 
-```
+```html
 npm -g install staticrypt
 ```
 
@@ -39,7 +39,7 @@ npm -g install staticrypt
 
 ## index.html
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -82,7 +82,7 @@ npm -g install staticrypt
 
 现在进入您的项目目录，从目录中打开终端，并输入下面的命令
 
-```
+```html
 staticrypt index.html geeksforgeeks -o index.html
 ```
 
@@ -107,7 +107,7 @@ staticrypt index.html geeksforgeeks -o index.html
 
 ## java 描述语言
 
-```
+```html
 var keySize = 256;
 var iterations = 1000;
 function access(protectedText, pass) {
@@ -157,7 +157,7 @@ document.getElementById(
 
 ## ****index.html****
 
-```
+```html
 **<!DOCTYPE html>
 <html lang="en">
 

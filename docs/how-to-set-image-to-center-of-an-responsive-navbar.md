@@ -15,7 +15,7 @@
 
 ****示例:****
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -125,7 +125,7 @@
 
 ****示例:****
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

@@ -8,7 +8,7 @@ Spectrum 提供了一个名为 showAlpha 的属性，用于获取颜色透明度
 
 **语法:**
 
-```html
+```htmlhtml
 $("#colorpicker").spectrum({
    showAlpha: boolean
 }); 
@@ -36,7 +36,7 @@ $("#colorpicker").spectrum({
 
 *   **第四步:**将光谱 JQuery 添加到<脚本>
 
-    ```html
+    ```htmlhtml
     $(document).ready(function(){
         $('#colorPicker').spectrum({
             color: '#fff',
@@ -53,7 +53,7 @@ $("#colorpicker").spectrum({
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

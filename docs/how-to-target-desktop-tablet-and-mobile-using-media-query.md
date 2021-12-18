@@ -13,7 +13,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 @media( media feature ) {
     // CSS Property
 }
@@ -24,7 +24,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

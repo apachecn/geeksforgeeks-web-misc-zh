@@ -25,7 +25,7 @@ Redux 数据流
 
 ## java 描述语言
 
-```
+```html
 function addTask(task) {
 
   return {

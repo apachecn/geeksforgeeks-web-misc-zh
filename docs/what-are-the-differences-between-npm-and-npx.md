@@ -10,12 +10,12 @@
 
 *   ****通过输入本地路径:**你必须写下你的包的本地路径如下:
 
-    ```
+    ```html
     ./node_modules/.bin/your-package-name
     ```** 
 *   ****本地安装:**你要打开 **package.json** 文件，写下下面的脚本:
 
-    ```
+    ```html
     {
         "name": "Your app",
         "versiuon":  "1.0.0",
@@ -27,19 +27,19 @@
 
 ****要运行包:**之后，您可以通过运行以下命令来运行包:**
 
-```
+```html
 npm run your-package-name
 ```
 
 ****NPX:**NPX 代表**节点包执行**并且自带 npm，当你安装了 5.2.0 以上版本的 npm，那么自动会安装 npx。它是一个 npm 包运行器，可以从 npm 注册表中执行任何你想要的包，甚至不需要安装那个包。npx 在一次性使用包中非常有用。如果您安装了 5.2.0 以下的 npm，那么您的 sy s tem 中不会安装 npx。您可以通过运行以下命令来检查 npx 是否已安装:**
 
-```
+```html
 npx -v
 ```
 
 **如果没有安装 npx，您可以通过运行下面的命令单独安装它。**
 
-```
+```html
 npm install -g npx
 ```
 
@@ -47,7 +47,7 @@ npm install -g npx
 
 *   ****直接可运行:**你可以不安装就执行你的包，为此运行以下命令。
 
-    ```
+    ```html
     npx your-package-name
     ```** 
 

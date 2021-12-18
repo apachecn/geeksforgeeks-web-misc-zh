@@ -12,7 +12,7 @@
 
 *   您必须在标题中导入 amp-accordion 组件才能使用此标签。
 
-```html
+```htmlhtml
 <script async custom-element="amp-accordion"
        src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js">
 </script>
@@ -20,7 +20,7 @@
 
 *   要制作嵌套手风琴，请使用下面提到的代码:
 
-```html
+```htmlhtml
 <amp-accordion class="sample" disable-session-states>
   <section>
     <amp-accordion class="nested-accordion">
@@ -39,7 +39,7 @@
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html <img draggable="false" 
 class="emoji" alt="" s

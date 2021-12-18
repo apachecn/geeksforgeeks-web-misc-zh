@@ -10,7 +10,7 @@
 
 ## 超文本标记语言
 
-```
+```html
 <script async custom-element="amp-accordion"
     src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js">
 </script>

@@ -16,7 +16,7 @@
 
 **参考链接:**T2https://www.npmjs.com/package/electron-progressbar.
 
-```html
+```htmlhtml
 npm install electron-progressbar --save
 
 ```
@@ -25,7 +25,7 @@ npm install electron-progressbar --save
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-progress",
   "version": "1.0.0",
@@ -57,7 +57,7 @@ npm install electron-progressbar --save
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Progress Bar in Electron</h3>
   <button id="progress">
        Click to Launch BrowserWindow Progress Bar

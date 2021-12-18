@@ -50,7 +50,7 @@
 *   找到你的。域根目录中的 htaccess 文件。文件是隐藏的，但是像 FileZilla 这样的 FTP 客户端会帮助它显示出来。
 *   使用记事本或任何其他基本编辑器向。htaccess 文件。
 
-```
+```html
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On

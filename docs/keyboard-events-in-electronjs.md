@@ -16,7 +16,7 @@
 
 **package.json:**
 
-```html
+```htmlhtml
 {
   "name": "electron-key",
   "version": "1.0.0",
@@ -47,7 +47,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <h3>Key Events in Electron</h3>
 ```
 
@@ -55,7 +55,7 @@
 
 ## java 描述语言
 
-```html
+```htmlhtml
 const electron = require("electron");
 
 // Importing BrowserWindow from Main Process 

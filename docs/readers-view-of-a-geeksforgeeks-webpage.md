@@ -11,7 +11,7 @@
 
 以下是将网页视图更改为读者视图的脚本。
 
-```
+```html
 // Dynamically loading the Jquery Library
 javascript: var fileref = document.createElement('script');
 fileref.setAttribute("type", "text/javascript");

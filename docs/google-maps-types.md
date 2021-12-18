@@ -11,7 +11,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var CustomOp= {
    mapTypeId:google.maps.MapTypeId.ROADMAP | SATELLITE | HYBRID | TERRAIN
 };
@@ -19,7 +19,7 @@ var CustomOp= {
 
 **示例 1:路线图**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -75,7 +75,7 @@ var CustomOp= {
 
 **例 2:卫星**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -131,7 +131,7 @@ var CustomOp= {
 
 **例 3:混合动力**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -187,7 +187,7 @@ var CustomOp= {
 
 **示例 4:地形**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

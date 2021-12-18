@@ -12,7 +12,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,7 +51,7 @@
 
 ## index . scss
 
-```html
+```htmlhtml
 /* Declaring variables */
 $range: 88vh;
 $background_color: #f3f3f3;
@@ -192,7 +192,7 @@ $text-color: black;
 
 ## index.css
 
-```html
+```htmlhtml
 /* Declaring variables */
 /* Declaring a mixin function by passing a actual argument */
 *,

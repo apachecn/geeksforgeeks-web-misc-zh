@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```html
 button {
     // Remove focus around button
     outline:none;  
@@ -18,7 +18,7 @@ button {
 
 **示例 1:** 本示例在按钮上创建焦点。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -64,7 +64,7 @@ button {
 
 **示例 2:** 本示例使用**轮廓:无**属性在单击按钮后移除按钮焦点。
 
-```
+```html
 <!DOCTYPE html>
 <html>
 

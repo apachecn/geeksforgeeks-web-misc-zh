@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 var numInputs = audioNode.numberOfInputs;
 ```
 
@@ -14,7 +14,7 @@ var numInputs = audioNode.numberOfInputs;
 
 **例 1:**
 
-```html
+```htmlhtml
 <!DOCTYPE HTML> 
 <html> 
 
@@ -60,7 +60,7 @@ var numInputs = audioNode.numberOfInputs;
 
 **例 2:**
 
-```html
+```htmlhtml
 <!DOCTYPE HTML> 
 <html> 
 
@@ -106,7 +106,7 @@ var numInputs = audioNode.numberOfInputs;
 
 **例 3:**
 
-```html
+```htmlhtml
 <!DOCTYPE HTML> 
 <html> 
 

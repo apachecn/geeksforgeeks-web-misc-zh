@@ -10,7 +10,7 @@
 
 **语法:**
 
-```html
+```htmlhtml
 #id_name {
     color: red;
 }
@@ -20,7 +20,7 @@
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 

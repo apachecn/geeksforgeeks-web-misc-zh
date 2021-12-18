@@ -10,7 +10,7 @@
 
 现在让我们创建两条路线，每条都有独特的应用程序栏和凸起的按钮。代码如下:
 
-```
+```html
 class HomeRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -58,7 +58,7 @@ class SecondRoute extends StatelessWidget {
 
 **定义主页:**在导航时，我们需要做的第一件事就是定义或初始化“主页”。主页可以是任何路线，根据我们的需要。主页通常会放在导航器堆栈的底部。现在让我们看看如何将我们的 HomeRoute()初始化为我们的主页:
 
-```
+```html
 void main() {
   runApp(MaterialApp(
     home: HomeRoute(),
@@ -68,7 +68,7 @@ void main() {
 
 **导航到一个页面:**既然我们已经定义了我们的 home，剩下的就是从 Home 导航到 app 的另一条路线。为此，导航器小部件有一个名为 Navigator.push()的方法。此方法将路线推送到住宅顶部，从而显示第二条路线。将路由推入堆栈的代码如下:
 
-```
+```html
 // Within the `HomeRoute` widget
 onPressed: () {
   Navigator.push(
@@ -80,7 +80,7 @@ onPressed: () {
 
 **导航回家:**现在我们已经到达目的地，但是我们如何回家呢？为此，导航器有一个名为 Navigator.pop()的方法。这有助于我们从堆栈中移除当前路线，以便我们返回到我们的主路线。这可以通过以下方式实现:
 
-```
+```html
 // Within the SecondRoute widget
 onPressed: () {
   Navigator.pop(context);
@@ -89,7 +89,7 @@ onPressed: () {
 
 **示例:**那么，这就是我们如何在应用程序中的两个页面之间导航。上述 flutter app 的完整代码如下:
 
-```
+```html
 import 'package:flutter/material.dart';
 
 void main() {

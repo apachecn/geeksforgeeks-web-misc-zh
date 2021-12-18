@@ -14,7 +14,7 @@ AngularJS 允许您在不同阶段更改页面标题
     **使用解析:**
     安装 **angular-ui-title** 并像往常一样追加到你的 angular 项目中，然后别忘了在你的父应用模块中注入 **ui-router-title** 。
 
-    ```
+    ```html
     angular.module('codeSide', [
                     'ui.router', 'ui.router.title'])
 
@@ -39,7 +39,7 @@ AngularJS 允许您在不同阶段更改页面标题
 
     在你的*索引文件*中代码应该是
 
-    ```
+    ```html
     <head>
         <title ng-bind=
              "($title || 'Home') + ' :: CodeBySide'">
@@ -67,7 +67,7 @@ AngularJS 允许您在不同阶段更改页面标题
 
     **示例:**
 
-    ```
+    ```html
     codeObject.$loaded()
       .then(function(data) {
 
@@ -84,7 +84,7 @@ AngularJS 允许您在不同阶段更改页面标题
 
     **示例:**
 
-    ```
+    ```html
     .state('detail', {
       url: '/codes/:codeId',
       templateUrl: 'codes/detail.html',
@@ -97,7 +97,7 @@ AngularJS 允许您在不同阶段更改页面标题
 
     通过这种方法，我们需要在*内有一个额外的中介方法。运行我们 app 的*功能。
 
-    ```
+    ```html
     .run(['$rootScope', '$state',
       function($rootScope, $state) {
 
@@ -110,7 +110,7 @@ AngularJS 允许您在不同阶段更改页面标题
 
     在这种方法的索引文件中，将 **$title** 变量替换为这样的标题
 
-    ```
+    ```html
     <head>
         <title ng-bind="(title || 'Home') + ' :: CodeBySide'">
                CodeBySide
@@ -131,7 +131,7 @@ AngularJS 允许您在不同阶段更改页面标题
 
     然后做上面的代码片段，稍加修改，让我们开始运行:
 
-    ```
+    ```html
     codeObject.$loaded()
       .then(function(data) {
 

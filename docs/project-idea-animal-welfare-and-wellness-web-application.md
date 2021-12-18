@@ -52,25 +52,25 @@ LoyalFriend 是一个基于网络的应用程序，其中照顾宠物动物的�
 
 *   **克隆项目**
 
-```
+```html
 git clone https://github.com/anshulhub/LoyalFriend.git
 ```
 
 *   **转到项目目录**
 
-```
+```html
 cd LoyalFriend
 ```
 
 *   **安装依赖项**
 
-```
+```html
 npm install
 ```
 
 *   **启动服务器**
 
-```
+```html
 npm run start
 ```
 

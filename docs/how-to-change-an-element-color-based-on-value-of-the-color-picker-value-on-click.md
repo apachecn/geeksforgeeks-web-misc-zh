@@ -8,7 +8,7 @@ HTML 标签 **<输入 type ="color" >** 提供了一个用户界面元素，允�
 
 ## 超文本标记语言
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
     <body>

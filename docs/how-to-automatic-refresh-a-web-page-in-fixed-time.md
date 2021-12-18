@@ -12,13 +12,13 @@ HTTP equiv 属性可用于模拟 HTTP 响应头。该属性得到了谷歌 Chrom
 
 **语法:**
 
-```html
+```htmlhtml
 <meta http-equiv="refresh" content="10">
 ```
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
@@ -43,7 +43,7 @@ HTTP equiv 属性可用于模拟 HTTP 响应头。该属性得到了谷歌 Chrom
 
 **语法:**
 
-```html
+```htmlhtml
 <script>
     function autoRefresh() {
         window.location = window.location.href;
@@ -54,7 +54,7 @@ HTTP equiv 属性可用于模拟 HTTP 响应头。该属性得到了谷歌 Chrom
 
 **示例:**
 
-```html
+```htmlhtml
 <!DOCTYPE html>
 <html>
 
